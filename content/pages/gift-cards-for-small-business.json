@@ -1,0 +1,121 @@
+{
+ "slug": "gift-cards-for-small-business",
+ "topic": "pos",
+ "title": "Selling Gift Cards: A Small Business Playbook",
+ "seo_title": "Selling Gift Cards: A Small Business Playbook | PayPilot",
+ "meta_description": "Digital or physical gift cards can bring in cash early and new customers later. Learn setup, accounting basics, breakage rules and holiday timing.",
+ "primary_keyword": "gift cards for small business",
+ "keywords": [
+  "sell gift cards",
+  "digital gift cards",
+  "physical gift cards",
+  "gift card breakage",
+  "gift card liability",
+  "gift card promotions",
+  "POS gift cards"
+ ],
+ "eyebrow": "Revenue tools",
+ "dek": "A gift card is a prepayment from a customer and an introduction for a future one. Set it up properly and it works hard for you.",
+ "intro": [
+  "A gift card is an odd product. You are paid today for something you deliver later, often to a person who has never been through your door. Done well, that is both a cash-flow boost and a free introduction to a new customer.",
+  "Done carelessly, it creates bookkeeping messes, unhappy recipients and a pile of cards nobody can verify. The difference is mostly setup.",
+  "Below is a plain-language playbook covering digital versus physical, how the money should be tracked, how to promote cards, and what to check with your accountant."
+ ],
+ "sections": [
+  {
+   "h2": "Digital or physical",
+   "paragraphs": [
+    "Physical cards feel like a gift. They can be wrapped, tucked into a greeting card and displayed at the register as a visual reminder. They cost money to print, need to be stored securely and require activation at the point of sale.",
+    "Digital cards can be bought at any hour from a link or website and delivered by email or text. There is no inventory to count, no printing cost and nothing to lose in a drawer. They suit last-minute buyers and friends who live far away.",
+    "Many businesses offer both, which respects both the shopper who wants something tangible and the one who forgot until the evening before.",
+    "Whichever format you start with, plan for how a recipient finds out how much is left. A balance lookup at the register or through a link saves a surprising number of awkward conversations."
+   ]
+  },
+  {
+   "h2": "What happens to the money",
+   "paragraphs": [
+    "When someone buys a gift card, the sale is not revenue in the ordinary sense, since you have not yet delivered a product. Accountants typically treat it as a liability, an amount you owe in goods or services. It becomes revenue when the card is redeemed.",
+    "Your POS should track every card by a unique number, with its issue value, balance and history. A gift card sold and redeemed on the same day is a good test: issue, load, spend part of the balance and check that the remainder shows correctly.",
+    "Ask your accountant how to record sales, redemptions and unused balances where you operate. Rules on unclaimed balances, expiry and escheat differ by state, and the right treatment affects your books and your tax filing.",
+    "Keep a simple monthly log: cards issued, cards redeemed and balance outstanding. It takes ten minutes and gives your accountant everything needed at quarter end."
+   ]
+  },
+  {
+   "h2": "Rules to decide before launch",
+   "paragraphs": [
+    "Settle the details in writing so staff can answer questions in seconds. Laws about expiration dates and fees on gift cards exist in many places, so confirm what applies to you before printing anything on the card."
+   ],
+   "bullets": [
+    "Minimum and maximum load amounts, and whether customers can reload a card.",
+    "Whether the card can be used for tips, online orders and special items.",
+    "How a lost or stolen card is handled, and whether it is replaceable.",
+    "Whether cash back is given on small remaining balances.",
+    "How refunds work when something is bought with a gift card."
+   ]
+  },
+  {
+   "h2": "Breakage, without the myths",
+   "paragraphs": [
+    "Breakage is the portion of card value that is never redeemed. It is real, but it varies widely between businesses, and it is risky to plan around it. In some places unredeemed balances must be turned over to the state after a period, so assuming it is pure profit can backfire.",
+    "A healthier approach is to treat every card as a promise that you intend to honor. Remind holders gently that they have a balance, and keep the experience of redeeming it effortless. A recipient who spends the balance and adds more of their own money is the real win.",
+    "If you ever decide to close or sell the business, outstanding balances must be dealt with properly. Ask a professional what your obligations would be, so that your records are ready long before you need them."
+   ]
+  },
+  {
+   "h2": "Promoting gift cards",
+   "paragraphs": [
+    "Visibility drives sales. Put cards by the register, add a button to your website and mention them in your email and social posts before the holidays, Mother's Day, graduations and other gifting seasons.",
+    "A bonus offer, such as a small extra credit with a larger purchase, can encourage bigger cards. Work out the cost the same way you would for any promotion, and set it to expire so the bonus cannot become a perpetual discount. A hypothetical example: buy 50 dollars, receive a 10 dollar bonus valid for a limited period.",
+    "Local partnerships are also effective. A salon and a nearby café can cross-promote, or a company might buy cards in bulk for employee thank-you gifts. Offer a simple order form and invoice for those larger purchases.",
+    "Train staff to mention cards when a customer is struggling with a gift decision. A single sentence at the register, offered without pressure, accounts for plenty of impulse purchases."
+   ]
+  },
+  {
+   "h2": "Using your POS to run it",
+   "paragraphs": [
+    "Look for a system that sells, loads, redeems and reports on gift cards in one place, with a balance lookup that staff and customers can use. Split tender, where a card covers part of a purchase and a payment card covers the rest, should work without special steps.",
+    "PayPilot POS supports gift card sales and redemptions at the counter, and online card sales can flow from a payment link or checkout page. Test the process end to end before the holiday rush by issuing a card, redeeming part and refunding a purchase.",
+    "Finally, reconcile outstanding balances monthly. The total on your report should match what your accountant shows as a liability, and any difference is worth chasing early."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Offer both digital and physical cards to catch different kinds of buyers.",
+  "A sold gift card is generally a liability until it is redeemed; confirm treatment with your accountant.",
+  "Check state rules on expiry, fees and unclaimed balances before launch.",
+  "Do not budget around breakage; honor each card easily.",
+  "Test issue, partial redemption and split tender before busy gifting seasons."
+ ],
+ "faq": [
+  {
+   "q": "Are gift cards good for a small business?",
+   "a": "Usually, yes. They bring in cash before the product is delivered and introduce your business to people who may not have visited. They do add record-keeping duties, so set up unique card tracking in your POS and check state rules on expiry, fees and unclaimed balances."
+  },
+  {
+   "q": "How should I record gift card sales?",
+   "a": "Many accountants treat the sale as a liability, then recognize revenue when the card is spent. Practices differ depending on your accounting method and location, so ask a professional how to book issuance, redemption and unused balances, and what your reports should show at month end."
+  },
+  {
+   "q": "Can gift cards expire?",
+   "a": "Rules differ widely. Some places restrict expiration dates and inactivity fees, while others allow them under specific conditions. Because the rules can change, confirm what applies to your business with your state or an attorney before you print any terms on the card or website."
+  },
+  {
+   "q": "What if a customer loses their gift card?",
+   "a": "With a unique card number tracked in your POS, you can look up the balance and, under a policy you set in advance, issue a replacement once the customer verifies the purchase. Digital cards are easier because a recipient can simply re-send the email or text."
+  },
+  {
+   "q": "Can I sell gift cards online?",
+   "a": "Yes. A payment link or hosted checkout page can sell digital cards at any hour and deliver them by email. Make sure the online and in-store cards share one balance system so a card bought on the website can be redeemed at the counter."
+  }
+ ],
+ "related": [
+  "loyalty-programs-that-work",
+  "seasonal-promotions-pos",
+  "selling-digital-products",
+  "payment-links-for-instagram-sellers",
+  "launching-online-checkout",
+  "cash-flow-from-faster-deposits"
+ ],
+ "icon": "card",
+ "read_minutes": 6
+}

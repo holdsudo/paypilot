@@ -1,0 +1,128 @@
+{
+  "slug": "card-brands-and-acceptance-marks",
+  "topic": "cards",
+  "title": "Card Brands, Networks and Acceptance Marks",
+  "seo_title": "Card Brands, Networks and Acceptance Marks | PayPilot",
+  "meta_description": "What do the logos on your door mean? Learn how card brands, networks, issuers and processors differ, and how to display acceptance marks honestly.",
+  "primary_keyword": "card acceptance marks",
+  "keywords": [
+    "card network logos",
+    "which cards do I accept",
+    "card brand signage",
+    "issuer vs network",
+    "accepting all major cards",
+    "credit vs debit",
+    "acceptance decal"
+  ],
+  "eyebrow": "Card basics",
+  "dek": "Logos on a window tell customers what will work at your counter. Behind each logo sits a network, an issuer, and a set of rules.",
+  "intro": [
+    "Walk past any shop and you will see a row of small logos stuck to the door. They look like decoration, but each one is a promise: bring this kind of card and we will take it. Customers decide in a glance whether to walk in with a wallet or head to a cash machine first.",
+    "Behind those logos is a chain of companies that many owners never meet. A customer's bank issues the card, a network carries the message, and your processor connects you to the system. The brand on the plastic is only one link in that chain.",
+    "Getting clear on who does what makes signage easier, explains why some cards behave differently, and helps you answer the customer who asks, quite reasonably, whether you take their card."
+  ],
+  "sections": [
+    {
+      "h2": "The cast of characters",
+      "paragraphs": [
+        "Four roles appear in nearly every card payment. The cardholder is your customer. The issuer is the bank or credit union that gave them the card and holds their money or credit line. The network is the brand whose logo is on the card, which sets the rules and moves messages between banks. Your processor and acquiring bank connect your business to those networks and deposit the funds.",
+        "When someone says 'Visa' or 'Mastercard,' they usually mean the network. The name of their bank, printed elsewhere on the card, is the issuer. The two are separate, which is why a single network can appear on cards from thousands of different banks.",
+        "A neighborhood analogy works well: the network is like the highway system, the issuer is the driver's home town, and your processor is the on-ramp to your shop. A card can start in any town and still travel the same roads, which is why a single logo can appear on products from many different banks."
+      ]
+    },
+    {
+      "h2": "What the acceptance mark promises",
+      "paragraphs": [
+        "A decal or sign showing a network's logo says you accept that network's cards. It does not say how, because the details vary. You might accept the card by chip, tap, or phone wallet, and you may or may not take a particular type such as prepaid or business cards.",
+        "Because customers read the mark as a commitment, honesty matters. Do not display a logo for a card you cannot process, and update your signage if you change providers or stop accepting a brand. A mismatch at the register is more frustrating than a missing logo."
+      ],
+      "bullets": [
+        "Display only the networks your account is actually set up to accept",
+        "Place marks at the entrance and at the register where choices are made",
+        "Show contactless and phone-wallet symbols if you accept taps",
+        "Replace faded or outdated decals",
+        "Match online checkout badges to what the site really supports"
+      ]
+    },
+    {
+      "h2": "Credit, debit, and prepaid under one logo",
+      "paragraphs": [
+        "A single network logo can sit on a credit card, a debit card, or a prepaid card. They look alike to the customer, but the money behind them is different. Credit draws on a line from the issuer, debit pulls straight from a bank balance, and prepaid draws on a loaded amount.",
+        "For you, the visible differences are mostly behind the scenes: fees can differ by card type, and debit cards may show pending amounts more prominently on a customer's statement. At the counter, the experience should be identical, and customers should not need to say which type they are using unless the device asks."
+      ]
+    },
+    {
+      "h2": "Network-specific rules to know about",
+      "paragraphs": [
+        "Each network publishes rules for merchants, covering topics such as how to display marks, how to treat refunds, and what you may say about card use. You agree to follow these rules in your merchant agreement, even if you never read the documents themselves.",
+        "Two areas deserve attention. First, the way you describe surcharges or cash discounts must follow disclosure rules, which vary by state and by card network. Second, minimum purchase amounts and discrimination against particular cards can be restricted. When in doubt, ask support at 844.826.6227 before posting a new policy."
+      ]
+    },
+    {
+      "h2": "Phone wallets and contactless symbols",
+      "paragraphs": [
+        "Many customers now pay with a phone or watch rather than a plastic card. Apple Pay and Google Pay are payment methods that sit on top of the same card networks. When a customer pays this way, the underlying card is still one of the networks you accept, and no extra network logo is needed.",
+        "A contactless symbol, the small set of curved lines, tells customers that tapping is welcome. Showing it near the reader encourages quicker payments and fewer fumbles. If you have a PayPilot Terminal or Go, the tap zone is usually marked on the device, but a sign on the counter can still help hesitant shoppers."
+      ]
+    },
+    {
+      "h2": "Online and invoice acceptance",
+      "paragraphs": [
+        "Marks also appear on web checkouts, invoices, and payment links. The same rule applies: show what you take, and nothing else. A row of logos on a checkout page reassures shoppers that their card will work, and it reduces abandonment from people who suspect they will be rejected at the final step.",
+        "If you accept PayPilot Wallet payments for in-person or online sales, label that option separately. Wallet availability, limits, and features depend on eligibility and verification, so avoid promising it to every customer.",
+        "Signage also helps in markets where tourists shop. Visitors with unfamiliar cards want reassurance before they browse, and a clear display of accepted brands, together with a contactless symbol, tells them quickly whether they can pay without hunting for a cash machine."
+      ]
+    },
+    {
+      "h2": "A quick audit you can do today",
+      "paragraphs": [
+        "Walk through your business as a customer would. Stand outside, read your door, then approach the register and read the signs there. Compare what you see to the account settings and your agreement.",
+        "Then fix any gaps in this order:"
+      ],
+      "steps": [
+        "List the networks and wallets your account accepts",
+        "Remove marks for anything you do not accept",
+        "Add the missing marks, including contactless",
+        "Check that your website and invoices match",
+        "Train staff to answer 'do you take my card?' accurately"
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "The network brand, the issuing bank, and your processor are three different parties.",
+    "An acceptance mark is a promise, so show only what you truly accept.",
+    "Phone wallets ride on the same networks and need no extra logo.",
+    "Signage that mentions surcharges or discounts must follow state and network rules."
+  ],
+  "faq": [
+    {
+      "q": "Do I have to accept every card brand?",
+      "a": "Not necessarily. Your agreement determines which networks you accept, and you can usually choose which to enable. What you must do is advertise honestly. If you accept only some brands, display only those marks and make sure staff can explain the limits to customers."
+    },
+    {
+      "q": "What is the difference between a network and an issuer?",
+      "a": "The network is the brand that sets the rules and routes the payment message. The issuer is the bank or credit union that gave the cardholder the card and decides whether to approve a purchase. Many different issuers can offer cards on the same network."
+    },
+    {
+      "q": "Do I need a special sign for Apple Pay or Google Pay?",
+      "a": "Not required, but a contactless symbol helps. Phone wallets run over the same card networks, so if you accept the underlying card brands and tap payments, those wallets will work. A small sign saying 'tap or phone wallet welcome' makes customers more confident."
+    },
+    {
+      "q": "Can I refuse a card because it is a debit or prepaid card?",
+      "a": "Rules differ by network and region, and some limit how you can treat different card types. Check your merchant agreement and local regulations before restricting any type. If you want to stop accepting a brand entirely, update both your account and your signage."
+    },
+    {
+      "q": "Why does accepting a premium rewards card cost a merchant more than a basic debit card?",
+      "a": "Fees are influenced by card type, how the payment was taken, and other factors. Your pricing plan determines how those costs reach you. Review the details in your statement, and ask support to explain any line items that are unclear."
+    }
+  ],
+  "related": [
+    "contactless-wallet-vs-card",
+    "cash-discount-signage-guide",
+    "signature-and-pin-today",
+    "processing-statement-basics-for-new-owners",
+    "digital-wallets-at-checkout"
+  ],
+  "icon": "card",
+  "read_minutes": 7
+}

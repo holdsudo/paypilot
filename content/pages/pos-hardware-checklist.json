@@ -1,0 +1,126 @@
+{
+ "slug": "pos-hardware-checklist",
+ "topic": "pos",
+ "title": "The Complete POS Hardware Checklist",
+ "seo_title": "The Complete POS Hardware Checklist | PayPilot",
+ "meta_description": "Everything you need to run a counter: terminal, printer, cash drawer, scanner, stand, network and spares. Use this POS hardware checklist before you buy.",
+ "primary_keyword": "POS hardware checklist",
+ "keywords": [
+  "POS hardware",
+  "receipt printer",
+  "cash drawer",
+  "barcode scanner",
+  "card reader",
+  "POS stand",
+  "POS setup checklist"
+ ],
+ "eyebrow": "Equipment",
+ "dek": "Software gets the attention, but a missing cable on opening morning is what ruins a day. Run through this list first.",
+ "intro": [
+  "On the Friday before a new shop opens, somebody always discovers that the cash drawer needs a specific cable, the printer is the wrong width, or nobody ordered a stand. The software works perfectly, and the counter does not.",
+  "A hardware checklist prevents that. It forces you to walk through each point where a customer, a card and a product meet, and to note what you need there.",
+  "What follows is organized by task, starting with taking payment and ending with the humble extras that keep everything powered and clean."
+ ],
+ "sections": [
+  {
+   "h2": "Taking payment",
+   "paragraphs": [
+    "This is the non-negotiable part. A countertop terminal is the sturdy choice for a fixed register, while a handheld suits table service and line busting, and a pocket reader is ideal for events or a backup. Decide where customers will tap, insert or swipe, and whether they need to see the amount and tip prompt.",
+    "Make sure at least one payment device accepts contactless, because many customers now pay with a phone or watch. PayPilot offers a Terminal, a Go handheld with printer and a Reader, which cover most counter, floor and on-the-move needs.",
+    "Consider the counter surface itself. A reader mounted too low or too far from the customer slows every transaction, so ask a colleague who has never used it to pay and watch where they hesitate."
+   ],
+   "bullets": [
+    "Primary payment device at the counter.",
+    "A second device, handheld or reader, for backup or busy periods.",
+    "Customer-facing screen if you collect tips or signatures.",
+    "Spare charging cables and a charging dock."
+   ]
+  },
+  {
+   "h2": "Receipts and tickets",
+   "paragraphs": [
+    "A thermal receipt printer is the standard. Check the paper width your software supports, the connection type (network, Bluetooth or USB) and whether the printer can trigger a cash drawer.",
+    "If you run a kitchen or a bar, add a separate printer or display for each prep station. Label each printer by location in the software so tickets reach the right place.",
+    "Thermal rolls are cheap but they run out at the worst moments. Buy a box and keep several spare rolls at every printer. Many businesses also email receipts, which reduces paper use but does not eliminate the need to print for customers who ask.",
+    "Test print quality with the actual paper before buying in bulk. Faint thermal paper produces receipts that fade within weeks, which matters when customers need them for returns or expenses."
+   ]
+  },
+  {
+   "h2": "Cash handling",
+   "paragraphs": [
+    "Even a mostly-card business needs a place for cash. Choose a drawer with enough slots for your common denominations, a lock and key, and a trigger connection compatible with your printer or terminal.",
+    "Think about security as well. A drawer that opens only on a sale or on a manager-approved no-sale event gives you a clean record. Keep the extra cash in a safe or deposit bag, not under the till."
+   ]
+  },
+  {
+   "h2": "Scanning and weighing",
+   "paragraphs": [
+    "Retail shops benefit from a barcode scanner. Choose between a handheld model and a presentation scanner that reads items passed in front of it. Confirm that it reads the codes you will encounter, including those on phone screens if you plan on digital coupons.",
+    "If you sell by weight, such as deli or produce, you will need a scale that is certified for commercial use in your jurisdiction and compatible with your software. Do not assume a kitchen scale will be acceptable.",
+    "If your shop has multiple lanes, label each device and cable at both ends. A strip of tape with the station name takes seconds to apply and removes confusion during every future repair."
+   ]
+  },
+  {
+   "h2": "The connection and the power",
+   "paragraphs": [
+    "Hardware depends on the network. A dedicated router or a reliable access point near the counter, plus a clear note of the Wi-Fi settings, prevents most problems. Consider a cellular backup device or a hotspot for outages.",
+    "For power, use a surge protector and consider a small uninterruptible supply for the router and terminal, so a brief outage does not drop an active payment. Cables should be tidy and secured, as a tripped cord can bring down a device.",
+    "Place the router off the floor and away from metal shelving or microwaves, which can weaken the signal. A few feet of repositioning sometimes cures a problem that months of settings changes did not."
+   ]
+  },
+  {
+   "h2": "The stand, the signs and the spares",
+   "paragraphs": [
+    "A stable stand that tilts for both staff and customers makes a surprising difference to speed. Make sure the cables route through it cleanly and that nothing blocks the card reader.",
+    "Add signage for accepted payment methods and, if you use dual pricing, whatever disclosures your state and card networks require. Rules for these signs differ, so confirm before printing.",
+    "Keep a small spare kit: charging cables, paper rolls, a labeled spare reader, a screen cleaner and a printed contact card for support. PayPilot support is available around the clock at 844.826.6227, and having the number taped inside the drawer saves a frantic search."
+   ]
+  },
+  {
+   "h2": "Final walk-through",
+   "paragraphs": [
+    "Before opening, run a full test: ring a sale, pay by tap, chip and cash, print a receipt, open the drawer, refund a transaction and close the day. Do this on every device, with the staff who will actually use them.",
+    "Photograph the finished setup and the cable layout so anyone can restore it after cleaning. A five-minute walk-through now will save an hour of troubleshooting on opening day."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "List hardware by task: pay, print, cash, scan, connect and power.",
+  "Check cable and connection compatibility before ordering.",
+  "Keep spare paper, cables and a backup payment device on hand.",
+  "Protect your network and power with a surge protector and a backup connection.",
+  "Test every device with real staff before opening day."
+ ],
+ "faq": [
+  {
+   "q": "What hardware do I need for a basic POS?",
+   "a": "At minimum you need a payment device that accepts tap, chip and swipe, a screen to ring sales, and a way to produce receipts. Add a cash drawer if you take cash, a barcode scanner for retail, and a reliable network connection. Spare cables and paper are cheap insurance."
+  },
+  {
+   "q": "Do I need a receipt printer?",
+   "a": "Not always, since many customers accept emailed or texted receipts. However, a printer is useful for kitchen tickets, for customers who want paper and for situations where devices lose connectivity. A compact thermal printer is inexpensive and worth having at least as a backup."
+  },
+  {
+   "q": "Can I use my existing tablet?",
+   "a": "Often yes, if it meets the software's requirements and has a stable stand and charging. Consider durability, since a consumer tablet in a busy counter takes more abuse than at home. Ask your provider which operating systems and models are supported and for how long."
+  },
+  {
+   "q": "How do I protect my POS hardware?",
+   "a": "Keep devices on secure stands, use strong passcodes, install software updates promptly and keep payment traffic separate from guest Wi-Fi. Physical security matters as well, so inspect card readers regularly for tampering and keep spare equipment in a locked cabinet rather than on open shelves."
+  },
+  {
+   "q": "How often should hardware be replaced?",
+   "a": "There is no fixed schedule. Replace items when they become unreliable, no longer receive software updates, or cannot support features you need. Batteries on handhelds may need earlier replacement. Keep a record of purchase dates so you can plan upgrades before a failure."
+  }
+ ],
+ "related": [
+  "choosing-a-card-reader",
+  "opening-day-checklist",
+  "pos-offline-mode",
+  "secure-wifi-for-payments",
+  "card-skimming-prevention",
+  "what-a-modern-pos-does"
+ ],
+ "icon": "gear",
+ "read_minutes": 6
+}

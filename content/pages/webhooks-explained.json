@@ -1,0 +1,120 @@
+{
+ "slug": "webhooks-explained",
+ "topic": "online",
+ "title": "Webhooks Explained for Business Owners",
+ "seo_title": "Webhooks Explained for Business Owners | PayPilot",
+ "meta_description": "Webhooks are event notifications your payment platform sends to your systems. Learn what they do, why they matter and what can go wrong, in plain language.",
+ "primary_keyword": "webhooks",
+ "keywords": [
+  "what is a webhook",
+  "payment webhooks",
+  "event notifications",
+  "webhook signature",
+  "webhook retries",
+  "payment status updates",
+  "webhook vs polling"
+ ],
+ "eyebrow": "Plain English",
+ "dek": "A webhook is a doorbell. When something happens at the payment platform, it rings your system so you do not have to keep checking.",
+ "intro": [
+  "Imagine waiting for a package. You could walk to the front door every five minutes to look, or you could let the courier ring the bell. Webhooks are the doorbell for software.",
+  "In payments, plenty of important things happen after the customer has already left your page: a bank confirms funds, a refund completes, a subscription renews or a dispute opens. A webhook is how the platform tells your systems about each event as it happens.",
+  "This article covers what webhooks do, how they are secured, what can go wrong and what you should ask whoever sets them up."
+ ],
+ "sections": [
+  {
+   "h2": "Why not just keep asking?",
+   "paragraphs": [
+    "The alternative to a webhook is polling, where your system asks the platform every few minutes whether anything has changed. It works, but it is wasteful and slow. Most answers will be nothing new, and an important event can sit unnoticed until the next check.",
+    "With a webhook, the platform sends the message only when there is news, so your system can react within seconds. A paid order can trigger a confirmation email, a booking can be marked as confirmed, and a failed subscription charge can alert your support team.",
+    "There is a bonus for customers too. When the platform confirms a payment and your system reacts at once, the buyer sees a confirmation page and an email in moments, not after a manual check."
+   ]
+  },
+  {
+   "h2": "What a webhook message contains",
+   "paragraphs": [
+    "A webhook is an ordinary web request sent to an address you provide. The message includes the type of event, such as payment succeeded or refund created, and the details of the related object, such as the amount, the order reference and a unique identifier for the event.",
+    "Your system reads the event type and decides what to do. A well-built receiver does the minimum quickly: it records the event, replies with a success acknowledgment and then performs the work such as updating an order.",
+    "A good receiver also stores the raw message for a while. When something looks wrong a week later, the original text is the quickest route to the cause."
+   ]
+  },
+  {
+   "h2": "Events worth listening for",
+   "paragraphs": [
+    "The exact list depends on your platform, but a small business typically cares about a few categories. Choose the ones that change something you do, and ignore the rest at first."
+   ],
+   "bullets": [
+    "Payment succeeded or failed, to mark orders and trigger fulfillment.",
+    "Refund issued, so inventory and customer records stay accurate.",
+    "Dispute opened, so someone can respond before a deadline.",
+    "Subscription renewed, paused or cancelled.",
+    "Payout sent, so bookkeeping can match deposits."
+   ]
+  },
+  {
+   "h2": "Keeping webhooks safe",
+   "paragraphs": [
+    "Because a webhook address is reachable from the internet, anyone could try to send fake messages to it. Platforms therefore attach a signature, a code calculated from the message contents and a secret that only you and the platform know.",
+    "Your receiver recalculates the signature and compares it. If they do not match, the message is rejected. Ask whoever builds the integration whether signatures are verified, and where the signing secret is stored.",
+    "A hypothetical risk: if signatures are not checked, a stranger could send a payment succeeded message for an order that was never paid, and your system might ship goods for free.",
+    "Rotate the signing secret if you suspect it has been shared, and update both sides at the same time so legitimate messages are not rejected during the change."
+   ]
+  },
+  {
+   "h2": "What goes wrong: late, repeated and missing messages",
+   "paragraphs": [
+    "Networks are imperfect. If your server is down when a message is sent, the platform typically retries over a period, so your system must be able to catch up. It also means the same message can arrive twice, or arrive out of order.",
+    "The cure for duplicates is a habit called idempotency: the receiver notes the unique event identifier and ignores any it has already processed. Without it, a retried message might send two confirmation emails or credit a gift card twice.",
+    "For missing messages, a daily reconciliation job that compares your records with the platform's list of payments is a good safety net. It catches the rare event that never arrived.",
+    "Keep your webhook address stable. If you move your website to a new host or change its address, update the setting at the platform on the same day, or messages will quietly stop arriving."
+   ]
+  },
+  {
+   "h2": "Monitoring and ownership",
+   "paragraphs": [
+    "Someone should own the webhooks. That person checks the dashboard for failed deliveries, receives an alert when errors persist and knows how to replay a missed event. If nobody owns it, failures become silent.",
+    "Test every important event in the sandbox before launch, including the awkward ones such as a declined renewal. Keep a short document describing which events you listen for and what each one triggers.",
+    "If you use PayPilot hosted tools such as payment links or invoices, much of this is handled for you inside the dashboard. When you connect your own systems through the PayPilot API, webhooks keep them in step, and your developer can show you the delivery log."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "A webhook is an automatic notification from the platform when an event occurs.",
+  "Webhooks beat polling because they are faster and avoid constant checking.",
+  "Verify signatures so fake messages are rejected.",
+  "Handle duplicate and out-of-order messages with idempotent processing.",
+  "Assign an owner and reconcile daily so silent failures are caught."
+ ],
+ "faq": [
+  {
+   "q": "What is a webhook in simple terms?",
+   "a": "It is an automatic message that a payment platform sends to your system when something happens, such as a successful payment or a refund. Instead of your software repeatedly asking for updates, the platform contacts it directly, which makes records current within seconds."
+  },
+  {
+   "q": "Do I need webhooks if I only use payment links?",
+   "a": "Probably not. Payment links and hosted invoices update their own status inside your dashboard, and you receive normal notifications by email. Webhooks matter when you want your own website, accounting tool or inventory system to react automatically whenever a payment event occurs."
+  },
+  {
+   "q": "What happens if my server is down when a webhook is sent?",
+   "a": "Platforms usually retry delivery for a period, so your system can catch up after it comes back. Because retries mean the same message may arrive more than once, your receiver should ignore events it has already processed, and a daily reconciliation can find any that were missed."
+  },
+  {
+   "q": "How do I know a webhook is genuine?",
+   "a": "Check the signature the platform includes with each message. Your system recomputes it using a shared secret and rejects any message that does not match. Never act on an unsigned or unverified payment message, even if it appears to come from the right place."
+  },
+  {
+   "q": "Who should manage webhooks in a small business?",
+   "a": "Whoever manages your website or software, whether an employee or an outside developer, should own them and know how to check delivery logs and replay events. Make it an explicit responsibility, and review the log on a regular schedule instead of waiting for a customer complaint."
+  }
+ ],
+ "related": [
+  "payments-api-basics",
+  "protecting-your-payments-account",
+  "subscription-box-billing",
+  "handling-disputes-calmly",
+  "tokenization-for-business-owners",
+  "b2b-online-invoicing"
+ ],
+ "icon": "bolt",
+ "read_minutes": 6
+}

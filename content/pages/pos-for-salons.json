@@ -1,0 +1,127 @@
+{
+  "slug": "pos-for-salons",
+  "topic": "pos",
+  "title": "POS for Salons and Barbershops",
+  "seo_title": "POS for Salons and Barbershops | PayPilot",
+  "meta_description": "Appointments, tips, product sales and commissions all meet at the chair. See how a salon POS keeps bookings, payments and stylists organized.",
+  "primary_keyword": "salon POS system",
+  "keywords": [
+    "barbershop POS",
+    "salon appointment booking",
+    "stylist commission tracking",
+    "retail product sales salon",
+    "no-show fee salon",
+    "tip splitting salon",
+    "salon checkout"
+  ],
+  "eyebrow": "Salons & barbers",
+  "dek": "A salon sells time, skill, and a few bottles of shampoo. The right POS keeps all three on the same page.",
+  "intro": [
+    "The business of a salon happens in layers. A client books a color appointment, the stylist adds a gloss halfway through, a different team member shampoos, a retail product goes home in a bag, and the tip is meant for two people. By the time the client reaches the front desk, the bill is a small puzzle.",
+    "Without a good system, the puzzle is solved by memory and scribbled notes. Mistakes appear as missing tips, forgotten add-ons, or clients who book and then do not turn up.",
+    "A salon-minded POS ties the schedule, the chair, and the checkout together. This article describes the pieces that matter most and how to roll them out without disturbing a full book of clients."
+  ],
+  "sections": [
+    {
+      "h2": "Booking and the calendar",
+      "paragraphs": [
+        "The calendar is the spine of the business. Each stylist has their own column, with services that carry realistic durations, so a cut that takes forty minutes does not get squeezed into thirty. Buffer time for cleanup and color processing keeps the day from collapsing.",
+        "Online booking lets clients choose a service and time at ten in the evening, which is when many of them think about it. Automatic reminders by text or email reduce forgotten appointments, and a reminder that names the cancellation policy reduces arguments later.",
+        "Think about the shape of a typical day. Early appointments are often quick cuts, midday brings color work, and evenings bring workers after their own shifts. Reviewing the calendar by hour over a few weeks shows when chairs sit empty, and that insight guides promotions, staffing, and when to offer discounts."
+      ]
+    },
+    {
+      "h2": "Cards on file and no-show fees",
+      "paragraphs": [
+        "Empty chairs cost money. Holding a card on file when a client books, with their clear agreement, gives you a way to apply a stated late-cancel or no-show fee. The key is disclosure: the policy should be visible when booking and repeated in the reminder.",
+        "Be cautious about the amount and the exceptions. Emergencies happen, and a fee you waive thoughtfully can win a client for life. Our guide to card on file explains consent and storage, and local rules may limit what fees you can apply, so confirm requirements."
+      ]
+    },
+    {
+      "h2": "Building the ticket at checkout",
+      "paragraphs": [
+        "A salon ticket often has several lines and several people behind them. The POS should let the front desk start from the appointment, add services performed, attach retail products, and credit each line to the right team member.",
+        "Add-ons are where revenue leaks. Maybe the stylist applied a deep conditioner or extended the cut. When the stylist can add it from a handheld or a quick note, the bill matches the work, and nobody has to rely on the client remembering."
+      ],
+      "steps": [
+        "Open the appointment from the calendar",
+        "Confirm services performed and add anything extra",
+        "Attach any retail products the client is taking",
+        "Offer tip options and choose how to split them",
+        "Take payment by tap, chip, or phone wallet and send the receipt"
+      ]
+    },
+    {
+      "h2": "Tips for one or many",
+      "paragraphs": [
+        "Tips in a salon rarely go to a single person. A shampoo assistant, a colorist, and a stylist may all deserve a share. A POS that prompts for a tip and lets the client choose how to divide it, or applies your preset split, saves awkward conversations.",
+        "How tips are shared, taxed, and reported depends on local labor and tax rules. Use the system to track amounts accurately, then check your approach with an accountant or employment professional. Our article on how tips flow through card payments explains the settlement timing."
+      ]
+    },
+    {
+      "h2": "Retail products on the same ticket",
+      "paragraphs": [
+        "Product sales can add meaningful income without much extra effort. A client who loves the shampoo used in the chair is the easiest sale there is. Scan the barcode, add it to the ticket, and the stock count drops automatically.",
+        "Set reorder alerts so best sellers do not run out right before a busy weekend. Reports by brand and product show which lines earn their shelf space and which ones simply collect dust."
+      ],
+      "bullets": [
+        "Scan product barcodes into the same ticket as services",
+        "Track stock separately from supplies used in the chair",
+        "Set low-stock alerts for fast sellers",
+        "Report on sales by brand and by team member"
+      ]
+    },
+    {
+      "h2": "Commissions and booth rent",
+      "paragraphs": [
+        "Pay arrangements vary widely. Some stylists earn a percentage of services and products, some rent a chair, and some mix the two. A POS that records who performed each service can produce commission reports with the click of a button, replacing a spreadsheet and a monthly argument.",
+        "Employee classification and pay structures involve legal and tax details that differ by location. Treat the report as a record, and ask an accountant or employment professional how to apply it.",
+        "Finally, protect the client experience at checkout. Nobody wants to wait while the desk hunts for a colorist's code. Pre-load services with prices and durations, keep retail products scanned and labeled, and let the stylist finalize the ticket so the client simply taps and goes."
+      ]
+    },
+    {
+      "h2": "Getting the team on board",
+      "paragraphs": [
+        "A new system succeeds when the stylists like it. Schedule a short training on a slow morning, let each person book and check out a pretend client, and gather their feedback before going live.",
+        "Equip the front desk with a countertop Terminal and give stylists a handheld Go or phone access for add-ons. A PayPilot POS combines scheduling-minded workflows with payment tools, and support at 844.826.6227 can help with first-week questions."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Realistic service durations and buffers keep the appointment book honest.",
+    "A card on file, with clear consent, makes no-show policies enforceable.",
+    "Build tickets from the appointment so add-ons and products are not forgotten.",
+    "Verify tip, commission, and classification rules with a professional."
+  ],
+  "faq": [
+    {
+      "q": "Can a POS handle both appointments and walk-ins?",
+      "a": "Yes. Walk-ins can be added to the calendar or entered as quick tickets with no appointment. Many shops reserve some open slots each day for walk-ins and watch the calendar to fill gaps. The checkout works the same in both cases."
+    },
+    {
+      "q": "How do I reduce no-shows?",
+      "a": "Send reminders, collect a card at booking, and state your late-cancel policy clearly. Make it easy to reschedule with a link, since many no-shows happen because canceling felt awkward. Be flexible when emergencies occur, and apply fees consistently. Keep a written record of the split you chose."
+    },
+    {
+      "q": "How do tips get split between a stylist and an assistant?",
+      "a": "Some systems let the client choose, and others apply a preset percentage that you configure. Record the split accurately so payouts are correct. Rules about tip handling and reporting differ by location, so consult a professional. Try it with one stylist for a week before rolling it out to everyone."
+    },
+    {
+      "q": "Do I need a separate system for retail products?",
+      "a": "Not usually. A salon-capable POS lets you scan products onto the same ticket as services and tracks the stock automatically. Keep the retail inventory separate from the supplies used on clients, which are costs rather than sales. Keep a written record of the split you chose."
+    },
+    {
+      "q": "Can stylists take payment at the chair?",
+      "a": "Yes, with a handheld or a phone-based setup. This is handy for barbershops and for stylists who want to close the sale without sending clients to the desk. Assign individual logins so every payment is credited to the right person."
+    }
+  ],
+  "related": [
+    "card-on-file-for-repeat-customers",
+    "deposits-for-bookings",
+    "tips-and-card-processing",
+    "tip-pooling-done-right",
+    "employee-permissions-pos"
+  ],
+  "icon": "scissors",
+  "read_minutes": 7
+}

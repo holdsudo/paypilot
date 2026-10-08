@@ -1,0 +1,101 @@
+{
+  "slug": "deposits-for-bookings",
+  "topic": "online",
+  "title": "Taking Deposits for Bookings and Reservations",
+  "seo_title": "Taking Booking Deposits Online | PayPilot",
+  "meta_description": "Learn how to collect booking deposits and partial payments online, set a fair cancellation policy, and handle no-shows without awkward conversations.",
+  "primary_keyword": "booking deposits",
+  "keywords": ["online booking deposit", "reservation deposit", "partial payments", "cancellation policy", "no-show fees", "payment links for bookings", "deposit refund policy"],
+  "eyebrow": "Online payments",
+  "dek": "A deposit turns a maybe into a commitment. Here is how to ask for one, write the rules clearly, and handle the day someone cancels.",
+  "intro": [
+    "A photographer holds a Saturday in June for a couple who says they are definitely booking. Three weeks later the couple goes quiet, the date passes, and a paying client was turned away for nothing. Anyone who sells time, space, or a slot has lived some version of that story.",
+    "A deposit is the simplest fix. It is a partial payment collected up front that reserves the booking and shows both sides are serious. Done well, it feels like a normal part of the process rather than a hurdle.",
+    "This guide covers how to choose an amount, where to put your cancellation rules, how deposits actually move through card processing, and what to do when plans change."
+  ],
+  "sections": [
+    {
+      "h2": "What a deposit really is",
+      "paragraphs": [
+        "A deposit is a payment applied toward the final bill, held against a specific date or service. If the customer shows up, the deposit is credited to the total. If they cancel inside the window you set, your policy decides whether it is refunded, partly kept, or transferred to a new date.",
+        "It helps to name it accurately. A deposit that is credited to the final price is different from a booking fee, which is a separate charge for reserving the slot, and different again from a no-show fee, which is only charged if the customer fails to appear. Mixing these terms on a booking page is the quickest way to create arguments later."
+      ]
+    },
+    {
+      "h2": "Choosing an amount that feels fair",
+      "paragraphs": [
+        "There is no universal percentage. The right figure depends on what you lose if the booking falls through. A dog groomer whose slot can usually be refilled within a day needs less protection than a caterer who has already ordered ingredients.",
+        "Work backward from your real exposure instead of guessing. Ask what you would have spent, or what income you would have lost, if the customer vanished the day before."
+      ],
+      "bullets": [
+        "Short, low-cost services: a small flat deposit is often enough to filter out casual bookings.",
+        "Large or custom jobs: a percentage of the quote, with the rest due on a schedule you spell out.",
+        "Group reservations: a per-person deposit, so a party that shrinks does not leave you with an unclear balance.",
+        "Peak dates: a higher deposit for holidays and weekends, as long as you say so before checkout."
+      ]
+    },
+    {
+      "h2": "Where the cancellation policy belongs",
+      "paragraphs": [
+        "Disputes about deposits rarely come from the amount. They come from a customer who says they never saw the rules. Put your policy in three places: next to the price on your booking page, as a required checkbox before payment, and in the confirmation message.",
+        "Write it in plain sentences with dates, not legal fog. For example: cancel more than seven days ahead and your deposit moves to any new date; inside seven days it is kept. Whatever windows you choose, state them as calendar facts the customer can check against their own schedule.",
+        "Keep a record of exactly what the customer agreed to and when. If a card payment is ever questioned, a saved copy of the policy and the timestamp of acceptance is the first thing a reviewer will want to see."
+      ]
+    },
+    {
+      "h2": "How to collect a deposit online",
+      "paragraphs": [
+        "For one-off bookings, a payment link is the lightest tool. You create a link for the deposit amount, label it with the service and date, and send it by text or email. The customer pays on their phone, and you get a record without building a website feature.",
+        "If you take many bookings, a hosted checkout embedded in your booking page lets the deposit happen automatically at the moment someone picks a time. PayPilot online payments support both approaches, so a solo practitioner can start with links and move to checkout later."
+      ],
+      "steps": [
+        "Decide the deposit amount and what it is credited toward.",
+        "Write the cancellation window and rebooking rules in two or three sentences.",
+        "Create the payment link or checkout item with the service name and date in its description.",
+        "Send it with a short message explaining that the booking is confirmed once the deposit clears.",
+        "Record the booking and mark the deposit as received so the final invoice shows the credit."
+      ]
+    },
+    {
+      "h2": "Collecting the balance without surprises",
+      "paragraphs": [
+        "Decide in advance whether the balance is paid at the appointment, on a date before the event, or in installments. A worked example, purely hypothetical: a venue quotes an event, takes a deposit at booking, a second payment sixty days out, and the remainder on the day. Each payment is a separate link or invoice with its own due date.",
+        "If you want to avoid chasing customers, ask for permission to keep their card on file for the remaining balance. That consent should be explicit and written down, so the later charge never comes as a shock."
+      ]
+    },
+    {
+      "h2": "When a customer cancels",
+      "paragraphs": [
+        "Follow your policy, and follow it kindly. A short message that references the agreed window, explains what happens to the deposit, and offers a rebooking option ends most conversations quickly.",
+        "Refunds go back to the original card and typically take a few business days to show up on the customer's statement, depending on their bank. If you grant an exception, note it in your records so staff apply the policy consistently. Rules about keeping deposits can differ by location and industry, so check the requirements that apply to your business."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "A deposit works best when it is tied to your real cost of an empty slot.",
+    "Show the cancellation rules before payment, not after a dispute.",
+    "Payment links are enough to start; hosted checkout helps once volume grows.",
+    "Save proof that the customer accepted your policy."
+  ],
+  "faq": [
+    {
+      "q": "How much deposit should I ask for?",
+      "a": "Base it on what you would lose if the customer disappeared. Quick, easily refilled slots justify a small flat amount, while custom or high-prep work calls for a meaningful share of the quote. Whatever you pick, display it before checkout and say what it is credited toward so nobody feels surprised."
+    },
+    {
+      "q": "Can I keep the deposit if someone cancels?",
+      "a": "That depends on the policy the customer agreed to and on the rules where you operate. Spell out the windows clearly, keep proof of acceptance, and consider offering a rebooking credit as a goodwill option. If you are unsure about local requirements, ask an attorney or your trade association."
+    },
+    {
+      "q": "What is the difference between a deposit and a pre-authorization hold?",
+      "a": "A deposit is money actually charged and received. A hold only reserves part of the customer's available credit and is released or captured later. Holds suit situations where the final amount is unknown, like rentals; deposits suit bookings with a fixed price and date."
+    },
+    {
+      "q": "Should the balance be charged automatically?",
+      "a": "Only if the customer clearly agreed to it when they paid the deposit. Written consent, a reminder before the charge, and a receipt afterward make automatic balance payments smooth. Without consent, send a payment link or invoice with a due date instead."
+    }
+  ],
+  "related": ["payment-links-for-instagram-sellers", "pre-authorization-holds-explained", "card-on-file-for-repeat-customers", "refund-policies-that-reduce-disputes", "invoices-that-get-paid-faster"],
+  "icon": "clock",
+  "read_minutes": 6
+}

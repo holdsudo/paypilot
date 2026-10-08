@@ -1,0 +1,134 @@
+{
+  "slug": "digital-tips-for-service-workers",
+  "topic": "money",
+  "title": "How Digital Tipping Works for Service Workers",
+  "seo_title": "How Digital Tipping Works for Service Workers | PayPilot",
+  "meta_description": "See how tip prompts, QR tips and payouts work for servers, stylists and drivers, and how customers and employers can handle digital tipping fairly.",
+  "primary_keyword": "digital tipping",
+  "keywords": [
+    "digital tips service workers",
+    "tip prompt on screen",
+    "QR code tip",
+    "how tips are paid out",
+    "tipping with card",
+    "tip pooling digital",
+    "cashless tipping"
+  ],
+  "eyebrow": "Service & tipping",
+  "dek": "Fewer people carry cash, but tips still need to reach the person who earned them. Here is how the money travels, and where things go wrong.",
+  "intro": [
+    "A stylist finishes a haircut, the customer holds out a phone, and the cash in their wallet is a single large bill. The tip they intended turns into a rounding-down or a promise to catch up next time. Cashless life has quietly squeezed a lot of tipping.",
+    "Digital tipping fills the gap, with on-screen prompts, QR codes and card tips added at the moment of payment. How the money gets from customer to worker, though, depends on the business setup, and it is worth understanding on both sides of the counter."
+  ],
+  "sections": [
+    {
+      "h2": "Three common ways to tip digitally",
+      "paragraphs": [
+        "The first is the on-screen prompt: after the total appears, the customer picks a suggested percentage, a dollar amount or enters their own. The second is a QR code on a table, receipt or business card that opens a tip page. The third is a tip added to a wallet-to-wallet payment sent directly to the individual.",
+        "Each has its place. Prompts suit restaurants and salons where the card is already out. QR tips suit street performers, delivery drivers and anyone without a terminal. Direct transfers suit personal service providers who work for themselves."
+      ]
+    },
+    {
+      "h2": "How tips are added to a card payment",
+      "paragraphs": [
+        "At a restaurant, the tip may be added after the card is presented. A server writes it on a slip, or the customer enters it on a tablet or handheld, and the final amount is then settled. With a POS such as PayPilot, tips can be captured at the table on a handheld and included in the final charge.",
+        "This sequence is why a card can show a pending amount that differs slightly from the final one: the tip is added after the first authorization and the total is adjusted when it is complete."
+      ],
+      "bullets": [
+        "Tablet or terminal prompt at checkout",
+        "Server-entered tip after the card is presented",
+        "QR code leading to a tip page",
+        "Direct wallet payment to an individual"
+      ]
+    },
+    {
+      "h2": "How workers actually get the money",
+      "paragraphs": [
+        "Where tips are collected through a business's system, the business generally receives them first and then passes them on. Depending on the workplace, that might be added to the next paycheck, paid out at the end of the shift, or handled through a pooling arrangement.",
+        "Rules about tips, including who may keep them and how pooling works, are set by labor law that varies by location. This article is general information, and both employers and workers should consult a qualified professional or the relevant labor authority for specifics."
+      ]
+    },
+    {
+      "h2": "What customers should know",
+      "paragraphs": [
+        "If you want your tip to reach a specific person, ask how the business handles tips. Some pass everything to the staff member who served you, others share across the team. Both can be legitimate when done openly.",
+        "For independent workers such as a dog walker or a tutor, a direct transfer is the clearest route. Check the recipient name before sending, since peer-to-peer payments may not be reversible."
+      ]
+    },
+    {
+      "h2": "Tips for rideshare, delivery and gig work",
+      "paragraphs": [
+        "Gig workers often receive tips through the platform they work for, sometimes after the service is complete. If you want to thank a driver or courier personally, check whether the platform lets you add a tip afterward and how it reaches them.",
+        "For a one-off gesture, some customers send a direct wallet payment as well. Just remember that payments may not be reversible, so confirm the name before approving."
+      ]
+    },
+    {
+      "h2": "What employers and owners should set up",
+      "paragraphs": [
+        "A clear written tip policy prevents most disputes. It should explain how tips are collected, who receives them, how often they are paid out and how any pooling is calculated. Share it with the team and give them access to their own tip records.",
+        "Choose prompt options that feel fair. Defaults that are too aggressive can irritate customers, while very low ones can undercut staff earnings. Test, listen and adjust."
+      ],
+      "steps": [
+        "Write a tip policy that covers collection, distribution and timing.",
+        "Check it against local labor rules with a qualified professional.",
+        "Configure prompt amounts and wording that feel natural.",
+        "Provide staff with regular, itemized tip summaries.",
+        "Review the setup after a few weeks and adjust."
+      ]
+    },
+    {
+      "h2": "Etiquette when prompts feel pushy",
+      "paragraphs": [
+        "Screens that ask for a tip at every purchase, even at counters with no table service, have made some customers uneasy. Choosing no tip, or a custom amount, is always an option, and a polite smile makes it clear nothing personal is meant.",
+        "If a prompt seems misleading, such as a default selection that is already filled in, take a second to look. A deliberate choice is fairer to you and to the worker."
+      ]
+    },
+    {
+      "h2": "Common problems and how to avoid them",
+      "paragraphs": [
+        "Delayed payouts frustrate workers more than almost anything. Aim for a consistent, predictable schedule and be upfront about it. Missing tips usually come from unclear records, so keep a trail from the customer's payment to the worker's pay.",
+        "On the customer side, double-tipping happens when a service charge is already included and a prompt asks for more. Read the receipt before adding anything."
+      ]
+    },
+    {
+      "h2": "A short hypothetical",
+      "paragraphs": [
+        "A small cafe sets prompts at three options and a custom entry. Tips are totaled at the end of each shift, split according to the written policy, and added to the next regular pay. Staff can see their own summary in the system.",
+        "A regular customer who wants to thank a particular barista on her last day sends a direct wallet tip with a note. Both routes coexist, and everyone knows which is which."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Digital tips arrive through on-screen prompts, QR codes or direct transfers.",
+    "Business-collected tips are usually passed on according to a written policy.",
+    "Tip rules and pooling are governed by local labor law, so confirm with a professional.",
+    "Customers should read receipts to avoid double-tipping."
+  ],
+  "faq": [
+    {
+      "q": "Do servers get the full tip I add by card?",
+      "a": "That depends on the business and local law. Many businesses pass card tips to staff by paycheck or at shift's end, and some pool them. If it matters to you, ask how tips are handled. Rules vary by location, so this is general information only."
+    },
+    {
+      "q": "Is it better to tip in cash or digitally?",
+      "a": "Either can work well. Cash reaches the worker immediately and is simple, while digital tips are convenient and leave a clear record. For independent workers, a direct transfer is fast and obvious. For a business-collected tip, ask how it is distributed."
+    },
+    {
+      "q": "Why does my final charge differ from the pending amount?",
+      "a": "The pending amount is usually the pre-tip authorization. Once the tip is added and the payment is finalized, the charge updates to the full total. The difference should match the tip you added, so compare it against your receipt to be sure."
+    },
+    {
+      "q": "Can businesses share tips with kitchen or support staff?",
+      "a": "Sometimes, under rules that differ by location and by role. Tip pooling, and who is allowed to take part, is governed by labor law, so employers should consult a qualified professional or the relevant labor authority before setting up a policy, and put it in writing."
+    }
+  ],
+  "related": [
+    "tips-and-card-processing",
+    "tip-pooling-done-right",
+    "paying-the-babysitter-digitally",
+    "qr-code-wallet-payments",
+    "handhelds-tableside-ordering"
+  ],
+  "icon": "dollar",
+  "read_minutes": 7
+}

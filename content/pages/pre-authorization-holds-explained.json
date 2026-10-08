@@ -1,0 +1,127 @@
+{
+  "slug": "pre-authorization-holds-explained",
+  "topic": "cards",
+  "title": "Pre-Authorization Holds, Explained Simply",
+  "seo_title": "Pre-Authorization Holds Explained | PayPilot",
+  "meta_description": "A pre-authorization sets money aside without taking it. See how holds work for bars, hotels and rentals, why they linger, and how to release them.",
+  "primary_keyword": "pre-authorization hold",
+  "keywords": [
+    "card hold",
+    "authorization vs capture",
+    "bar tab pre-auth",
+    "hotel deposit hold",
+    "rental car hold",
+    "release a hold",
+    "incremental authorization"
+  ],
+  "eyebrow": "Card mechanics",
+  "dek": "A hold reserves part of a customer's available funds without charging them. Understanding the lifecycle keeps you and your customers out of trouble.",
+  "intro": [
+    "A customer hands over a card to open a bar tab. A guest checks into a small inn. A family rents a pair of kayaks for the afternoon. In each case, you do not yet know the final amount, but you want some assurance that payment will be there at the end.",
+    "That assurance is a pre-authorization. It is a request to the customer's bank that says, set this much aside for me, and I will tell you later what I actually need.",
+    "Holds are useful and also misunderstood. Customers sometimes see a pending amount linger on their statement and assume they have been overcharged. A clear explanation, and a routine for releasing holds promptly, makes the practice painless."
+  ],
+  "sections": [
+    {
+      "h2": "Authorization and capture are two steps",
+      "paragraphs": [
+        "In an ordinary sale, authorization and capture happen almost together. The bank approves the amount, and the sale joins the day's batch for payment. A pre-authorization pulls those two steps apart.",
+        "First comes the authorization, which reserves funds on the cardholder's account. The money has not moved to you. Later you capture all or part of the reserved amount, and only the captured sum is submitted for settlement. Whatever is not captured is meant to be released back to the customer's available balance.",
+        "A simple restaurant example shows the idea. A guest opens a tab with a card, and the server places a hold for a modest amount. Three hours later the real total is a little higher, so the system raises the hold, then captures the final figure including tip. The leftover reserved amount is released, and the guest sees one clean charge."
+      ]
+    },
+    {
+      "h2": "Who uses holds and why",
+      "paragraphs": [
+        "Businesses use holds wherever the final price depends on what happens next. A reservation clerk wants security against damage or late returns, and a bartender wants confidence that the tab will be covered.",
+        "A few common cases show the pattern:"
+      ],
+      "bullets": [
+        "Bars and lounges hold a tab before the first round is poured",
+        "Small hotels and guesthouses hold a nightly estimate plus incidentals",
+        "Equipment and bike rental shops reserve funds against loss or late return",
+        "Catering and event vendors hold a deposit until the date arrives",
+        "Fuel and delivery services authorize an estimate before knowing the final total"
+      ]
+    },
+    {
+      "h2": "Sizing the hold sensibly",
+      "paragraphs": [
+        "Set the hold to cover a realistic final total, not the highest imaginable bill. An oversized hold ties up the customer's spending money and breeds resentment. A hypothetical example: if a typical evening tab at your bar runs a modest amount, hold a bit above that, then adjust upward if the customer keeps ordering.",
+        "Many systems support an incremental authorization, which raises the reserved amount as the bill grows. Use it when the total drifts well past the first estimate so that your capture does not exceed what was authorized."
+      ]
+    },
+    {
+      "h2": "Why holds linger on statements",
+      "paragraphs": [
+        "Here is the part that confuses customers. When you release a hold, the bank is not always instant about freeing the funds. Some issuers drop the pending item within a day or two, while others take longer, particularly on debit cards where the money is visibly earmarked.",
+        "Authorizations also expire if never captured. The window differs by card network and merchant category, so check your processor's guidance rather than assuming a number. Telling the customer at the start, 'the hold may stay pending for several days after you leave,' prevents panicked phone calls."
+      ]
+    },
+    {
+      "h2": "Capturing and releasing in practice",
+      "paragraphs": [
+        "Make closing out the hold part of the checkout script, not an afterthought. If you forget, the customer may see the full reserved amount stuck for days, and you may have to write an apology.",
+        "A tidy routine looks like this:"
+      ],
+      "steps": [
+        "Confirm the final amount with the customer",
+        "Capture exactly that amount against the original hold",
+        "Void or release any leftover authorization right away",
+        "Send a receipt that shows the final charge",
+        "Remind the customer that their bank controls how fast the pending item disappears"
+      ]
+    },
+    {
+      "h2": "Disputes and documentation",
+      "paragraphs": [
+        "Holds create disputes when the terms were fuzzy. Post the policy at the counter, put it in the booking confirmation, and repeat it when you take the card. A signed or tapped acknowledgment is worth far more than a recollection of what was said.",
+        "Keep a note of the original authorization amount, the capture amount, and the reason for any difference, such as a damaged item or an extra night. If the customer questions the charge later, those details let you respond calmly and factually.",
+        "Staff training deserves a mention here. The most common failure is not a technical one but a forgotten step: a clerk who captures the sale and walks away without releasing the remainder. Put the release on the closing checklist, and review open authorizations every evening before the batch closes."
+      ]
+    },
+    {
+      "h2": "Choosing the right tool at the counter",
+      "paragraphs": [
+        "Not every payment setup supports pre-authorization in the same way, and some processing arrangements place limits on which business types may use it. Ask support about your configuration before you advertise a deposit policy. If your business combines a PayPilot POS with a countertop Terminal, confirm which screens handle tabs, holds, and tip adjustments so the staff learns one path."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "A hold reserves funds; capture is what actually collects them.",
+    "Size the hold to a realistic total and raise it incrementally if needed.",
+    "Release unused authorizations the same day so customers are not left waiting.",
+    "Explain at the start that the issuing bank controls how long a pending amount shows."
+  ],
+  "faq": [
+    {
+      "q": "Does a pre-authorization take money from the customer?",
+      "a": "Not yet. It earmarks part of their available balance or credit line, so they cannot spend it elsewhere, but no funds are transferred to you until you capture. If you never capture, the authorization is supposed to fall away on its own after the network's time window."
+    },
+    {
+      "q": "Why does the hold still show after I released it?",
+      "a": "Your release tells the bank to free the funds, but the issuer decides how quickly its customer sees it. Debit cardholders often notice the delay most. Reassure the customer that nothing extra will be charged and that their bank can confirm the timing."
+    },
+    {
+      "q": "Can I capture more than the original hold?",
+      "a": "Generally you should not exceed what was authorized without a new or incremental authorization. Asking for a higher approval first is cleaner. Rules and tolerances differ by card network and industry, so ask your support team about the policy that applies to your business type."
+    },
+    {
+      "q": "How long can a hold last?",
+      "a": "The duration depends on the card network, the type of business, and the issuer. Rather than relying on the maximum, plan to capture or release within the same visit or as soon as the final amount is known. That keeps customers happy and your records clean."
+    },
+    {
+      "q": "Is a hold the same as a deposit?",
+      "a": "Not quite. A hold reserves money without collecting it, while a deposit is an actual charge that is applied to the final bill or refunded. Pick whichever matches your policy, and describe it in plain language so the customer knows which one to expect."
+    }
+  ],
+  "related": [
+    "deposits-for-bookings",
+    "tips-and-card-processing",
+    "refund-policies-that-reduce-disputes",
+    "what-happens-when-a-card-is-declined",
+    "handling-disputes-calmly"
+  ],
+  "icon": "clock",
+  "read_minutes": 6
+}

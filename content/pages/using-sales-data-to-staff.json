@@ -1,0 +1,128 @@
+{
+  "slug": "using-sales-data-to-staff",
+  "topic": "growth",
+  "title": "Scheduling Staff With Your Sales Data",
+  "seo_title": "Schedule Staff With Your Sales Data | PayPilot",
+  "meta_description": "Use hour-by-hour sales reports to match staffing to demand: find your real peak hours, avoid idle shifts, and plan for slow days without guesswork.",
+  "primary_keyword": "staff scheduling with sales data",
+  "keywords": [
+    "peak hours staffing",
+    "labor scheduling POS",
+    "sales by hour report",
+    "reduce labor cost",
+    "restaurant scheduling",
+    "retail staffing levels",
+    "demand forecasting small business"
+  ],
+  "eyebrow": "Growth",
+  "dek": "Your register already knows when customers show up. Let it tell you who should be on the floor, and when.",
+  "intro": [
+    "Many schedules are built on memory and habit: we have always had three people on Saturday. Memory is useful, but it fades, and it is biased toward the most stressful moments. The rush that felt endless last Friday may have lasted forty minutes.",
+    "Every sale your POS records carries a timestamp. Put those timestamps together and you get a picture of demand by hour, by weekday, and by season, which is exactly what a schedule needs.",
+    "With a modest amount of data and a little arithmetic, you can put people where customers are, and stop paying for quiet hours with a full crew."
+  ],
+  "sections": [
+    {
+      "h2": "Start with the sales-by-hour report",
+      "paragraphs": [
+        "Open the report that groups sales by hour of day, and view it for the past several weeks. Look at the number of transactions as well as the dollar total, because staffing follows activity more closely than revenue. Ten large orders and forty small ones can require very different labor.",
+        "Compare the same weekday across weeks. One unusual Tuesday tells you little; five Tuesdays tell you a lot. Note recurring peaks, such as a lunch surge or an after-work wave, and the hours when the room is nearly empty."
+      ]
+    },
+    {
+      "h2": "Turn the pattern into a staffing target",
+      "paragraphs": [
+        "Decide how many transactions one team member can comfortably handle in an hour. Observe your own team rather than guessing; it varies with how complicated your orders are. Then divide expected transactions by that number to estimate the people needed in each hour.",
+        "The result is a guide, not a command. Always adjust for tasks that are not tied to sales, such as prep, cleaning, deliveries, and training."
+      ],
+      "steps": [
+        "Pull the last six to eight weeks of sales by hour.",
+        "Average the transactions for each weekday and hour.",
+        "Estimate how many transactions one person handles per hour.",
+        "Divide to get a staffing target for each time block.",
+        "Add non-sales tasks and review with your team."
+      ]
+    },
+    {
+      "h2": "Staff for the shape of the day, not a flat block",
+      "paragraphs": [
+        "Traditional shifts are long and uniform, but demand is not. Consider staggered start times so an extra person arrives just before the rush and leaves shortly after it. Short shifts of four or five hours can cover peaks without paying for quiet stretches.",
+        "Balance this against fairness and predictability. Employees value stable schedules, and some places have rules about advance notice, minimum shift length, and breaks. Scheduling laws differ by location, so confirm what applies to you."
+      ],
+      "bullets": [
+        "Stagger arrivals ahead of known peaks.",
+        "Use short peak-coverage shifts for part-timers who want them.",
+        "Keep a core crew steady for consistency and training.",
+        "Post schedules early enough for staff to plan their lives."
+      ]
+    },
+    {
+      "h2": "Layer in what the data cannot see",
+      "paragraphs": [
+        "Sales data shows what happened, not why. A slow Thursday might have been caused by rain, a road closure, or a local event. Keep a simple note alongside the numbers so you can interpret surprises.",
+        "Plan for known events: school holidays, payday weeks, festivals, sports nights, and seasons. If you have a lease, a market stall, or a delivery partner, remember that their patterns affect yours too. Over time, your notes become a calendar of demand."
+      ]
+    },
+    {
+      "h2": "Use speed-of-service as a second signal",
+      "paragraphs": [
+        "Revenue can look healthy while customers wait too long. Watch for walkouts, long lines at peak, and complaints about waits. Some POS reports show the time between orders or average time open on a ticket, which signals when you are understaffed even if sales look fine.",
+        "Likewise, watch for the reverse: hours with many employees and few transactions. If the numbers show a repeated pattern of idle time, trim that block or assign the time to cleaning, restocking, or outreach tasks."
+      ]
+    },
+    {
+      "h2": "A hypothetical Saturday, rebuilt from the data",
+      "paragraphs": [
+        "Say a bakery always scheduled four people from open to close on Saturdays. The hourly report shows transactions piling up between mid-morning and early afternoon, then thinning out through the evening. The owner moves two shifts later, shortens one, and sends a part-timer home before the quiet stretch.",
+        "The line at ten o'clock gets shorter, the evening is covered by a smaller crew, and the staff report fewer idle hours. The figures here are made up, but the idea carries over to nearly any business with uneven days: let the shape of demand draw the shape of the schedule."
+      ]
+    },
+    {
+      "h2": "Seasonal swings and special days",
+      "paragraphs": [
+        "Averages hide the calendar. A school break, a street fair, or a cold snap can reshape a week. Mark such dates on a shared calendar, and next year you will have a head start on planning, with last year's numbers sitting right beside the date.",
+        "Ask your regulars what is coming, too. A customer who mentions an upcoming wedding party or a team outing has just given you a staffing forecast for free."
+      ]
+    },
+    {
+      "h2": "Review, adjust, and involve the team",
+      "paragraphs": [
+        "Revisit your schedule monthly. After each change, compare the next few weeks of sales and customer comments. Did the lunch rush move smoothly? Did anyone feel overwhelmed? A small adjustment each month beats a big overhaul each year.",
+        "Share the data with your staff. Employees often know why an hour is slow or hectic, and they appreciate seeing that the schedule has a reason. The PayPilot POS reports make hourly views easy to pull, so the conversation can be based on facts instead of impressions. For tip handling and legal questions around hours, consult a professional familiar with your area."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Hourly transaction counts are the best guide to staffing.",
+    "Compare the same weekday across several weeks before changing a schedule.",
+    "Stagger shifts around peaks instead of using long flat blocks.",
+    "Check speed of service as well as sales to spot understaffing."
+  ],
+  "faq": [
+    {
+      "q": "How much data do I need before changing my schedule?",
+      "a": "Several weeks of sales by hour is a sensible minimum, and more if you have strong seasonality. Compare the same weekday across weeks, and look for patterns that repeat instead of reacting to one unusual day. Waiting a little longer protects you from rearranging a team around a fluke."
+    },
+    {
+      "q": "Should I schedule by revenue or by transactions?",
+      "a": "Transactions usually track workload better, because each order requires time regardless of its dollar value. Look at both, but use the count of transactions to estimate how many people you need. Look at dollars too, since a few large orders can require fewer hands than many small ones."
+    },
+    {
+      "q": "How do I avoid overstaffing slow hours?",
+      "a": "Use shorter shifts and staggered starts so extra help covers the peak only. Assign unavoidable quiet-hour staff to restocking, cleaning, and prep instead of leaving them idle. This keeps people productive and avoids the awkwardness of sending someone home mid-shift without notice."
+    },
+    {
+      "q": "Are there rules about changing schedules?",
+      "a": "Some places require advance notice, minimum hours per shift, or predictable scheduling. Rules differ by location and industry, so check requirements that apply to you before making frequent changes. When in doubt, ask a labor professional or your local labor office."
+    }
+  ],
+  "related": [
+    "pos-reports-to-check-weekly",
+    "employee-permissions-pos",
+    "tip-pooling-done-right",
+    "what-a-modern-pos-does",
+    "pos-for-restaurants-front-and-back"
+  ],
+  "icon": "clock",
+  "read_minutes": 7
+}

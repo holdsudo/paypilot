@@ -1,0 +1,121 @@
+{
+  "slug": "manual-card-entry-risks",
+  "topic": "cards",
+  "title": "When (and Why Not) to Key In a Card Number",
+  "seo_title": "Manual Card Entry Risks and Safeguards | PayPilot",
+  "meta_description": "Typing a card number by hand is sometimes necessary, but it carries extra fraud and dispute risk. Learn when to do it and the safeguards that help.",
+  "primary_keyword": "manual card entry",
+  "keywords": [
+    "keyed card transaction",
+    "card not present",
+    "card-not-present fraud",
+    "AVS check",
+    "CVV verification",
+    "phone orders",
+    "manual entry risk"
+  ],
+  "eyebrow": "Risk basics",
+  "dek": "Keying in a number is a last resort for in-person sales and a normal tool for phone orders. Either way, a few checks reduce the risk considerably.",
+  "intro": [
+    "Sometimes the chip will not read. Sometimes the customer is on the phone ordering flowers and cannot tap anything. In both cases, the only way forward is to type the card number into the device.",
+    "That works, but it changes the risk profile of the sale. The reader can no longer see the physical card, the chip cannot prove it is genuine, and anyone who has stolen a number can try the same thing from a distance.",
+    "Understanding why keyed sales are riskier, and which safeguards actually help, lets you use the option without fearing it or leaning on it too much."
+  ],
+  "sections": [
+    {
+      "h2": "Why a keyed sale is different",
+      "paragraphs": [
+        "A chip or tap transaction produces a unique cryptographic code for that single purchase. Copying it is pointless because it will not work again. A typed number carries no such proof. If a criminal obtains the digits, the expiry date, and the security code, they can type them too.",
+        "That is why card networks treat these as card-not-present or less-secure entries. If a keyed sale later turns out to be fraudulent, the merchant is usually the party left holding the loss, since there was no chip or PIN to show the card was physically there."
+      ]
+    },
+    {
+      "h2": "Legitimate reasons to key in a card",
+      "paragraphs": [
+        "Manual entry is not shady. Many ordinary businesses depend on it every day. The point is to recognize the reasons that make sense and be cautious about the rest.",
+        "Typical situations include:",
+        "Consider a hypothetical flower shop that takes a phone order from a new caller for a large arrangement to be delivered across town. The clerk collects the code and ZIP, notices the ZIP does not match, and politely asks for an alternate card. The caller hangs up. That small pause may have saved the shop from reversing a delivery after the fact."
+      ],
+      "bullets": [
+        "A damaged chip or magnetic stripe that the reader cannot interpret",
+        "Phone orders from known customers, such as a florist or catering line",
+        "Adding a balance to an existing order after the customer has left",
+        "Reservations that require a card to hold a booking",
+        "A reader outage when the customer is present and willing to wait"
+      ]
+    },
+    {
+      "h2": "The checks that matter",
+      "paragraphs": [
+        "Two verification tools do most of the work. The card security code, the three or four digits printed on the card, proves the person has the physical card in hand or a good copy of it. The address verification service compares the billing ZIP code or street number the customer gives you with what the issuer has on file.",
+        "Ask for both on every keyed sale and treat a mismatch as a reason to pause rather than a formality. A mismatch does not always mean fraud, since people move and mistype, but it is exactly the signal worth a second look before shipping an expensive item."
+      ]
+    },
+    {
+      "h2": "Habits that cut risk",
+      "paragraphs": [
+        "Small routines make a real difference. Train everyone who might take a phone order so that the process is the same no matter who answers.",
+        "Consider adopting a short checklist at the register or desk:",
+        "Storage is another trap. A sticky note with a card number beside the phone may feel harmless, but a lost note or a curious visitor turns it into a security incident. Type the digits straight into the device while the customer reads them, and let nothing survive the call except the last four digits for reference."
+      ],
+      "steps": [
+        "Ask for the name as it appears on the card, the number, expiry, and security code",
+        "Request the billing ZIP code and compare it with the AVS result",
+        "Read the order total back to the customer before submitting",
+        "Never write the full number on paper, a sticky note, or a text message",
+        "Send a receipt to the cardholder's email or phone and keep the order notes"
+      ]
+    },
+    {
+      "h2": "Spotting an order that feels wrong",
+      "paragraphs": [
+        "Fraudulent keyed orders share some patterns. The customer is in a hurry, asks for expedited shipping, wants several high-value items, or supplies a billing address unrelated to the delivery address. They may try several cards in a row, or offer to pay an extra amount if you will forward money to a third party.",
+        "Any of these deserves a pause. Call the customer back on a number you looked up independently, hold the order, and, if the amount is large, ask for another form of verification. Our article on handling a suspicious transaction goes deeper into staff scripts."
+      ]
+    },
+    {
+      "h2": "Safer alternatives",
+      "paragraphs": [
+        "Often there is a better path than typing a number yourself. Send a payment link by text or email so the customer enters their card on a secure page, and the digits never pass through your staff. This also puts the customer's own device in the loop, which can use a phone wallet for stronger authentication.",
+        "A PayPilot payment link or invoice fits phone orders neatly. The customer pays at their own pace, you receive a notification, and nobody has to read a card number aloud in a shop full of people. When the customer is standing in front of you, suggest a tap from a phone wallet instead of a keyed entry."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Keyed sales lack the chip's proof of a genuine card, so they carry more fraud and dispute risk.",
+    "Always collect the security code and billing ZIP and watch the verification results.",
+    "Never record a full card number on paper or in messages.",
+    "When possible, send a payment link rather than typing the number yourself."
+  ],
+  "faq": [
+    {
+      "q": "Is manual card entry allowed?",
+      "a": "Yes, it is a normal feature of card acceptance. The caution comes from risk, not prohibition. Many merchants use it for phone orders or damaged cards. Just collect the verification details and keep records of the order, since a disputed keyed sale is harder to defend than a chip transaction."
+    },
+    {
+      "q": "What do AVS and CVV actually check?",
+      "a": "AVS compares the billing address digits you enter with those on file at the issuer. The security code checks that the person knows the number printed on the card itself. Neither is a guarantee, but together they filter out many careless fraud attempts and give you something to cite if there is a dispute."
+    },
+    {
+      "q": "Should I key in a card if the chip fails?",
+      "a": "Try tapping, re-inserting, or using a phone wallet first. If none work and the customer is present, keying is acceptable, but verify the security code and consider asking for identification on a large purchase. If the same card keeps failing, suggest another payment method."
+    },
+    {
+      "q": "Who loses money if a keyed sale is fraudulent?",
+      "a": "Frequently the merchant, because a chargeback can reverse the sale and the lack of chip or PIN weakens your case. The exact result depends on the card network's rules and the evidence you have, so keep order details, receipts, and communication records for every keyed sale."
+    },
+    {
+      "q": "Can I take a card number over the phone safely?",
+      "a": "It is safer to send a payment link so the customer enters the number on a secure page. If you must take it verbally, do it where others cannot overhear, type it directly into the device, and never write it down. Confirm the total before you submit."
+    }
+  ],
+  "related": [
+    "handling-a-suspicious-transaction",
+    "fraud-signs-online-orders",
+    "payment-links-for-instagram-sellers",
+    "data-you-should-never-store",
+    "handling-disputes-calmly"
+  ],
+  "icon": "lock",
+  "read_minutes": 6
+}

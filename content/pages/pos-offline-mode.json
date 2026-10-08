@@ -1,0 +1,121 @@
+{
+ "slug": "pos-offline-mode",
+ "topic": "pos",
+ "title": "What Happens to Your POS When the Wi-Fi Drops",
+ "seo_title": "What Happens to Your POS When the Wi-Fi Drops | PayPilot",
+ "meta_description": "How POS offline mode works, which sales can continue without internet, the risks of storing card payments, and how to prepare your team for an outage.",
+ "primary_keyword": "POS offline mode",
+ "keywords": [
+  "POS without internet",
+  "offline payments",
+  "store and forward",
+  "internet outage plan",
+  "backup connection",
+  "offline card payments risk",
+  "sync after outage"
+ ],
+ "eyebrow": "Resilience",
+ "dek": "Outages are rare but never polite. A short plan decides whether you keep selling or send customers away.",
+ "intro": [
+  "It is a busy Saturday afternoon, the line reaches the door, and the router blinks orange. Staff look at you, customers look at their phones, and every second of uncertainty costs sales.",
+  "Nearly every modern POS depends on the internet for something, whether it is verifying a card, syncing inventory or sending an order to the kitchen. What differs is how gracefully the system handles losing that connection.",
+  "Understanding offline behavior before it happens lets you write a plan on a quiet afternoon rather than improvising in the rush."
+ ],
+ "sections": [
+  {
+   "h2": "What offline mode actually means",
+   "paragraphs": [
+    "Offline mode describes a device that can keep working locally when it cannot reach the network. The device holds a copy of the menu and settings, records sales on its own storage and uploads them when the connection returns.",
+    "This is not the same across vendors or even across features of the same product. A POS might ring up items and track cash without internet but be unable to process cards, run reports or sync with other devices. Ask a precise question: which functions continue, and which stop?",
+    "It also helps to know where the limits lie in a multi-device shop. If two registers are offline from each other, each holds its own version of stock and open orders, and the differences must be reconciled when they reconnect."
+   ]
+  },
+  {
+   "h2": "Cash is easy, cards are the hard part",
+   "paragraphs": [
+    "Recording a cash sale needs no one else's permission. Cards are different, because normally the issuing bank is asked to approve each payment in seconds. With no connection, that approval cannot happen.",
+    "Some systems offer a stored-payment approach, sometimes called store and forward. The device captures the card details securely, gives the customer a receipt and submits the payment once the connection comes back. The catch is that the approval happens later, so a card could be declined after the customer has left with their goods.",
+    "Print the offline procedure at a readable size and laminate it. Under pressure, nobody scrolls through an email to find instructions."
+   ]
+  },
+  {
+   "h2": "Understanding the risk of storing payments",
+   "paragraphs": [
+    "The risk of a later decline sits with the merchant in most arrangements, which is why providers usually place limits on what can be taken offline, and why you should ask for those details in writing. Do not assume that every offline sale will be paid.",
+    "A hypothetical case: a coffee shop takes thirty small card sales during a short outage. If a handful are declined on upload, the loss is small. A jeweler taking one large offline payment faces a very different exposure, so thresholds should reflect the size of your typical ticket.",
+    "Chip and PIN transactions and contactless payments can behave differently offline, and rules may vary by card network. Confirm exactly which methods your provider supports in this state."
+   ]
+  },
+  {
+   "h2": "Build your outage plan",
+   "paragraphs": [
+    "A plan has three parts: how you stay connected, what you do if you cannot, and how you recover. Write it on one page and put it near the register.",
+    "Keep an old-fashioned manual imprint of your processes too: a clipboard with a pen, a pad of paper tickets and a simple calculator can carry a small shop through an hour without any technology at all."
+   ],
+   "steps": [
+    "Check the problem: restart the router, test another device and note whether the entire building is affected.",
+    "Switch to your backup connection, such as a phone hotspot or cellular failover, and reconnect the terminal.",
+    "If still offline, decide whether to take card payments in stored mode within your set limit, cash only, or pause service.",
+    "Tell customers plainly what you can accept, ideally with a small sign at the counter.",
+    "Record any stored or manual transactions on a paper log with time, amount and last four digits only.",
+    "After reconnecting, confirm that all stored payments uploaded and investigate any that failed."
+   ]
+  },
+  {
+   "h2": "Have a backup connection ready",
+   "paragraphs": [
+    "The best offline plan is to stay online. A second internet path on a different carrier solves most outages. A cellular hotspot costs little, and some routers fail over automatically.",
+    "Check that your backup is actually adequate. Streaming video on a hotspot in the back office will drain its data before the evening rush, so reserve it for payments. Test it quarterly by unplugging the main router during a quiet period.",
+    "If you use a PayPilot Go or Reader, ask support how they behave with a cellular connection versus Wi-Fi, so you know what your backup route looks like in practice."
+   ]
+  },
+  {
+   "h2": "Syncing and cleaning up afterward",
+   "paragraphs": [
+    "When the connection returns, the device uploads its queue. Do not shut it off or close the app until you see confirmation. Then compare the number and total of stored sales against your paper log.",
+    "Look for duplicates and failures. A sale that was rung twice during confusion, or one that did not upload, should be corrected promptly, because inventory and reports rely on that data being right.",
+    "Afterward, hold a short debrief. What went wrong, how long did it take to notice, and what would have made it smoother? Update the one-page plan, and share changes with the whole team.",
+    "If outages recur, keep a log of dates and durations and share it with your internet provider. A pattern is much harder for them to dismiss than a single complaint."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Ask your provider exactly which functions work without internet.",
+  "Cash sales are simple offline; card payments are the real question.",
+  "Stored card payments are approved later and may be declined after the customer leaves.",
+  "A backup connection prevents most outages from becoming a problem.",
+  "Keep a one-page outage plan and a paper log at the register."
+ ],
+ "faq": [
+  {
+   "q": "Will my PayPilot register keep taking cards if the connection goes down mid-shift?",
+   "a": "Sometimes. Certain devices can store a payment and submit it when the connection returns, but the bank approves it only at that moment, so it can be declined later. Providers typically set limits and conditions, so check what applies to your account before relying on it."
+  },
+  {
+   "q": "Will I lose sales data during an outage?",
+   "a": "A POS with offline support keeps sales on the device and uploads them later, so data should not be lost if you leave the app open until syncing finishes. Keep a simple paper log as a backup and reconcile it against the system afterward."
+  },
+  {
+   "q": "What is the best backup for Wi-Fi?",
+   "a": "A cellular connection on a different carrier from your main internet, either through a hotspot or a router with automatic failover. It keeps payments flowing without relying on the same infrastructure as your primary connection. Test it regularly so that it works when needed."
+  },
+  {
+   "q": "Should I stop accepting cards during an outage?",
+   "a": "That is your decision based on risk. For small tickets, many businesses accept stored payments within limits, while for large purchases they ask for cash or wait for the connection. Decide in advance, and post a clear notice so customers understand."
+  },
+  {
+   "q": "How do I train staff for outages?",
+   "a": "Walk through the one-page plan during a quiet shift, practice switching to the backup connection and rehearse the paper log. A simulated outage once or twice a year builds confidence and reveals gaps in the plan before a real outage does."
+  }
+ ],
+ "related": [
+  "pos-for-food-trucks",
+  "secure-wifi-for-payments",
+  "pos-hardware-checklist",
+  "daily-batch-close-routine",
+  "what-happens-when-a-card-is-declined",
+  "manual-card-entry-risks"
+ ],
+ "icon": "bolt",
+ "read_minutes": 6
+}

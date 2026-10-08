@@ -1,0 +1,135 @@
+{
+  "slug": "opening-day-checklist",
+  "topic": "growth",
+  "title": "The Payments Side of an Opening-Day Checklist",
+  "seo_title": "Opening-Day Payments Checklist | PayPilot",
+  "meta_description": "Before you open, test every payment path: tap, chip, swipe, refunds, receipts, offline mode, and deposits. A practical checklist for your first day.",
+  "primary_keyword": "opening day payments checklist",
+  "keywords": [
+    "new business payment setup",
+    "test card reader",
+    "grand opening checklist",
+    "POS setup test",
+    "first day of business",
+    "payment test transactions",
+    "staff training POS"
+  ],
+  "eyebrow": "Growth",
+  "dek": "The worst time to learn that a reader will not connect is while a line of first customers watches. Test everything in advance.",
+  "intro": [
+    "Weeks of work lead to a single morning. The sign is up, the shelves are full, the music is on, and the first customer walks in with a phone out. If the payment does not go through, that is the story they will tell.",
+    "Opening-day checklists usually cover permits, inventory, and decor. Payments deserve their own page, because a failure there stops the sale entirely, however good everything else looks.",
+    "Run these tests in the days before you open, while there is still time to fix what you find."
+  ],
+  "sections": [
+    {
+      "h2": "Confirm the basics are live",
+      "paragraphs": [
+        "Make sure your account is approved and fully set up, your deposit bank account is entered and correct, and your business details match your paperwork. A mismatch can delay deposits at the exact moment you are eager to see your first sales.",
+        "Check that devices are charged, updated, and paired with the right account. Log in to your dashboard from a separate computer, so you know you can reach it if the main device fails."
+      ]
+    },
+    {
+      "h2": "Test every way a customer might pay",
+      "paragraphs": [
+        "Customers will tap a phone, tap a card, insert a chip, and occasionally swipe. They may also use a gift card, split a payment across two methods, or ask to pay with a code. You want to have tried each one before they do.",
+        "Use your own card for small real transactions, then refund them. A real transaction tests the entire chain, from the reader to the network to your dashboard."
+      ],
+      "bullets": [
+        "Tap with a physical card and with a phone wallet.",
+        "Insert a chip card and enter a PIN if prompted.",
+        "Process a swipe fallback.",
+        "Split one bill across two payment methods.",
+        "Try a tip prompt if you use one."
+      ]
+    },
+    {
+      "h2": "Practice refunds, voids, and corrections",
+      "paragraphs": [
+        "Mistakes will happen on day one. A cashier will ring the wrong item or a customer will change their mind. Practice the difference between voiding an unsettled sale and refunding a completed one, and make sure the people who need permission have it.",
+        "Decide who can approve refunds and discounts. In the PayPilot POS, employee permissions let you limit sensitive actions to managers, which prevents accidents and temptations."
+      ]
+    },
+    {
+      "h2": "Check receipts and customer-facing details",
+      "paragraphs": [
+        "Print or send a sample receipt and read it as a customer would. Is your business name correct and recognizable? Are the address and phone number right? Does the tax line look correct? Does the receipt show your return policy if you have one?",
+        "Also confirm what appears on card statements. A clear business name helps customers recognize the charge and reduces disputes later."
+      ]
+    },
+    {
+      "h2": "Prepare for the unexpected",
+      "paragraphs": [
+        "Find out what happens when the internet drops. Try your backup connection and learn which payment types are limited in offline mode. Keep a charger, spare paper, and a written list of steps near the register.",
+        "Save the support number somewhere visible. PayPilot support is available 24/7 at 844.826.6227, which matters when your opening day falls on a weekend or holiday."
+      ],
+      "steps": [
+        "Disconnect the main internet and confirm the backup connection works.",
+        "Ring a test sale in offline mode if your POS supports it.",
+        "Reconnect and confirm the sale syncs.",
+        "Write the troubleshooting steps on a card and keep it at the register."
+      ]
+    },
+    {
+      "h2": "Train the people, not just the machines",
+      "paragraphs": [
+        "Hold a short walkthrough with everyone who will use the register. Let each person ring a few sales, take a refund, and handle a declined card. Confidence comes from repetition, and customers notice hesitation.",
+        "Teach a calm script for a declined card: offer another method without embarrassment, and avoid explaining why. Give staff the rules for photo identification, large transactions, and anything unusual so no one invents policy under pressure."
+      ]
+    },
+    {
+      "h2": "A hypothetical dress rehearsal the day before",
+      "paragraphs": [
+        "Invite a few friends or family members to act as customers for an hour. Give them real roles: one pays with a phone, one taps a card, one splits a bill, one asks for a refund, one hands over a card that declines. Staff handle each situation as they would in front of strangers.",
+        "Afterward, ask the volunteers where they felt confused or slowed down. A line on the receipt that no one understood, a tip screen that appeared too early, a reader too far from the counter. These are small fixes that cost minutes the day before and hours if discovered during the grand opening."
+      ]
+    },
+    {
+      "h2": "Keep paperwork within reach",
+      "paragraphs": [
+        "Create a folder, paper or digital, with your account details, support number, device serial numbers, and a copy of your return policy. Having them in one place saves minutes when a question comes up.",
+        "Note who holds the manager credentials and where backup codes are kept, so the business can run even if one person is out on opening week."
+      ]
+    },
+    {
+      "h2": "Plan the first deposit and the first week",
+      "paragraphs": [
+        "Know when to expect your first deposit. Next-day funding is available, though timing depends on when the batch closes and on your account. Mark the day on a calendar and compare your sales report with the deposit when it arrives.",
+        "At the end of day one, run your closing routine: close the batch, review the report, and note any problems. A short debrief the next morning lets you fix small issues before they become habits."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Test every payment method with real transactions before opening.",
+    "Practice refunds, voids, and offline mode, not just successful sales.",
+    "Read your receipt and statement name as a customer would.",
+    "Train staff and keep the support number visible."
+  ],
+  "faq": [
+    {
+      "q": "How early should I test my payment setup?",
+      "a": "Several days before opening, so you have time to fix problems or contact support. Running real, small transactions with your own card and then refunding them proves the full chain works. If something fails, you want enough time to call support and wait for a replacement."
+    },
+    {
+      "q": "What should I do if a card is declined on day one?",
+      "a": "Stay calm and offer another method without explaining or assuming a reason. Declines happen for many reasons, and customers appreciate discretion. Try again once if it seems like a read error. Practice that moment in your rehearsal so no one has to improvise it in front of a crowd."
+    },
+    {
+      "q": "When will I get my first deposit?",
+      "a": "Next-day funding is available, and your timing depends on when your batch closes and on your account setup. Check your dashboard after your first day and compare the deposit with your report. Mark the date on your calendar and check your account again that morning."
+    },
+    {
+      "q": "Who should have refund permission?",
+      "a": "Usually managers or trusted leads. Limiting refunds, voids, and large discounts reduces mistakes and temptations. You can adjust permissions as staff gain experience. Reconsider assignments after the first month, once you know who handles the till well. As the team gains experience, you can widen those permissions step by step and review them after the first busy month."
+    }
+  ],
+  "related": [
+    "first-week-accepting-cards",
+    "pos-hardware-checklist",
+    "pos-offline-mode",
+    "employee-permissions-pos",
+    "daily-batch-close-routine"
+  ],
+  "icon": "rocket",
+  "read_minutes": 7
+}

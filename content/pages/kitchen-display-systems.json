@@ -1,0 +1,122 @@
+{
+ "slug": "kitchen-display-systems",
+ "topic": "pos",
+ "title": "Kitchen Display Systems vs. Paper Tickets",
+ "seo_title": "Kitchen Display Systems vs. Paper Tickets | PayPilot",
+ "meta_description": "Compare a kitchen display system with paper tickets: timers, station routing, bump bars, costs and when a KDS is worth the switch for your kitchen.",
+ "primary_keyword": "kitchen display system",
+ "keywords": [
+  "KDS vs printer tickets",
+  "kitchen display screen",
+  "bump bar",
+  "order routing stations",
+  "ticket timers",
+  "restaurant kitchen workflow",
+  "expo screen"
+ ],
+ "eyebrow": "Back of house",
+ "dek": "Paper tickets are cheap and familiar. A kitchen display adds timers, routing and a record of what actually happened.",
+ "intro": [
+  "The clatter of a ticket printer is one of the oldest sounds in a restaurant. It works, up to a point. Then a night comes when the rail is full, a ticket slides under a pile, and a table waits forty minutes for an appetizer nobody remembered to start.",
+  "A kitchen display system, usually shortened to KDS, replaces the printer with a screen. Orders appear in sequence, color changes as they age, and cooks clear them with a tap or a bump bar.",
+  "Whether that is a good trade depends on your kitchen. Here is how the two approaches compare, and how to decide."
+ ],
+ "sections": [
+  {
+   "h2": "How paper tickets really behave",
+   "paragraphs": [
+    "A printer prints each order, a cook reads it, hangs it on a rail and cooks from left to right. The system is robust: no software to freeze, no screen to clean, and a ticket can be held up to a light to read the splatters of the night.",
+    "The weak points are physical. Tickets curl, smear and go missing. A modification handwritten in the margin is easy to overlook. Nothing tells you how long a ticket has been hanging unless someone checks a clock, and nothing records when a dish left the pass.",
+    "Paper also has a quiet social function: a cook can slide a ticket aside to signal a problem, and the whole line understands. Any screen setup needs an equivalent, such as a hold or flag action that other stations can see."
+   ]
+  },
+  {
+   "h2": "What a KDS adds",
+   "paragraphs": [
+    "A display shows each order as a card. The card carries a timer that starts when the order arrives, and many setups change the card color after a threshold so the oldest orders stand out without anyone reading a clock.",
+    "Bumping an item or an order marks it done and stores the time. That history lets you see average prep times by station and by hour, which no paper rail can offer. It is the first time many owners can answer whether the grill is actually the bottleneck.",
+    "The history is useful beyond the kitchen. If the average time for burgers doubles every Friday at seven, that is a staffing or prep conversation, and you can have it with evidence instead of impressions."
+   ],
+   "bullets": [
+    "Timers and color alerts for aging orders.",
+    "Item-level bumping so a salad can leave before the steak on the same ticket.",
+    "Recall of recently cleared orders after an accidental bump.",
+    "Automatic highlighting of allergy notes and modifiers.",
+    "Stored prep-time history by item and station."
+   ]
+  },
+  {
+   "h2": "Routing orders to the right station",
+   "paragraphs": [
+    "Routing is where a KDS really earns its keep. Instead of every ticket printing at one place, drinks go to the bar screen, fried items to the fry station, and cold plates to garde manger. Each cook sees only what they need to make.",
+    "An expo screen aggregates everything for a table so the person at the pass knows when all components are ready. A hypothetical example: a table orders two salads, two burgers and a dessert. The salad station bumps its items, the grill bumps its items, and expo sees one complete order ready to run.",
+    "You can still route to printers for stations where screens are impractical, like a hot fry area with grease in the air. Mixed setups are common.",
+    "Think about what happens when an order is changed after it is sent. A good display highlights the change on the existing card instead of creating a confusing duplicate, so a cook who already started the dish knows to adjust it."
+   ]
+  },
+  {
+   "h2": "Costs, hardware and cleaning",
+   "paragraphs": [
+    "A KDS means screens, mounts, a network connection and usually a subscription for the software. Paper means a printer, ink or thermal rolls, and a rail. The upfront difference is real, and it is worth comparing against your current cost of remakes and comped meals.",
+    "Kitchens are hostile to electronics. Look for screens rated for heat and moisture, mount them away from steam, and plan for easy wiping. A cracked screen at six on a Saturday is a bigger problem than a jammed printer.",
+    "Do the math on one year of costs: screens, mounts, any installation, the software fee, and the paper and printer ribbons you stop buying. Then add a rough value for the remakes you expect to avoid, using your own numbers from the last month."
+   ]
+  },
+  {
+   "h2": "Changing habits in the kitchen",
+   "paragraphs": [
+    "The technology is the easy part. Cooks who have worked from paper for years may resist a screen at first. Involve the head cook in choosing the layout, and let them decide how stations are named and which items route where.",
+    "Run both systems side by side for a week. Print tickets as a backup while the team gets used to bumping. When nobody reaches for the paper, switch it off.",
+    "Agree on bumping rules. Bump on plate-up, not on start, or your timers will lie. Consistency matters more than the specific choice.",
+    "Post a one-page cheat sheet beside each screen showing what the colors mean and what a bump does. New hires pick the system up faster when the rules are visible, and the experienced cooks stop being asked the same questions all night."
+   ]
+  },
+  {
+   "h2": "Is a KDS right for your kitchen?",
+   "paragraphs": [
+    "If you have a small menu, one cook and a handful of tickets per hour, a printer is perfectly adequate. If you have several stations, long ticket times, frequent remakes or online orders pouring in alongside dine-in, a screen starts to pay for itself in clarity.",
+    "Consider also how orders arrive. When online orders flow into the same system as dine-in, a KDS gives the kitchen one queue instead of two printers fighting for attention. PayPilot POS sends orders from table handhelds and online channels to kitchen screens or printers, so you can start with one and add the other later.",
+    "A practical step is to trial a single screen at your busiest station for a few weeks. Compare ticket times and remakes against the previous month, and expand only if the numbers justify it."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Paper tickets are cheap and reliable but give you no timing data.",
+  "A KDS adds timers, item-level bumping and history of prep times.",
+  "Station routing sends each cook only the items they make.",
+  "Plan for heat, steam and cleaning when choosing screens.",
+  "Trial one station first and compare ticket times before expanding."
+ ],
+ "faq": [
+  {
+   "q": "What is a kitchen display system?",
+   "a": "A kitchen display system is a screen, or set of screens, that shows incoming orders to kitchen staff in place of printed tickets. Orders carry timers, can be routed by station and are cleared by touch or a bump bar. The system also records how long each order took to complete."
+  },
+  {
+   "q": "Do I still need a ticket printer with a KDS?",
+   "a": "Many kitchens keep a printer as a backup or for stations where screens are impractical. If a screen fails or the network drops, a printer can print the queue so service continues. Ask your provider how the system behaves when a display loses its connection."
+  },
+  {
+   "q": "How does a bump bar work?",
+   "a": "A bump bar is a small keypad mounted near a cook. Each button clears the oldest order or moves to the next one, so staff can mark items done without touching a screen with greasy hands. It speeds up bumping and reduces smudged displays."
+  },
+  {
+   "q": "Can a KDS handle online orders?",
+   "a": "Yes, when the online ordering system and POS share one menu and order flow, web orders appear on the same kitchen screens as dine-in tickets. That gives the kitchen a single queue to work from and prevents separate printers or tablets from piling up."
+  },
+  {
+   "q": "Will a KDS slow down my cooks at first?",
+   "a": "There is usually a short adjustment period as habits change, particularly around bumping. Running screens alongside paper for a week or two smooths the transition. Most teams find that clearer priorities and fewer lost tickets outweigh the initial learning curve."
+  }
+ ],
+ "related": [
+  "handhelds-tableside-ordering",
+  "online-ordering-from-your-pos",
+  "pos-for-restaurants-front-and-back",
+  "pos-for-food-trucks",
+  "pos-hardware-checklist",
+  "using-sales-data-to-staff"
+ ],
+ "icon": "utensils",
+ "read_minutes": 6
+}

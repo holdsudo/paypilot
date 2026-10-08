@@ -1,0 +1,135 @@
+{
+  "slug": "processing-statement-basics-for-new-owners",
+  "topic": "cards",
+  "title": "Reading Your First Processing Statement",
+  "seo_title": "How to Read a Card Processing Statement | PayPilot",
+  "meta_description": "Sales, deposits, and fees rarely match line for line. Learn how to read a processing statement, spot the key sections, and ask the right questions.",
+  "primary_keyword": "processing statement",
+  "keywords": [
+    "merchant statement explained",
+    "how to read a merchant statement",
+    "processing fees breakdown",
+    "effective rate",
+    "chargebacks on statement",
+    "deposit reconciliation",
+    "statement fees"
+  ],
+  "eyebrow": "Fees & reports",
+  "dek": "The monthly statement looks like a wall of numbers. Once you know its sections, it becomes a map of where your card money went.",
+  "intro": [
+    "The first statement arrives, and it is not a one-page summary. There are tables, abbreviations, and codes that look as if they were written for someone else. A lot of new owners glance at the bottom line, feel a faint unease, and file it away.",
+    "That is a missed opportunity. The statement is the one document that shows what customers paid, what you received, and what it cost to move the money. Reading it carefully can reveal errors, highlight savings, and make your bookkeeping far easier.",
+    "This guide takes the statement apart, section by section, with invented figures where examples help, so you can read yours with confidence."
+  ],
+  "sections": [
+    {
+      "h2": "Sales, deposits, and fees are three different numbers",
+      "paragraphs": [
+        "New owners often expect the amount that lands in the bank to equal the amount they sold. It rarely does, and that is normal. Sales volume is the total your customers paid by card. Fees are what the card system charged to carry those payments. Deposits are the money actually sent to your account after adjustments.",
+        "Other items can also pull the numbers apart: refunds reduce the deposit, chargebacks claw back money, and timing places some sales in one month and their deposits in the next. Keep the three concepts separate in your head and the statement starts to make sense.",
+        "Think of the statement as a receipt for the service of moving money. Just as a courier invoice lists each parcel, the weight, and the surcharges, your statement lists each category of payment, the cost attached, and the net result. If the invoice and the parcels you sent do not agree, you want to know why."
+      ]
+    },
+    {
+      "h2": "A walk through the typical sections",
+      "paragraphs": [
+        "Layouts differ, but most statements contain the same building blocks. Find each one and note what it tells you.",
+        "Look for the following parts:"
+      ],
+      "bullets": [
+        "Summary: total volume, transaction count, fees, and net amount for the period",
+        "Card-type breakdown: volume and fees by network or by credit and debit",
+        "Fee detail: line items for percentage fees, per-transaction fees, and monthly charges",
+        "Adjustments: refunds, chargebacks, and other corrections",
+        "Funding detail: dates and amounts of each deposit sent to your bank"
+      ]
+    },
+    {
+      "h2": "Types of fees you may see",
+      "paragraphs": [
+        "Fees fall into a few families. Some are charged on every transaction, usually as a percentage plus a flat amount. Others are charged monthly, such as account or statement fees. Occasional fees may apply for events like chargebacks or paperwork changes.",
+        "Not every provider has every fee, and some plans bundle everything into a simple rate. Your own pricing agreement is the authority, so keep a copy beside the statement and compare them line by line. If something appears that you do not recognize, ask about it.",
+        "Some line items may carry cryptic abbreviations. Rather than guessing, circle each one and ask support for a plain-language definition. Keeping a short glossary in your records means next quarter's review takes minutes, and a new bookkeeper can learn your statement without calling anyone."
+      ]
+    },
+    {
+      "h2": "Your effective rate in two lines",
+      "paragraphs": [
+        "To judge whether your processing cost is reasonable, compute the effective rate. Divide total fees by total card volume for the month. A hypothetical example: if fees were a few hundred dollars on twenty thousand dollars of volume, the effective rate would be a little over one percent. These numbers are invented for illustration only.",
+        "Track the figure monthly. If it climbs without a change in your plan, look at the card-type breakdown. A growing share of certain card types, or more keyed entries, may explain the shift."
+      ],
+      "steps": [
+        "Find total fees on the summary page",
+        "Find total card volume for the same period",
+        "Divide fees by volume and convert to a percentage",
+        "Compare with last month and note what changed",
+        "Ask support about any increase you cannot explain"
+      ]
+    },
+    {
+      "h2": "Reconciling deposits to sales",
+      "paragraphs": [
+        "Match each deposit to the batch behind it. Your funding detail lists the amounts and dates, and your batch reports list the sales that produced them. With next-day funding available, deposits typically follow soon after a batch closes, but weekends and holidays can stretch the gap.",
+        "If a deposit is smaller than expected, look first for refunds, a chargeback, or a batch that closed after the cutoff. Most differences resolve into one of these. Write the explanation next to the line so your accountant does not have to guess."
+      ]
+    },
+    {
+      "h2": "Warning signs worth a phone call",
+      "paragraphs": [
+        "A statement can reveal problems before they become expensive. Pay attention to changes you did not request and charges you cannot match to an agreement.",
+        "Contact support at 844.826.6227 if you notice any of the following:"
+      ],
+      "bullets": [
+        "A fee line that did not appear in prior months",
+        "A pricing change you were not told about",
+        "Missing deposits, or deposits that show up on odd dates",
+        "Chargebacks you do not recognize",
+        "Volume or transaction counts that do not match your own records"
+      ]
+    },
+    {
+      "h2": "Keep a simple routine",
+      "paragraphs": [
+        "Set aside twenty minutes each month. Open the statement, check the summary against your sales system, compute your effective rate, and file the document with your bookkeeping. If you use a PayPilot POS, compare the statement to the system's own monthly report to catch mismatches early.",
+        "Over time, the exercise makes you the person in your business who understands where card money goes. That knowledge helps you negotiate, plan cash flow, and spot problems quickly."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Sales volume, fees, and deposits are three separate numbers.",
+    "Your effective rate equals total fees divided by total card volume.",
+    "Refunds, chargebacks, and timing explain most deposit differences.",
+    "Review the statement monthly and question any unfamiliar charge."
+  ],
+  "faq": [
+    {
+      "q": "Why is my deposit lower than my sales?",
+      "a": "Several things can pull it down: processing fees, refunds, chargebacks, or sales still waiting in an open batch. Timing also matters, because some sales fall into the next funding cycle. Compare the deposit with the batch report and the statement adjustments section to find the exact difference."
+    },
+    {
+      "q": "What is an effective rate?",
+      "a": "It is your total fees divided by your total card volume, shown as a percentage. It gives a single number that captures all the individual fee lines. Tracking it over time helps you see whether your costs are rising and whether changes you make are working."
+    },
+    {
+      "q": "Are monthly fees normal?",
+      "a": "Many pricing plans include some recurring charge, such as an account, statement, or software fee, while others fold everything into the transaction rate. Check your agreement to see what applies to you, and ask support to explain any monthly line you do not recognize."
+    },
+    {
+      "q": "How long should I keep my statements?",
+      "a": "Keep them according to your tax and record-keeping obligations, which differ by location. Many owners hold onto processing statements for several years alongside other financial records. Ask an accountant what retention period suits your business, and store copies securely. Mark any line you cannot match before the next billing cycle."
+    },
+    {
+      "q": "What should I do if I find an error?",
+      "a": "Note the date, the amount, and the line, then contact support at 844.826.6227 with your account details. Provide supporting documents such as batch reports or deposits. Prompt reporting gives the best chance of a straightforward correction. Keep a note of every question you ask and the answer you receive."
+    }
+  ],
+  "related": [
+    "deposits-timing-explained",
+    "daily-batch-close-routine",
+    "processing-fees-on-small-sales",
+    "cash-flow-from-faster-deposits",
+    "pos-reports-to-check-weekly"
+  ],
+  "icon": "file",
+  "read_minutes": 7
+}

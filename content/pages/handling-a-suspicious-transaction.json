@@ -1,0 +1,129 @@
+{
+  "slug": "handling-a-suspicious-transaction",
+  "topic": "cards",
+  "title": "What to Do When a Transaction Feels Suspicious",
+  "seo_title": "Handling a Suspicious Card Transaction | PayPilot",
+  "meta_description": "Trust your instincts at the register. Learn the red flags of card fraud, how to pause a sale politely, and the staff scripts that keep everyone safe.",
+  "primary_keyword": "suspicious card transaction",
+  "keywords": [
+    "card fraud red flags",
+    "call for authorization",
+    "code 10 call",
+    "stolen card at register",
+    "fraud prevention for retailers",
+    "suspicious customer behavior",
+    "verify card holder"
+  ],
+  "eyebrow": "Fraud awareness",
+  "dek": "Most strange moments at the register are harmless. A few are not. Here is how to tell the difference and what to say.",
+  "intro": [
+    "It is late on a Saturday. A customer picks out several expensive items without asking a single price, insists on paying by card, and grows restless when the reader takes a moment. Your stomach tightens. Is it fraud, or just someone in a hurry?",
+    "Staff often feel awkward acting on a hunch, because accusing an honest customer is unpleasant. The good news is that you do not have to accuse anyone. You only have to slow the moment down, ask ordinary questions, and know who to call.",
+    "The guidance below covers common red flags, a polite way to pause, and what to do afterward, so that your team feels prepared rather than anxious."
+  ],
+  "sections": [
+    {
+      "h2": "Red flags worth noticing",
+      "paragraphs": [
+        "No single behavior proves anything. Honest customers can be nervous, and fraudsters can be charming. What matters is the combination and your own sense that something is off.",
+        "Signs that deserve a second look include:"
+      ],
+      "bullets": [
+        "Large purchases of items that are easy to resell, with no interest in price or fit",
+        "Several cards tried in a row, or a card that works only after multiple attempts",
+        "A customer who seems unfamiliar with the name on the card",
+        "Pressure to rush, skip receipts, or avoid the PIN pad",
+        "A card whose chip fails repeatedly so that you are pushed to type the number",
+        "An order for pickup by a third party who is not the cardholder"
+      ]
+    },
+    {
+      "h2": "Pause without accusing",
+      "paragraphs": [
+        "The goal is to slow things down, not to confront. Employees can lean on process rather than suspicion. Saying 'our system asks me to double-check larger purchases' places the delay on policy, and it is true if you make it your policy.",
+        "A calm tone is the best tool. A genuine fraudster often leaves when the pace changes, while an honest customer usually shrugs and waits.",
+        "Staff sometimes worry about getting it wrong. Remind them that a pause costs a few minutes, whereas a fraudulent sale can cost a full profit margin and more. A culture where nobody is punished for pausing a legitimate sale, and everybody is thanked for catching a bad one, makes the right behavior automatic."
+      ]
+    },
+    {
+      "h2": "Steps at the register",
+      "paragraphs": [
+        "Create a short set of steps that anyone can follow. Practice them once so nobody freezes when it matters.",
+        "A workable sequence looks like this:"
+      ],
+      "steps": [
+        "Smile, keep the item at the counter, and say a manager needs to confirm the sale",
+        "Ask for a second form of verification if your policy permits, such as ID that matches the card name",
+        "Insert the chip or tap rather than keying the number whenever possible",
+        "Compare the billing ZIP and security code results on a keyed sale",
+        "If something still seems wrong, offer a different payment method or politely decline the sale"
+      ]
+    },
+    {
+      "h2": "Calling for authorization",
+      "paragraphs": [
+        "Processors offer a way to flag a sale and ask the card's issuer to take a closer look. Sometimes called a call-in or a voice authorization, it routes you to a representative who can ask the issuer about the card. Ask your support team at 844.826.6227 how that works for your account.",
+        "During the call, follow the representative's instructions exactly. They may ask a few yes-or-no questions so that you can answer without alerting the person at the counter. If told to hold the card, follow the guidance and do not put yourself at risk."
+      ]
+    },
+    {
+      "h2": "Safety comes before a sale",
+      "paragraphs": [
+        "No transaction is worth a confrontation. If a customer becomes angry or aggressive, step back, involve a manager, and let them leave if they wish. Never chase someone out of the shop and never try to physically take a card.",
+        "Write down what you remember as soon as it is safe: the time, the amount, the item, the description of the person, and the card's last four digits. These notes help your processor and, if necessary, the authorities.",
+        "Cameras and logs are helpful, though they never replace judgment. If you have video at the register, note where it points and how long footage is kept. Written logs of unusual events, even when nothing came of them, help you spot a pattern if the same person or card returns weeks later."
+      ]
+    },
+    {
+      "h2": "Special cases: phone orders and pickups",
+      "paragraphs": [
+        "Fraud often arrives by phone or online rather than in person. A caller wants a rush order picked up by a courier, supplies a card number from a script, and does not mind the price. Because the card is not present, you lack the chip and the PIN, so the standard is stricter.",
+        "Verify the customer through an independent route, such as calling back on a published number. Hold shipments until a payment is confirmed, and prefer a payment link so the customer pays on their own device. Our article on manual card entry covers the safeguards in more depth."
+      ]
+    },
+    {
+      "h2": "After the fact: report and review",
+      "paragraphs": [
+        "If you discover later that a sale was fraudulent, contact support quickly with the details. Early notice gives you the best chance to respond to any dispute and to help prevent a repeat. Keep receipts, security footage if you have it, and notes together.",
+        "Then hold a brief team debrief. Ask what felt off, what worked, and what to change. A calm review turns a stressful incident into a tighter routine, and it shows staff that raising a concern is welcomed, not punished."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Combinations of red flags matter more than any single odd behavior.",
+    "Slow the sale down using policy language rather than accusing anyone.",
+    "Prefer chip, tap, or a payment link over typing a card number yourself.",
+    "Never risk personal safety for a sale, and write notes while details are fresh."
+  ],
+  "faq": [
+    {
+      "q": "Can I refuse a sale if I think a card is stolen?",
+      "a": "In most cases a merchant can decline a transaction they believe is fraudulent. Do it politely and without accusing the customer, offering another payment method instead. If you are unsure of the rules where you operate, ask your support team or a legal professional."
+    },
+    {
+      "q": "Should I ask for ID on every card sale?",
+      "a": "Not routinely. Card network rules and local practice may limit blanket ID requests. Reserve it for unusual situations, such as large purchases or odd behavior, and apply the policy consistently. Check your merchant agreement for any restrictions. Whatever you decide, stay calm and courteous throughout the exchange."
+    },
+    {
+      "q": "What if the card was approved but I still have doubts?",
+      "a": "An approval means the bank agreed to the charge, not that the person is the true cardholder. If your gut says otherwise, you can pause and ask additional verification questions. Document your concerns, and contact support if you believe the sale may be fraudulent."
+    },
+    {
+      "q": "What happens if I miss a fraudulent sale?",
+      "a": "The real cardholder may dispute the charge, and the amount can be taken back from you. Collect receipts, notes, and any camera footage to respond. Report the incident to support right away so they can guide you through the dispute steps."
+    },
+    {
+      "q": "How can I train staff without making them paranoid?",
+      "a": "Focus on process, not suspicion. Practice a few scripts, explain the common red flags, and remind them that pausing a sale is acceptable. Praise the employee who raised a concern even if it turned out to be nothing. Share what you learned with the whole team afterward."
+    }
+  ],
+  "related": [
+    "manual-card-entry-risks",
+    "fraud-signs-online-orders",
+    "handling-disputes-calmly",
+    "card-skimming-prevention",
+    "what-happens-when-a-card-is-declined"
+  ],
+  "icon": "shield",
+  "read_minutes": 7
+}

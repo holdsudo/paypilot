@@ -1,0 +1,130 @@
+{
+  "slug": "p2p-payment-scams",
+  "topic": "money",
+  "title": "Peer-to-Peer Payment Scams and How to Spot Them",
+  "seo_title": "P2P Payment Scams and How to Spot Them | PayPilot",
+  "meta_description": "Learn how peer-to-peer payment scams work, from fake overpayments to impersonation and accidental-send tricks, and the habits that keep your money safe.",
+  "primary_keyword": "p2p payment scams",
+  "keywords": [
+    "peer-to-peer payment scams",
+    "overpayment scam",
+    "fake buyer scam",
+    "impersonation scam",
+    "accidental payment scam",
+    "payment app safety",
+    "avoid payment scams"
+  ],
+  "eyebrow": "Stay safe",
+  "dek": "Almost every payment scam relies on the same two ingredients: manufactured urgency and a payment that cannot easily be taken back.",
+  "intro": [
+    "Money that moves in seconds is wonderful when you are paying a friend and troubling when you are paying a stranger who is lying to you. Fraudsters have noticed that speed and finality work in their favor, and they build their stories around both.",
+    "The good news is that the scripts are repetitive. Once you recognize the handful of common setups, you can usually spot one within the first couple of messages and walk away before any money moves."
+  ],
+  "sections": [
+    {
+      "h2": "Why these scams work",
+      "paragraphs": [
+        "Peer-to-peer payments are designed for people who know each other. They assume you trust the recipient, so they carry fewer of the cushions that exist around business purchases, and a completed send may not be reversible.",
+        "Scammers exploit that assumption. They make themselves look like a friend, a buyer, a support agent or an official, and then lean on emotion: fear, excitement, embarrassment or a ticking clock. A calm pause is the single most effective countermeasure, because most scripts fall apart when you slow them down."
+      ]
+    },
+    {
+      "h2": "The fake buyer and the overpayment",
+      "paragraphs": [
+        "You list a bike for sale. A buyer agrees instantly, sends a screenshot showing a payment larger than the price, and asks you to refund the difference or pay a shipping agent. The screenshot is fake, or the original payment later fails, and your refund is real money out of your pocket.",
+        "The rule is simple: only act on money that is actually in your balance, as shown in your own app, not on a picture someone sent you. Never return an overpayment to a third party, and be wary of any buyer who is in a hurry to arrange a courier you did not choose."
+      ]
+    },
+    {
+      "h2": "Impersonation: friends, relatives and officials",
+      "paragraphs": [
+        "A message arrives from what looks like your cousin's new number. They are stranded, their card is blocked and they need money immediately. Other variations pose as a landlord with changed bank details, a boss asking for gift purchases, or an official demanding payment to avoid trouble.",
+        "Verify through a second channel you already trust. Call the real person on a number you have saved, not the one in the message. Genuine contacts do not mind the extra step, and a scammer's story rarely survives it."
+      ],
+      "bullets": [
+        "New number claiming to be someone you know",
+        "Requests for secrecy or instructions not to call anyone",
+        "Payment demanded within minutes",
+        "Unusual payment methods or sudden changes to previously agreed details"
+      ]
+    },
+    {
+      "h2": "The accidental send",
+      "paragraphs": [
+        "In this setup you receive a payment you did not expect, followed by a polite message from a stranger explaining they sent it to the wrong person and asking you to return it. Sometimes the original payment is funded by a stolen source, and the money you return is genuinely yours to lose when the first one is clawed back.",
+        "If an unexpected payment appears, do not rush to send anything back. Contact support through the official app channel and let them guide the return, since they can see what is happening behind the scenes."
+      ]
+    },
+    {
+      "h2": "Fake support and code requests",
+      "paragraphs": [
+        "Someone contacts you claiming to be from a payment company and says your account is compromised. To fix it, they need a verification code that just arrived by text. That code is the key to your account, and handing it over lets them take control.",
+        "No legitimate support agent will ask you for a one-time passcode or your password. If a call or message worries you, hang up and open the app yourself to reach support through its built-in help. PayPilot's 24/7 support line is 844.826.6227 for anything you want to check."
+      ]
+    },
+    {
+      "h2": "Romance, investment and sob-story variations",
+      "paragraphs": [
+        "Longer cons build a relationship first. Someone you met online becomes a confidant over weeks, and then a crisis appears: a hospital bill, a customs fee, a once-in-a-lifetime opportunity. The payments start small and grow, and each one is justified by the last.",
+        "The tell is that money always flows in one direction and the person can never meet you or appear on camera. If someone you have never met in person asks you for money, the kindest thing you can do for yourself is stop and talk it through with a friend who has no emotional stake."
+      ]
+    },
+    {
+      "h2": "A short checklist before you send",
+      "paragraphs": [
+        "Habit beats vigilance. If you run through the same few questions each time, you stop relying on your mood in the moment."
+      ],
+      "steps": [
+        "Do I know this person, and have I confirmed it through another channel?",
+        "Is anyone rushing me or telling me to keep this secret?",
+        "Is the payment for something I can verify, like goods I have seen?",
+        "Would I still send this if I waited an hour?",
+        "Do I understand that this payment may not be reversible?"
+      ]
+    },
+    {
+      "h2": "If you think you have been scammed",
+      "paragraphs": [
+        "Act quickly. Contact the app's support at once, describe exactly what happened, and share the recipient details and timestamps. The sooner the report, the better the chance of limiting damage, though recovery is never guaranteed.",
+        "Then secure your accounts: change passwords, review recent activity, and warn anyone who might also be targeted. Report the scheme to the appropriate consumer protection authority in your area, since patterns of reports are how these operations get shut down."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Scams combine urgency with a payment that may not be reversible.",
+    "Trust the balance in your own app, never a screenshot someone sends.",
+    "Verify requests from friends and officials through a second, trusted channel.",
+    "Never share a one-time code, and report problems to support immediately."
+  ],
+  "faq": [
+    {
+      "q": "Can I get my money back after sending it to a scammer?",
+      "a": "Sometimes, but it is never guaranteed. Peer-to-peer payments may not be reversible, so recovery usually depends on how quickly you report and whether funds are still reachable. Contact support immediately with the details and do not expect that a completed send can simply be undone."
+    },
+    {
+      "q": "What is an overpayment scam?",
+      "a": "A fake buyer pays more than the price, or appears to, and then asks you to refund the extra or forward it to someone else. The original payment is fraudulent or later fails, so your refund is a real loss. Only trust funds that show in your own balance."
+    },
+    {
+      "q": "A stranger says they sent me money by mistake. What should I do?",
+      "a": "Do not return it directly. Contact support through the official app and explain the situation, so the return can be handled safely. Sending money back on your own can leave you responsible if the original payment later turns out to be fraudulent."
+    },
+    {
+      "q": "Will a payment company ever ask for my verification code?",
+      "a": "No. Codes exist to prove it is you, and anyone requesting one is trying to take over your account. End the conversation, change your password and, if you shared a code, contact support right away so they can help protect your account."
+    },
+    {
+      "q": "How do I protect my account from being taken over?",
+      "a": "Use a strong, unique password, switch on any extra sign-in protections your app offers, and keep your phone locked. Never approve a login you did not start. If you ever notice activity you do not recognize, contact support immediately and change your credentials."
+    }
+  ],
+  "related": [
+    "sent-money-to-wrong-person",
+    "p2p-for-small-business",
+    "account-takeover-protection-for-wallet-users",
+    "p2p-limits-and-verification",
+    "sending-money-to-family"
+  ],
+  "icon": "shield",
+  "read_minutes": 7
+}

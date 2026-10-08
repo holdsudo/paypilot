@@ -1,0 +1,129 @@
+{
+  "slug": "what-happens-when-a-card-is-declined",
+  "topic": "cards",
+  "title": "What Really Happens When a Card Is Declined",
+  "seo_title": "What Happens When a Card Is Declined | PayPilot",
+  "meta_description": "A card decline is a message from the customer's bank, not a verdict on your business. Learn the common reasons, what the reader shows, and what to say.",
+  "primary_keyword": "card declined",
+  "keywords": [
+    "why was my card declined",
+    "decline codes",
+    "insufficient funds decline",
+    "issuer decline",
+    "what to say when a card is declined",
+    "retry a declined card",
+    "authorization request"
+  ],
+  "eyebrow": "Card basics",
+  "dek": "A decline is a three-second conversation between your reader and the customer's bank. Here is what was said, and how to respond kindly.",
+  "intro": [
+    "A customer taps, the reader buzzes, and the screen says declined. The line behind them goes quiet. For a moment everyone in the shop is thinking the same awkward thought, and you are the one holding the device.",
+    "It helps to know that a decline is simply an answer. Your reader asked the customer's bank a question and the bank said no, usually for a reason that has nothing to do with you, your equipment, or the person standing at your counter.",
+    "Once you understand the journey the request takes and the handful of reasons it comes back negative, you can handle the moment with warmth instead of embarrassment."
+  ],
+  "sections": [
+    {
+      "h2": "The three-second trip your payment takes",
+      "paragraphs": [
+        "When a card is tapped, inserted, or swiped, the reader packages the card details and the sale amount into an authorization request. That request travels through your payment processor to the card network and on to the bank that issued the card, often called the issuer.",
+        "The issuer checks the account in real time. It looks at the available balance or credit line, whether the card is active, and whether the purchase looks like normal behavior for that cardholder. Then it returns an approval or a decline, and the answer flows back the same way. All of this happens before the customer has finished putting their wallet away."
+      ]
+    },
+    {
+      "h2": "The most common reasons for a decline",
+      "paragraphs": [
+        "Issuers rarely tell the merchant exactly why. They send a code, and the reader translates it into a short message. Still, a few reasons show up again and again.",
+        "Understanding the category helps you choose the right next step, because some declines are worth a second try and others are not."
+      ],
+      "bullets": [
+        "Not enough available funds or credit for this amount",
+        "The card is expired, blocked, reported lost, or not yet activated",
+        "The bank's fraud system flagged the purchase as unusual for that customer",
+        "A wrong PIN entered too many times",
+        "A daily spending or tap limit set by the issuer was reached",
+        "A temporary network or connection problem on either side"
+      ]
+    },
+    {
+      "h2": "Soft declines versus hard declines",
+      "paragraphs": [
+        "Payments people sometimes sort declines into two families. A soft decline suggests the situation may change: a balance that will be topped up tonight, a fraud check that can be cleared by a text message, or a dropped connection. Trying again, possibly with a chip insert instead of a tap, can succeed.",
+        "A hard decline points to something that will not fix itself at the counter, such as a closed account or a card reported stolen. Repeating the attempt over and over will not help, and it may annoy the issuer's fraud systems. As a rule, try once more if the message hints at a glitch, and move on to another payment method if it does not.",
+        "Consider a hypothetical case at a hardware counter. A contractor's tap fails on a large order, and the screen says only that the sale was not approved. Rather than retrying three times, the clerk asks him to insert the chip. That works, because the tap had simply exceeded his bank's contactless threshold. Nothing was wrong with his account."
+      ]
+    },
+    {
+      "h2": "What the reader screen tells you, and what it hides",
+      "paragraphs": [
+        "Most readers display a short phrase such as declined, call issuer, or try another card. Those phrases are intentionally vague. The issuer is protecting the cardholder's privacy and does not want to reveal account details to a stranger at a register.",
+        "That is why you should never guess aloud. Saying 'you must be out of money' is both presumptuous and possibly wrong. The customer is the only person who can call their bank, and the number on the back of the card is the place to do it."
+      ]
+    },
+    {
+      "h2": "What to say at the counter",
+      "paragraphs": [
+        "Tone matters more than the technology. Keep your voice low, face the customer rather than the screen, and treat the decline as a minor logistics problem. The customer is usually more embarrassed than you are.",
+        "A few ready phrases keep staff consistent. Writing them down near the register means a new hire does not have to improvise under pressure.",
+        "Written scripts are worth the five minutes they take to prepare. Pin them near the register, keep them short, and let each employee adapt the words to their own voice. Customers can tell when a sentence is memorized and cold, and they respond far better to a relaxed, human version of the same idea."
+      ],
+      "steps": [
+        "Say quietly, 'That card didn't go through on my end.'",
+        "Offer a retry, perhaps by inserting the chip instead of tapping",
+        "Suggest another card, a phone wallet, or cash if they prefer",
+        "If they want to call their bank, offer to hold the order for a few minutes",
+        "Thank them genuinely whichever way it ends"
+      ]
+    },
+    {
+      "h2": "When the problem might be on your side",
+      "paragraphs": [
+        "Occasionally the cause is local. A reader with a weak signal may time out before the bank replies, and the screen may report a failure that looks like a decline but is really a connectivity message. If several different customers hit trouble within a short window, check your connection and the device battery before blaming the cards.",
+        "Keep a note of the time and amount whenever something looks unusual, then contact support at 844.826.6227. With a PayPilot Terminal or Go, the transaction history can help support tell an issuer decline from a connection hiccup."
+      ]
+    },
+    {
+      "h2": "Avoid the double-charge trap",
+      "paragraphs": [
+        "A declined card should not move any money. Still, an attempt that timed out on the reader may leave a temporary hold on the customer's account even though no sale finished. That can make the customer think they were charged twice when they retried with the same card.",
+        "Before running a second attempt, glance at your transaction list to confirm the first one really failed. If you see an approved line for that customer, void or refund it rather than charging again, and tell them a pending hold may take a few days to disappear from their statement."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "A decline is a reply from the customer's bank, not a judgment on your shop.",
+    "The reader's wording is deliberately vague, so do not guess the reason aloud.",
+    "Retry once for glitches, then offer another way to pay.",
+    "Check your transaction list before a second attempt to avoid duplicates."
+  ],
+  "faq": [
+    {
+      "q": "Why would a card with plenty of money get declined?",
+      "a": "Banks decline for more than balance. A fraud filter may find the purchase unusual, a daily limit may have been reached, the chip may be worn, or a PIN may have been mistyped. The customer can usually clear a fraud flag by calling the bank or approving a text alert, then trying again."
+    },
+    {
+      "q": "Can I find out the exact reason from the processor?",
+      "a": "Typically not in plain language. Issuers return coded responses that protect cardholder privacy, and the merchant sees a general category. Your transaction history may show a code, which support can interpret in general terms, but the detailed reason stays between the cardholder and the bank."
+    },
+    {
+      "q": "Should I keep retrying a declined card?",
+      "a": "One careful retry is reasonable when the message suggests a glitch, such as a failed tap. Repeated attempts on the same card can trigger fraud rules and make the situation worse. After one retry, kindly ask the customer for another card or payment method."
+    },
+    {
+      "q": "Will a declined attempt charge the customer?",
+      "a": "A true decline moves no money. Occasionally a timed-out attempt leaves a temporary authorization hold that fades on its own as the bank releases it. If you see an approved record, void it before trying again, so the customer is not left with two pending items."
+    },
+    {
+      "q": "Is it okay to call a customer's bank for them?",
+      "a": "No. Banks speak only with the account holder and will not share details with a merchant. Offer the customer a quiet spot to call the number on the back of their card, and hold the order for a few minutes if that seems helpful."
+    }
+  ],
+  "related": [
+    "handling-a-suspicious-transaction",
+    "manual-card-entry-risks",
+    "signature-and-pin-today",
+    "pre-authorization-holds-explained",
+    "handling-disputes-calmly"
+  ],
+  "icon": "card",
+  "read_minutes": 6
+}

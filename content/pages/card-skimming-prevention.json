@@ -1,0 +1,122 @@
+{
+  "slug": "card-skimming-prevention",
+  "topic": "security",
+  "title": "Protecting Your Terminals From Skimming",
+  "seo_title": "Protecting Card Terminals From Skimming | PayPilot",
+  "meta_description": "Learn how card skimmers get attached to payment terminals and how daily inspections, tamper seals, and staff habits help keep your devices clean.",
+  "primary_keyword": "card skimming prevention",
+  "keywords": [
+    "terminal tampering",
+    "skimmer inspection",
+    "tamper seals",
+    "payment device security",
+    "pin pad skimmer",
+    "protect card reader",
+    "device serial number log"
+  ],
+  "eyebrow": "Security",
+  "dek": "A skimmer is a small piece of hardware that steals card data. A two-minute inspection routine makes your terminals a much harder target.",
+  "intro": [
+    "A gas pump, an ATM, a restaurant counter. Wherever people insert or swipe cards, someone has tried to hide a device that copies the data. The idea is old, but the hardware keeps getting smaller and more convincing.",
+    "For a merchant, the risk is practical rather than technical. A skimmer does not need to defeat your software if it can simply be clipped onto the front of a reader while nobody is watching.",
+    "The defense is also practical: know exactly what your devices look like, check them on a schedule, and make it hard for strangers to touch them."
+  ],
+  "sections": [
+    {
+      "h2": "How skimming actually happens",
+      "paragraphs": [
+        "A skimmer is an unauthorized reader placed over or inside a real one. It copies the magnetic stripe or records PIN entry, often paired with a tiny camera or a fake keypad overlay. The criminal returns later to retrieve the data or collects it wirelessly.",
+        "Chip and tap payments are much harder to copy than the old magnetic stripe, but swipe fallback and PIN capture remain targets. That is why physical checks still matter even on modern equipment."
+      ]
+    },
+    {
+      "h2": "Know your own device first",
+      "paragraphs": [
+        "You cannot spot a fake if you have never studied the real thing. When a new terminal arrives, photograph it from the front, back, sides, and underneath. Note the model, the serial number, the cable path, and any labels.",
+        "Keep a simple log with each device's serial number and location. If a terminal is ever swapped, repaired, or returned, the log tells you whether the unit on your counter is the one you received."
+      ],
+      "bullets": [
+        "Take clear photos of every device when it is new.",
+        "Record serial numbers and where each unit sits.",
+        "Note the exact cable length, color, and connection points.",
+        "Store the photos where all managers can reach them."
+      ]
+    },
+    {
+      "h2": "A two-minute inspection routine",
+      "paragraphs": [
+        "Make inspection part of opening or closing, the same way you count the till. Look at the device the way a stranger would approach it, and touch it gently to see whether anything moves that should not.",
+        "Pay attention to anything that looks bulky or glued on, a card slot that feels loose or stuck out, a keypad that sits higher than usual, scratches or adhesive residue, or cables that differ from your photos. Handheld devices should be inspected as well, particularly if they leave the building."
+      ],
+      "steps": [
+        "Compare the device to your reference photos.",
+        "Check the card slot, keypad, and sides for added pieces.",
+        "Gently wiggle the keypad and slot cover to detect loose overlays.",
+        "Verify the serial number matches your log.",
+        "Examine cables and connections for anything unfamiliar.",
+        "Record the check with the time and your initials."
+      ]
+    },
+    {
+      "h2": "Tamper seals and physical control",
+      "paragraphs": [
+        "Tamper-evident seals are stickers that show damage if removed. Used on the points where a device can be opened, they offer a quick visual cue that something has been disturbed. A seal does not stop tampering; it makes it visible.",
+        "More important is controlling access. Do not leave terminals unattended on a counter customers can reach. Secure them to the counter or bring them behind it when closed, and keep handheld devices in a locked spot overnight. For tableside or pop-up use, keep the device in your sight whenever it is out of its dock."
+      ]
+    },
+    {
+      "h2": "Prefer the safer ways to pay",
+      "paragraphs": [
+        "Encourage tap and chip payments. A phone wallet creates a one-time code for each purchase, so even if someone observed the transaction there would be nothing reusable to steal. PayPilot Terminal, Go, and Reader accept tap, chip, and swipe, with Apple Pay and Google Pay available to customers who use them.",
+        "Position PIN pads so customers can shield entry with a hand, and make sure no camera, mirror, or shelf above the counter looks down on the keypad. A small privacy shield costs little and protects a lot."
+      ]
+    },
+    {
+      "h2": "A hypothetical inspection that catches something",
+      "paragraphs": [
+        "Picture a shop owner who photographs her countertop terminal when it arrives. Months later, during the closing check, the keypad sits slightly higher than in the photo and the card slot feels loose. She checks the serial number, it does not match her log, and she stops using the unit.",
+        "A call to support confirms the device is not the one that was shipped, and a replacement arrives. The story is invented, yet it shows why the photo and the log matter. Without a reference, a slightly raised keypad is just a feeling. With one, it is evidence you can act on in minutes."
+      ]
+    },
+    {
+      "h2": "Train staff and plan for a discovery",
+      "paragraphs": [
+        "Tell employees what to watch for and make it clear they will be thanked, not blamed, for reporting oddities. Be skeptical of unannounced visitors who claim to be technicians; ask for identification and call your provider to confirm the visit before letting anyone touch a device.",
+        "If you do find something suspicious, stop using that device, do not remove the object with bare hands if you want evidence preserved, photograph it, and call support at 844.826.6227. Notify your provider and consider whether to contact local law enforcement. Acting quickly limits how many cards are exposed."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Photograph and log every device so you know what normal looks like.",
+    "Inspect terminals on a schedule, not only when something feels off.",
+    "Tamper seals reveal tampering; physical control prevents it.",
+    "Verify any technician visit with your provider before letting anyone touch a device."
+  ],
+  "faq": [
+    {
+      "q": "How often should I inspect my terminals?",
+      "a": "Daily is a good habit for devices customers can reach, such as a countertop terminal, and before and after each outing for portable ones. A two-minute check at opening or closing is easy to maintain and catches problems early. Add an extra look before and after any event where a portable device leaves the building."
+    },
+    {
+      "q": "Are tap payments safer than swiping?",
+      "a": "Tap and chip transactions use dynamic data that is hard to reuse, while a magnetic stripe can be copied. No method is risk free, but encouraging tap and chip reduces the value of a stolen record. Still, keep inspecting, since thieves target whatever part of the process is weakest."
+    },
+    {
+      "q": "What if a technician arrives unannounced?",
+      "a": "Do not let them touch your equipment until you verify their identity. Ask for identification, then call your provider on a number you already have to confirm the visit was scheduled. Legitimate technicians expect this. A genuine technician will understand and wait while you call to confirm."
+    },
+    {
+      "q": "What do I do if I find a suspicious device attached?",
+      "a": "Stop using the terminal, photograph what you see, and avoid disturbing it more than necessary. Contact support, who can advise on replacement and next steps, and consider notifying local law enforcement. Write down the time you found it and who was present, because those details help later."
+    }
+  ],
+  "related": [
+    "pos-hardware-checklist",
+    "choosing-a-card-reader",
+    "secure-wifi-for-payments",
+    "employee-permissions-pos",
+    "signature-and-pin-today"
+  ],
+  "icon": "lock",
+  "read_minutes": 6
+}

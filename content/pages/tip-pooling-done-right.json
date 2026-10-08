@@ -1,0 +1,117 @@
+{
+ "slug": "tip-pooling-done-right",
+ "topic": "pos",
+ "title": "Tip Pooling Done Right",
+ "seo_title": "Tip Pooling Done Right: Methods and Records | PayPilot",
+ "meta_description": "Compare common tip pooling methods, see a worked hypothetical split, and learn how POS tip reports keep distribution transparent. Check local labor law first.",
+ "primary_keyword": "tip pooling",
+ "keywords": [
+  "tip pool methods",
+  "how to split tips",
+  "tip distribution POS",
+  "tip out percentage",
+  "tip pooling transparency",
+  "tip reporting",
+  "points-based tip pool"
+ ],
+ "eyebrow": "Team pay",
+ "dek": "A fair, written tip method prevents most staff disputes. The POS supplies the numbers; you supply the rules.",
+ "intro": [
+  "Few topics raise the temperature in a staff room like tips. Servers wonder whether the bartender is taking too much, the kitchen wonders why it is excluded, and the owner wonders whether any of it is legal. A vague system breeds suspicion even when everyone means well.",
+  "The remedy is a method that is written down, easy to calculate, and backed by reports from your POS. When people can see the math, most arguments disappear.",
+  "This article covers the main approaches, a worked example, and the record-keeping that makes the system defensible. It is general information, and tip rules differ by location, so confirm your approach with a labor professional."
+ ],
+ "sections": [
+  {
+   "h2": "Tip pools, tip-outs and keeping your own",
+   "paragraphs": [
+    "There are three broad models. In a keep-your-own system, each person retains what they receive directly. In a tip-out, servers hand a percentage of sales or tips to support roles such as bussers and bartenders. In a pool, tips are collected and divided among eligible staff by a formula.",
+    "Each has trade-offs. Keeping your own is simple but can leave roles with no direct customer contact underpaid. Tip-outs are familiar but can feel arbitrary. Pools encourage teamwork but need clear rules to feel fair.",
+    "Whichever model you choose, it helps to separate two questions: who earns the tip, and who deserves a share of it. The first is a matter of law and the second is a matter of culture."
+   ]
+  },
+  {
+   "h2": "Who may share in a pool",
+   "paragraphs": [
+    "This is where the law matters most. Rules about which employees may participate, and whether managers or owners can take a share, differ by jurisdiction and have changed over time. Some places also restrict how employers handle tips collected on cards.",
+    "Before launching a pool, ask an employment attorney or your state labor department who is eligible and what must be documented. Do not copy a neighbor's arrangement and assume it applies to you."
+   ]
+  },
+  {
+   "h2": "Four ways to divide a pool",
+   "paragraphs": [
+    "Once eligibility is settled, you need a formula. The best formula is one every person can reproduce on a calculator."
+   ],
+   "bullets": [
+    "Equal split: divide the total by the number of people on shift. Simple but ignores hours worked.",
+    "Hours-based: divide by total hours, then multiply by each person's hours. Fair for staggered shifts.",
+    "Points-based: each role earns a point value per hour, such as bartender at a higher value than a busser. Flexible but needs a written chart.",
+    "Percentage tip-out: servers give a fixed percentage of sales or tips to support staff. Easy to explain, but be sure percentages are written down."
+   ]
+  },
+  {
+   "h2": "A worked hypothetical",
+   "paragraphs": [
+    "Suppose a restaurant collects 600 dollars in card tips on a Friday and uses an hours-based pool. Three servers worked 6 hours each, one bartender worked 6, and one busser worked 5, for a total of 29 hours.",
+    "Divide 600 by 29 and you get roughly 20.69 per hour. A person who worked 6 hours receives about 124.14, and the busser who worked 5 receives about 103.45. The POS tip report supplies the 600, and the time clock supplies the hours.",
+    "If instead you used points, with the bartender at 1.5 and everyone else at 1.0, the total points would be 6 x 3 + 9 + 5 = 32, and each point would be worth 18.75. The bartender gets 168.75, each server 112.50, and the busser 93.75. Both methods are defensible, but staff should know which one applies.",
+    "Round in a consistent direction and keep the leftover cents in a documented place, such as the next day's pool, so nobody wonders where they went."
+   ]
+  },
+  {
+   "h2": "Transparency builds trust",
+   "paragraphs": [
+    "Post the method where employees can read it, and give each person a statement per pay period showing the pool total, hours and their share. Many disputes come from not being able to see how a number was reached rather than from the number itself.",
+    "Decide how you will handle exceptions in advance: a person who leaves mid-shift, a large party with an automatic gratuity, a day when a card tip is later disputed. Having a written answer prevents improvised decisions that feel unfair."
+   ]
+  },
+  {
+   "h2": "Using the POS to run it",
+   "paragraphs": [
+    "Your POS should separate cash tips, card tips and any automatic gratuities in its reports, tag each tip with the employee who served the check, and tie into hours worked. Those three data points are enough to calculate most pools.",
+    "Check how your system treats card-processing costs and tip timing, because tips on card sales are typically paid out with payroll rather than at closing, and rules on this differ. PayPilot POS records tips by employee and shift, which gives you a clean starting point for the arithmetic.",
+    "Reconcile at the end of every shift: tips on the report should match what is distributed, and any difference should be explained that day. Keep records for as long as your local rules and your accountant advise. A short written policy plus a consistent report is the best insurance you can give your team.",
+    "Consider a trial month before making the system permanent. Share the numbers, invite questions, and adjust the weights if a role feels consistently over- or under-rewarded. Staff who helped shape a method are far more likely to respect it."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Pick one written method and apply it the same way every shift.",
+  "Check with a labor professional on who may legally share in a pool.",
+  "Hours-based and points-based pools reward people for time and role.",
+  "Give staff a statement showing the pool total, hours and their share.",
+  "Reconcile POS tip reports against payouts daily."
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between a tip pool and a tip-out?",
+   "a": "In a tip pool, all tips go into a common pot that is divided by a formula among eligible staff. In a tip-out, each server keeps their tips but hands a set percentage to support roles. Pools spread income more evenly, while tip-outs tie support pay to each server's sales."
+  },
+  {
+   "q": "Can managers take part in a tip pool?",
+   "a": "In many places, people with managerial or ownership authority are restricted from sharing in tips, but the details depend on your jurisdiction and how roles are defined. Ask your state labor office or an employment attorney before including anyone with supervisory duties in a pool, and write down the decision."
+  },
+  {
+   "q": "How do I split tips when people work different hours?",
+   "a": "Use an hours-based or points-based method. Add up the total pool, divide by total hours or points, and multiply by each person's own hours or points. Your POS tip report and time clock provide the inputs, and the calculation takes only a few minutes at close once you have a template."
+  },
+  {
+   "q": "Should card tips and cash tips be pooled together?",
+   "a": "Many businesses combine them for fairness, but handling can differ because card tips are recorded electronically while cash is physically counted. Whatever you decide, document it, count the cash with a witness, and record both amounts so the pool total can be audited."
+  },
+  {
+   "q": "What records should I keep?",
+   "a": "Keep the written pool policy, daily tip reports, time-clock hours, the calculation behind each distribution and the statements given to employees. Ask your accountant how long to retain them, since requirements differ for payroll and tax purposes, and store them somewhere you can find quickly if a question arises."
+  }
+ ],
+ "related": [
+  "tips-and-card-processing",
+  "digital-tips-for-service-workers",
+  "employee-permissions-pos",
+  "pos-reports-to-check-weekly",
+  "pos-for-restaurants-front-and-back",
+  "using-sales-data-to-staff"
+ ],
+ "icon": "users",
+ "read_minutes": 6
+}

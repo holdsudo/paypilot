@@ -1,0 +1,128 @@
+{
+  "slug": "pos-for-coffee-shops",
+  "topic": "pos",
+  "title": "Building a Fast Coffee Shop Checkout",
+  "seo_title": "Fast Coffee Shop Checkout with a POS | PayPilot",
+  "meta_description": "Mornings make or break a coffee shop. Learn how modifiers, quick keys, tap payments, mobile orders and loyalty shave seconds off every order.",
+  "primary_keyword": "coffee shop POS",
+  "keywords": [
+    "cafe POS system",
+    "drink modifiers",
+    "fast checkout",
+    "coffee shop loyalty",
+    "mobile order pickup",
+    "queue speed",
+    "tap to pay at cafe"
+  ],
+  "eyebrow": "Cafes",
+  "dek": "In a coffee shop, seconds are the product. Every tap you remove from an order is a customer who does not leave the line.",
+  "intro": [
+    "At 7:45 on a weekday, a cafe is a machine with a human inside. The line stretches to the door, the grinder is roaring, and a person in a hurry is trying to remember whether they wanted oat or almond. The register has about eight seconds to be useful.",
+    "Speed in this setting comes from design rather than effort. A screen that matches how people actually order, a tap that finishes payment without a pause, and a loyalty scheme that does not require a lecture all trim time from each transaction.",
+    "Below are the pieces that make the difference, with practical settings you can adjust this week, whether you run a cart, a corner shop, or a drive-through window."
+  ],
+  "sections": [
+    {
+      "h2": "Design the screen around the top sellers",
+      "paragraphs": [
+        "Look at your sales report and note the ten items that make up most of your orders. Put those on the first screen in the largest buttons, in the same order every day, so that staff build muscle memory. Anything that needs three taps to reach is an item that slows the line.",
+        "Group the rest by how customers think. Hot drinks, cold drinks, pastries, and retail beans each get a tab. Resist the urge to put everything on the home screen. Clutter costs more time than it saves.",
+        "Small physical changes help as well. Place the screen at eye level, keep the receipt printer from blocking the customer's line of sight, and position the tap reader where hands naturally fall. A layout that respects the movement of both customer and barista saves more time than most software settings."
+      ]
+    },
+    {
+      "h2": "Modifiers without the mess",
+      "paragraphs": [
+        "Coffee orders are mostly modifiers: size, milk, syrup, extra shot, temperature. A good POS handles these as quick-select options that appear right after the drink is chosen, with the most common default pre-selected. The barista on the bar then sees a clean ticket instead of a scrawl on a cup.",
+        "Standardize names and price add-ons consistently. If oat milk costs extra, make it a modifier with a price so the total is right without manual math. Consistent naming also makes your reports readable later."
+      ],
+      "bullets": [
+        "Default to the most popular size and milk",
+        "Show modifiers in the same order for every drink",
+        "Price add-ons as modifiers rather than separate items",
+        "Mark allergen-related options clearly",
+        "Print or display the final ticket in barista-friendly shorthand"
+      ]
+    },
+    {
+      "h2": "Take payment in one gesture",
+      "paragraphs": [
+        "Most coffee customers carry a phone or a contactless card, so tap should be the default path. Keep the reader at hand height, angled toward the customer, with the tip screen off or kept to a single glance. Every extra decision is a delay.",
+        "Display accepted methods near the reader: tap, chip, and phone wallets such as Apple Pay and Google Pay. A PayPilot Terminal at the counter handles taps quickly, and a handheld Go lets a staff member work the line to take orders before customers reach the front."
+      ]
+    },
+    {
+      "h2": "Line-busting with a handheld",
+      "paragraphs": [
+        "When the line spills out the door, move the register to the line. A team member with a handheld takes orders and payments from customers while they wait, passes tickets to the bar, and cuts the time spent at the counter. By the time the customer reaches the pickup area, the drink is already underway.",
+        "This approach works best when the Wi-Fi covers the waiting area and the handheld is charged. Rehearse it on a slow day first, so the routine feels natural when you need it."
+      ],
+      "steps": [
+        "Assign a runner with a handheld to the end of the line",
+        "Take the order and payment together on the spot",
+        "Send the ticket straight to the bar",
+        "Hand the customer a number or call their name",
+        "Return to the line while the register handles the next customer"
+      ]
+    },
+    {
+      "h2": "Loyalty that costs seconds, not minutes",
+      "paragraphs": [
+        "A loyalty program should add no more than a second to a transaction. Linking a phone number or tapping a payment method that the system recognizes accomplishes this. Rewards might be a free drink after a set number of purchases or a small discount on a favorite item.",
+        "Keep the rules simple enough to explain in one sentence at the counter. Check marketing and consent rules before sending promotional texts, and give customers an easy way to opt out. See our guide to loyalty programs that work for deeper examples."
+      ]
+    },
+    {
+      "h2": "Mobile orders and pickup",
+      "paragraphs": [
+        "Pre-ordering lets customers skip the line, which regulars love. Orders placed online arrive on the same screen as in-store ones, with a pickup time. The risk is overload: if too many orders land at the same minute, the bar falls behind and everybody waits.",
+        "Many shops limit the number of online orders per time slot or add a short prep window. Watch the first few weeks of data and adjust. A PayPilot payment link can also serve as a lightweight pre-order tool for a cart or small stand.",
+        "Peak planning is the final lever. Prepare the bar before the rush by stocking cups, syrups, and milk, and have a second person ready to jump on payment if the line grows. Sales data from past weeks tells you exactly which fifteen minutes to prepare for."
+      ]
+    },
+    {
+      "h2": "Measure what changes",
+      "paragraphs": [
+        "To know whether your tweaks are working, track average ticket, orders per hour during the morning peak, and the share of customers who pay by tap. Compare a few weeks before and after each change, and change one thing at a time so the results make sense.",
+        "At closing, compare the batch report to the register total, and review voids and discounts by employee. Small leaks are easy to fix when you can see them."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Put your top ten sellers on the first screen in consistent order.",
+    "Use modifiers with sensible defaults to avoid typing and misreads.",
+    "A handheld at the end of the line moves ordering away from the counter.",
+    "Judge each tweak by orders per hour and average ticket, one change at a time."
+  ],
+  "faq": [
+    {
+      "q": "How can I make my coffee line move faster?",
+      "a": "Start by simplifying the screen, setting sensible modifier defaults, and encouraging tap payments. If the line is still long, add a handheld to take orders ahead of the counter. Small timing gains per order add up quickly during the morning peak."
+    },
+    {
+      "q": "Should I ask for tips on every tap?",
+      "a": "That is a business decision. A tip prompt can add revenue but also adds a screen and a decision. Some shops show it only on larger orders or after the payment. Test your approach and watch both tip amounts and line speed."
+    },
+    {
+      "q": "Do I need online ordering?",
+      "a": "It helps shops with regular commuters or heavy morning traffic, but it is not essential. Start small, perhaps with a payment-link pre-order for a few items, and expand if customers use it. Limit orders per time slot to protect the bar."
+    },
+    {
+      "q": "How do I handle a rush when the internet is down?",
+      "a": "Know your system's offline behavior in advance and keep a manual fallback ready, such as cash or a payment link. Offline card acceptance carries risk because approvals are delayed, so ask support at 844.826.6227 about the limits for your setup."
+    },
+    {
+      "q": "What reports matter most for a cafe?",
+      "a": "Sales by hour, top items, average ticket, and voids or discounts by employee. These show when to staff up, what to stock, and where money may be leaking. A weekly review of a few reports beats scanning many occasionally. Try the change for a week and compare your numbers before keeping it."
+    }
+  ],
+  "related": [
+    "loyalty-programs-that-work",
+    "handhelds-tableside-ordering",
+    "online-ordering-from-your-pos",
+    "using-sales-data-to-staff",
+    "raising-average-ticket"
+  ],
+  "icon": "bolt",
+  "read_minutes": 7
+}

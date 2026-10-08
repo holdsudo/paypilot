@@ -1,0 +1,127 @@
+{
+  "slug": "customer-directory-crm",
+  "topic": "growth",
+  "title": "Building a Customer Directory From Your Payments",
+  "seo_title": "Build a Customer Directory From Payments | PayPilot",
+  "meta_description": "Turn everyday payments into a customer directory: capture details with consent, group customers into segments, and use the list respectfully.",
+  "primary_keyword": "customer directory",
+  "keywords": [
+    "small business CRM",
+    "customer list from sales",
+    "customer segments",
+    "consent for marketing",
+    "repeat customer tracking",
+    "customer data privacy",
+    "contact list POS"
+  ],
+  "eyebrow": "Growth",
+  "dek": "Every sale tells you something about a customer. A simple directory, built with permission, turns those scattered facts into relationships.",
+  "intro": [
+    "A hair stylist remembers most of her regulars by name, but the new ones blur together, and she has no way to say hello when a long-gone client might be due for a trim. A coffee shop owner knows his morning crowd by their orders yet cannot tell who has not been in for a month.",
+    "A customer directory is nothing more than an organized list of the people who buy from you, with the details that help you serve them. Your payments can fill much of it automatically, because each sale is already a record of who, when, and what.",
+    "Done with consent and care, a directory helps you thank loyal customers, win back lapsed ones, and stop treating every visitor like a stranger."
+  ],
+  "sections": [
+    {
+      "h2": "Decide what you actually need",
+      "paragraphs": [
+        "Start with the question: what would I do with this information? A name and a way to reach the customer are usually enough. Birthdays, preferences, and notes can help, but each extra field adds responsibility.",
+        "Collect only what you will use. Data you never act on is a liability, because it must be protected and may be requested or deleted later. A lean directory is easier to keep accurate and easier to explain to customers."
+      ]
+    },
+    {
+      "h2": "Capture details at the register, with permission",
+      "paragraphs": [
+        "The easiest moment to collect a contact is during checkout, when the customer is already engaged. Offer a digital receipt by email or text, and ask if they would like to hear about offers. Make the choice explicit and record it.",
+        "Tell people what you will do with their details in a sentence: we will send your receipt and a monthly note, and you can opt out at any time. Rules for collecting and using customer data differ by location, so check the requirements that apply to you."
+      ],
+      "bullets": [
+        "Ask for the receipt contact first; ask about offers separately.",
+        "Record whether the customer consented to marketing messages.",
+        "Never add people to a list without a clear opt-in.",
+        "Make it simple for a customer to update or delete their details."
+      ]
+    },
+    {
+      "h2": "Let your sales history do the work",
+      "paragraphs": [
+        "When a returning customer pays with the same method or gives the same contact, the system can link their visits. Over time you can see how often they come, what they buy, and how much they spend.",
+        "The PayPilot POS keeps sales tied to customer records you choose to create, so a regular's history is available at the counter. That makes service personal: you can greet a customer by name or recall a usual order, as long as it feels welcoming and not intrusive."
+      ]
+    },
+    {
+      "h2": "Group customers into useful segments",
+      "paragraphs": [
+        "A segment is a set of customers who share something. The best ones are simple and based on behavior you can observe. You do not need a complicated model.",
+        "Start with a few groups and write each a different message. A thank-you to your best customers should read differently from a we miss you note to someone who has not visited in a while."
+      ],
+      "steps": [
+        "Regulars: customers who visit often; send appreciation and early access.",
+        "New customers: first-time buyers; send a welcome and a reason to return.",
+        "Lapsed customers: those who have not visited in a long time; send a gentle invitation.",
+        "Big spenders: customers with larger orders; offer priority service or previews."
+      ]
+    },
+    {
+      "h2": "Use the list respectfully",
+      "paragraphs": [
+        "Send messages people want. A short note with something useful, such as a new menu, a reopened day, or a seasonal appointment reminder, builds goodwill. Frequent generic blasts erode it.",
+        "Keep a steady, modest rhythm and give each message a clear purpose. Always include a way to opt out, and honor requests promptly. A smaller list of willing readers is worth more than a huge list of annoyed ones."
+      ]
+    },
+    {
+      "h2": "A hypothetical month with a small directory",
+      "paragraphs": [
+        "A pet groomer starts adding client names and phone numbers, with permission, as she checks people out. After a month she has a few dozen entries linked to sales. She sorts them by last visit and spots a handful of regulars who have not come in for a while.",
+        "She sends each a short, friendly text about open appointments, and a few book. She also sends a welcome note to first-time clients. The numbers are invented, but the shape is real: a small list used kindly beats a large list used carelessly."
+      ]
+    },
+    {
+      "h2": "Keep it accurate",
+      "paragraphs": [
+        "A directory decays quickly. People change emails, move, and switch numbers. Build a small habit of confirming details when a regular checks out, and clean out bounced addresses after each send.",
+        "Merge duplicates when you spot them, such as the same person entered twice with different spellings. A tidy list keeps your messages relevant and your numbers believable."
+      ]
+    },
+    {
+      "h2": "Protect the directory",
+      "paragraphs": [
+        "A list of names, emails, and purchase histories is valuable to criminals. Keep it in your POS or a protected system rather than a loose spreadsheet emailed around. Limit who can view or export it, and use individual logins.",
+        "Do not store card numbers in the directory; keep payment details out of notes and fields. If a customer asks you to delete their information, have a process ready. Good habits here are part of the same trust that brought customers to you in the first place, and you can reach PayPilot support at 844.826.6227 if you need help configuring access."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Collect only the details you will use, and ask permission first.",
+    "Link sales history to customer records you create with consent.",
+    "Start with a few simple segments and tailor each message.",
+    "Protect the list and never store card numbers in it."
+  ],
+  "faq": [
+    {
+      "q": "Do I need a separate CRM tool?",
+      "a": "Not necessarily. Many small businesses can start with the customer records built into their POS, which tie directly to sales. A separate tool becomes useful if you need complex campaigns or a team workflow. Check what your POS already offers before paying for another tool you will need to keep in sync."
+    },
+    {
+      "q": "What do I need to tell customers when I collect their details?",
+      "a": "Say what you collect, why, and how they can opt out. Keep it short and plain. Requirements for notice and consent differ by location, so confirm what applies to your business. Posting a small sign at the register and including a line on the sign-up screen covers most situations."
+    },
+    {
+      "q": "How many customers do I need before this is worthwhile?",
+      "a": "Even a few dozen regulars benefit from being remembered and thanked. A directory scales with you, so start early and keep it simple. Even a small list used kindly beats a large list ignored, so begin as soon as you have a few repeat visitors."
+    },
+    {
+      "q": "What if a customer asks me to delete their information?",
+      "a": "Honor the request promptly, remove them from marketing lists, and delete or anonymize records you are not required to keep. Retention rules for transaction records vary, so ask an accountant which ones you must retain. Write down when you removed them and from where, in case you need to show you honored the request."
+    }
+  ],
+  "related": [
+    "turning-receipts-into-marketing",
+    "loyalty-programs-that-work",
+    "card-on-file-for-repeat-customers",
+    "data-you-should-never-store",
+    "pos-reports-to-check-weekly"
+  ],
+  "icon": "users",
+  "read_minutes": 7
+}

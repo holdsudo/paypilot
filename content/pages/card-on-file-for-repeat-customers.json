@@ -1,0 +1,121 @@
+{
+  "slug": "card-on-file-for-repeat-customers",
+  "topic": "cards",
+  "title": "Card on File: Faster Checkout for Regulars",
+  "seo_title": "Card on File for Repeat Customers | PayPilot",
+  "meta_description": "Saving a customer's card for later can speed up checkout and cover no-show fees. Learn how consent, tokens, and clear policies keep card on file safe.",
+  "primary_keyword": "card on file",
+  "keywords": [
+    "save customer card",
+    "stored credentials",
+    "card on file consent",
+    "no-show fee",
+    "tokenized card",
+    "repeat customer checkout",
+    "recurring card payments"
+  ],
+  "eyebrow": "Repeat customers",
+  "dek": "Saving a card with permission turns a ten-second payment into a one-tap routine, as long as you ask clearly and store nothing risky.",
+  "intro": [
+    "Think about your best customers. The woman who books the same dog groomer every four weeks, the contractor who stops by for supplies on the way to a job, the family that orders every Friday. Each time, they dig out a card, you type or tap, and a little time disappears.",
+    "Card on file removes that friction. With the customer's permission, you keep a secure reference to their card so future payments can be started without asking for the number again.",
+    "Done well, it feels like hospitality. Done carelessly, it creates disputes and security headaches. The difference comes down to three things: consent that is explicit, storage that never touches the real card number, and a policy that is written down before it is needed."
+  ],
+  "sections": [
+    {
+      "h2": "What 'on file' really means",
+      "paragraphs": [
+        "When a customer agrees to save a card, the payment system does not store the long card number in your shop's records. Instead, it exchanges the number for a token, a random-looking string that stands in for the card. That token is useless to a thief because it only works inside your merchant account.",
+        "Your staff sees something like 'Visa ending 4821' on the screen. That is enough to confirm which card they are about to use without anyone ever reading out or writing down the full number. For a deeper look, see our overview of tokenization for business owners.",
+        "A useful mental picture is a coat-check ticket. The ticket proves the coat is yours and lets the attendant retrieve it, yet nobody can wear the ticket. A token behaves the same way: it lets your business request a payment, but outside your merchant account it carries no value to anyone who might steal it."
+      ]
+    },
+    {
+      "h2": "Getting consent that holds up",
+      "paragraphs": [
+        "Saving a card is not a favor you do silently for convenience. The customer needs to understand what they are agreeing to, and you should be able to show later that they agreed. Card networks expect the terms to be disclosed when a credential is stored.",
+        "A good consent moment is short and specific. It names how the card may be used, when charges will happen, and how to cancel."
+      ],
+      "bullets": [
+        "State what the card will be charged for, such as future appointments or monthly supplies",
+        "Say whether charges are automatic or require the customer to approve each one",
+        "Describe any no-show or late-cancellation fee and the amount",
+        "Explain how the customer can remove the card at any time",
+        "Keep a record of the consent, such as a signed screen or a saved confirmation message"
+      ]
+    },
+    {
+      "h2": "Where it fits best",
+      "paragraphs": [
+        "Service businesses benefit the most. A hair studio can hold a card to secure appointments, a tutoring practice can bill by the session, and a pet sitter can charge after each visit without a conversation at the door. Wholesale counters and supply stores use it for account-style regulars who pick up several times a month.",
+        "It also helps restaurants running tabs and caterers collecting remaining balances. If you use PayPilot payment links or invoices alongside a POS, a saved card makes the follow-up payment a single step for the customer.",
+        "Restaurants with regulars can use the same idea. A neighborhood bistro might offer to keep a card for members who run a monthly tab, with the customer approving the final total each time. That keeps hospitality warm while giving the owner a smoother close at the end of the evening."
+      ]
+    },
+    {
+      "h2": "A worked example",
+      "paragraphs": [
+        "Here is a hypothetical scenario. A mobile car-detailing business sees a customer every month. On the first visit, the owner explains that a card can be saved for future appointments, and that a cancellation within twenty-four hours of the booking will incur a stated fee.",
+        "The customer taps their card, agrees on the screen, and the system stores a token. Next month the detailer finishes the job, selects the saved card, enters the amount, and sends an itemized receipt. The customer never reaches for a wallet, and the owner has one fewer reason to chase a payment."
+      ]
+    },
+    {
+      "h2": "No-show and late-cancellation fees",
+      "paragraphs": [
+        "A saved card makes it practical to charge a missed-appointment fee, but this is where disputes tend to arise. If the customer did not clearly agree to the fee beforehand, the issuer is likely to side with them.",
+        "Put the policy in three places: the booking confirmation, the consent screen, and the reminder message sent before the appointment. Charge only the amount you disclosed, and send a plain explanation after the charge. Local consumer rules may limit what fees you can apply, so confirm requirements with a professional before launching a policy."
+      ]
+    },
+    {
+      "h2": "Housekeeping that prevents trouble",
+      "paragraphs": [
+        "Cards expire, get replaced, or are cancelled after a data breach somewhere else. Review your saved cards periodically and remove those for customers who have not visited in a long time. If a saved payment fails, reach out personally rather than retrying repeatedly.",
+        "Give staff a rule on who may charge a stored card and require them to log the reason. Match the amount to what the customer expects, and send a receipt every time so nothing surprises them on their statement."
+      ],
+      "steps": [
+        "Ask permission and explain the terms",
+        "Capture the card and record the consent",
+        "Tell the customer how and when charges occur",
+        "Send a receipt after every use",
+        "Remove the card on request or after long inactivity"
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Card on file stores a token, not the real card number.",
+    "Explicit, recorded consent protects both you and the customer.",
+    "Disclose any no-show fee before the card is saved, not after.",
+    "Send a receipt for every stored-card charge to head off surprises."
+  ],
+  "faq": [
+    {
+      "q": "Is it safe to keep customer cards on file?",
+      "a": "It can be, when the system tokenizes the card so your records never hold the actual number. Limit who on your team can charge a saved card, use individual logins, and avoid writing card details on paper or in notes. The token works only within your merchant account."
+    },
+    {
+      "q": "Do I need the customer's permission every time I charge?",
+      "a": "You need agreement on how the card will be used. Some businesses obtain approval for each charge, while others get a standing authorization for defined services. Whatever you choose, state it clearly at the start and keep a record. Rules may differ by card network and location, so verify them."
+    },
+    {
+      "q": "What if a saved card is declined later?",
+      "a": "Contact the customer privately and ask for an updated card or another way to pay. Avoid sending a stream of retry attempts, which can look suspicious to the bank. A friendly message with a payment link is often the quickest fix for both sides."
+    },
+    {
+      "q": "Can I use a saved card for something the customer did not agree to?",
+      "a": "No. Using a stored credential outside what the customer approved is a common cause of disputes and may violate network rules. If you want to add a new type of charge, ask again and record the new consent. Ask support if your business type has special rules."
+    },
+    {
+      "q": "How do customers remove their card?",
+      "a": "They should be able to ask you, and you should remove it promptly and confirm in writing. Make that process part of your consent language so the customer knows it exists. Prompt removal builds trust and avoids unwanted future charges."
+    }
+  ],
+  "related": [
+    "tokenization-for-business-owners",
+    "deposits-for-bookings",
+    "refund-policies-that-reduce-disputes",
+    "invoices-that-get-paid-faster",
+    "subscription-box-billing"
+  ],
+  "icon": "refresh",
+  "read_minutes": 6
+}

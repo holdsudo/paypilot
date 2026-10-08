@@ -1,0 +1,128 @@
+{
+  "slug": "pos-for-restaurants-front-and-back",
+  "topic": "pos",
+  "title": "Restaurant POS: Front of House to Kitchen",
+  "seo_title": "Restaurant POS: Front of House to Kitchen | PayPilot",
+  "meta_description": "See how a restaurant POS connects servers, the bar and the kitchen. Tickets, coursing, kitchen displays and tableside handhelds, explained for owners.",
+  "primary_keyword": "restaurant POS system",
+  "keywords": [
+    "restaurant point of sale",
+    "kitchen display system",
+    "tableside ordering",
+    "course firing",
+    "table management",
+    "split checks",
+    "restaurant order flow"
+  ],
+  "eyebrow": "Restaurants",
+  "dek": "A restaurant POS is a messenger between the dining room and the kitchen. When the messages are clear, service runs on time.",
+  "intro": [
+    "Think about what happens between a guest saying 'I'll have the salmon' and a plate landing on the table. A server hears the order, remembers the allergy note, types it in, and somewhere across the room a cook needs to read it correctly and fire it at the right moment.",
+    "Every handoff in that chain is a chance for something to go wrong. A forgotten modifier, a ticket that arrives late, a check that cannot be split the way a table of friends wants. A restaurant POS exists to shrink those chances.",
+    "Below is a tour of how a modern system works from the first greeting to the final tip, with attention to the places where owners feel the difference on a busy Friday."
+  ],
+  "sections": [
+    {
+      "h2": "Taking the order at the table",
+      "paragraphs": [
+        "The path starts with the server. On a fixed station they enter the order at a terminal, or on a handheld they type it right at the table. The second option cuts out the walk to the station and the chance of forgetting an item between the table and the screen.",
+        "Seat numbers matter more than they seem. Assigning each dish to a seat lets the server deliver food to the right guest without asking, and it makes splitting the check later trivial. Modifiers, such as cooking temperature or a nut allergy, should be required prompts so they cannot be skipped."
+      ]
+    },
+    {
+      "h2": "From ticket to kitchen",
+      "paragraphs": [
+        "Once the server sends the order, it appears in the kitchen. Some restaurants print paper tickets, and others use a kitchen display system, a screen that shows orders in sequence. Screens can sort by time, color-code late tickets, and show each station only the items it handles.",
+        "The bar and the kitchen usually receive separate pieces of the same order. A cocktail goes to the bar screen, an appetizer to the cold station, and an entree to the grill, all from a single entry. That routing is what lets a team of specialists work from one shared plan.",
+        "A hypothetical Saturday shows the benefit. A table of four orders drinks, shared plates, and entrees. The bar receives the drink tickets within a second, the cold station sees the salad, and the grill holds the steaks until the server fires them. Nobody shouts across the pass, because the screens already say what is needed."
+      ]
+    },
+    {
+      "h2": "Coursing and timing",
+      "paragraphs": [
+        "Good service is about timing as much as food. Coursing lets the server hold back an entree until the appetizers are cleared, then release it with one tap. The kitchen sees the held items and prepares to cook them on cue rather than guessing.",
+        "A hypothetical Friday example: a table of six orders starters, mains, and desserts. The server fires the starters immediately, holds the mains, and fires them when the plates are cleared. The cooks see the schedule, and the table never waits long or receives everything at once."
+      ],
+      "steps": [
+        "Server enters the order by seat and adds modifiers",
+        "Items route to the right station or screen",
+        "Server fires the first course when the table is ready",
+        "Later courses are held until the server releases them",
+        "Expo checks completed plates against the ticket before they leave the pass"
+      ]
+    },
+    {
+      "h2": "Checks, splits, and tips",
+      "paragraphs": [
+        "The end of the meal is where friction hides. Groups want to split evenly, by item, or by seat, and servers need to do that without a calculator. A POS that supports these splits turns a five-minute headache into a few taps.",
+        "Tips can be added at the table with a handheld, which keeps the card in the guest's sight, a practice many diners appreciate. Tips are then adjusted and batched, as our guide to tips and card processing explains. Tip pooling rules vary by location, so check with a professional before designing yours."
+      ]
+    },
+    {
+      "h2": "Menus that change on the fly",
+      "paragraphs": [
+        "A kitchen runs out of the special at 7:30, and a server who does not know sells it at 7:45. A good POS lets a manager mark an item unavailable, and that change appears across every station immediately. Price changes and new specials can be made in one place rather than reprinted.",
+        "This is also where menu data becomes useful. Tracking which items sell, and at what cost, helps owners decide what to feature and what to retire. Our article on menu engineering digs into that approach."
+      ],
+      "bullets": [
+        "Mark items as sold out instantly across all stations",
+        "Schedule happy-hour prices by time of day",
+        "Add daily specials without reprinting menus",
+        "Create modifier groups for temperatures, sides, and allergies",
+        "Hide items that are not served at certain times"
+      ]
+    },
+    {
+      "h2": "Staff, permissions, and the manager's view",
+      "paragraphs": [
+        "Each server signs in with a personal code so sales, voids, and comps are traceable. Managers hold the keys to sensitive actions: approving a comp, voiding a sent item, or closing out a cash drawer. That setup protects both the business and honest employees.",
+        "At closing, the manager reviews sales by category, labor against revenue, and open checks. A PayPilot POS gathers those reports in one place, so the closing routine becomes a short checklist rather than a calculator session."
+      ]
+    },
+    {
+      "h2": "Choosing hardware for your room",
+      "paragraphs": [
+        "Layout drives hardware. A small cafe may be fine with a countertop Terminal and one handheld, while a larger dining room benefits from several handhelds and a kitchen screen. Count your seats, your stations, and the distance between the farthest table and the nearest terminal.",
+        "Reliable Wi-Fi in the dining room is essential for handhelds, so test coverage in the corners and by the bar. Ask about offline behavior as well, because a router hiccup on a full night should not stop the kitchen from seeing orders.",
+        "Training on the system should happen before opening night, not during it. Run a mock service with staff playing both servers and guests, enter odd requests like allergies and split checks, and let the kitchen practice reading the screens. Mistakes made in rehearsal are free, while mistakes in service cost tips and reviews."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "A restaurant POS passes orders from servers to the right kitchen and bar stations.",
+    "Seat numbers, required modifiers, and coursing reduce mistakes and waiting.",
+    "Handhelds allow ordering and payment at the table.",
+    "Test Wi-Fi coverage and know the system's offline behavior before opening night."
+  ],
+  "faq": [
+    {
+      "q": "Is a kitchen screen worth it compared with printed tickets for my restaurant?",
+      "a": "Not necessarily. Printed tickets work in many kitchens. Screens add sorting, timers, and station routing, which become more valuable as volume and menu complexity grow. Many restaurants start with printers and add screens when they feel the pain of lost or late tickets."
+    },
+    {
+      "q": "Can servers take payment at the table?",
+      "a": "Yes, with a handheld such as the PayPilot Go. The guest taps, inserts, or uses a phone wallet while the card stays in view, then the tip can be selected on screen. This also frees servers from walking to the station for every check."
+    },
+    {
+      "q": "How does splitting a check work?",
+      "a": "The system can divide by seat, by item, or evenly across guests, and charge each share to a different card. Set expectations with servers about how many ways a check can be split, and practice the screens before a busy shift."
+    },
+    {
+      "q": "What happens if the internet goes down mid-service?",
+      "a": "Behavior depends on the system. Local network setups may keep orders flowing to the kitchen even if card approval is interrupted, while others pause. Ask your provider about offline options and their limits, and keep a manual backup procedure posted by the pass."
+    },
+    {
+      "q": "How should we handle tip pooling?",
+      "a": "Tip rules differ by location and may restrict who participates and how funds are shared. Use the POS reports to track tips accurately, but have an accountant or employment professional confirm the policy before you adopt it. Run a practice service before opening night to build confidence."
+    }
+  ],
+  "related": [
+    "handhelds-tableside-ordering",
+    "kitchen-display-systems",
+    "menu-engineering-with-pos-data",
+    "tips-and-card-processing",
+    "tip-pooling-done-right"
+  ],
+  "icon": "utensils",
+  "read_minutes": 7
+}

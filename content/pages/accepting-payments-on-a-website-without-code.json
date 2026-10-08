@@ -1,0 +1,122 @@
+{
+ "slug": "accepting-payments-on-a-website-without-code",
+ "topic": "online",
+ "title": "Taking Payments on Your Website Without Writing Code",
+ "seo_title": "Take Website Payments Without Writing Code | PayPilot",
+ "meta_description": "Add a Pay button, an embedded checkout or a link to your website without touching code. Learn which option fits your site builder and how to place it.",
+ "primary_keyword": "accept payments on website without code",
+ "keywords": [
+  "no-code payments",
+  "payment button for website",
+  "embed checkout",
+  "website builder payments",
+  "pay now button",
+  "payment link on website",
+  "small business website payments"
+ ],
+ "eyebrow": "No code",
+ "dek": "Buttons, links and embeds do the job for most small sites. You paste a snippet or a URL and the payment work happens elsewhere.",
+ "intro": [
+  "You built your site on a drag-and-drop builder over a long weekend. It looks good, and it says call us to book. What you really want is a button that says Pay and works.",
+  "The good news is that a developer is not required. Payment providers offer building blocks designed to be pasted into any page, and most site builders have a spot for them.",
+  "Below are the three main approaches, a way to choose, and the placement habits that turn a button into sales."
+ ],
+ "sections": [
+  {
+   "h2": "Option one: a plain link or button",
+   "paragraphs": [
+    "The simplest approach is a link to a hosted payment page. In your payments dashboard you create the page, copy its address, and on your site you turn some text or a button into a link pointing there.",
+    "This works everywhere, from a website builder to an email newsletter to a printed QR code. It requires no embedding and no extra permissions. The customer leaves your site briefly to pay on a secure page and then returns to a confirmation message.",
+    "It suits services with a fixed price, deposits, class registrations and one-off products.",
+    "Because the link lives in your dashboard, you can change the price or description later without editing your website at all, which is handy for seasonal offers."
+   ]
+  },
+  {
+   "h2": "Option two: an embedded button or widget",
+   "paragraphs": [
+    "An embed is a short piece of code that your site builder displays as a button or a small form. You copy it from the payment dashboard and paste it into a custom code or embed block on your page.",
+    "The customer stays on your site visually, which can feel smoother. Some embeds open the payment page in a pop-up window, and others display the form inline. You still do not write any code, since you only paste what you are given.",
+    "If your builder blocks pasted scripts on its cheapest plan, you may need to upgrade, or fall back to a link.",
+    "Preview the page on your builder's mobile view before publishing, since an embed that looks tidy on a laptop can overflow the screen on a phone."
+   ]
+  },
+  {
+   "h2": "Option three: a simple storefront",
+   "paragraphs": [
+    "If you sell several items, a hosted storefront or catalog page lists them with prices and a cart. You link to it from your navigation, and the provider handles inventory counts, taxes and checkout.",
+    "This is closer to a full online shop, but still requires no code. You can fill it in from the dashboard with item names, photos and prices. For a handful of products it is a tidy alternative to building a shop inside your site.",
+    "Add a short line about delivery or booking confirmation so the buyer knows what happens once the payment is complete."
+   ]
+  },
+  {
+   "h2": "Choosing between them",
+   "paragraphs": [
+    "Think about how many things you sell, how often prices change and how comfortable you are with your builder. A hypothetical yoga teacher with three class packages needs three buttons. A bakery with weekly specials benefits more from a storefront.",
+    "If you are not sure, begin with a link. It can be swapped for an embed later without changing anything else about how you take payments."
+   ],
+   "bullets": [
+    "One or two fixed-price offers: plain buttons or links.",
+    "Variable amounts, such as invoices or tips: a payment link where the customer can enter or confirm the total.",
+    "Many products: a hosted storefront.",
+    "Pop-up or inline appearance matters to you: try an embed."
+   ]
+  },
+  {
+   "h2": "Placement that gets clicks",
+   "paragraphs": [
+    "Put the button where the decision happens. A Pay now button at the end of a service description is more effective than one buried in the footer. Repeat it in the menu or header for visitors who already know what they want.",
+    "Use plain labels. Book and pay, Buy now or Pay deposit say what will happen. Clever copy slows people down.",
+    "State the price, what is included and your refund approach near the button, so that no one clicks to find out the cost. On a phone, make the button large enough to tap comfortably and check that it does not collide with other elements.",
+    "Add a plain sentence under the button naming your business and a support email, which reassures hesitant first-time buyers."
+   ]
+  },
+  {
+   "h2": "Test, secure and follow up",
+   "paragraphs": [
+    "Click your own button on a phone and a computer. Make a small real payment, check the notification in your dashboard and confirm the customer receipt looks professional. Refund the test and make sure that works too.",
+    "Security is mostly handled by the provider because card details are typed on their page, not yours. Your responsibilities are to protect your own logins with strong passwords and two-step verification, and to keep your site builder account secure.",
+    "Decide what happens after payment. A thank-you page that says when to expect a booking confirmation or delivery saves email questions. PayPilot payment links and hosted checkout need no code, and funds can reach you with next-day funding available, so you can follow each payment through to the deposit.",
+    "Check your analytics a week after launch to see how many visitors click the button and how many complete the payment, then adjust placement if the gap is large."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "A link to a hosted payment page works on any site or platform.",
+  "Embeds keep customers visually on your site but need a place to paste code.",
+  "A hosted storefront handles many products without any building.",
+  "Place the button next to the offer and use a plain label.",
+  "Test with a real payment and refund before announcing."
+ ],
+ "faq": [
+  {
+   "q": "Can I accept payments on my site without knowing how to code?",
+   "a": "Yes. Create a payment link or button in your payments dashboard, then paste the link or the provided snippet into your website builder. You are pasting what the provider generates, not writing software. The hosted page handles card entry, security and the receipt."
+  },
+  {
+   "q": "Is a payment link on my website safe for customers?",
+   "a": "The customer pays on the provider's secure hosted page, so card details are not typed into your website. Customers benefit from seeing your business name and the amount on that page, and you benefit from not storing sensitive payment data yourself."
+  },
+  {
+   "q": "What if my website builder will not accept embed code?",
+   "a": "Fall back to a plain link or button. Almost every builder lets you link text or an image to an outside address. Some builders limit custom code to higher plans, so a link is often the simplest option on a basic plan."
+  },
+  {
+   "q": "Can customers choose how much to pay?",
+   "a": "Many payment tools support customer-entered amounts, which is useful for tips, donations or open invoices. Where the price is fixed, it is better to pre-set the amount so there are no mistakes. Check what your provider supports before you decide which option to place on the page."
+  },
+  {
+   "q": "How do I know when someone has paid?",
+   "a": "You receive a notification by email or in your dashboard, and the customer receives a receipt. For a larger operation, a developer can connect these notifications to other tools later. For small sites, checking the dashboard once or twice a day is usually enough."
+  }
+ ],
+ "related": [
+  "launching-online-checkout",
+  "payment-links-for-instagram-sellers",
+  "deposits-for-bookings",
+  "selling-digital-products",
+  "payments-api-basics",
+  "digital-wallets-at-checkout"
+ ],
+ "icon": "cart",
+ "read_minutes": 6
+}

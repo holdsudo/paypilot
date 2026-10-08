@@ -1,0 +1,127 @@
+{
+  "slug": "first-week-accepting-cards",
+  "topic": "cards",
+  "title": "Your First Week Accepting Cards: A Day-by-Day Plan",
+  "seo_title": "First Week Accepting Cards: Day-by-Day Plan | PayPilot",
+  "meta_description": "Starting to accept credit cards? Follow a simple seven-day plan covering setup, test sales, staff training, and a review of your first deposit.",
+  "primary_keyword": "accepting credit cards for the first time",
+  "keywords": [
+    "start accepting credit cards",
+    "new merchant checklist",
+    "card reader setup",
+    "test transaction",
+    "train staff on card payments",
+    "first card deposit",
+    "small business card acceptance"
+  ],
+  "eyebrow": "Getting started",
+  "dek": "Seven days, one small task each, and you go from a boxed reader to a confident checkout routine.",
+  "intro": [
+    "The reader arrives in a small box, you plug it in, and then a quiet panic sets in. What if the first real customer taps and nothing happens? What if you charge someone twice? Most new owners feel this, and almost all of it disappears once you have rehearsed the checkout a few times when nobody is waiting.",
+    "This plan spreads the work across a week so that no single day feels heavy. Each day has one job, a clear finish line, and a short list of things to watch. You do not need to be technical, and you do not need to close the shop to follow along.",
+    "By day seven you will have a charged and connected device, a few practice sales behind you, staff who know what to say, and a first deposit you can trace back to the sales that created it."
+  ],
+  "sections": [
+    {
+      "h2": "Day 1: Unbox, charge, and connect",
+      "paragraphs": [
+        "Start with the dullest task, because it prevents the most embarrassing failures. Charge the device fully before you do anything else, since a half-charged handheld that dies at 4 p.m. on a Saturday is a classic first-week story.",
+        "Next, connect the device to the network you will actually use at the counter. If you plan to rely on shop Wi-Fi, stand at the spot where the reader will live and confirm the signal holds there, not just next to the router. Write the network name and the device serial number on a sticky note and keep it somewhere safe."
+      ],
+      "bullets": [
+        "Charge the device to full and keep the cable nearby",
+        "Join the counter-side Wi-Fi or insert the data card",
+        "Install any app or update the firmware prompts you to install",
+        "Record the serial number and the support line, 844.826.6227",
+        "Pick a permanent home for the reader at the register"
+      ]
+    },
+    {
+      "h2": "Day 2: Set up your business details",
+      "paragraphs": [
+        "Today is about what customers will see. Check that your business name appears on the receipt exactly as you want it, because that same name shows up on a customer's card statement. If it looks unfamiliar there, a surprised customer may dispute a perfectly good sale later.",
+        "Add your phone number and return policy to the receipt footer. Decide whether receipts go out by text, email, paper, or all three, and set tipping prompts if your business uses them. If you run a PayPilot POS, this is also the moment to load your first ten or so items rather than the whole catalog; you can add the rest as you go.",
+        "Spend a few minutes on the digital side as well. Log in on a computer, not just the device, and confirm that the email address on the account is one you check daily, because deposit notices and security alerts will go there. Set a strong password and, if offered, a second sign-in step."
+      ]
+    },
+    {
+      "h2": "Day 3: Run test transactions",
+      "paragraphs": [
+        "Now the practice begins. Use your own card for a small sale, then refund it, so you see the full loop from tap to credit. Try each method you expect customers to use: tap, chip insert, a phone wallet such as Apple Pay or Google Pay, and one manually keyed entry.",
+        "Do these tests at the pace of a real checkout. Watch how long the reader takes to wake, what the screen says at each step, and where the receipt option appears."
+      ],
+      "steps": [
+        "Ring a small sale on your own card using tap",
+        "Repeat with chip insertion and with a phone wallet",
+        "Void one sale before it settles and note the wording",
+        "Refund one completed sale and check the confirmation screen",
+        "Look at your own card statement later to confirm the descriptor reads correctly"
+      ]
+    },
+    {
+      "h2": "Day 4: Train everyone who touches the register",
+      "paragraphs": [
+        "Gather the staff for fifteen minutes and let each person run a practice sale while the others watch. Skip the lecture. The goal is muscle memory for the three things that come up most: starting a sale, handling a decline, and issuing a refund.",
+        "Give people a script for the awkward moments. A calm line such as 'That one didn't go through; would you like to try another card or pay another way?' keeps the customer's dignity intact and the line moving. Also decide who is allowed to refund, so a stranger's request at 5 p.m. does not become a judgment call for the newest hire."
+      ]
+    },
+    {
+      "h2": "Day 5: Take real sales and keep notes",
+      "paragraphs": [
+        "Accept your first live payments today. Keep a small paper log beside the register for the day and jot down anything odd: a slow tap, a confusing prompt, a customer question you could not answer. These notes become the questions you bring to support rather than vague worries.",
+        "Resist the urge to hover over every transaction. A real sale that finishes normally teaches you more than a dozen extra tests. If something fails, write down the time and the amount so support can find it quickly.",
+        "One more habit pays off during the first week: tell your regulars. A small sign by the register and a quick mention at checkout announce that cards, taps, and phone wallets are welcome, and customers who used to bring cash only may start spending a little more once they know they do not have to."
+      ]
+    },
+    {
+      "h2": "Days 6 and 7: Close out and check your first deposit",
+      "paragraphs": [
+        "At the end of the day, review the total of your card sales and compare it to what the device shows. This is also the habit of closing the batch, which groups the day's approved sales so they can be sent for payment. Our guide to the end-of-day batch routine walks through the details.",
+        "By the end of the week, look for your first deposit. With next-day funding available, you may see money arrive soon after your first full business day, though the exact timing depends on cutoff times, your bank, and weekends. Match the deposit to the sales behind it, and note any gap between the two; a small difference is often just a pending item or a refund."
+      ],
+      "bullets": [
+        "Compare device totals to your own sales log",
+        "Confirm tips, if any, are included in the right batch",
+        "Match the deposit amount to the batch it came from",
+        "Save screenshots of the first week for your records"
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Rehearse with your own card before any customer is waiting.",
+    "Check how your business name will look on a cardholder's statement.",
+    "Train staff on declines and refunds, not just on ringing a sale.",
+    "Reconcile your first deposit against the batch that produced it."
+  ],
+  "faq": [
+    {
+      "q": "How long does it take to start accepting cards?",
+      "a": "The device setup itself can be done in an afternoon, but plan a full week to feel comfortable. The extra days go to practice sales, staff training, and checking your first deposit. Rushing straight to live customers is the most common reason new owners feel flustered at the counter."
+    },
+    {
+      "q": "Do I need to test with real money?",
+      "a": "A small real sale on your own card is the best test, because it exercises the whole path from tap to deposit. Refund it afterward and watch how the refund appears. Some devices also offer a practice mode, but a live low-value sale shows you what customers will actually experience."
+    },
+    {
+      "q": "What should I do if a customer's card fails on day one?",
+      "a": "Stay calm and offer another option. A decline can come from the customer's issuer, a typo, or a weak connection on your end. Ask politely whether they would like to try again, use another card, or pay a different way. Avoid guessing aloud about why it happened."
+    },
+    {
+      "q": "Should I take tips from the start?",
+      "a": "Only if your business normally receives them. Enabling a tip prompt takes a minute, and staff should know how the tip amount reaches them. If you are unsure how to share tips between employees, speak with an accountant or employment professional, since rules differ by location."
+    },
+    {
+      "q": "When will I see my first deposit?",
+      "a": "PayPilot offers next-day funding, so a deposit can follow soon after your first closed batch. Actual arrival depends on the cutoff time, weekends and holidays, and your bank's own posting schedule. Compare the deposit to the matching batch total in your reports."
+    }
+  ],
+  "related": [
+    "daily-batch-close-routine",
+    "choosing-a-card-reader",
+    "deposits-timing-explained",
+    "opening-day-checklist",
+    "what-a-modern-pos-does"
+  ],
+  "icon": "rocket",
+  "read_minutes": 6
+}

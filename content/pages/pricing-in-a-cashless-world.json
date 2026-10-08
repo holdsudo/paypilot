@@ -1,0 +1,128 @@
+{
+  "slug": "pricing-in-a-cashless-world",
+  "topic": "growth",
+  "title": "Pricing Your Products When Most Customers Tap",
+  "seo_title": "Pricing When Most Customers Tap to Pay | PayPilot",
+  "meta_description": "Round numbers, charm prices, and card fees all shape pricing now that most customers tap. Learn how to set prices and think about dual pricing.",
+  "primary_keyword": "pricing for card payments",
+  "keywords": [
+    "psychological pricing",
+    "charm pricing",
+    "round number pricing",
+    "dual pricing basics",
+    "price for card fees",
+    "pricing small business",
+    "cashless pricing strategy"
+  ],
+  "eyebrow": "Growth",
+  "dek": "When no one counts coins anymore, price endings, fees, and presentation change. Here is how to set prices that fit how people pay.",
+  "intro": [
+    "A food truck owner used to set prices in round dollars so cash change was quick. Now nearly every customer taps a phone or card, and the old reason for round numbers has vanished. Yet the menu still says the same thing, and he wonders whether it should.",
+    "Pricing is part math, part psychology, and part logistics. In a cashless setting, the logistics shift: change-making disappears, card costs become a line in your expenses, and tax-inclusive or tax-added prices become a design choice.",
+    "This guide walks through the main decisions, with a short note on dual pricing, which has legal specifics worth checking."
+  ],
+  "sections": [
+    {
+      "h2": "Why round prices were common",
+      "paragraphs": [
+        "In a cash world, prices ending in .00 or .50 sped up transactions and cut down on coins. Tax was often folded in to make totals tidy. A street vendor could make change from a pocket without a calculator.",
+        "With tap payments, the register handles any amount instantly. That frees you to choose prices for reasons other than coin convenience, such as perception, positioning, and profit."
+      ]
+    },
+    {
+      "h2": "Charm prices and round prices send different signals",
+      "paragraphs": [
+        "Prices ending in 9 or 95 are called charm prices and tend to signal value or a deal. Round numbers tend to signal quality or simplicity. A boutique selling premium goods may prefer clean round prices, while a discount-focused shop may lean on charm endings.",
+        "Neither is right for every business. Think about what your brand promises, and test. Change one product or category, observe sales for a few weeks, and compare. Avoid mixing styles randomly on the same menu, which looks inconsistent."
+      ],
+      "bullets": [
+        "Round prices: clean, premium, easy to remember.",
+        "Charm prices: value-oriented, familiar in retail.",
+        "Whole-dollar menus: fewer digits, less visual clutter.",
+        "Tax-inclusive prices: simple totals, common at stalls and events."
+      ]
+    },
+    {
+      "h2": "Build card costs into your margin",
+      "paragraphs": [
+        "Card processing has a cost, and when almost every sale is a card sale, that cost belongs in your pricing math the way rent and ingredients do. Look at your monthly statement, find the total processing cost as a share of sales, and include it when calculating margins.",
+        "Many owners discover that a small price adjustment, spread across the menu, absorbs the cost without drawing attention. That is usually easier on customers than adding a visible fee at the register."
+      ]
+    },
+    {
+      "h2": "A note on dual pricing and cash discounts",
+      "paragraphs": [
+        "Some businesses show two prices: a standard price for card payments and a lower price for cash. PayPilot offers a Zero plan built around compliant dual pricing, which can bring processing cost to zero for the merchant. Rules for surcharging, dual pricing, and cash discounts vary by state and by card network, so confirm the requirements before you change your signs or receipts.",
+        "If you go that route, display both prices clearly, make sure the receipt shows the same figures, and train staff to explain it in a single friendly sentence. Transparency is the heart of compliance and of customer trust."
+      ]
+    },
+    {
+      "h2": "Make the total unsurprising",
+      "paragraphs": [
+        "Customers dislike surprises more than they dislike prices. Decide whether to show prices before or after tax, and keep it consistent across menu, shelf tags, and receipts. If you add a service charge, a delivery fee, or a tip prompt, make each visible before the final tap.",
+        "A tip screen that appears with sensible options helps service businesses without pressure. Choose defaults you would be comfortable defending to a customer's face."
+      ]
+    },
+    {
+      "h2": "Presentation matters as much as the number",
+      "paragraphs": [
+        "Drop the currency symbol on a menu, and diners tend to focus more on the food than the price. Group items by value rather than listing them cheapest to most expensive, and place the item you most want to sell where eyes land first.",
+        "Anchoring also works: a premium item next to a standard one can make the standard feel reasonable. None of this requires trickery. Customers appreciate a clear layout, and clear layouts tend to sell. Review the printed or digital menu with fresh eyes and ask whether a stranger could find the price and the total in seconds."
+      ]
+    },
+    {
+      "h2": "Watch how customers react",
+      "paragraphs": [
+        "Numbers on a report only tell part of the story. Listen for comments at the register, notice which items customers hesitate over, and ask staff what questions come up most often.",
+        "If the same price confuses people repeatedly, the problem may be the presentation and not the number. Small wording changes on a sign can resolve it without touching your margin."
+      ]
+    },
+    {
+      "h2": "Review your prices on a schedule",
+      "paragraphs": [
+        "Costs change, and prices should be reviewed regularly. Set a calendar reminder to look at supplier costs, processing costs, and sales mix every few months. Small, regular adjustments are less jarring than rare large ones.",
+        "When you raise prices, explain simply if asked, and watch your numbers for a few weeks. The PayPilot POS lets you update items in one place so every register and online listing stays in sync. Prices are a conversation with your customers, so keep it honest and consistent."
+      ],
+      "steps": [
+        "Calculate your true cost per item, including card processing.",
+        "Pick a pricing style that matches your brand.",
+        "Test on a small group of items before changing everything.",
+        "Make sure signs, menu, and receipts show the same prices.",
+        "Review costs and prices every few months."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Coin convenience no longer limits your price endings.",
+    "Round prices suggest quality; charm prices suggest value.",
+    "Include card costs in your margin calculations.",
+    "Confirm local rules before using dual pricing or cash discounts."
+  ],
+  "faq": [
+    {
+      "q": "Should I raise prices to cover card fees?",
+      "a": "A modest, evenly spread adjustment is one way to cover processing costs without a visible fee. Calculate your true cost first, and test the change on a few items. If you consider surcharging, check the rules for your state and card network first."
+    },
+    {
+      "q": "Do charm prices still work?",
+      "a": "They remain common because many shoppers associate them with value. Whether they suit you depends on your brand, so test a category and compare sales instead of assuming. Look at one category first and compare results over a few weeks before applying the idea everywhere."
+    },
+    {
+      "q": "What is dual pricing?",
+      "a": "It shows one price for card payments and a lower price for cash. The details, including signage and receipts, are regulated and vary by state and card network, so confirm requirements before you adopt it. A written explanation on signs and receipts keeps customers and staff on the same page."
+    },
+    {
+      "q": "Should prices include tax?",
+      "a": "Either can work. Tax-inclusive prices make totals simple at markets and stalls, while tax-added prices are standard in many shops. Pick one approach, apply it consistently, and consult an accountant on local tax requirements. Consistency across your menu, shelf tags, and receipts matters more than which method you choose."
+    }
+  ],
+  "related": [
+    "cash-discount-signage-guide",
+    "processing-fees-on-small-sales",
+    "raising-average-ticket",
+    "tips-and-card-processing",
+    "seasonal-promotions-pos"
+  ],
+  "icon": "dollar",
+  "read_minutes": 7
+}

@@ -1,0 +1,702 @@
+[
+{
+"topic": "money",
+"slug": "how-instant-money-transfers-work",
+"title": "How Instant Money Transfers Actually Work",
+"angle": "ledger moves inside a network vs bank rails; why some are instant and some aren't",
+"url": "/blog/how-instant-money-transfers-work/"
+},
+{
+"topic": "money",
+"slug": "splitting-bills-with-friends",
+"title": "The Painless Guide to Splitting Bills With Friends",
+"angle": "even vs itemized splits, requests, reminders, etiquette",
+"url": "/blog/splitting-bills-with-friends/"
+},
+{
+"topic": "money",
+"slug": "paying-your-roommates-rent-share",
+"title": "Paying Your Share of Rent Through an App",
+"angle": "recurring requests, records, landlord vs roommate payments",
+"url": "/blog/paying-your-roommates-rent-share/"
+},
+{
+"topic": "money",
+"slug": "sending-money-to-family",
+"title": "Sending Money to Family Without the Hassle",
+"angle": "speed, confirmation, safety checks before sending",
+"url": "/blog/sending-money-to-family/"
+},
+{
+"topic": "money",
+"slug": "request-money-etiquette",
+"title": "Request-Money Etiquette: How to Ask Without Awkwardness",
+"angle": "timing, notes, reminders",
+"url": "/blog/request-money-etiquette/"
+},
+{
+"topic": "money",
+"slug": "p2p-payment-scams",
+"title": "Peer-to-Peer Payment Scams and How to Spot Them",
+"angle": "fake buyer overpayment, impersonation, 'accidental' sends; payments may not be reversible",
+"url": "/blog/p2p-payment-scams/"
+},
+{
+"topic": "money",
+"slug": "p2p-for-small-business",
+"title": "Should Your Small Business Accept Peer-to-Peer Payments?",
+"angle": "personal vs business accounts, records, protections",
+"url": "/blog/p2p-for-small-business/"
+},
+{
+"topic": "money",
+"slug": "qr-code-wallet-payments",
+"title": "Paying and Getting Paid With a Wallet QR Code",
+"angle": "how QR wallet payments work at stalls and between friends",
+"url": "/blog/qr-code-wallet-payments/"
+},
+{
+"topic": "money",
+"slug": "wallet-balance-vs-bank-transfer",
+"title": "Wallet Balance vs. Paying Straight From Your Bank",
+"angle": "holding a balance, funding sources, transfer timing",
+"url": "/blog/wallet-balance-vs-bank-transfer/"
+},
+{
+"topic": "money",
+"slug": "cashing-out-a-wallet-balance",
+"title": "Moving Money From Your Wallet to Your Bank",
+"angle": "standard vs instant transfer, timing, fees disclosed in app",
+"url": "/blog/cashing-out-a-wallet-balance/"
+},
+{
+"topic": "money",
+"slug": "paying-the-babysitter-digitally",
+"title": "Paying Babysitters, Tutors and Dog Walkers Digitally",
+"angle": "household help, records, tips",
+"url": "/blog/paying-the-babysitter-digitally/"
+},
+{
+"topic": "money",
+"slug": "group-trip-expenses",
+"title": "Managing Group Trip Expenses Without a Spreadsheet",
+"angle": "shared costs, settling up at the end",
+"url": "/blog/group-trip-expenses/"
+},
+{
+"topic": "money",
+"slug": "gifting-money-digitally",
+"title": "Gifting Money Digitally: Birthdays, Weddings and Holidays",
+"angle": "notes, timing, privacy",
+"url": "/blog/gifting-money-digitally/"
+},
+{
+"topic": "money",
+"slug": "fundraising-with-friends",
+"title": "Collecting Money for a Group Gift or Team Fund",
+"angle": "organizer tips, transparency",
+"url": "/blog/fundraising-with-friends/"
+},
+{
+"topic": "money",
+"slug": "side-hustle-getting-paid",
+"title": "Getting Paid for Your Side Hustle",
+"angle": "invoices vs requests vs links; keeping income records (consult a tax pro)",
+"url": "/blog/side-hustle-getting-paid/"
+},
+{
+"topic": "money",
+"slug": "freelancer-payment-options",
+"title": "Payment Options Every Freelancer Should Offer",
+"angle": "cards, links, transfers, deposits",
+"url": "/blog/freelancer-payment-options/"
+},
+{
+"topic": "money",
+"slug": "p2p-payment-privacy",
+"title": "Privacy Settings on Payment Apps: What to Check",
+"angle": "public vs private activity, contacts",
+"url": "/blog/p2p-payment-privacy/"
+},
+{
+"topic": "money",
+"slug": "sent-money-to-wrong-person",
+"title": "Sent Money to the Wrong Person? What to Do Next",
+"angle": "act quickly, contact support, prevention",
+"url": "/blog/sent-money-to-wrong-person/"
+},
+{
+"topic": "money",
+"slug": "p2p-limits-and-verification",
+"title": "Why Payment Apps Have Limits and Identity Checks",
+"angle": "verification, fraud prevention, regulations in general terms",
+"url": "/blog/p2p-limits-and-verification/"
+},
+{
+"topic": "money",
+"slug": "teaching-teens-digital-money",
+"title": "Teaching Teens to Handle Digital Money",
+"angle": "allowance, spending awareness, safety",
+"url": "/blog/teaching-teens-digital-money/"
+},
+{
+"topic": "money",
+"slug": "contactless-wallet-vs-card",
+"title": "Phone Wallet or Physical Card: Which Should You Tap?",
+"angle": "tokenization, convenience, backup",
+"url": "/blog/contactless-wallet-vs-card/"
+},
+{
+"topic": "money",
+"slug": "digital-tips-for-service-workers",
+"title": "How Digital Tipping Works for Service Workers",
+"angle": "tip prompts, QR tips, payouts",
+"url": "/blog/digital-tips-for-service-workers/"
+},
+{
+"topic": "money",
+"slug": "paying-at-farmers-markets",
+"title": "Paying (and Getting Paid) at Farmers Markets",
+"angle": "vendors, QR, readers, connectivity",
+"url": "/blog/paying-at-farmers-markets/"
+},
+{
+"topic": "money",
+"slug": "p2p-vs-card-payment-for-sellers",
+"title": "Getting Paid by Friends vs. Getting Paid by Customers",
+"angle": "why business payments need different tools",
+"url": "/blog/p2p-vs-card-payment-for-sellers/"
+},
+{
+"topic": "money",
+"slug": "future-of-sending-money",
+"title": "Where Sending Money Is Headed Next",
+"angle": "real-time rails, request-to-pay, wallets (no stats)",
+"url": "/blog/future-of-sending-money/"
+},
+{
+"topic": "cards",
+"slug": "first-week-accepting-cards",
+"title": "Your First Week Accepting Cards: A Day-by-Day Plan",
+"angle": "setup, test transactions, staff training",
+"url": "/blog/first-week-accepting-cards/"
+},
+{
+"topic": "cards",
+"slug": "what-happens-when-a-card-is-declined",
+"title": "What Really Happens When a Card Is Declined",
+"angle": "decline reasons, what to say to customers",
+"url": "/blog/what-happens-when-a-card-is-declined/"
+},
+{
+"topic": "cards",
+"slug": "tap-to-pay-on-iphone-and-android",
+"title": "Accepting Tap to Pay on a Phone",
+"angle": "phone as terminal, use cases, limits",
+"url": "/blog/tap-to-pay-on-iphone-and-android/"
+},
+{
+"topic": "cards",
+"slug": "card-on-file-for-repeat-customers",
+"title": "Card on File: Faster Checkout for Regulars",
+"angle": "consent, storage via tokens, no-show fees",
+"url": "/blog/card-on-file-for-repeat-customers/"
+},
+{
+"topic": "cards",
+"slug": "pre-authorization-holds-explained",
+"title": "Pre-Authorization Holds, Explained Simply",
+"angle": "bars, hotels, rentals; releasing holds",
+"url": "/blog/pre-authorization-holds-explained/"
+},
+{
+"topic": "cards",
+"slug": "manual-card-entry-risks",
+"title": "When (and Why Not) to Key In a Card Number",
+"angle": "card-not-present risk, safeguards",
+"url": "/blog/manual-card-entry-risks/"
+},
+{
+"topic": "cards",
+"slug": "processing-fees-on-small-sales",
+"title": "Why a $3 Sale Can Cost More to Process",
+"angle": "fixed per-transaction costs math",
+"url": "/blog/processing-fees-on-small-sales/"
+},
+{
+"topic": "cards",
+"slug": "tips-and-card-processing",
+"title": "How Tips Flow Through Card Payments",
+"angle": "adjustments, batch timing, payouts",
+"url": "/blog/tips-and-card-processing/"
+},
+{
+"topic": "cards",
+"slug": "card-acceptance-at-pop-up-events",
+"title": "Taking Cards at a Pop-Up Event",
+"angle": "offline mode, battery, signage",
+"url": "/blog/card-acceptance-at-pop-up-events/"
+},
+{
+"topic": "cards",
+"slug": "accepting-cards-for-services-at-home",
+"title": "Taking Card Payments on House Calls",
+"angle": "mobile readers, invoices, deposits",
+"url": "/blog/accepting-cards-for-services-at-home/"
+},
+{
+"topic": "cards",
+"slug": "daily-batch-close-routine",
+"title": "The End-of-Day Batch Close Routine",
+"angle": "why closing batches matters, checklist",
+"url": "/blog/daily-batch-close-routine/"
+},
+{
+"topic": "cards",
+"slug": "refund-policies-that-reduce-disputes",
+"title": "Writing a Refund Policy That Prevents Disputes",
+"angle": "clarity, display, consistency",
+"url": "/blog/refund-policies-that-reduce-disputes/"
+},
+{
+"topic": "cards",
+"slug": "choosing-a-card-reader",
+"title": "How to Choose a Card Reader for a Small Business",
+"angle": "countertop vs mobile vs handheld",
+"url": "/blog/choosing-a-card-reader/"
+},
+{
+"topic": "cards",
+"slug": "card-brands-and-acceptance-marks",
+"title": "Card Brands, Networks and Acceptance Marks",
+"angle": "what the logos mean, signage",
+"url": "/blog/card-brands-and-acceptance-marks/"
+},
+{
+"topic": "cards",
+"slug": "signature-and-pin-today",
+"title": "Do Customers Still Need to Sign or Enter a PIN?",
+"angle": "CVM basics, when PIN appears",
+"url": "/blog/signature-and-pin-today/"
+},
+{
+"topic": "cards",
+"slug": "handling-a-suspicious-transaction",
+"title": "What to Do When a Transaction Feels Suspicious",
+"angle": "red flags, calling for authorization, staff scripts",
+"url": "/blog/handling-a-suspicious-transaction/"
+},
+{
+"topic": "cards",
+"slug": "processing-statement-basics-for-new-owners",
+"title": "Reading Your First Processing Statement",
+"angle": "deposits vs sales vs fees",
+"url": "/blog/processing-statement-basics-for-new-owners/"
+},
+{
+"topic": "cards",
+"slug": "deposits-timing-explained",
+"title": "When Will My Card Sales Hit My Bank?",
+"angle": "batch cutoff, weekends, holidays",
+"url": "/blog/deposits-timing-explained/"
+},
+{
+"topic": "cards",
+"slug": "cash-discount-signage-guide",
+"title": "Posting Dual Prices: Signage and Receipt Basics",
+"angle": "disclosure, rules vary by state/network",
+"url": "/blog/cash-discount-signage-guide/"
+},
+{
+"topic": "cards",
+"slug": "why-switching-payment-providers-is-easier-now",
+"title": "Switching Payment Providers Is Easier Than You Think",
+"angle": "checklist, reprogramming terminals",
+"url": "/blog/why-switching-payment-providers-is-easier-now/"
+},
+{
+"topic": "pos",
+"slug": "what-a-modern-pos-does",
+"title": "What a Modern POS Does Beyond Ringing Sales",
+"angle": "inventory, staff, reports, loyalty",
+"url": "/blog/what-a-modern-pos-does/"
+},
+{
+"topic": "pos",
+"slug": "pos-for-restaurants-front-and-back",
+"title": "Restaurant POS: Front of House to Kitchen",
+"angle": "tickets, coursing, KDS, handhelds",
+"url": "/blog/pos-for-restaurants-front-and-back/"
+},
+{
+"topic": "pos",
+"slug": "pos-for-retail-boutiques",
+"title": "POS Setup for a Retail Boutique",
+"angle": "variants, barcodes, returns",
+"url": "/blog/pos-for-retail-boutiques/"
+},
+{
+"topic": "pos",
+"slug": "pos-for-salons",
+"title": "POS for Salons and Barbershops",
+"angle": "appointments, tips, product sales",
+"url": "/blog/pos-for-salons/"
+},
+{
+"topic": "pos",
+"slug": "pos-for-coffee-shops",
+"title": "Building a Fast Coffee Shop Checkout",
+"angle": "modifiers, speed, loyalty",
+"url": "/blog/pos-for-coffee-shops/"
+},
+{
+"topic": "pos",
+"slug": "pos-for-food-trucks",
+"title": "Food Truck POS: Built for the Window",
+"angle": "menus, lines, offline",
+"url": "/blog/pos-for-food-trucks/"
+},
+{
+"topic": "pos",
+"slug": "menu-engineering-with-pos-data",
+"title": "Menu Engineering With Your POS Data",
+"angle": "stars, plowhorses, puzzles, dogs",
+"url": "/blog/menu-engineering-with-pos-data/"
+},
+{
+"topic": "pos",
+"slug": "inventory-counts-made-simple",
+"title": "Inventory Counts Without Closing the Store",
+"angle": "cycle counts, variances",
+"url": "/blog/inventory-counts-made-simple/"
+},
+{
+"topic": "pos",
+"slug": "employee-permissions-pos",
+"title": "Setting Employee Permissions on a POS",
+"angle": "roles, voids, discounts",
+"url": "/blog/employee-permissions-pos/"
+},
+{
+"topic": "pos",
+"slug": "tip-pooling-done-right",
+"title": "Tip Pooling Done Right",
+"angle": "methods, transparency, check local labor law",
+"url": "/blog/tip-pooling-done-right/"
+},
+{
+"topic": "pos",
+"slug": "handhelds-tableside-ordering",
+"title": "Why Tableside Handhelds Speed Up Service",
+"angle": "turn times, accuracy",
+"url": "/blog/handhelds-tableside-ordering/"
+},
+{
+"topic": "pos",
+"slug": "kitchen-display-systems",
+"title": "Kitchen Display Systems vs. Paper Tickets",
+"angle": "timers, routing",
+"url": "/blog/kitchen-display-systems/"
+},
+{
+"topic": "pos",
+"slug": "online-ordering-from-your-pos",
+"title": "Running Online Orders Through Your POS",
+"angle": "one menu, one inventory",
+"url": "/blog/online-ordering-from-your-pos/"
+},
+{
+"topic": "pos",
+"slug": "loyalty-programs-that-work",
+"title": "Loyalty Programs Customers Actually Use",
+"angle": "points vs visits vs perks",
+"url": "/blog/loyalty-programs-that-work/"
+},
+{
+"topic": "pos",
+"slug": "gift-cards-for-small-business",
+"title": "Selling Gift Cards: A Small Business Playbook",
+"angle": "digital vs physical, breakage basics",
+"url": "/blog/gift-cards-for-small-business/"
+},
+{
+"topic": "pos",
+"slug": "pos-reports-to-check-weekly",
+"title": "The Five POS Reports to Check Every Week",
+"angle": "sales, labor, items, discounts, refunds",
+"url": "/blog/pos-reports-to-check-weekly/"
+},
+{
+"topic": "pos",
+"slug": "multi-location-pos",
+"title": "Running Multiple Locations From One POS",
+"angle": "central menus, transfers",
+"url": "/blog/multi-location-pos/"
+},
+{
+"topic": "pos",
+"slug": "pos-hardware-checklist",
+"title": "The Complete POS Hardware Checklist",
+"angle": "terminal, printer, drawer, scanner",
+"url": "/blog/pos-hardware-checklist/"
+},
+{
+"topic": "pos",
+"slug": "pos-offline-mode",
+"title": "What Happens to Your POS When the Wi-Fi Drops",
+"angle": "offline mode, risks, syncing",
+"url": "/blog/pos-offline-mode/"
+},
+{
+"topic": "pos",
+"slug": "choosing-pos-software",
+"title": "How to Choose POS Software: 12 Questions",
+"angle": "fit, contracts, support",
+"url": "/blog/choosing-pos-software/"
+},
+{
+"topic": "online",
+"slug": "launching-online-checkout",
+"title": "Launching Online Checkout in an Afternoon",
+"angle": "hosted checkout steps",
+"url": "/blog/launching-online-checkout/"
+},
+{
+"topic": "online",
+"slug": "payment-links-for-instagram-sellers",
+"title": "Selling on Instagram With Payment Links",
+"angle": "DM checkout flow",
+"url": "/blog/payment-links-for-instagram-sellers/"
+},
+{
+"topic": "online",
+"slug": "invoices-that-get-paid-faster",
+"title": "Invoices That Get Paid Faster",
+"angle": "pay buttons, due dates, reminders",
+"url": "/blog/invoices-that-get-paid-faster/"
+},
+{
+"topic": "online",
+"slug": "subscription-box-billing",
+"title": "Billing a Subscription Box Business",
+"angle": "cycles, failed payments, pausing",
+"url": "/blog/subscription-box-billing/"
+},
+{
+"topic": "online",
+"slug": "checkout-abandonment-fixes",
+"title": "Why Shoppers Abandon Checkout and How to Fix It",
+"angle": "steps, wallets, trust",
+"url": "/blog/checkout-abandonment-fixes/"
+},
+{
+"topic": "online",
+"slug": "digital-wallets-at-checkout",
+"title": "Adding Digital Wallets to Your Checkout",
+"angle": "one-tap buttons",
+"url": "/blog/digital-wallets-at-checkout/"
+},
+{
+"topic": "online",
+"slug": "accepting-payments-on-a-website-without-code",
+"title": "Taking Payments on Your Website Without Writing Code",
+"angle": "embeds, links",
+"url": "/blog/accepting-payments-on-a-website-without-code/"
+},
+{
+"topic": "online",
+"slug": "payments-api-basics",
+"title": "Payments API Basics for Non-Developers",
+"angle": "tokens, webhooks, test mode",
+"url": "/blog/payments-api-basics/"
+},
+{
+"topic": "online",
+"slug": "webhooks-explained",
+"title": "Webhooks Explained for Business Owners",
+"angle": "event notifications",
+"url": "/blog/webhooks-explained/"
+},
+{
+"topic": "online",
+"slug": "recurring-donations",
+"title": "Setting Up Recurring Donations",
+"angle": "nonprofits, donor experience",
+"url": "/blog/recurring-donations/"
+},
+{
+"topic": "online",
+"slug": "deposits-for-bookings",
+"title": "Taking Deposits for Bookings and Reservations",
+"angle": "partial payments, cancellation policy",
+"url": "/blog/deposits-for-bookings/"
+},
+{
+"topic": "online",
+"slug": "selling-digital-products",
+"title": "Getting Paid for Digital Products",
+"angle": "delivery, refunds",
+"url": "/blog/selling-digital-products/"
+},
+{
+"topic": "online",
+"slug": "event-ticket-payments",
+"title": "Selling Event Tickets Online",
+"angle": "capacity, refunds, door sales",
+"url": "/blog/event-ticket-payments/"
+},
+{
+"topic": "online",
+"slug": "b2b-online-invoicing",
+"title": "Invoicing Business Clients Online",
+"angle": "net terms, ACH vs card",
+"url": "/blog/b2b-online-invoicing/"
+},
+{
+"topic": "online",
+"slug": "international-online-customers",
+"title": "Selling to Customers Outside the U.S.",
+"angle": "currency, fraud checks, fees",
+"url": "/blog/international-online-customers/"
+},
+{
+"topic": "security",
+"slug": "tokenization-for-business-owners",
+"title": "Tokenization in Plain English",
+"angle": "why stored tokens beat stored numbers",
+"url": "/blog/tokenization-for-business-owners/"
+},
+{
+"topic": "security",
+"slug": "protecting-your-payments-account",
+"title": "Locking Down Your Payments Account",
+"angle": "2FA, roles, alerts",
+"url": "/blog/protecting-your-payments-account/"
+},
+{
+"topic": "security",
+"slug": "phishing-attacks-on-merchants",
+"title": "Phishing Attacks That Target Merchants",
+"angle": "fake processor emails, verification",
+"url": "/blog/phishing-attacks-on-merchants/"
+},
+{
+"topic": "security",
+"slug": "fraud-signs-online-orders",
+"title": "Warning Signs of a Fraudulent Online Order",
+"angle": "mismatches, rush shipping",
+"url": "/blog/fraud-signs-online-orders/"
+},
+{
+"topic": "security",
+"slug": "card-skimming-prevention",
+"title": "Protecting Your Terminals From Skimming",
+"angle": "inspections, tamper seals",
+"url": "/blog/card-skimming-prevention/"
+},
+{
+"topic": "security",
+"slug": "data-you-should-never-store",
+"title": "Customer Data You Should Never Store",
+"angle": "full card numbers, CVV",
+"url": "/blog/data-you-should-never-store/"
+},
+{
+"topic": "security",
+"slug": "secure-wifi-for-payments",
+"title": "Wi-Fi Security for Your Payment Devices",
+"angle": "separate networks",
+"url": "/blog/secure-wifi-for-payments/"
+},
+{
+"topic": "security",
+"slug": "handling-disputes-calmly",
+"title": "Handling a Payment Dispute Step by Step",
+"angle": "evidence, deadlines",
+"url": "/blog/handling-disputes-calmly/"
+},
+{
+"topic": "security",
+"slug": "account-takeover-protection-for-wallet-users",
+"title": "Keeping Your Wallet Safe From Account Takeover",
+"angle": "SIM swap, passcodes",
+"url": "/blog/account-takeover-protection-for-wallet-users/"
+},
+{
+"topic": "security",
+"slug": "what-encryption-means-at-checkout",
+"title": "What 'Encrypted' Really Means at Checkout",
+"angle": "in transit vs at rest",
+"url": "/blog/what-encryption-means-at-checkout/"
+},
+{
+"topic": "growth",
+"slug": "raising-average-ticket",
+"title": "Seven Ways to Raise Your Average Ticket",
+"angle": "upsells at POS",
+"url": "/blog/raising-average-ticket/"
+},
+{
+"topic": "growth",
+"slug": "using-sales-data-to-staff",
+"title": "Scheduling Staff With Your Sales Data",
+"angle": "peak hours",
+"url": "/blog/using-sales-data-to-staff/"
+},
+{
+"topic": "growth",
+"slug": "turning-receipts-into-marketing",
+"title": "Turning Digital Receipts Into Marketing",
+"angle": "offers, reviews",
+"url": "/blog/turning-receipts-into-marketing/"
+},
+{
+"topic": "growth",
+"slug": "customer-directory-crm",
+"title": "Building a Customer Directory From Your Payments",
+"angle": "consent, segments",
+"url": "/blog/customer-directory-crm/"
+},
+{
+"topic": "growth",
+"slug": "seasonal-promotions-pos",
+"title": "Running Seasonal Promotions at the Register",
+"angle": "discount setup",
+"url": "/blog/seasonal-promotions-pos/"
+},
+{
+"topic": "growth",
+"slug": "pricing-in-a-cashless-world",
+"title": "Pricing Your Products When Most Customers Tap",
+"angle": "psychological pricing, dual pricing note",
+"url": "/blog/pricing-in-a-cashless-world/"
+},
+{
+"topic": "growth",
+"slug": "opening-day-checklist",
+"title": "The Payments Side of an Opening-Day Checklist",
+"angle": "test everything",
+"url": "/blog/opening-day-checklist/"
+},
+{
+"topic": "growth",
+"slug": "cash-flow-from-faster-deposits",
+"title": "How Faster Deposits Change Your Cash Flow",
+"angle": "planning around next-day funding",
+"url": "/blog/cash-flow-from-faster-deposits/"
+},
+{
+"topic": "growth",
+"slug": "working-capital-for-pos-merchants",
+"title": "When a Growing Merchant Needs Working Capital",
+"angle": "funding options via partners like Fidelity Funding",
+"url": "/blog/working-capital-for-pos-merchants/"
+},
+{
+"topic": "growth",
+"slug": "reviews-and-reputation-at-checkout",
+"title": "Asking for Reviews at Checkout",
+"angle": "timing, QR",
+"url": "/blog/reviews-and-reputation-at-checkout/"
+}
+]

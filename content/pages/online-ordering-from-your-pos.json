@@ -1,0 +1,127 @@
+{
+ "slug": "online-ordering-from-your-pos",
+ "topic": "pos",
+ "title": "Running Online Orders Through Your POS",
+ "seo_title": "Running Online Orders Through Your POS | PayPilot",
+ "meta_description": "Connect online ordering to your POS so one menu, one inventory and one kitchen queue serve every channel. Setup steps, pitfalls and pickup tips included.",
+ "primary_keyword": "online ordering POS",
+ "keywords": [
+  "online ordering integrated with POS",
+  "restaurant online ordering",
+  "pickup orders",
+  "one menu all channels",
+  "order throttling",
+  "online ordering for retail",
+  "curbside pickup"
+ ],
+ "eyebrow": "Online + in-store",
+ "dek": "When web orders land in the same system as walk-ins, you stop re-typing tickets and stop overselling what you do not have.",
+ "intro": [
+  "Many owners add online ordering the quick way: a separate tablet on the counter, a second menu to maintain, and a staff member re-entering each order into the register. It works for a week and then becomes the most hated job in the shop.",
+  "A POS that handles online orders natively removes the double entry. The menu is shared, the stock is shared, and orders arrive in the same queue as in-person sales.",
+  "This guide covers how that integration works, how to set it up, and the operational habits that keep pickup running smoothly."
+ ],
+ "sections": [
+  {
+   "h2": "One menu, many doors",
+   "paragraphs": [
+    "The central idea is that your catalog lives in the POS and everything else reads from it. Change a price, rename an item or mark something sold out once, and the website, ordering link and in-store screens all update.",
+    "This also removes the common mismatch where the online menu still lists a special that ended on Sunday. Customers who pay for something that no longer exists are a support headache and a refund you did not want.",
+    "Think of the POS as the single source of truth and every ordering page as a window onto it. That framing helps when you are deciding where to make a change: always at the source."
+   ]
+  },
+  {
+   "h2": "How an order travels",
+   "paragraphs": [
+    "A shopper picks items, chooses pickup time and pays at checkout. The payment is authorized, the order is created in the POS, and the kitchen or stockroom is notified through a screen, printer or alert on a handheld.",
+    "For retail, the same flow reserves the product so it cannot be sold twice. For a restaurant, it creates a ticket with a promised time. Either way, the staff see it with the other orders and do not need to check a separate device.",
+    "Payment details are handled by the payment provider and the order shows a paid status, so the counter never touches the card."
+   ]
+  },
+  {
+   "h2": "Setting it up",
+   "paragraphs": [
+    "Prepare your catalog before connecting anything. Clean item names, clear photos, correct modifiers and accurate prep times will determine how well the online menu performs.",
+    "Write the photo and description checklist for new items now. An item added in a hurry without a picture tends to sell less online, and nobody notices until the weekly report."
+   ],
+   "steps": [
+    "Review the in-store menu and remove items that cannot be ordered ahead, such as fragile or made-to-order specials.",
+    "Add photos and short descriptions that mention allergens clearly.",
+    "Set your ordering hours, pickup windows and minimum lead time.",
+    "Choose how orders announce themselves: a kitchen screen, a printer, or a chime on the handheld.",
+    "Place a test order yourself, pay with a real card, and refund it to make sure everything flows.",
+    "Add the ordering link to your website, social profiles and printed materials."
+   ]
+  },
+  {
+   "h2": "Controlling volume so the kitchen survives",
+   "paragraphs": [
+    "The danger of online ordering is that it never says no. A rush of orders at six o'clock can bury a kitchen that was happily managing the walk-in crowd.",
+    "Use throttling if your system offers it: limit orders per fifteen-minute window, lengthen quoted prep times automatically as the queue grows, or pause ordering with one tap. A hypothetical limit of eight orders per window may be right for a small kitchen, and you can adjust it as you learn.",
+    "After a month, compare the busiest online hours with your staffing schedule. If the surge always arrives at six fifteen, someone should be assigned to pickup at six, not pulled from the line."
+   ],
+   "bullets": [
+    "Quote realistic pickup times and pad them for the first weeks.",
+    "Pause online orders during staffing gaps or equipment failures.",
+    "Use a separate pickup shelf with names so orders do not pile on the counter.",
+    "Text or alert customers when their order is ready."
+   ]
+  },
+  {
+   "h2": "Inventory and sold-out handling",
+   "paragraphs": [
+    "When one inventory pool serves every channel, a sale at the counter reduces what the website can offer. A boutique with two of a sweater will not sell three.",
+    "Restaurants have a softer version of this. Mark items unavailable once a prep batch is done, and consider setting daily quantities for specials. The goal is for the customer never to see an item you cannot make.",
+    "Substitutions are the hidden cost of shared stock. Decide whether staff may swap an unavailable item for a similar one on an online order, and how the customer will be told, because silent swaps lead to complaints."
+   ]
+  },
+  {
+   "h2": "Pickup, fees and the customer experience",
+   "paragraphs": [
+    "Make the handoff pleasant. Label bags with a name and a brief itemized summary, and keep drinks apart from hot food. A short call or text when the order is ready beats a customer wondering whether to walk in.",
+    "Think about how you present pricing. If you operate on a dual-pricing program, confirm the rules for online orders in your state and with the card networks, because disclosure requirements can differ between in-person and online sales.",
+    "PayPilot lets online orders flow into the same POS as in-store sales, so reports show all channels together. Once you can see them side by side, you can decide where to focus promotions and staffing.",
+    "Collect feedback in the same place. A short note on the receipt or the ready message inviting a reply about the order gives you a steady view of what online customers experience."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "A shared catalog means one price change updates every channel.",
+  "Online orders should appear on the same screen or printer as in-store orders.",
+  "Throttle or pause ordering so busy periods do not overwhelm the kitchen.",
+  "Shared inventory prevents selling items you no longer have.",
+  "Test the whole flow with a real payment and refund before going live."
+ ],
+ "faq": [
+  {
+   "q": "Do I need a separate system for online ordering?",
+   "a": "Not necessarily. A POS with built-in online ordering uses the same menu, stock and payment tools as your counter, which eliminates re-entering tickets. A separate system can work, but it usually means maintaining two menus and reconciling two sets of sales at the end of the day."
+  },
+  {
+   "q": "How do I stop online orders from overloading my kitchen?",
+   "a": "Set limits on how many orders can be placed per time window, lengthen the quoted prep time when the queue is long, and keep a quick option to pause ordering. Review your busiest hours after the first month and adjust the settings to match your real capacity."
+  },
+  {
+   "q": "Can customers pay online and pick up in store?",
+   "a": "Yes. Most online ordering setups collect payment at checkout, then flag the order as paid so the counter simply hands it over. Some also allow paying at pickup. Paying ahead cuts handling at the counter and reduces the chance of no-shows for made-to-order items."
+  },
+  {
+   "q": "What about refunds for online orders?",
+   "a": "Refunds are generally issued from the POS against the original payment, to the same card. Set a clear policy on the ordering page for missing items or late pickups, and train staff to process a refund quickly. Clear policies reduce chargebacks and awkward conversations."
+  },
+  {
+   "q": "Does online ordering work for retail stores too?",
+   "a": "It does. Retailers use the same system for click-and-collect, local delivery or shipping, with inventory shared across the store and the website. The main requirement is accurate stock counts, since overselling an item that is not on the shelf creates cancelled orders."
+  }
+ ],
+ "related": [
+  "launching-online-checkout",
+  "kitchen-display-systems",
+  "inventory-counts-made-simple",
+  "payment-links-for-instagram-sellers",
+  "pos-for-coffee-shops",
+  "multi-location-pos"
+ ],
+ "icon": "cart",
+ "read_minutes": 6
+}

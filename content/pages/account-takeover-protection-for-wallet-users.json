@@ -1,0 +1,128 @@
+{
+  "slug": "account-takeover-protection-for-wallet-users",
+  "topic": "security",
+  "title": "Keeping Your Wallet Safe From Account Takeover",
+  "seo_title": "Wallet Account Takeover Protection | PayPilot",
+  "meta_description": "Account takeover can empty a digital wallet fast. Learn how SIM swaps and weak passcodes lead to it, and the habits that protect your PayPilot Wallet.",
+  "primary_keyword": "account takeover protection",
+  "keywords": [
+    "SIM swap protection",
+    "wallet passcode security",
+    "digital wallet safety",
+    "two-step verification wallet",
+    "stolen phone wallet",
+    "prevent account takeover",
+    "mobile account PIN"
+  ],
+  "eyebrow": "Security",
+  "dek": "When someone else gets into your wallet, they can move money fast. A few habits make that much harder.",
+  "intro": [
+    "Imagine your phone suddenly loses service for no reason. Minutes later, you start getting alerts: password reset requests, new device sign-ins, and a message saying a transfer was sent. By the time you reach your carrier, someone else has been using your phone number as if it were theirs.",
+    "That scenario is called an account takeover, and a digital wallet is an appealing target because money can move quickly. Peer-to-peer payments may not be reversible, which makes prevention far more valuable than cleanup.",
+    "Most takeovers rely on a handful of tricks, and most can be blunted with habits you can set up in an afternoon. PayPilot Wallet availability, limits, and features depend on eligibility and verification, but the basics below apply to any wallet."
+  ],
+  "sections": [
+    {
+      "h2": "How takeovers usually begin",
+      "paragraphs": [
+        "The attacker rarely hacks the wallet itself. They go after the things that unlock it: your phone number, your email, your passcode, or your trust. A password reused from a leaked website, a convincing phone call, or a text with a login link can all hand over the keys.",
+        "Once in, the person may add their own device, change contact details, and send money before you notice. Speed is their advantage, so your advantage is making the first step difficult."
+      ]
+    },
+    {
+      "h2": "What a SIM swap is and why it works",
+      "paragraphs": [
+        "A SIM swap happens when a criminal convinces your mobile carrier to move your phone number to a SIM card they control. From then on, calls and text messages meant for you go to them, including verification codes sent by text.",
+        "They need some personal details to pass the carrier's checks, and those details are often found in earlier data leaks. The result is that any account using your number as its safety net can be reset by the thief."
+      ],
+      "bullets": [
+        "Set a port-out or number-lock PIN with your carrier if they offer one.",
+        "Use an authenticator app instead of text codes where your wallet allows it.",
+        "Never share carrier account PINs by phone or text.",
+        "Treat sudden loss of cell service as a possible warning and check your accounts."
+      ]
+    },
+    {
+      "h2": "Build a passcode that is hard to guess",
+      "paragraphs": [
+        "Avoid birthdays, repeated digits, and sequences such as 1234. Choose a longer code or a phrase if the wallet supports it, and keep it different from your phone's unlock code. If someone watches you unlock your phone in public, that one code should not also open your money.",
+        "Turn on biometric unlock where it is available, such as a fingerprint or face check, but keep a strong fallback passcode. Also set your phone to lock quickly when idle. A wallet on an unlocked phone left on a table is open to anyone."
+      ]
+    },
+    {
+      "h2": "Secure the email behind the account",
+      "paragraphs": [
+        "Your email inbox is often the master key, because password resets arrive there. If it is weak, everything linked to it is weak. Give your email a unique passphrase and a second verification step, and review which devices are signed in.",
+        "Check for forwarding rules you did not create, a classic sign that someone is quietly reading your mail. If your wallet lets you review trusted devices and active sessions, look at that list from time to time and remove anything unfamiliar."
+      ]
+    },
+    {
+      "h2": "Recognize the social tricks",
+      "paragraphs": [
+        "Scammers pose as support staff, buyers, or friends in trouble. They may ask you to read a code, confirm a login, or send a small test payment. A real provider will not ask for your one-time codes, and a stranger who needs you to move money quickly is a red flag.",
+        "Before sending money to anyone, pause. Confirm a friend's request through a separate channel, like a phone call. Because wallet payments may not be reversible, verifying first is the best protection you have."
+      ],
+      "steps": [
+        "Stop when someone creates urgency or secrecy.",
+        "Do not share codes, passcodes, or screen sharing access.",
+        "Verify the request through a second channel you already trust.",
+        "Check the recipient name and handle before confirming.",
+        "Send only after you are satisfied it is genuine."
+      ]
+    },
+    {
+      "h2": "Small habits that add up",
+      "paragraphs": [
+        "Keep your phone's operating system up to date, because updates close holes that attackers rely on. Install apps only from official stores, and remove ones you no longer use. Be cautious on public Wi-Fi, and never approve a login prompt you did not start.",
+        "Review your wallet activity from time to time, even when nothing seems wrong. Catching a strange transfer early gives you more options. Consider setting up transaction alerts if the app offers them, and keep your contact details current so alerts reach you rather than a number you retired years ago."
+      ]
+    },
+    {
+      "h2": "What to do before you ever need help",
+      "paragraphs": [
+        "Write down the support number, your carrier's fraud line, and the name of your bank on a card in your wallet. In a crisis, hunting for contact details wastes the minutes that matter most. Make sure at least one person you trust knows how to reach you if your phone goes dark.",
+        "Practice the first three moves: lock the phone, call the carrier, change the email password. Talking through it once makes it far easier to do under stress. Remember that wallet features and limits depend on eligibility and verification, so review what applies to your own account."
+      ]
+    },
+    {
+      "h2": "If you think you were taken over",
+      "paragraphs": [
+        "Move quickly. Contact your carrier if your service dropped unexpectedly, then change your wallet passcode and email password from a trusted device. Sign out of other sessions and remove unfamiliar devices.",
+        "Contact PayPilot support at 844.826.6227 and describe what happened, including times and any transfers you did not make. Tell your bank if a linked account is involved. Keep screenshots and messages as evidence. Prompt action does not guarantee recovery, which is exactly why prevention comes first."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Takeovers target your phone number, email, and passcode more than the wallet itself.",
+    "Lock your number with your carrier and prefer an authenticator app to texted codes.",
+    "Use a distinct passcode and a quick auto-lock.",
+    "Peer-to-peer payments may not be reversible, so verify before you send."
+  ],
+  "faq": [
+    {
+      "q": "What is a SIM swap?",
+      "a": "A SIM swap is when a criminal persuades your carrier to move your number to a SIM they hold. They then receive your calls and texts, including verification codes. A carrier lock PIN and an authenticator app reduce the risk."
+    },
+    {
+      "q": "Can I get money back if someone drains my wallet?",
+      "a": "Not always. Peer-to-peer transfers may not be reversible, and outcomes depend on the facts and on verification. Contact support right away, but treat prevention as your main protection. Speed matters, so report the problem the moment you notice it and gather screenshots of what you saw."
+    },
+    {
+      "q": "Is a biometric lock enough?",
+      "a": "It is a helpful layer, not a complete defense. Keep a strong fallback passcode that differs from your phone unlock code, lock the screen quickly, and secure your email and carrier account as well. A thief who sees a locked screen and a code they cannot guess is likely to move on."
+    },
+    {
+      "q": "What should I do if my phone is lost or stolen?",
+      "a": "Lock or wipe it using your phone's find feature, ask your carrier to suspend the line, change your wallet passcode and email password, and review recent activity. Then contact PayPilot support for help. Do not wait for the phone to turn up before acting, because the first hours matter most."
+    }
+  ],
+  "related": [
+    "p2p-payment-scams",
+    "protecting-your-payments-account",
+    "p2p-payment-privacy",
+    "sent-money-to-wrong-person",
+    "qr-code-wallet-payments"
+  ],
+  "icon": "phone",
+  "read_minutes": 7
+}

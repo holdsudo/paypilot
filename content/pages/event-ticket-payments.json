@@ -1,0 +1,125 @@
+{
+  "slug": "event-ticket-payments",
+  "topic": "online",
+  "title": "Selling Event Tickets Online",
+  "seo_title": "Selling Event Tickets Online | PayPilot",
+  "meta_description": "Planning a show, class, or fundraiser? Learn how to sell event tickets online, cap capacity, handle refunds, and take door sales without double-selling.",
+  "primary_keyword": "sell event tickets online",
+  "keywords": [
+    "event ticket payments",
+    "online ticketing small events",
+    "ticket refunds policy",
+    "door sales card payments",
+    "capacity limits tickets",
+    "ticket payment links",
+    "fundraiser tickets"
+  ],
+  "eyebrow": "Online payments",
+  "dek": "From a community fundraiser to a ticketed workshop, a clean payment flow keeps the line moving and the headcount honest.",
+  "intro": [
+    "A local theater group plans a two-night show in a hall that seats exactly as many people as it seats. The treasurer has a cash box, a spreadsheet, and a growing pile of text messages from people who say they paid a friend.",
+    "Selling tickets online replaces that scramble with a single source of truth: every payment is recorded, every ticket is counted, and every attendee gets a confirmation they can show on arrival.",
+    "Below is a practical walk through setting up ticket sales, managing capacity, writing a refund policy, and handling the people who turn up on the night without one."
+  ],
+  "sections": [
+    {
+      "h2": "Decide what a ticket actually includes",
+      "paragraphs": [
+        "Before you open sales, define the product. Does one ticket cover one person, or a table? Does it include food, a drink, or parking? Are there tiers, like general admission and reserved seating, or early-entry access?",
+        "Each distinct option should be its own item with its own price and its own limit. Combining options into a single vague listing is how organizers end up with a hall full of people and nobody sure who paid for what."
+      ]
+    },
+    {
+      "h2": "Set a firm capacity and respect it",
+      "paragraphs": [
+        "Your capacity is a real-world number set by the venue, a fire code, or the number of workshop stations. Decide it first, then subtract seats you hold back for staff, guests, and door sales.",
+        "The online ticket limit should be the remaining number. If you plan to sell some tickets at the door, hold those back deliberately so online buyers cannot claim every spot. Overselling is hard to fix gracefully, so err on the cautious side."
+      ],
+      "bullets": [
+        "Count staff, performers, and complimentary guests before you set the sellable total.",
+        "Create a separate small allocation for door sales if you intend to take them.",
+        "Close online sales a set time before the event so your list is final for check-in.",
+        "Keep a short waitlist message ready in case you sell out."
+      ]
+    },
+    {
+      "h2": "Set up the sale",
+      "paragraphs": [
+        "For a single event, payment links are a quick way to sell. Create one link per ticket type, add the date, venue, and arrival time to the description, and share them in your announcement. For repeat events, a hosted checkout page keeps everything in one place."
+      ],
+      "steps": [
+        "List each ticket type with its price, quantity limit, and what it includes.",
+        "Write the event details, refund terms, and contact information in the checkout description.",
+        "Test a purchase yourself and confirm the confirmation message looks right.",
+        "Share the links and monitor the sold count against your capacity.",
+        "Export or review the buyer list a day before the event for check-in."
+      ]
+    },
+    {
+      "h2": "Write a refund and transfer policy before the first sale",
+      "paragraphs": [
+        "Events are different from products because the date cannot move. Decide up front whether buyers can get money back, transfer a ticket to a friend, or exchange it for another date.",
+        "A common middle path is to allow refunds until a stated deadline and transfers up to the event. If the event itself is postponed or cancelled, your obligation to refund is typically stronger, so plan for that case in writing. Consumer rules for event cancellations differ by location, so check what applies to you."
+      ]
+    },
+    {
+      "h2": "Handling door sales",
+      "paragraphs": [
+        "Some guests will always decide on the day. Having a way to take cards at the entrance prevents a cash-only bottleneck and keeps your count accurate. A handheld device or a phone reader lets a volunteer take a tap payment anywhere in the lobby.",
+        "PayPilot Go and the pocket Reader are built for exactly this kind of mobile setup, and a tap payment can double as the receipt. Make sure the Wi-Fi or cellular signal reaches your entrance before the doors open, and keep a backup plan for dead zones."
+      ]
+    },
+    {
+      "h2": "A worked example, clearly hypothetical",
+      "paragraphs": [
+        "Suppose a community choir plans one evening concert in a hall with a fixed number of seats. The organizers hold back a handful for performers' families and a small block for door sales, then open the remainder online in two tiers: standard seating and a front-section option that includes a printed program.",
+        "Two weeks out, standard seats sell steadily while the front section stalls. Instead of discounting, the organizers add a note to the front-section listing explaining the view and the program, and sales pick up. The treasurer closes online sales the afternoon before, exports the buyer list, and prints it alphabetically for the volunteer at the door.",
+        "On the night, the door allocation sells through on a handheld reader, and the final count matches the seats in the hall. The numbers are invented, but the pattern, which is define, cap, test, close, and reconcile, applies to almost any ticketed event."
+      ]
+    },
+    {
+      "h2": "Check-in and the morning after",
+      "paragraphs": [
+        "On the night, check people in against a list rather than relying on memory. Match the name or order number from the confirmation and mark arrivals as you go. This also reveals no-shows, which is useful if you plan a sequel.",
+        "Afterward, reconcile the sales report with your attendance count and your deposits. A short thank-you message with a link to the next event turns one-time attendees into a mailing list, as long as they agreed to hear from you."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Define every ticket type and its limit before sales open.",
+    "Reserve a deliberate number of spots for door sales.",
+    "Publish refund and transfer rules before the first purchase.",
+    "Use a handheld reader so last-minute guests can pay by card."
+  ],
+  "faq": [
+    {
+      "q": "How do I avoid selling more tickets than seats?",
+      "a": "Set a quantity limit on each ticket type equal to the seats you actually want to sell online, after subtracting staff, guests, and any door allocation. Review the sold count as you approach the limit, and close sales manually if circumstances change, such as a smaller room."
+    },
+    {
+      "q": "Can I take ticket payments at the door by card?",
+      "a": "Yes, with a portable card reader or a handheld terminal. Check signal strength at the entrance well before doors open, and allocate a specific number of door tickets so your capacity stays accurate. A volunteer can take a tap payment anywhere in the lobby."
+    },
+    {
+      "q": "What if the event is cancelled?",
+      "a": "Plan to refund buyers, and say so in your terms. Refunds return to the original payment method and may take several business days to appear. Local consumer protection rules can affect your obligations, so confirm them before you sell. Tell buyers how you will contact them if plans change, so nobody learns of a cancellation from social media."
+    },
+    {
+      "q": "Should I allow ticket transfers?",
+      "a": "Often it is a friendly option, because a buyer who cannot attend can pass the ticket to someone else and you keep the sale. Decide whether the new holder must be named so your check-in list stays accurate, and say how the transfer request should be made."
+    },
+    {
+      "q": "What should a ticket confirmation include?",
+      "a": "Include the event name, date, doors-open time, venue address, the ticket type, the order number, and a way to contact you with questions. Add your refund and transfer terms in a sentence so buyers can find them again without searching their inbox."
+    }
+  ],
+  "related": [
+    "payment-links-for-instagram-sellers",
+    "card-acceptance-at-pop-up-events",
+    "recurring-donations",
+    "launching-online-checkout",
+    "fundraising-with-friends"
+  ],
+  "icon": "users",
+  "read_minutes": 6
+}

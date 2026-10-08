@@ -1,0 +1,120 @@
+{
+ "slug": "multi-location-pos",
+ "topic": "pos",
+ "title": "Running Multiple Locations From One POS",
+ "seo_title": "Running Multiple Locations From One POS | PayPilot",
+ "meta_description": "Opening a second shop? See how a multi-location POS handles central menus, local pricing, stock transfers, staff access and consolidated reporting.",
+ "primary_keyword": "multi-location POS",
+ "keywords": [
+  "multi-location POS system",
+  "central menu management",
+  "stock transfers between stores",
+  "consolidated reporting",
+  "franchise POS",
+  "multi-store inventory",
+  "location-based permissions"
+ ],
+ "eyebrow": "Growth",
+ "dek": "Two stores should feel like one business to you and like a local shop to each customer. The right setup makes that possible.",
+ "intro": [
+  "Opening a second location is exciting for about a week. Then the questions arrive: whose price list applies, how do we move stock between shops, why do the two sales reports never match, and who is allowed to change what?",
+  "A POS built for multiple locations answers these from the start, with a central account that holds shared settings and each store running as its own unit underneath.",
+  "This guide explains the pieces that matter, what to centralize, what to leave local, and how to avoid the mistakes that cause headaches at three or four locations."
+ ],
+ "sections": [
+  {
+   "h2": "One account, many stores",
+   "paragraphs": [
+    "The foundation is an account that sits above individual locations. Menus, product catalogs, employee records and reports live at that level, while sales, cash drawers and stock counts belong to each store.",
+    "If you start with separate accounts for each shop, you will spend your evenings exporting spreadsheets and merging them. Combining them later is possible but tedious, so it is much easier to begin with the right structure, even if you only have one shop today.",
+    "A useful test of your structure is to imagine hiring a new manager tomorrow. Could they open the right store's register, see only that store's data, and still follow company-wide rules without a long phone call?"
+   ]
+  },
+  {
+   "h2": "Central menus with local flexibility",
+   "paragraphs": [
+    "Most owners want a single master catalog, so a new item or a price update goes everywhere at once. They also want exceptions: a downtown store with higher rent may need slightly different prices, and a seasonal item might be sold only at the beach location.",
+    "Look for the ability to override price, availability and tax settings per location while still inheriting everything else. Tax rates matter too, since each store may sit in a different jurisdiction and your POS must apply the correct one automatically."
+   ],
+   "bullets": [
+    "Inherit shared items by default and override only when necessary.",
+    "Mark seasonal or location-specific items so they do not leak to every store.",
+    "Keep naming consistent so reports can combine like items.",
+    "Review location price differences quarterly so they do not drift unintentionally."
+   ]
+  },
+  {
+   "h2": "Moving stock between locations",
+   "paragraphs": [
+    "Sooner or later one store runs out of something another store has too much of. A transfer feature records the movement: items leave one location's count and arrive in another's after confirmation.",
+    "Insist on a two-step process, send then receive. Without it, an item can be lost in a van and appear in no store's count. The receiving manager confirms quantities, and any difference is flagged on the spot.",
+    "A hypothetical example: a boutique sends twelve scarves from the flagship to the new shop, but only ten arrive. A receive step notes the shortfall the same day, when it is still easy to trace.",
+    "Count both ends before and after a transfer for the first few months. It is a quick way to learn which routes and which people cause the most variances."
+   ]
+  },
+  {
+   "h2": "Who can do what, where",
+   "paragraphs": [
+    "Permissions grow more important with more stores. A manager of the north shop should be able to adjust the north shop's schedule and see its reports, but not edit the south shop's cash counts.",
+    "Create roles that are tied to locations. An area manager might see two stores, a bookkeeper might see everything read-only, and a cashier sees only the register of their own store. Remove access immediately when someone changes roles, since people who rotate between stores often keep stale permissions.",
+    "Keep one owner-level account whose credentials are held by as few people as possible, with a second factor turned on wherever the system offers it."
+   ]
+  },
+  {
+   "h2": "Reporting across stores",
+   "paragraphs": [
+    "Consolidated reports tell you how the business is doing. Location reports tell you why. You need both, and you need the ability to compare stores on equal terms: sales per labor hour, average ticket, discount rate and refund rate.",
+    "Beware of unfair comparisons. A new store will lag an established one, and a store in a tourist area behaves differently from a neighborhood shop. Compare each location against its own previous period as well as against its siblings.",
+    "Check that your end-of-day processes line up. If one store closes at midnight and another at ten, your daily totals need a consistent cut-off time or your reports will be skewed.",
+    "Share a weekly comparison among managers if your culture suits it. Friendly visibility into each other's numbers encourages best practices to travel from one store to another."
+   ]
+  },
+  {
+   "h2": "Hardware, payments and deposits",
+   "paragraphs": [
+    "Each location needs its own terminals, printers and network, but you want them configured identically so a trained employee can work at either store. Keep a standard hardware kit and a written setup checklist.",
+    "Think about money flow. You might want deposits from each store going to separate accounts or into one combined account, depending on how you do your bookkeeping. Ask your provider what is possible and how reports line up with deposits. PayPilot supports multiple locations under one account, with next-day funding available, and a PayPilot Terminal or Go can be provisioned for each store.",
+    "Finally, document the opening and closing routine once and reuse it at every site. Consistency is what makes it possible to manage from a distance."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Start with one account that has stores underneath, not separate accounts.",
+  "Use a master catalog with per-location overrides for price, availability and tax.",
+  "Use two-step transfers so inventory is never in limbo.",
+  "Tie permissions to locations and review them when people move.",
+  "Compare stores fairly, including against their own history."
+ ],
+ "faq": [
+  {
+   "q": "Do I need a different POS for each location?",
+   "a": "No. A multi-location POS lets you manage every store from a single account, with shared menus, employees and reporting. Each store still has its own registers, stock counts and cash drawers. A single account keeps your data consistent and saves enormous time when you add the third or fourth shop."
+  },
+  {
+   "q": "Can each store have different prices?",
+   "a": "Usually yes. You set a master price list and override specific items for particular locations when rent, local competition or tax rules justify it. Keep a record of the differences so that overrides do not pile up and confuse staff or customers who shop at more than one location."
+  },
+  {
+   "q": "How do I handle inventory between stores?",
+   "a": "Use the transfer feature, which moves items out of one location and into another with a send and receive step. That way quantities are confirmed at both ends. Count stock regularly at each store so that discrepancies show up early instead of after months of drift."
+  },
+  {
+   "q": "Can I see total sales across all locations?",
+   "a": "Yes, consolidated reports combine every location while still letting you drill into a single store. Make sure the day cut-off time is consistent across stores so combined daily totals are comparable, and check that tax and tips are reported in the same way."
+  },
+  {
+   "q": "How should I manage staff who work at more than one store?",
+   "a": "Give them a single employee record with access to each location they work at, and track hours by location. This keeps one login and one PIN for the person while letting payroll and tip reports separate their time at each store."
+  }
+ ],
+ "related": [
+  "inventory-counts-made-simple",
+  "employee-permissions-pos",
+  "pos-reports-to-check-weekly",
+  "choosing-pos-software",
+  "opening-day-checklist",
+  "cash-flow-from-faster-deposits"
+ ],
+ "icon": "building",
+ "read_minutes": 6
+}

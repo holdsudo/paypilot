@@ -1,0 +1,127 @@
+{
+  "slug": "signature-and-pin-today",
+  "topic": "cards",
+  "title": "Do Customers Still Need to Sign or Enter a PIN?",
+  "seo_title": "Signature and PIN at Checkout: What's Required | PayPilot",
+  "meta_description": "Signatures and PINs are cardholder verification methods that have changed. Learn when a PIN appears, when no verification is needed, and what to tell staff.",
+  "primary_keyword": "signature or PIN at checkout",
+  "keywords": [
+    "cardholder verification method",
+    "CVM",
+    "no signature required",
+    "chip and PIN",
+    "contactless limit",
+    "PIN debit",
+    "signature on receipt"
+  ],
+  "eyebrow": "Checkout rules",
+  "dek": "The pen at the counter is fading, and PIN prompts seem to pop up at random. Here is the logic behind both.",
+  "intro": [
+    "A customer taps a card on your reader, and the screen asks for nothing more. The next customer inserts a card and is asked for a PIN. A third is handed a stylus to sign. To the person at the counter, the rules can feel arbitrary, and customers often ask why.",
+    "They are not arbitrary. Every card payment includes a step called cardholder verification, a way of checking that the person using the card is plausibly the person it belongs to. The method chosen depends on the card, the device, the amount, and the issuer's instructions.",
+    "This guide explains the main methods, why signatures have faded from many checkouts, and what your team should say when customers ask what is going on."
+  ],
+  "sections": [
+    {
+      "h2": "The verification methods in plain language",
+      "paragraphs": [
+        "Payments people call it a cardholder verification method. There are only a handful, and the card itself tells the reader which to use. The chip stores an ordered list of preferences, set by the issuer.",
+        "In everyday terms, the options look like this:"
+      ],
+      "bullets": [
+        "PIN: the customer types a personal number on the device",
+        "Signature: the customer signs a screen or slip",
+        "Device unlock: a phone or watch confirms identity with a fingerprint, face scan, or passcode",
+        "No verification: low-value contactless payments that need nothing extra"
+      ]
+    },
+    {
+      "h2": "Why signatures have faded",
+      "paragraphs": [
+        "Signatures were always a weak check. At a busy counter, few cashiers compared a scribble to the card, and a forger could sign anything. Card networks have loosened signature requirements in recent years, and many merchants no longer need to collect them at all.",
+        "That said, rules differ by network, region, and merchant type. Some businesses still capture signatures because they want evidence in case of a dispute, or because the card in question asks for it. Do not abandon the practice without confirming what your agreement and your provider require.",
+        "A hypothetical audit shows why practice changed. A busy store reviewing a week of paper slips found that nobody had ever compared a single signature to the card. The slips proved only that someone had scribbled something. Networks reached a similar conclusion, which is why stronger checks such as chip, PIN, and device unlock took the lead."
+      ]
+    },
+    {
+      "h2": "When a PIN prompt appears",
+      "paragraphs": [
+        "A PIN is requested when the card's chip says so. Debit cards frequently ask for one, and many credit cards do as well. Higher amounts, cards from certain issuers, and sales made in an unfamiliar country can all trigger the request.",
+        "Contactless payments behave differently. Small tap payments generally go through without anything extra, but the issuer may occasionally ask the customer to insert the card and enter a PIN to confirm they still have it. Staff should treat this as a normal safety check, not a malfunction."
+      ]
+    },
+    {
+      "h2": "Contactless limits and the surprise PIN",
+      "paragraphs": [
+        "Issuers set thresholds for tap-and-go payments, and the exact amounts vary by bank and market. A customer may have no trouble with a coffee but be asked to insert the card for a larger purchase. They may also be asked after a series of taps, as a check that the card is not being used by someone else.",
+        "When this happens, say something simple: 'Your bank asked for the chip and PIN this time. Please insert the card.' Do not suggest the customer did anything wrong. It is the bank's routine, and it protects them."
+      ]
+    },
+    {
+      "h2": "Phones and watches: the built-in check",
+      "paragraphs": [
+        "When a customer pays with Apple Pay or Google Pay, they have already proven themselves to their device with a fingerprint, face, or passcode. That unlock is the verification. For this reason, no PIN or signature is normally asked for at your device, and the payment is often considered stronger than a simple card tap.",
+        "This is a good talking point if a customer worries about taps. You can say, truthfully, that a phone payment includes an unlock step on their side before the data is sent."
+      ]
+    },
+    {
+      "h2": "What to tell your staff",
+      "paragraphs": [
+        "A brief training note prevents arguments at the register. Employees should follow what the device displays instead of making their own rules, and they should never ask a customer to say their PIN aloud or write it down.",
+        "A good set of instructions includes:",
+        "Accessibility is worth considering. Some customers have trouble reading small screens or entering digits, and a patient, helpful staff member makes the moment easier. Offer to adjust screen brightness, hold the device steady, or choose a larger-print option if your reader provides one, while still keeping the PIN private."
+      ],
+      "steps": [
+        "Follow the prompt on the screen, whichever method it requests",
+        "Turn the keypad toward the customer and look away during PIN entry",
+        "If a signature is requested, accept a reasonable one without comparing to the card",
+        "Offer help if a customer forgets a PIN, but suggest another payment method rather than guessing",
+        "Report any odd behavior or repeated PIN failures to a manager"
+      ]
+    },
+    {
+      "h2": "Protecting PIN privacy at your counter",
+      "paragraphs": [
+        "Physical layout matters. Place the PIN pad so that the person behind cannot read it, and angle the screen away from windows or cameras. Keep a small shield nearby for stands where the device cannot be moved.",
+        "If you operate a PayPilot Terminal, its fixed position makes a good place for a simple privacy shroud. For handheld devices, hold the screen steady for the customer and avoid peering over their shoulder."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "The card chip tells the reader which verification method to use.",
+    "Signatures have faded, though some merchants still choose to collect them.",
+    "A surprise PIN prompt on a tap is a routine safety check from the issuer.",
+    "Phone-wallet payments are verified by the customer's own device unlock."
+  ],
+  "faq": [
+    {
+      "q": "Is a signature still legally required?",
+      "a": "Requirements depend on the card network, your merchant agreement, and local rules. Many networks no longer require signatures for most sales. Check your agreement and ask support before changing your practice, especially if you handle large tickets or take cards without a chip."
+    },
+    {
+      "q": "Why did my reader ask for a PIN on a tap?",
+      "a": "The customer's bank decides when a contactless payment needs extra verification. It may do so after several taps or for larger amounts. The customer inserts the card and enters their PIN, and the payment then continues normally. It is not a fault on your device."
+    },
+    {
+      "q": "What if the customer forgot their PIN?",
+      "a": "Do not try to help guess it. Offer another card, a phone wallet, or a different payment method. The customer can contact their bank to reset the PIN. Be patient, since a forgotten PIN is a common and understandable slip."
+    },
+    {
+      "q": "Do phone payments need a signature?",
+      "a": "Generally no. The customer unlocks their phone or watch with a fingerprint, face scan, or passcode before the payment is sent, and that step counts as their verification. Your reader simply shows the approval when the bank responds. When in doubt, follow the prompt on the reader."
+    },
+    {
+      "q": "Should I keep signed receipts?",
+      "a": "If you collect signatures, keep them according to your record-keeping needs and the retention guidance in your merchant agreement. They can help in a dispute, but they are not a guarantee. Store them securely and shred paper copies when the retention period ends."
+    }
+  ],
+  "related": [
+    "card-brands-and-acceptance-marks",
+    "contactless-wallet-vs-card",
+    "what-happens-when-a-card-is-declined",
+    "choosing-a-card-reader",
+    "what-encryption-means-at-checkout"
+  ],
+  "icon": "shield",
+  "read_minutes": 6
+}

@@ -1,0 +1,68 @@
+{
+"slug": "pos-for-food-trucks",
+"topic": "pos",
+"title": "Food Truck POS: Built for the Window",
+"seo_title": "Food Truck POS: Built for the Window | PayPilot",
+"meta_description": "A food truck POS has to be fast, tough and forgiving of bad signal. See what to look for in menus, line handling, hardware and offline mode before you buy.",
+"primary_keyword": "food truck POS",
+"keywords": ["food truck POS system", "mobile POS for food trucks", "food truck payments", "handheld POS for line busting", "food truck card reader", "offline POS", "food truck menu setup"],
+"eyebrow": "Mobile POS",
+"dek": "A truck window is the hardest counter in food service. Here is what a POS needs to survive it and how to set one up.",
+"intro": [
+"Picture a Saturday at a brewery lot. Forty people are queued, the generator hums, your cook is calling out a ticket, and the one bar of signal on your phone just vanished. That is the real test of a food truck POS, and it has very little in common with the demo you saw at a desk.",
+"A truck has no back office, no spare counter and no second register. Everything happens through one service window, usually with one or two people taking orders while two more cook. The software you choose either keeps that rhythm or breaks it.",
+"This guide walks through what matters most for a truck: a menu you can change on the fly, ways to shorten the line, hardware that tolerates heat and vibration, and a plan for the moments when connectivity fails."
+],
+"sections": [
+{"h2": "Why a truck is different from a restaurant counter", "paragraphs": [
+"A brick-and-mortar café can lean on fixed Wi-Fi, a wired printer and a manager office with a laptop. A truck moves between locations, so the system has to be set up in minutes and work in a parking lot with whatever network is nearby.",
+"Space is the other constraint. Every inch of the serving shelf is already used by napkins, sauces and the ticket rail. A POS that needs a big screen, a cash drawer the size of a shoebox and a router will crowd out the food.",
+"Finally, the truck's day is compressed. Most revenue lands in two or three rushes, so a few seconds saved per order is worth far more than a fancy report you will only read on Sunday night."]},
+{"h2": "Menu setup for a menu that changes", "paragraphs": [
+"Trucks rarely sell the same board every day. You might run out of brisket by two o'clock, add a festival special, or swap a side because the market had better produce. Your POS should let you mark an item sold out in one tap and have it disappear from the ordering screen immediately.",
+"Keep the item grid small. Large tiles with short names beat a long scrolling list when you are tapping with gloves or sticky fingers. Group by what the customer says out loud, such as tacos, bowls, drinks and extras, not by how the kitchen thinks about it."],
+"bullets": [
+"Build modifiers once (no onions, extra sauce, gluten-free bun) and attach them to many items.",
+"Create a festival menu as a separate layout so you can switch the whole board before an event.",
+"Use quick-add buttons for the three or four add-ons that sell with almost every order.",
+"Set combos as a single tile so the cashier is not ringing three separate lines.",
+"Pin the sold-out toggle where your thumb already rests."]},
+{"h2": "Shortening the line without adding a window", "paragraphs": [
+"The line is your bottleneck, and the cheapest way to move it is to take the order away from the window. A lightweight handheld lets someone walk the queue, take orders and payments, and send tickets straight to the cook while the window handles pickups.",
+"Another trick is pre-orders. If your POS can publish a menu link, regulars can order from their phones while they walk over, and the ticket arrives on your screen with a pickup name. You are not building a delivery business, just removing the typing from the busiest minutes.",
+"Tap payments matter here too. Customers who tap a card or phone finish in a couple of seconds, and a reader that is already awake and in their hand skips the awkward wait for a tablet to be turned around."]},
+{"h2": "Hardware that survives the truck", "paragraphs": [
+"Think about heat, grease and bumps. Fryers and griddles raise the temperature of everything near the window, and a road trip shakes loose any cable that is not locked in. Prefer wireless pieces, a protective case and a mount that holds the screen steady.",
+"A compact setup might be a PayPilot Go handheld with a built-in printer for walking the line and a PayPilot Reader at the window for tap-and-go. A countertop Terminal is great in a fixed commissary kitchen but may simply take up too much room on a small shelf."],
+"bullets": [
+"Bring a power bank or a vehicle charging plan so the screens survive a double shift.",
+"Use a thermal printer for tickets so there is no ink to dry out in summer heat.",
+"Keep a second charging cable and a spare reader battery in a labeled bag.",
+"Wipe screens with a cloth dedicated to the POS, not the same one used on the grill."]},
+{"h2": "When the signal drops", "paragraphs": [
+"Cellular coverage at events is famously unreliable, because thousands of phones are sharing the same few towers. Ask any POS vendor exactly what happens when the device cannot reach the internet: can it keep taking orders, and how does it handle card payments in the meantime?",
+"Some systems store tap and chip payments and submit them once the connection returns, which carries a risk that a declined card is only discovered later. Know the rules you are working under and decide in advance whether to take small orders offline or switch to cash for a stretch.",
+"A personal hotspot on a different carrier from your main device is a simple, low-cost backup. Test it before the season starts, not during your first big weekend."]},
+{"h2": "Reports that matter for a one-truck business", "paragraphs": [
+"You do not need a dozen dashboards. You need to know which hour made the money, which items outsell the rest, and how much walked out the door as discounts or comps. Review those three things at the end of every service day and you will catch problems early.",
+"Tips deserve their own look. If your crew splits tips at close, a clean tip report per shift saves arguments and gives everyone a number to trust.",
+"If you want to try a different pricing approach, ask about PayPilot's Zero plan, where compliant dual pricing can offset processing cost. Rules on that vary by state and card network, so confirm what is allowed where you operate before putting up a sign. Then pick a slow weekday to practice the new flow so your first customer is not also your test."]}
+],
+"key_takeaways": [
+"Choose a POS for the rush hour, not the demo: speed per order is what pays on a truck.",
+"Keep the menu grid small, with one-tap sold-out and reusable modifiers.",
+"A walking handheld plus a window reader beats adding a second window.",
+"Decide your offline plan before an event, including a backup hotspot.",
+"Review sales by hour, top items and comps after each service."
+],
+"faq": [
+{"q": "What is the best POS setup for a food truck?", "a": "A small, wireless kit usually works best: one handheld that prints tickets for walking the line, one tap-capable reader at the window, and a tablet or phone running the menu. Everything should charge from a power bank or vehicle supply, and the software should load a saved menu quickly after you switch events."},
+{"q": "Can a food truck POS work without internet?", "a": "Some can take orders and record cash without a connection, then sync later. Card payments are more nuanced, since a payment taken offline may not be verified until the device reconnects. Ask your provider how it stores them and what the risk is for each sale."},
+{"q": "Do I need a cash drawer on a truck?", "a": "Many trucks run a compact cash box instead of a full drawer, because shelf space is scarce. What matters is that cash sales are still rung through the POS so your end-of-day totals match. A small lockable tray under the counter does the job for most operators."},
+{"q": "How do I handle tips at a busy window?", "a": "Show tip choices on the customer-facing screen or handheld so the person paying can decide in a second. Keep the options simple, such as three preset amounts plus custom. Then use the tip report at close to split among the crew according to your agreed method."},
+{"q": "Should I use a handheld or a countertop terminal on a truck?", "a": "A handheld is more flexible because it can leave the window and print on the spot. A countertop terminal is steadier but takes more room. Many owners start with a handheld and a reader, and add a terminal only if they also operate from a fixed kitchen."}
+],
+"related": ["pos-offline-mode", "pos-for-coffee-shops", "card-acceptance-at-pop-up-events", "kitchen-display-systems", "choosing-a-card-reader", "handhelds-tableside-ordering"],
+"icon": "truck",
+"read_minutes": 6
+}

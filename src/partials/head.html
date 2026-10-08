@@ -6,6 +6,8 @@
 <title>{{title}}</title>
 <meta name="description" content="{{desc}}">
 <link rel="canonical" href="{{canonical}}">
+<meta name="robots" content="{{robots}}">
+<link rel="alternate" type="application/rss+xml" title="The PayPilot Blog" href="/blog/feed.xml">
 <meta name="theme-color" content="#06050D">
 <meta property="og:type" content="website"><meta property="og:site_name" content="PayPilot">
 <meta property="og:title" content="{{title}}"><meta property="og:description" content="{{desc}}">
@@ -18,4 +20,5 @@
 <script type="importmap">{"imports":{"three":"/assets/vendor/three.module.min.js","three/addons/":"/assets/vendor/addons/"}}</script>
 <link rel="modulepreload" href="/assets/vendor/three.module.min.js">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PayPilot","url":"{{site}}/","logo":"{{site}}/assets/img/apple-touch-icon.png","parentOrganization":{"@type":"Organization","name":"MCCPS — Merchant Credit Card Processing Services","url":"https://www.mccp.services/"}}</script>
+{{extra_head}}
 </head>

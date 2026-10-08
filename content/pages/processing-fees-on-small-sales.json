@@ -1,0 +1,127 @@
+{
+  "slug": "processing-fees-on-small-sales",
+  "topic": "cards",
+  "title": "Why a $3 Sale Can Cost More to Process",
+  "seo_title": "Processing Fees on Small Sales Explained | PayPilot",
+  "meta_description": "Fixed per-transaction costs hit small tickets hardest. See the math behind processing fees on small sales and practical ways to protect your margin.",
+  "primary_keyword": "processing fees on small sales",
+  "keywords": [
+    "small transaction fees",
+    "per-transaction fee",
+    "card minimums",
+    "low ticket processing",
+    "percentage vs flat fee",
+    "margin on small sales",
+    "coffee shop card fees"
+  ],
+  "eyebrow": "Fees & margins",
+  "dek": "A card fee has a percentage part and a flat part. On a tiny ticket, the flat part does most of the damage. Here is the arithmetic and what to do about it.",
+  "intro": [
+    "A bakery sells a single cookie for three dollars. The customer taps, smiles, and walks out. The owner feels a small glow of a sale well made, then glances at the monthly statement and wonders why thousands of those cookies leave so little behind.",
+    "The answer sits in how card processing costs are built. Most pricing combines a percentage of the sale with a fixed amount charged on every transaction, no matter how small. When the ticket is large, the percentage dominates and the fixed part hides in the noise. When the ticket is tiny, the fixed part suddenly matters a lot.",
+    "This article walks through the arithmetic with made-up numbers, explains why it happens, and lists the sensible responses that do not insult your customers."
+  ],
+  "sections": [
+    {
+      "h2": "The two-part shape of a card fee",
+      "paragraphs": [
+        "Every card payment passes through several hands: the bank that issued the card, the card network, and your processor. Each takes a slice. Some slices are a percentage of the amount, and some are a flat amount per transaction, such as a small authorization or network charge.",
+        "Add those up and you get an effective cost that looks like 'a percentage plus a few cents.' The exact figures depend on your pricing plan, the card type, and how the payment was taken. Your own agreement, not this article, is the authority on the numbers that apply to you."
+      ]
+    },
+    {
+      "h2": "The math, using hypothetical numbers",
+      "paragraphs": [
+        "Suppose, purely for illustration, that a plan costs two percent plus ten cents per sale. These figures are invented to make the arithmetic easy and do not describe any real PayPilot pricing.",
+        "On a three-dollar sale, two percent is six cents, and the flat part adds ten more, for sixteen cents in total. That equals roughly five percent of the ticket. On a one-hundred-dollar sale, two percent is two dollars and the flat ten cents brings it to two dollars and ten cents, barely above two percent. The same plan feels five times more expensive per dollar on the small sale, even though nothing about it changed."
+      ],
+      "bullets": [
+        "Small ticket: the flat part dominates the effective rate",
+        "Large ticket: the percentage dominates and the flat part fades",
+        "Average ticket matters more than any single sale",
+        "Many tiny sales add up the flat fee quickly"
+      ]
+    },
+    {
+      "h2": "Find your own effective rate",
+      "paragraphs": [
+        "Do not guess. Your monthly processing statement lists total card volume, the number of transactions, and total fees. Divide fees by volume for the overall effective rate, then divide volume by transaction count for your average ticket.",
+        "If the average ticket is low, you are in the zone where flat costs bite. Tracking these two numbers every month tells you whether changes you make, such as bundling items or adding a minimum, are actually helping.",
+        "Keep a separate tally for a week. Mark each tap under a certain amount with a tally stroke and count how many you serve. Seeing that a third of your payments are tiny can be a revelation, and it focuses your attention on bundles rather than on blaming customers for buying one item at a time."
+      ],
+      "steps": [
+        "Pull the last full month of card volume from your reports",
+        "Count the number of card transactions",
+        "Divide total fees by total volume to get the effective rate",
+        "Divide volume by the transaction count to get the average ticket",
+        "Compare against a month with a different mix of sales"
+      ]
+    },
+    {
+      "h2": "Tactics that work without annoying people",
+      "paragraphs": [
+        "The goal is to nudge the average ticket upward and stop giving away margin on the tiniest sales. Most of the useful moves are about merchandising, not punishment.",
+        "Create bundles that make sense, like a drink and a pastry combination, so that two small items become one sale. Offer small add-ons at the register, such as a second cookie for a modest extra price. Encourage tabs or punch-card style loyalty to merge visits, though be careful that any loyalty program is fair and clearly explained. A basket that moves from three dollars to seven dollars in one swipe spreads the flat fee over more revenue.",
+        "Another gentle tactic is to rethink what you sell at the register. A cafe that stocks single wrapped sweets near the till invites a small add-on to a drink order, turning two payments into one. Place low-cost impulse items where customers are already waiting to pay, and keep prices round so the sum is easy to say aloud."
+      ]
+    },
+    {
+      "h2": "Should you set a card minimum?",
+      "paragraphs": [
+        "A posted minimum is the most direct tool, and it is also the most sensitive. Rules on whether and how a merchant may set a minimum purchase for card payments differ by country and by card network, and some jurisdictions restrict them. Check the requirements that apply to you before putting up a sign.",
+        "If a minimum is allowed where you operate, state it plainly at the entrance and the register, apply it to everyone, and always have a non-card alternative ready. Many owners find that a friendly sign offering cash for tiny purchases works better than a rigid rule."
+      ]
+    },
+    {
+      "h2": "Dual pricing and Zero",
+      "paragraphs": [
+        "Another route is to change who bears the cost. Dual pricing shows one price for cash and another for card, and a compliant program can bring your processing cost down dramatically. PayPilot's Zero plan is built around this idea, with the goal of taking processing cost to $0 for eligible merchants.",
+        "Because rules vary by state and by card network, confirm the requirements before launching. Our guide to cash-discount signage covers the disclosure basics, and your support team at 844.826.6227 can explain what is available for your business type."
+      ]
+    },
+    {
+      "h2": "Do not forget the other side of the ledger",
+      "paragraphs": [
+        "A small card sale still has benefits that cash lacks. It is faster than counting change, leaves a clean record, removes the need for trips to the bank, and often attracts customers who carry no bills. Before you tighten the screws, estimate what you gain from the faster line and the extra sales that card acceptance invites.",
+        "The right answer is usually a mix: gentle nudges toward larger baskets, honest signage, and a pricing plan matched to the way you actually sell."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Card fees combine a percentage and a flat part, and the flat part hurts small tickets most.",
+    "Compute your effective rate and average ticket from the monthly statement.",
+    "Bundles and add-ons lift the average ticket without penalizing customers.",
+    "Check local rules before setting a card minimum or dual pricing."
+  ],
+  "faq": [
+    {
+      "q": "Why does a small sale cost a larger share in fees?",
+      "a": "Part of the processing cost is a fixed amount per transaction. That fixed amount is a tiny slice of a large sale but a big slice of a small one. The percentage portion scales evenly, so the gap comes entirely from the flat component."
+    },
+    {
+      "q": "Can I refuse cards for small purchases?",
+      "a": "It depends on where you operate and the card network rules in force. Some places limit or prohibit minimums, and others allow reasonable ones when posted clearly. Verify the requirements for your location, and consider offering a cash alternative rather than turning a customer away."
+    },
+    {
+      "q": "How can I work out what my small-ticket sales really cost to process overall?",
+      "a": "Take the total fees on your monthly statement and divide them by the total card sales volume for the same month. The result, expressed as a percentage, is your effective rate. Dividing volume by the number of transactions gives your average ticket, which explains why the rate moves."
+    },
+    {
+      "q": "Will dual pricing work for a small shop?",
+      "a": "It can, as long as it follows the rules where you operate and is disclosed clearly. Rules vary by state and card network, so confirm what applies. Shops with many low-ticket sales often look at it first, since it addresses the cost directly."
+    },
+    {
+      "q": "Does a higher average ticket really change my costs?",
+      "a": "Yes. When each sale is larger, the flat component is spread across more revenue, so your effective rate drifts toward the plan's percentage. Bundles, add-ons, and tabs raise the average without raising prices on any single item. Run the numbers on your own statement before deciding."
+    }
+  ],
+  "related": [
+    "processing-statement-basics-for-new-owners",
+    "cash-discount-signage-guide",
+    "pricing-in-a-cashless-world",
+    "raising-average-ticket",
+    "pos-for-coffee-shops"
+  ],
+  "icon": "dollar",
+  "read_minutes": 7
+}

@@ -1,0 +1,62 @@
+{
+"slug": "menu-engineering-with-pos-data",
+"topic": "pos",
+"title": "Menu Engineering With Your POS Data",
+"seo_title": "Menu Engineering With POS Data | PayPilot",
+"meta_description": "Learn how menu engineering uses POS sales and margin data to sort items into stars, plowhorses, puzzles and dogs, then reprice, reposition or retire them.",
+"primary_keyword": "menu engineering",
+"keywords": ["menu engineering with POS data", "stars plowhorses puzzles dogs", "menu item profitability", "restaurant menu analysis", "menu pricing strategy", "contribution margin", "menu design"],
+"eyebrow": "Menu strategy",
+"dek": "Your POS already records what sells. Pair it with what each dish costs and the menu starts telling you what to change.",
+"intro": [
+"Most owners can name their bestsellers, but far fewer can say which of those bestsellers actually leave money behind after ingredients are paid for. A burger that sells all night and barely clears its plate cost is busy work, not a business.",
+"Menu engineering is a simple discipline for sorting items by two questions: how often does it sell, and how much does each sale contribute? The answers sit in two places, your POS sales history and your recipe costs.",
+"What follows is a hands-on method you can finish in an afternoon with a spreadsheet, followed by the changes that tend to matter most."
+],
+"sections": [
+{"h2": "The two numbers behind every item", "paragraphs": [
+"The first number is popularity, meaning how many units of an item sold over a period. Your POS item-sales report gives you this directly, ideally for a four-week window so one odd weekend does not distort the picture.",
+"The second number is contribution margin, which is the menu price minus the cost of the ingredients on the plate. A hypothetical example: a pasta sells for 18 dollars and its ingredients cost 5 dollars, so each sale contributes 13 dollars toward rent, labor and profit. A steak that sells for 34 dollars but costs 15 dollars contributes 19.",
+"Notice that percentage and dollars tell different stories. A low food-cost percentage on a cheap item can still earn less per plate than a higher-percentage item priced higher. Menu engineering leans on dollars per sale."]},
+{"h2": "Sorting the menu into four boxes", "paragraphs": [
+"Draw a cross. Items that sell above your average popularity go on the right, and items that contribute above your average margin go on top. Every item lands in one of four boxes."],
+"bullets": [
+"Stars: popular and high contribution. Protect them and make them easy to find.",
+"Plowhorses: popular but low contribution. Customers love them, so adjust carefully rather than removing them.",
+"Puzzles: high contribution but slow sellers. They deserve better visibility or a better description.",
+"Dogs: low on both. Candidates for removal, redesign or a limited run."]},
+{"h2": "Pulling the data out of your POS", "paragraphs": [
+"Start with an item-level sales export covering at least a month. Include item name, quantity sold, price, and discounts if your system reports them. Combine that with a costing sheet listing the ingredients of each recipe at current purchase prices.",
+"Be honest about the messy parts. Modifiers such as extra cheese or a side swap change both price and cost, and items sold in combos may be discounted below their listed price. Where the POS can record modifiers as separate lines, include them; otherwise, estimate an average add-on per item.",
+"Do the arithmetic once, then keep the sheet. Next quarter you only refresh quantities and any cost changes, which takes minutes."]},
+{"h2": "What to do with each box", "paragraphs": [
+"Stars need guarding. Keep the recipe consistent, avoid running discounts on them, and put them where eyes land first, which on a printed menu is usually the top of a column or a boxed callout.",
+"Plowhorses respond to small moves. Raise the price by a modest amount, trim the portion slightly, or swap an expensive garnish for a cheaper one that looks just as good. Because customers already choose them, a small change often goes unnoticed.",
+"Puzzles are often a communication problem. Rewrite the description with sensory detail, offer it as a server recommendation, or add it as a featured tile on the POS ordering screen so staff suggest it naturally.",
+"Dogs get an honest review. If a dog supports another item, such as a side that makes a main feel complete, keep it. If it only adds prep time and waste, retire it and simplify the kitchen."]},
+{"h2": "Using the POS screen as a menu tool", "paragraphs": [
+"Your digital layout is a second menu that staff see more often than guests do. Placing stars in the first row of the order screen and puzzles in the second nudges servers toward suggesting them without any speech from you.",
+"Tableside ordering gives you another lever. When a handheld shows a short list of suggested add-ons for each main, the server can offer a pairing in one tap. With PayPilot POS you can set up those prompts per item and review how often they were accepted."]},
+{"h2": "Testing changes without guesswork", "paragraphs": [
+"Change one thing at a time. If you reprice a plowhorse and rewrite a puzzle in the same week, you will not know which move did the work. Make one change, leave it for two to four weeks, and compare unit sales and contribution to the previous period.",
+"Watch for side effects. A price increase might shift guests to a cheaper dish, which is fine if that dish also contributes well and not fine if it is a dog. Read the whole report, not just the line you edited.",
+"Finally, schedule the review. Put a recurring reminder on the calendar each quarter, because ingredient costs drift and a star can slide into plowhorse territory without anyone noticing. If your menu is large, start with the top twenty items by revenue; that is where most of the benefit lives. When you are ready to build item-level reports on a modern POS, PayPilot is a natural place to start."]}
+],
+"key_takeaways": [
+"Popularity alone misleads; pair unit sales with contribution margin in dollars.",
+"Sort items into stars, plowhorses, puzzles and dogs, then treat each box differently.",
+"Small price or portion changes on plowhorses often go unnoticed by guests.",
+"Use POS layout and server prompts to promote high-margin items.",
+"Change one variable at a time and recheck after a few weeks."
+],
+"faq": [
+{"q": "What is menu engineering?", "a": "Menu engineering is a method for analyzing each menu item by how often it sells and how much it contributes after ingredient cost. Items are grouped into stars, plowhorses, puzzles and dogs, and each group gets a different action: promote, reprice, reposition or remove. It turns sales history into specific decisions."},
+{"q": "How often should I review my menu data?", "a": "A full review every quarter is a practical rhythm for most independent restaurants. Check sooner if a major ingredient price jumps or you add a large batch of new dishes. A lighter monthly glance at your top and bottom sellers keeps surprises small."},
+{"q": "Do I need special software to do this?", "a": "No. A POS item-sales export and a spreadsheet with your recipe costs are enough. Software can automate the cost tracking, but the logic is simple enough to run by hand. The harder part is keeping ingredient costs current, not performing the sorting itself."},
+{"q": "Should I remove every dog from the menu?", "a": "Not automatically. Some low-selling, low-margin items exist because they serve a dietary need, complete a combo or anchor the price of something else. Remove dogs that add prep complexity and waste without supporting any other item, and keep those that earn their place."},
+{"q": "How do I account for discounts and comps?", "a": "Use net sales where your POS reports them, so an item that is frequently comped is not overstated. If discounts are applied at the check level, spread them across items proportionally or review them separately. The aim is a realistic contribution figure, not a perfect one."}
+],
+"related": ["pos-reports-to-check-weekly", "inventory-counts-made-simple", "raising-average-ticket", "pos-for-restaurants-front-and-back", "handhelds-tableside-ordering", "seasonal-promotions-pos"],
+"icon": "trend",
+"read_minutes": 6
+}

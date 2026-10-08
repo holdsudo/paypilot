@@ -1,0 +1,127 @@
+{
+ "slug": "digital-wallets-at-checkout",
+ "topic": "online",
+ "title": "Adding Digital Wallets to Your Checkout",
+ "seo_title": "Adding Digital Wallets to Your Checkout | PayPilot",
+ "meta_description": "Add Apple Pay, Google Pay and other one-tap wallet buttons to your online checkout. See how they work, how to set them up and how to test them properly.",
+ "primary_keyword": "digital wallets at checkout",
+ "keywords": [
+  "Apple Pay checkout",
+  "Google Pay checkout",
+  "one-tap payment button",
+  "mobile wallet payments",
+  "express checkout",
+  "wallet tokenization",
+  "mobile checkout speed"
+ ],
+ "eyebrow": "Faster pay",
+ "dek": "A wallet button swaps a dozen typed fields for a glance or a fingerprint. Here is what is happening behind the tap.",
+ "intro": [
+  "Think about the last time you bought something on your phone. If the site offered a wallet button, you probably used it, because typing sixteen digits with your thumb is a chore nobody enjoys.",
+  "For a seller, that button is more than a courtesy. It removes the slowest part of the page, which is the form, and brings the customer straight to confirmation.",
+  "This article explains how wallet payments work, what you need to switch them on, and how to check that they behave on the devices your customers carry."
+ ],
+ "sections": [
+  {
+   "h2": "What a wallet button actually does",
+   "paragraphs": [
+    "A digital wallet stores one or more cards on a customer's phone, watch or browser profile. When they choose it at checkout, the device asks them to confirm with a face scan, fingerprint or passcode, then passes a payment credential to the merchant's payment provider.",
+    "The shopper's shipping address and contact details can come along with it, which is why a purchase can finish in a couple of seconds. You receive a verified email and address without a single typed character.",
+    "One practical consequence is fewer typing mistakes. A mistyped digit is a common reason for a declined payment, and a wallet sidesteps that entirely."
+   ]
+  },
+  {
+   "h2": "Why the card number stays hidden",
+   "paragraphs": [
+    "Wallets use a form of tokenization. Instead of passing the real card number, the device sends a stand-in value that is useful only for that device and that kind of payment, along with a one-time code proving the payment is genuine.",
+    "This matters to you because the number that reaches your systems is not the shopper's actual card. If that token were somehow intercepted, it would be of little use elsewhere.",
+    "It also explains why wallet payments tend to feel more secure to customers. The extra confirmation step, a face scan or fingerprint, ties the payment to the person holding the phone."
+   ]
+  },
+  {
+   "h2": "Where buttons appear",
+   "paragraphs": [
+    "Wallet buttons usually appear in two spots. Express buttons sit on the product or cart page, letting a shopper skip straight to payment. Standard buttons appear in the payment step, next to the card form.",
+    "Showing the express version early makes sense for mobile shoppers who already know what they want. For a considered purchase, such as furniture, the standard placement may feel more natural.",
+    "Which buttons a visitor sees depends on their device and browser. Someone on an iPhone using Safari is likely to see Apple Pay, while an Android phone with Chrome may offer Google Pay. Others will see the regular card form, so your page needs to work well for both.",
+    "Keep an eye on the placement on small screens. A button pushed below the fold by a large banner image may as well not exist."
+   ]
+  },
+  {
+   "h2": "Setting it up",
+   "paragraphs": [
+    "With a hosted checkout, wallet support is typically a settings change rather than a build. You switch on the methods you want, and the provider handles the technical work. Some wallets ask you to verify your domain, a one-time step that proves your website belongs to you."
+   ],
+   "steps": [
+    "Open your checkout or payment settings and find the wallet options.",
+    "Enable the wallets you want to offer.",
+    "Complete any domain verification the provider requests, using the file or record they supply.",
+    "Choose whether to show express buttons on product and cart pages.",
+    "Run a test on a supported device and confirm the order appears in your dashboard."
+   ]
+  },
+  {
+   "h2": "Testing on real devices",
+   "paragraphs": [
+    "Test on the actual phones your customers use. A wallet button that works in a desktop browser may be hidden on a phone that has no card added to its wallet. Ask a colleague with a different device to repeat the test.",
+    "Check the whole path: button visible, confirmation prompt appears, order completes, receipt arrives and the details look right in your system. Pay particular attention to shipping address handling and to how the final amount is displayed.",
+    "Try a refund too. A refund to a wallet payment goes back to the underlying card, so confirm that your process for handling it works the same as for a typed-in card.",
+    "Do a final pass in a private browser window with no saved cards, so you see precisely what a first-time visitor sees."
+   ],
+   "bullets": [
+    "Test with iPhone and Android devices.",
+    "Test in the browsers your analytics say are most common.",
+    "Try a different screen size, including a small phone.",
+    "Confirm the order, email receipt and refund path."
+   ]
+  },
+  {
+   "h2": "Do not forget the rest of the page",
+   "paragraphs": [
+    "A wallet button is no substitute for a clear checkout. Customers who prefer to enter a card, or who have no wallet set up, still need a simple form with a visible total and contact information.",
+    "Be clear about what happens after the tap. Tell the shopper the final amount, whether shipping is included and what email address will receive the receipt. Surprises at the confirmation sheet undo the speed benefit.",
+    "PayPilot hosted checkout can display wallet buttons next to the card form, depending on the customer's device and browser. In person, the same wallets work with a PayPilot Terminal, Go or Reader through tap, so your online and counter customers get the same quick experience.",
+    "Record which wallets you offer on your help page, so support staff can answer questions without guessing."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Wallet buttons replace most of the form with one confirmation.",
+  "Wallets pass a token, not the real card number.",
+  "Express buttons suit repeat or confident mobile shoppers; standard buttons suit considered purchases.",
+  "Setup is usually a settings toggle plus a one-time domain check.",
+  "Test on real devices, including a refund."
+ ],
+ "faq": [
+  {
+   "q": "What digital wallets can I offer at checkout?",
+   "a": "The most common are Apple Pay and Google Pay, with availability depending on the customer's device and browser. Your payment provider decides which are available to you, and each may need to be enabled in your settings and verified for your website before buttons appear."
+  },
+  {
+   "q": "Are wallet payments more secure for merchants?",
+   "a": "They add protection because a token, rather than the full card number, is passed along and the shopper confirms with biometrics or a passcode. No payment method is risk free, though, so continue to watch your orders for unusual activity and follow your provider's guidance."
+  },
+  {
+   "q": "Why can't some customers see the wallet button?",
+   "a": "The button appears only when the device and browser support a wallet and the customer has a card set up in it. Customers on unsupported browsers, or without a card saved, will see the standard card form instead, which is why that form must remain clear."
+  },
+  {
+   "q": "Do wallet payments cost more to accept?",
+   "a": "Processing costs depend on your pricing and the underlying card, not on whether the customer typed the number or tapped a wallet. Look at your statement or your provider's pricing page to confirm how your own rates apply, and ask support if anything on the statement looks different from what you expected."
+  },
+  {
+   "q": "How do refunds work for wallet payments?",
+   "a": "A refund returns to the card behind the wallet, just as it would for a typed-in card. You issue it from your payments dashboard against the original order, and the customer sees it on their statement according to their bank's timing."
+  }
+ ],
+ "related": [
+  "tap-to-pay-on-iphone-and-android",
+  "contactless-wallet-vs-card",
+  "checkout-abandonment-fixes",
+  "tokenization-for-business-owners",
+  "launching-online-checkout",
+  "what-encryption-means-at-checkout"
+ ],
+ "icon": "phone",
+ "read_minutes": 6
+}

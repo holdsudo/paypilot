@@ -1,0 +1,118 @@
+{
+  "slug": "international-online-customers",
+  "topic": "online",
+  "title": "Selling to Customers Outside the U.S.",
+  "seo_title": "Selling to International Customers Online | PayPilot",
+  "meta_description": "Thinking of shipping or selling abroad? Understand currency, fraud checks, fees, and customer expectations before you accept international online payments.",
+  "primary_keyword": "accept international payments online",
+  "keywords": [
+    "sell internationally online",
+    "foreign currency payments",
+    "international card fees",
+    "cross-border fraud checks",
+    "international shipping returns",
+    "currency conversion at checkout",
+    "overseas customers"
+  ],
+  "eyebrow": "Online payments",
+  "dek": "A buyer in another country is a real opportunity and a real set of new questions. Here is what to settle before your first overseas order.",
+  "intro": [
+    "A candle maker in Ohio gets an email from a shopper in Dublin who wants six jars and asks whether she ships overseas. The honest answer is that she has never tried, and she is not sure what could go wrong.",
+    "Selling abroad is mostly the same checkout with extra steps: what currency you quote, how you verify an unfamiliar customer, what a card issuer in another country might do, and who pays for shipping and returns.",
+    "None of it is out of reach for a small seller, but each question deserves an answer before the order arrives, not after."
+  ],
+  "sections": [
+    {
+      "h2": "Decide which countries you actually serve",
+      "paragraphs": [
+        "Start with a short list rather than the whole world. Pick the countries where you can ship reliably, where your product is legal and unrestricted, and where you can support a customer who writes in a different time zone.",
+        "Check your product against import rules, labeling requirements, and shipping carrier restrictions for each destination. Cosmetics, food, electronics with batteries, and anything containing liquids are common examples of items that face extra scrutiny. When in doubt, ask your carrier or a customs professional."
+      ]
+    },
+    {
+      "h2": "Currency: whose money is on the price tag?",
+      "paragraphs": [
+        "Your account settles in U.S. dollars, so the simplest approach is to price in dollars and let the buyer's card issuer convert the amount. The customer sees the exchange on their statement, and the rate is chosen by their bank.",
+        "Some sellers show prices in the shopper's local currency, which can feel friendlier but raises questions about who sets the rate and when it updates. If you offer local pricing, be clear about whether the displayed price is final and how refunds will be converted. A refund issued weeks later can come back as a slightly different amount because exchange rates move."
+      ]
+    },
+    {
+      "h2": "Fees and settlement differences",
+      "paragraphs": [
+        "Cards issued outside the United States can carry different processing costs than domestic cards, and a currency conversion may add its own charge. Your merchant statement shows the exact treatment of each transaction type, and PayPilot makes those details visible in your reports.",
+        "Because costs can differ, test your margins on an international order before you promote a global shipping offer. A thin-margin product might need a slightly higher price abroad or a minimum order size to stay profitable."
+      ],
+      "bullets": [
+        "Check how your statement labels cross-border card transactions.",
+        "Include shipping, customs paperwork, and returns in your margin math.",
+        "Consider a minimum order for distant destinations.",
+        "Review your first few international orders line by line before scaling."
+      ]
+    },
+    {
+      "h2": "Fraud checks that make sense across borders",
+      "paragraphs": [
+        "Unfamiliar locations make it harder to judge whether an order is genuine, so a few systematic checks help. Compare the billing country with the shipping country, look at whether the email address and name look consistent, and be cautious when a new customer asks for expedited shipping to a freight forwarder.",
+        "Address verification works best for domestic cards, so do not treat a mismatch on a foreign card as proof of fraud by itself. Instead, combine signals: unusual quantity, rush shipping, a first-time buyer, and a mismatched location together deserve a closer look, perhaps a polite email asking the customer to confirm details before you ship."
+      ]
+    },
+    {
+      "h2": "Shipping, duties, and returns",
+      "paragraphs": [
+        "Decide who is responsible for import duties and taxes. If the buyer pays on delivery, a surprise bill can lead to refused packages and angry messages. If you collect them at checkout, the buyer sees the full cost up front.",
+        "Be explicit about returns. Return shipping across borders can cost more than the item, so many small sellers offer a refund without requiring the item back for low-value goods, or a store credit for larger ones. Whatever you pick, publish it beside the price."
+      ]
+    },
+    {
+      "h2": "Support and communication across time zones",
+      "paragraphs": [
+        "A customer in another hemisphere may write at what is the middle of your night and expect an answer in a day. Set expectations on your contact page with your hours and a typical response time, and use an auto-reply that confirms you received the message.",
+        "Keep language simple. Short sentences translate better, and idioms can confuse a reader using a translation tool. When a problem arises, offer a concrete next step with a date, such as a replacement shipment or a refund, instead of a vague promise to look into it."
+      ]
+    },
+    {
+      "h2": "Making the buying experience feel local",
+      "paragraphs": [
+        "Clear dates matter more than you think. Write dates in a way that cannot be misread, since 04/05 means different days in different countries. Show delivery estimates as a range and update customers when a package clears customs.",
+        "Digital wallets help, too. Shoppers in many places pay with Apple Pay or Google Pay, which cuts down on typing errors at checkout. Using PayPilot hosted checkout lets those options appear where they apply, and a short note about the support hours keeps expectations realistic for anyone writing from another time zone."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Begin with a handful of destinations you can serve well.",
+    "Price in dollars if you want simplicity, and be clear about conversion.",
+    "Test your margins on international cards, shipping, and returns.",
+    "Combine several signals before declaring an overseas order fraudulent."
+  ],
+  "faq": [
+    {
+      "q": "Do I need to quote prices in foreign currency?",
+      "a": "No. Many sellers keep dollar pricing and let the customer's bank convert the charge on their statement. Local-currency pricing can feel friendlier, but it adds questions about exchange rates and refunds, so start simple unless you have a clear reason to localize your catalog."
+    },
+    {
+      "q": "Why can international cards cost more to process?",
+      "a": "Card networks and issuers may treat cross-border or foreign-issued transactions differently from domestic ones, and a currency conversion can add its own charge. Your statement itemizes how each transaction was handled, so review the first few orders to see the real effect on margin."
+    },
+    {
+      "q": "Who pays import duties?",
+      "a": "It depends on how you set up shipping. The buyer may pay on delivery, or you can collect an estimate at checkout. Say which in your shipping policy, because unexpected duties are a common reason for refused parcels. Whichever approach you choose, show it at checkout so the package never arrives with a surprise bill attached."
+    },
+    {
+      "q": "How can I tell if a foreign order is risky?",
+      "a": "No single sign proves it. Look at combinations such as a first-time buyer, mismatched countries, rush shipping to a forwarding address, and unusual quantities. When several appear together, contact the customer to confirm details before you ship. A short, friendly confirmation email costs little and protects you far better than a blanket refusal."
+    },
+    {
+      "q": "What should my international shipping page say?",
+      "a": "State which countries you ship to, how long delivery usually takes as a range, who pays duties and taxes, what carriers you use, and how returns work. Use plain language and short sentences, since many readers will view the page through a translation tool."
+    }
+  ],
+  "related": [
+    "launching-online-checkout",
+    "digital-wallets-at-checkout",
+    "fraud-signs-online-orders",
+    "checkout-abandonment-fixes",
+    "processing-fees-on-small-sales"
+  ],
+  "icon": "cart",
+  "read_minutes": 6
+}

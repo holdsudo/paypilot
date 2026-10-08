@@ -1,0 +1,127 @@
+{
+  "slug": "raising-average-ticket",
+  "topic": "growth",
+  "title": "Seven Ways to Raise Your Average Ticket",
+  "seo_title": "Seven Ways to Raise Your Average Ticket | PayPilot",
+  "meta_description": "Raise your average ticket without pushing customers: smart bundles, modifiers, suggested add-ons, and POS prompts that help staff sell naturally.",
+  "primary_keyword": "raise average ticket",
+  "keywords": [
+    "increase average order value",
+    "upselling at POS",
+    "product bundles",
+    "add-on suggestions",
+    "POS modifiers",
+    "cross-selling retail",
+    "average sale size"
+  ],
+  "eyebrow": "Growth",
+  "dek": "The cheapest sale to win is the one from a customer already standing at your counter. Seven practical ways to make each visit worth a little more.",
+  "intro": [
+    "Most owners think about growth as finding more customers. But the person already holding a wallet at your register is the warmest lead you will meet all day, and a small increase in what each of them spends adds up faster than many marketing campaigns.",
+    "Your average ticket is simply total sales divided by number of transactions. Raise it a little, consistently, and revenue grows without a single extra visitor.",
+    "The key is to help rather than push. Each idea below is about making it easy for a customer to say yes to something they would probably like anyway."
+  ],
+  "sections": [
+    {
+      "h2": "1. Build bundles that make sense together",
+      "paragraphs": [
+        "A bundle puts items that belong together under one price, such as a sandwich, a drink, and a cookie, or a shampoo and matching conditioner. Customers like the convenience, and you move more items per sale.",
+        "Set the bundle price so it feels like a fair offer without cutting deep into your margin. Check the numbers against your cost of goods first, and name the bundle clearly so staff can mention it in a few words."
+      ]
+    },
+    {
+      "h2": "2. Use modifiers and options at the point of order",
+      "paragraphs": [
+        "Modifiers are the optional choices attached to an item: an extra shot, a larger size, a side upgrade, a gift wrap. When they appear on the POS screen at the moment of ordering, staff do not have to remember them, and customers see choices they might not have asked about.",
+        "In the PayPilot POS, you can configure modifiers so that the most popular upgrade appears first. A well-ordered list quietly prompts a better choice without a speech."
+      ]
+    },
+    {
+      "h2": "3. Suggest one natural add-on",
+      "paragraphs": [
+        "The classic question is would you like fries with that, and it endures because it works. The trick is to suggest one specific, relevant item rather than a generic offer. A cashier at a boutique who says that scarf pairs well with this coat is more convincing than one who asks if there is anything else.",
+        "Train staff on one or two pairings per product category, and make the suggestion a habit rather than a script. Customers who say no are not offended by a single friendly question."
+      ],
+      "bullets": [
+        "Pair each top seller with one complementary item.",
+        "Keep add-ons near the register where they are visible while customers wait.",
+        "Offer the suggestion before payment, not after the card is tapped.",
+        "Accept a no gracefully and move on."
+      ]
+    },
+    {
+      "h2": "4. Offer tiers with a clear difference",
+      "paragraphs": [
+        "Good, better, best works because it gives customers a way to choose without overthinking. A salon might offer a basic cut, a cut with a treatment, and a full service. A repair shop might offer standard and premium parts.",
+        "Make the middle option the one you most want to sell and describe the value in terms the customer cares about. Be honest about the differences, since an upgrade that disappoints leads to refunds and bad reviews."
+      ]
+    },
+    {
+      "h2": "5. Set a threshold that rewards a bit more",
+      "paragraphs": [
+        "Free shipping above a certain order size, a free item after a set spend, or a small bonus when a customer reaches a tier all encourage people to add one more thing. The target should sit slightly above your current average, close enough to reach in one extra item.",
+        "A hypothetical example: if most orders land just under a threshold, a small gift at the threshold may nudge many shoppers over it. Review your sales reports to see where orders cluster before choosing the number."
+      ]
+    },
+    {
+      "h2": "6. Make gift cards and add-ons visible",
+      "paragraphs": [
+        "Gift cards, small impulse items, and sample sizes near the till catch customers at a relaxed moment. They suit small prices, which means the decision is easy.",
+        "At checkout, a prompt for a gift card or a note about your seasonal item costs nothing. Display a few items at eye level on the counter and keep the area tidy; clutter reads as discount-bin rather than convenience."
+      ]
+    },
+    {
+      "h2": "A hypothetical week of small experiments",
+      "paragraphs": [
+        "Imagine a shop owner whose typical sale is modest and whose counter holds nothing but the register. In week one she records her baseline. In week two she places a small basket of travel-size items beside the card reader and trains each cashier to mention one of them when it suits the purchase.",
+        "In week three she adds a bundle for her best-selling product. She compares each week with the baseline and keeps what moved the number, dropping what did not. The scenario is invented, but the method, one change at a time with a record, is what makes the lessons trustworthy."
+      ]
+    },
+    {
+      "h2": "7. Measure, adjust, and keep it friendly",
+      "paragraphs": [
+        "Track your average ticket before you change anything, then watch it weekly. Look at which items sell as add-ons and which suggestions get ignored. Drop what does not work and double down on what does.",
+        "Customers can feel a hard sell, so keep the tone helpful. A good rule is that every suggestion should pass a simple test: would the customer thank you later? If so, it is service. If not, skip it. PayPilot reports can show average sale size and item mix so you can see the effect of each experiment."
+      ],
+      "steps": [
+        "Write down your current average ticket.",
+        "Choose one idea and change one thing.",
+        "Run it for two weeks.",
+        "Compare against the baseline and decide whether to keep it."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Raise the average ticket by helping, not pressuring.",
+    "Bundles, modifiers, and a single relevant add-on do most of the work.",
+    "Thresholds should sit just above your current average.",
+    "Measure before and after so you keep only what works."
+  ],
+  "faq": [
+    {
+      "q": "What is an average ticket?",
+      "a": "It is the typical amount spent per transaction, found by dividing total sales by the number of sales in a period. It is a simple health check: if traffic stays steady but the average rises, you are earning more from the same customers."
+    },
+    {
+      "q": "Will upselling annoy my customers?",
+      "a": "Not when it is relevant and offered once. Customers tend to appreciate helpful suggestions, and dislike repeated pressure. Test the idea by asking whether you would be glad to hear it as a customer. If a suggestion ever feels like pressure, soften it or drop it, because goodwill is the asset you are protecting."
+    },
+    {
+      "q": "How do I train staff to suggest add-ons?",
+      "a": "Give them one or two natural pairings per category, let them practice in a slow hour, and set the POS to show the suggestion. Celebrate small wins, and avoid turning it into a contest that encourages pushiness. Ten minutes at the start of a shift is plenty, and repeating the same pairing for a week helps it stick."
+    },
+    {
+      "q": "How quickly will I see a change?",
+      "a": "Often within a couple of weeks if you change one thing at a time and track it. Seasonality and promotions can blur results, so compare similar periods rather than a slow week with a busy one. Give each experiment at least two weeks so one unusual day does not mislead you."
+    }
+  ],
+  "related": [
+    "menu-engineering-with-pos-data",
+    "loyalty-programs-that-work",
+    "gift-cards-for-small-business",
+    "pos-reports-to-check-weekly",
+    "seasonal-promotions-pos"
+  ],
+  "icon": "trend",
+  "read_minutes": 7
+}

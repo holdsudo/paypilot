@@ -1,0 +1,134 @@
+{
+  "slug": "qr-code-wallet-payments",
+  "topic": "money",
+  "title": "Paying and Getting Paid With a Wallet QR Code",
+  "seo_title": "Wallet QR Code Payments Explained | PayPilot",
+  "meta_description": "How do wallet QR code payments work? See what happens when you scan, how stalls and friends use QR codes, and the safety checks worth making first.",
+  "primary_keyword": "QR code wallet payments",
+  "keywords": [
+    "QR code payment",
+    "scan to pay",
+    "wallet QR code",
+    "pay with QR at a stall",
+    "static vs dynamic QR",
+    "QR payment safety",
+    "receive money with QR"
+  ],
+  "eyebrow": "Send & receive",
+  "dek": "A QR code is just a tiny address printed as a picture. Understanding what it carries makes scanning one feel routine instead of mysterious.",
+  "intro": [
+    "You are at a street food stand with no cash and no card machine in sight, but a small square of black-and-white dots is taped to the counter. One scan later, the vendor's phone chimes and your dinner is paid for.",
+    "That square is doing less than it appears to. It is not holding money or running a transaction. It is a compact way of passing information from one phone to another without anyone having to type."
+  ],
+  "sections": [
+    {
+      "h2": "What is actually inside the code",
+      "paragraphs": [
+        "A QR code encodes text, and in a payment context that text is usually a reference that identifies the recipient, sometimes with an amount or an order number. Your camera reads the pattern, hands the text to your wallet app, and the app shows you who you are about to pay.",
+        "Nothing is charged at the moment of scanning. The payment happens only when you review the screen and confirm. That confirmation step is your protection, so treat it as the real decision point."
+      ]
+    },
+    {
+      "h2": "Static codes and dynamic codes",
+      "paragraphs": [
+        "A static code is printed once and never changes. It points to a fixed recipient and usually requires the payer to type the amount, which suits a market stall or a tip jar. A dynamic code is generated for one specific sale, with the amount already filled in.",
+        "The trade-off is control against convenience. Static codes cost nothing to display but invite typing mistakes. Dynamic codes leave less room for error and tie each payment to an order, which helps with reconciliation."
+      ],
+      "bullets": [
+        "Static: fixed recipient, payer enters the amount, simple to print and reuse",
+        "Dynamic: created per sale, amount preset, easier to match to receipts",
+        "Both end with a confirmation screen where you verify the name",
+        "Neither moves money until the payer approves"
+      ]
+    },
+    {
+      "h2": "Where codes are genuinely handy",
+      "paragraphs": [
+        "Codes shine anywhere a full checkout would be overkill: a flea-market table, a busker's case, a school fundraiser, a neighbor selling plants over the fence. Setup is a printed square and nothing else.",
+        "They are also useful at home. Hold your own code up and a guest can pay their share of the pizza without you spelling out a username, and nobody has to hunt for the right profile in a contact list."
+      ]
+    },
+    {
+      "h2": "Paying a friend with a code",
+      "paragraphs": [
+        "Between friends, a QR code is a fast way to find the right person without spelling out a handle. Your friend opens their code, you scan it, and their profile appears ready for an amount.",
+        "This removes the classic problem of two people with similar names. Even so, glance at the name that shows up and make sure it matches who is standing in front of you before you send anything."
+      ]
+    },
+    {
+      "h2": "Getting paid at a stall or counter",
+      "paragraphs": [
+        "A vendor can display a code at the register or stick one to a menu board. With PayPilot Wallet, customers can pay PayPilot businesses by scanning, subject to eligibility and verification, and the vendor sees the payment arrive on their own phone.",
+        "Good practice is to check your phone before handing over the goods. Do not rely on the customer showing you a success screen, because a screen can be faked, while your own app shows what has really landed."
+      ]
+    },
+    {
+      "h2": "Spotting a tampered code",
+      "paragraphs": [
+        "Criminals sometimes paste their own code over a legitimate one on a parking meter, a poster or a restaurant table. The picture looks identical, and the money goes to a stranger instead of the business.",
+        "Look at the recipient name displayed after scanning and make sure it matches the venue. Check that the sticker has not been layered on top of another one, and be wary of codes on flyers or random posters promising discounts."
+      ],
+      "steps": [
+        "Scan with your wallet app or the camera on your phone.",
+        "Read the recipient name on the confirmation screen.",
+        "Compare it with the shop, stall or person you intend to pay.",
+        "Enter or confirm the amount carefully.",
+        "Approve only when everything matches, then keep the receipt."
+      ]
+    },
+    {
+      "h2": "Etiquette at the counter",
+      "paragraphs": [
+        "Have your wallet open before you reach the front of the line, and angle your phone so the vendor can see the name and amount on your confirmation screen if they ask. Saying the total aloud as you approve avoids mistakes.",
+        "If the scan fails, step aside and let the next person go while you try again. Vendors appreciate customers who treat the code as a courtesy shared by everyone in the queue."
+      ]
+    },
+    {
+      "h2": "Displaying your code well",
+      "paragraphs": [
+        "If you are the one getting paid, print the code large, on a matte surface, and protect it from glare and rain. A code that takes four scanning attempts annoys customers and slows the line.",
+        "Put your business name right beside it so people can compare it against what their app shows. Check periodically that nobody has stuck something over it, and keep a spare copy somewhere safe."
+      ]
+    },
+    {
+      "h2": "Connectivity and backup plans",
+      "paragraphs": [
+        "Scanning needs both phones to reach the internet in most cases, and outdoor events can have patchy coverage. A vendor who relies solely on codes should have a second option ready, such as a card reader that can queue payments or a note of the code printed on paper in case a screen dies.",
+        "As a customer, keep a card in your phone wallet too. A backup costs nothing and rescues a purchase when the signal drops at the exact moment you reach the front of the line."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "A QR code carries a recipient reference, not money, and nothing happens until you confirm.",
+    "Static codes need the payer to type an amount, while dynamic codes arrive pre-filled.",
+    "Always read the recipient name on the confirmation screen before approving.",
+    "Vendors should check their own app for the payment instead of trusting a customer's screen."
+  ],
+  "faq": [
+    {
+      "q": "Is scanning a QR code to pay safe?",
+      "a": "Scanning is safe in itself, because the real decision comes on the confirmation screen. The risk is a tampered or counterfeit code. Check the displayed recipient name, avoid codes from unsolicited flyers, and approve a payment only when the details match what you expect."
+    },
+    {
+      "q": "Do I need an internet connection to pay with a QR code?",
+      "a": "Usually yes, since your wallet needs to confirm the recipient and process the payment. At crowded outdoor events where the signal is weak, it is wise to have a backup, such as a contactless card stored in your phone wallet, so a dropped connection does not end the purchase."
+    },
+    {
+      "q": "Can a vendor see my personal details when I scan?",
+      "a": "Generally the vendor sees only what the payment shows them, such as your name or handle and the amount. What appears depends on the app and your privacy settings, so review those settings if you want to limit what other people can see about you."
+    },
+    {
+      "q": "What if I scan the wrong code and pay the wrong person?",
+      "a": "Contact the recipient and ask for the money back, then reach out to support with the details. Peer-to-peer payments may not be reversible, which is why reading the name before approving matters so much, and why a ten-second pause at the register is worth it."
+    }
+  ],
+  "related": [
+    "paying-at-farmers-markets",
+    "contactless-wallet-vs-card",
+    "p2p-payment-privacy",
+    "digital-tips-for-service-workers",
+    "card-acceptance-at-pop-up-events"
+  ],
+  "icon": "phone",
+  "read_minutes": 6
+}

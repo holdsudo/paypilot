@@ -1,0 +1,120 @@
+{
+  "slug": "data-you-should-never-store",
+  "topic": "security",
+  "title": "Customer Data You Should Never Store",
+  "seo_title": "Customer Data You Should Never Store | PayPilot",
+  "meta_description": "Full card numbers, security codes, and PINs should never sit in your files. Learn what not to keep, why, and the safer alternatives for repeat customers.",
+  "primary_keyword": "data not to store card payments",
+  "keywords": [
+    "never store CVV",
+    "storing card numbers",
+    "payment data retention",
+    "card data in email",
+    "customer data minimization",
+    "safe card on file",
+    "sensitive authentication data"
+  ],
+  "eyebrow": "Security",
+  "dek": "Some information is too risky to keep, even with good intentions. Here is the list, the reasoning, and what to do instead.",
+  "intro": [
+    "A furniture shop owner keeps a binder of customer order forms. Many include the full card number, expiration date, and the three-digit code on the back, written in pen so the shop can charge the balance when the sofa arrives. It is convenient, and it is a liability sitting on a shelf.",
+    "Businesses collect data to serve customers. But every piece of sensitive information you keep is something you must protect, and something a thief can take. The simplest protection is not having it.",
+    "This guide separates what you must never store from what you can keep with care, and shows how modern tools make the risky habits unnecessary."
+  ],
+  "sections": [
+    {
+      "h2": "The never-store list",
+      "paragraphs": [
+        "Card network rules and industry security standards draw a firm line around certain items. After a payment is authorized, you should not retain them, even in encrypted form, and even if the customer asked you to.",
+        "The security code printed on the card, often called CVV or CVC, is the clearest example. It exists to prove the person has the physical card, and storing it defeats that purpose. The same applies to the full contents of a magnetic stripe and to the PIN or PIN block."
+      ],
+      "bullets": [
+        "The card security code from the front or back of the card.",
+        "Full magnetic stripe or chip data copied from a card.",
+        "PINs and encrypted PIN data.",
+        "Full card numbers in plain text, such as in notebooks, spreadsheets, and emails."
+      ]
+    },
+    {
+      "h2": "Where card numbers hide in ordinary places",
+      "paragraphs": [
+        "Most exposures are not dramatic hacks. They are everyday leftovers: a customer who emails their card details, a screenshot in a photo gallery, a voicemail transcribed to text, a note attached to an appointment, a paper slip in a drawer.",
+        "If a customer sends a card number in an email, do not reply with the number in the thread. Charge the card through your payment system, delete the message, and ask them to use a payment link next time. Search your inboxes and shared folders for strings of digits, and clear out what you find."
+      ]
+    },
+    {
+      "h2": "Safer ways to charge a returning customer",
+      "paragraphs": [
+        "You do not need to keep a number to bill someone again. With a card-on-file feature, the customer authorizes the card through a hosted form, the provider stores the details, and you keep only a token that works inside your account.",
+        "Payment links and invoices serve the same need with less handling. The customer enters their details on the secure page, you never see them, and the receipt gives you a record. PayPilot's online tools are built around this approach so your team can charge a balance without touching raw numbers."
+      ],
+      "steps": [
+        "Send the customer a payment link or invoice instead of asking for details.",
+        "Let them enter the card on the hosted page.",
+        "Use their saved token for later charges if they gave permission.",
+        "Keep the receipt, not the card number, in your records."
+      ]
+    },
+    {
+      "h2": "Other data to handle with extra care",
+      "paragraphs": [
+        "Beyond card details, think about what else a thief could use. Government identification numbers, dates of birth, bank account numbers, and photographs of identity documents are valuable on their own and should be kept only when you truly need them.",
+        "Ask what the information is for and how long you need it. If a form asks for a date of birth that nobody uses, remove the field. If a scan of a document was needed once, delete it when the purpose ends. Data you do not hold cannot be stolen from you."
+      ]
+    },
+    {
+      "h2": "Retention: set a clock",
+      "paragraphs": [
+        "Even data you are allowed to keep should not be kept forever. Decide how long each kind of record is useful, such as receipts for tax purposes or transaction records for dispute windows, and set a date to dispose of it.",
+        "Paper should be shredded rather than thrown away. Digital files should be deleted properly, including from backups and from devices you plan to sell or recycle. Tax and legal retention periods vary, so ask an accountant which records you need and for how long."
+      ]
+    },
+    {
+      "h2": "A cleanup you can finish this week",
+      "paragraphs": [
+        "Block out an hour and search every place card data might be hiding. Search email for sequences of sixteen digits, scroll through the photo library on any phone used at work, and open the notes apps that employees share. Check the drawer under the register for old order slips.",
+        "When you find something, delete or shred it, and write down where it came from. Each find points to a habit that needs a replacement, such as a payment link instead of a phone number scribbled on a pad. Finish by telling the team what the new rule is and why."
+      ]
+    },
+    {
+      "h2": "Make it a habit across the team",
+      "paragraphs": [
+        "Policies fail when they live only in the owner's head. Write a one-page rule: no card numbers on paper, in texts, in chats, or in email. Teach employees what to do instead and give them a simple script for customers who offer details the easy way.",
+        "A friendly line works well: for your protection, please use our secure payment link so we never have to handle your card details. Customers generally appreciate it. And if you discover stored data you should not have, delete it, then review how it got there so the same gap does not reopen."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Never retain the card security code, full stripe data, or PINs after authorization.",
+    "Look for card numbers in email, photos, notes, and paper slips.",
+    "Use tokens, payment links, and invoices instead of keeping numbers.",
+    "Delete data you no longer need on a schedule."
+  ],
+  "faq": [
+    {
+      "q": "Can I store the CVV if I encrypt it?",
+      "a": "No. Card network rules prohibit keeping the security code after authorization, even encrypted and even with the customer's consent. Use tokenized card-on-file billing so you can charge again without holding the code. The safest design is one where your systems never possess the code at all."
+    },
+    {
+      "q": "What should I do if a customer emails me their card number?",
+      "a": "Do not reuse the number in your reply. Process the payment through your secure system if you must, delete the email and any copies, and invite the customer to use a payment link next time. Over time, customers learn that your business never asks for numbers this way."
+    },
+    {
+      "q": "Is it okay to write card numbers on paper temporarily?",
+      "a": "It is risky because paper is easy to lose, photograph, or forget. Avoid it where possible. If a rare exception occurs, secure the paper, process the payment immediately, and shred it right away. The moment you finish the charge, destroy the paper rather than leaving it for later."
+    },
+    {
+      "q": "How long should I keep transaction records?",
+      "a": "Keep transaction records, not sensitive card data, for as long as taxes, disputes, and business needs require. Retention periods vary by location and record type, so check with an accountant for your situation. Keep the receipt and the order details, which serve your records without exposing the card."
+    }
+  ],
+  "related": [
+    "tokenization-for-business-owners",
+    "card-on-file-for-repeat-customers",
+    "manual-card-entry-risks",
+    "phishing-attacks-on-merchants",
+    "what-encryption-means-at-checkout"
+  ],
+  "icon": "file",
+  "read_minutes": 7
+}

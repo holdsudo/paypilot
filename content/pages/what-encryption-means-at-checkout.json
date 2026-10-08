@@ -1,0 +1,127 @@
+{
+  "slug": "what-encryption-means-at-checkout",
+  "topic": "security",
+  "title": "What 'Encrypted' Really Means at Checkout",
+  "seo_title": "What Encryption Means at Checkout | PayPilot",
+  "meta_description": "Encryption in transit versus encryption at rest, point-to-point encryption, and what the padlock does not tell you. A plain-English guide for merchants.",
+  "primary_keyword": "encryption at checkout",
+  "keywords": [
+    "encryption in transit",
+    "encryption at rest",
+    "point to point encryption",
+    "https padlock meaning",
+    "secure checkout explained",
+    "encrypted card data",
+    "TLS for merchants"
+  ],
+  "eyebrow": "Security",
+  "dek": "Everyone says payments are encrypted. Here is what that does, where it stops, and which questions to ask.",
+  "intro": [
+    "You see the word encrypted on checkout pages, terminal screens, and sales brochures. It sounds reassuring, and it is a real protection. But it is also one of those words that gets used so loosely that it can hide as much as it explains.",
+    "Encryption turns readable data into scrambled data that only someone holding the right key can turn back. What matters is where it happens, when, and who holds the key.",
+    "Understanding three phrases, in transit, at rest, and point-to-point, lets you ask better questions of any payment product you consider."
+  ],
+  "sections": [
+    {
+      "h2": "Encryption in one paragraph",
+      "paragraphs": [
+        "Think of a lockbox. You put a note inside, lock it, and send the box. Anyone who intercepts it sees a box, not the note. Only the person with the matching key can open it.",
+        "Digital encryption works the same way using mathematics. The scrambled result is called ciphertext. Without the key, it is effectively unreadable, which is why stolen ciphertext is far less useful than stolen plain data."
+      ]
+    },
+    {
+      "h2": "In transit: protection while data travels",
+      "paragraphs": [
+        "When a customer types a card number on a website, the data travels across networks you do not control. Encryption in transit protects it on that journey. On the web, this is what the padlock and the https prefix signify: the connection between the browser and the site is encrypted.",
+        "The same idea applies between a card terminal and its provider, and between your POS and the cloud. If a stranger on the same Wi-Fi or somewhere along the route captures the traffic, they should see only scrambled data."
+      ],
+      "bullets": [
+        "Browser to website: https with a valid certificate.",
+        "Terminal to payment provider: an encrypted connection over Wi-Fi, Ethernet, or cellular.",
+        "App to server: encrypted calls whenever the app sends account data.",
+        "Provider to card network: encrypted links between institutions."
+      ]
+    },
+    {
+      "h2": "At rest: protection while data sits somewhere",
+      "paragraphs": [
+        "Encryption at rest protects stored data, such as the contents of a database or a backup. If someone steals the disk or breaks into the storage, the files are scrambled.",
+        "This matters for anything you keep, including customer lists and order history. It also explains why the best approach for card numbers is not to hold them at all and to rely on tokens, which keeps the sensitive data in a specialized vault."
+      ]
+    },
+    {
+      "h2": "Point-to-point encryption: scrambling at the swipe",
+      "paragraphs": [
+        "Point-to-point encryption, often shortened to P2PE, encrypts card data inside the reader the moment it is read. The data stays scrambled as it passes through your POS, your network, and any software in between, and is only decrypted at the secure processing environment.",
+        "The benefit is that your own systems never see readable card data, even though it passes through them. That shrinks the places an attacker could capture it. When shopping for hardware, ask whether the reader encrypts at the point of capture, and what that means for your security responsibilities."
+      ]
+    },
+    {
+      "h2": "What the padlock does not tell you",
+      "paragraphs": [
+        "A padlock shows that the connection is encrypted. It does not prove the website is honest. A fraudulent site can have a perfectly valid padlock, and criminals know that customers trust the symbol.",
+        "Likewise, encryption does not protect against a customer being tricked, a weak password, or a staff member copying data. It is one layer in a stack that also includes account protection, device inspection, and sensible data handling."
+      ]
+    },
+    {
+      "h2": "A hypothetical card tap, followed end to end",
+      "paragraphs": [
+        "A customer taps a card on a countertop reader. Inside the reader, the card data is scrambled almost immediately. The scrambled data crosses the store network to the provider, wrapped in an encrypted connection that protects it a second time while in motion.",
+        "At the provider, the data is unscrambled inside a secured environment and sent onward to the card network for approval. The merchant's POS sees the result, approved or declined, plus a token, but never the readable number. The story is simplified, yet it shows that several layers cooperate, and that no single layer carries the whole job."
+      ]
+    },
+    {
+      "h2": "Your own part in keeping data scrambled",
+      "paragraphs": [
+        "Providers handle the heavy mathematics, but your habits decide whether protection holds. Keep terminals and apps updated, because updates deliver security fixes along with new features. Use hosted payment pages rather than building your own form that touches card numbers.",
+        "Avoid sending screenshots of payment screens, and never paste card details into a chat. If a vendor offers to store card data for you, ask how it is protected and what happens to it if you leave. A clear answer is a good sign, and a vague one is a reason to look elsewhere."
+      ]
+    },
+    {
+      "h2": "Questions to ask any payment provider",
+      "paragraphs": [
+        "You do not need to be an engineer to evaluate a claim. Ask plain questions and expect plain answers. Vague replies are themselves informative.",
+        "Where does card data first get encrypted? Do card details touch my servers? Is stored data encrypted, and who holds the keys? What does my side remain responsible for? PayPilot's hosted checkout and card devices are built so sensitive entry happens in secured components, and you can always reach support at 844.826.6227 to talk through how your own setup works."
+      ],
+      "steps": [
+        "Ask where encryption begins: the reader, the browser, or later.",
+        "Ask whether card numbers ever reach your own systems.",
+        "Ask how stored information is protected and who controls the keys.",
+        "Ask which security duties remain yours after you adopt the product."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Encryption in transit protects data while it travels.",
+    "Encryption at rest protects data that is stored.",
+    "Point-to-point encryption scrambles card data at the moment of capture.",
+    "A padlock proves the connection is private, not that the site is trustworthy."
+  ],
+  "faq": [
+    {
+      "q": "Does the padlock mean a website is safe to buy from?",
+      "a": "It means the connection is encrypted, not that the seller is honest. Scammers can obtain valid certificates too. Check the business, read reviews, and use payment methods you trust before buying. Look instead at the seller's reputation, policies, and the payment method you are using."
+    },
+    {
+      "q": "What is the difference between encryption and tokenization?",
+      "a": "Encryption scrambles data and can be reversed with the right key. Tokenization replaces data with a stand-in that points to the real value in a vault. They are often used together to limit how much readable card data exists. Many modern systems combine both, so that data is scrambled in motion and replaced with tokens afterward."
+    },
+    {
+      "q": "Does encrypted payment data mean I have no security responsibilities?",
+      "a": "No. You still need to protect your accounts, inspect devices, keep software current, and handle customer data carefully. Encryption reduces exposure but does not replace those basics. Strong encryption works best alongside careful habits on your side of the counter."
+    },
+    {
+      "q": "What is P2PE?",
+      "a": "Point-to-point encryption scrambles card data inside the reader at the moment of capture, keeping it unreadable as it passes through your systems until it reaches the secure processing environment. Ask a provider if your hardware supports it. Ask your provider whether your reader supports it and what it changes for your own responsibilities."
+    }
+  ],
+  "related": [
+    "tokenization-for-business-owners",
+    "data-you-should-never-store",
+    "secure-wifi-for-payments",
+    "digital-wallets-at-checkout",
+    "payments-api-basics"
+  ],
+  "icon": "lock",
+  "read_minutes": 7
+}

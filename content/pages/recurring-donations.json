@@ -1,0 +1,121 @@
+{
+ "slug": "recurring-donations",
+ "topic": "online",
+ "title": "Setting Up Recurring Donations",
+ "seo_title": "Setting Up Recurring Donations | PayPilot",
+ "meta_description": "How nonprofits and community groups can set up monthly giving: donor-friendly forms, clear consent, receipts, failed-card recovery and gentle stewardship.",
+ "primary_keyword": "recurring donations",
+ "keywords": [
+  "monthly giving",
+  "nonprofit online donations",
+  "donation form",
+  "recurring gift",
+  "donor receipts",
+  "update donor card",
+  "sustainer program"
+ ],
+ "eyebrow": "Giving",
+ "dek": "Monthly giving gives a cause predictable support and gives donors a simple way to stay involved. The details decide how it feels.",
+ "intro": [
+  "A one-time gift is a moment. A monthly gift is a relationship. A donor who gives fifteen dollars a month is quietly funding your work all year, and you can plan around that steadiness in a way that a handful of large gifts never allow.",
+  "Setting up recurring donations is not complicated, but it comes with responsibilities. Donors need to understand what they are agreeing to, receive proper receipts and be able to change or stop their gift without a fight.",
+  "This guide walks through the form, the consent, the payment mechanics and the stewardship that keeps monthly donors giving."
+ ],
+ "sections": [
+  {
+   "h2": "Designing the donation form",
+   "paragraphs": [
+    "Keep the form short. Amount, frequency, name, email and payment details are the essentials. A visitor who came to give should reach the finish line in a minute or less.",
+    "Offer suggested amounts that reflect what your supporters can give, along with an option to type another figure. Put monthly giving first or pre-select it only if that fits your values, and make sure the choice between one-time and monthly is unmistakable.",
+    "Show what the money does in a sentence or two next to the form. A hypothetical line such as A monthly gift helps us keep the food pantry open every week is more compelling than an abstract appeal.",
+    "Test the form on a phone. A large share of giving happens from a message or a social post, and a form that is awkward on a small screen loses gifts at the final step."
+   ]
+  },
+  {
+   "h2": "Be clear about consent",
+   "paragraphs": [
+    "A recurring gift is an ongoing authorization, so the form should state the amount, how often it will be charged and how the donor can change or cancel. Place the statement close to the button, in language a busy person can read in a few seconds.",
+    "Send a confirmation email immediately, repeating those terms. This builds trust and reduces the number of people who later say they did not realize the gift would continue."
+   ]
+  },
+  {
+   "h2": "How the payments run",
+   "paragraphs": [
+    "When a donor completes the form, their card is stored securely with the payment provider as a token, and a schedule is created. On each date, the provider charges that token for the agreed amount, and you receive a record of every gift.",
+    "Donors can usually choose to give with a card or a digital wallet. Wallet payments make the first gift very quick on a phone, which helps when a supporter is moved by a story during a campaign.",
+    "Choose a charge day with care. Many organizations use the first or the fifteenth of the month, matching paydays. Some let donors pick their own day. Either way, tell them the date so no one is surprised.",
+    "Consider letting donors cover the processing cost if they wish, as an optional checkbox. Check that your wording and the practice are acceptable where you operate and for your type of organization."
+   ]
+  },
+  {
+   "h2": "Receipts and records",
+   "paragraphs": [
+    "Each gift should produce a receipt that includes the organization's name, the date and the amount. Tax rules about donation acknowledgments differ between countries and between types of organizations, so ask your accountant what wording and records you must keep.",
+    "At year end, many donors expect a summary of their total giving. Keeping donor records organized from the start makes that task a button press rather than a scramble.",
+    "Be careful with any statement about deductibility. Only say what your organization is certain about, and encourage donors to speak with their own tax adviser.",
+    "Keep these records somewhere your successor can find them. Volunteers change, and a donor database that lives in one person's email is a risk to the whole program."
+   ]
+  },
+  {
+   "h2": "Recovering failed gifts",
+   "paragraphs": [
+    "Cards expire and get replaced, and some monthly gifts will fail for ordinary reasons. Treat these as a service issue, not a loss, because the donor still wants to give.",
+    "Set up a gentle sequence: a note explaining the charge could not be processed, a secure link to update the card, and a retry a few days later. Avoid language that suggests blame."
+   ],
+   "bullets": [
+    "Send a friendly pre-expiration reminder when a stored card is about to lapse.",
+    "Provide a donor page where supporters can update their card without contacting staff.",
+    "Retry failed gifts after a few days and notify the donor each time.",
+    "Pause rather than cancel after repeated failures, and invite them back."
+   ]
+  },
+  {
+   "h2": "Stewardship: keeping monthly donors",
+   "paragraphs": [
+    "Thank donors promptly and personally. A short message from a real person about what the previous month's gifts accomplished reinforces the decision to give.",
+    "Offer easy changes. Let supporters raise, lower, pause or skip a gift from their own page. A donor who can pause during a tight month is more likely to resume than one who must cancel.",
+    "Report back on results at least a few times a year, using actual outcomes from your own records and no invented figures. PayPilot recurring billing and payment pages can run the schedule, and next-day funding is available for the gifts you collect, so the money moves toward your mission without delay. Review your retention each quarter and talk to a few donors about what keeps them giving.",
+    "A yearly note inviting monthly donors to review their gift, without any pressure to increase it, shows respect and often prompts a voluntary upgrade."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Keep the donation form short and make one-time versus monthly unmistakable.",
+  "State the amount, frequency and how to cancel next to the button.",
+  "Send a confirmation and a receipt for every gift.",
+  "Treat failed cards as a service moment with an easy update link.",
+  "Let donors change, pause or skip, and thank them personally."
+ ],
+ "faq": [
+  {
+   "q": "How do recurring donations work?",
+   "a": "A donor chooses an amount and frequency, and their card is stored securely as a token with the payment provider. On each scheduled date the provider charges the token and records the gift. The donor receives a receipt and can usually update or cancel from a secure page."
+  },
+  {
+   "q": "How should we handle a donor's card failing?",
+   "a": "Contact them kindly, explain that a gift did not go through and send a secure link to update the card. Retry after a few days. Most failures come from expired cards, so a pre-expiration reminder helps prevent them before they happen."
+  },
+  {
+   "q": "Can donors change or cancel their monthly gift?",
+   "a": "They should always be able to. Provide an account page or link in every receipt for changing the amount, updating the card or pausing. Making it easy builds trust and, in practice, tends to keep more supporters than making it hard."
+  },
+  {
+   "q": "What belongs on the receipt a recurring donor gets after each gift?",
+   "a": "At minimum, your organization's name, the date, the amount and a thank-you. Whether you must include additional wording, such as tax status statements, depends on your location and organization type, so ask your accountant or an adviser before finalizing your templates."
+  },
+  {
+   "q": "Is a monthly gift better than a one-time gift?",
+   "a": "For a small nonprofit, neither monthly nor annual giving wins every time. Monthly gifts offer predictable income and long-term relationships, while one-time gifts suit people who prefer to give occasionally or in larger amounts. Offer both choices on the same form, and let each supporter pick what suits their own situation."
+  }
+ ],
+ "related": [
+  "subscription-box-billing",
+  "card-on-file-for-repeat-customers",
+  "digital-wallets-at-checkout",
+  "fundraising-with-friends",
+  "accepting-payments-on-a-website-without-code",
+  "tokenization-for-business-owners"
+ ],
+ "icon": "heart",
+ "read_minutes": 6
+}

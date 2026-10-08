@@ -1,0 +1,126 @@
+{
+ "slug": "inventory-counts-made-simple",
+ "topic": "pos",
+ "title": "Inventory Counts Without Closing the Store",
+ "seo_title": "Inventory Counts Without Closing the Store | PayPilot",
+ "meta_description": "Skip the all-night stocktake. Learn how cycle counts, par levels and variance checks keep inventory accurate while your POS keeps selling every day.",
+ "primary_keyword": "inventory counts",
+ "keywords": [
+  "cycle counting",
+  "POS inventory management",
+  "inventory variance",
+  "par levels",
+  "stock count small business",
+  "retail inventory count",
+  "shrinkage tracking"
+ ],
+ "eyebrow": "Inventory",
+ "dek": "Cycle counts spread the work across the week, so accuracy improves without a shutdown or a weekend of clipboards.",
+ "intro": [
+  "The traditional stocktake goes like this: lock the doors on a Sunday night, hand everyone a clipboard, and count every box until midnight. By Monday the numbers are already out of date, and the staff who did the counting are tired enough to make errors.",
+  "There is a gentler way. A cycle count asks you to count a small slice of inventory each day, compare it with what your POS thinks you have, and fix the difference while it is still easy to trace.",
+  "This post shows how to set up that rhythm, which items to count first, and how to read a variance without blaming anyone."
+ ],
+ "sections": [
+  {
+   "h2": "What your POS knows and what it cannot know",
+   "paragraphs": [
+    "A POS decrements stock each time you ring a sale and increments it when you receive a purchase order. That gives you a running expected quantity for every item. It is only as good as the events it was told about.",
+    "The system does not see a bottle that cracked in the back room, a sample handed to a vendor, or a box that was received but never entered. Each of those creates a gap between expected and actual. Counting is how you find the gap, and regular counting keeps it from growing.",
+    "A useful habit is to write down, next to each product, how it is received and how it leaves. Products received by the case and sold by the piece, or bought by the pound and sold by the scoop, are where most silent drift begins."
+   ]
+  },
+  {
+   "h2": "Why cycle counts beat the annual shutdown",
+   "paragraphs": [
+    "A cycle count divides the inventory into groups and counts one group at a time. A boutique might count one rack or brand per day, while a café counts dairy on Monday, dry goods on Tuesday and so on.",
+    "Smaller counts are quicker, so they happen during slow hours with the doors open. Because errors surface within days of occurring, you can still remember the delivery or the busy shift that caused them.",
+    "There is also a quality benefit. A person counting twelve products carefully makes fewer mistakes than a person counting twelve hundred at the end of a long night.",
+    "Cycle counting also exposes seasonal dead stock. A shelf you count monthly will not hide a forgotten carton of last year's gift sets for long, and you can mark it down while it still has value."
+   ]
+  },
+  {
+   "h2": "Setting up your count schedule",
+   "paragraphs": [
+    "Rank your items by value and by how quickly they move. High-value or fast-moving items deserve frequent counts, perhaps weekly, while slow, cheap items can wait for a monthly pass.",
+    "Rotate counters now and then. Fresh eyes notice mislabeled bins and mixed-up variants that a regular counter no longer sees, and cross-training means a sick day will not stall the schedule."
+   ],
+   "steps": [
+    "Export your item list from the POS and sort by cost multiplied by units sold.",
+    "Mark the top group as A items, the middle as B, and the long tail as C.",
+    "Assign each A item a weekly count day, each B a monthly day, and each C a quarterly day.",
+    "Print or load a count sheet for the day with the expected quantity hidden, so counters record what they see rather than what they expect.",
+    "Enter the counted quantity into the POS and review the variance report before approving adjustments."
+   ]
+  },
+  {
+   "h2": "Setting par levels so counts mean something",
+   "paragraphs": [
+    "A par level is the quantity you want on hand after a delivery. Think of it as the target your counts are measured against. A hypothetical coffee shop might set oat milk at twelve cartons, reorder when it drops to four, and expect a delivery within two days.",
+    "Review pars every season. A patio opening or a holiday rush changes consumption, and a par set in January will be wrong in July. Your POS item-sales history is the evidence for adjusting them."
+   ]
+  },
+  {
+   "h2": "Reading a variance without blame",
+   "paragraphs": [
+    "When the count differs from the system, resist the urge to look for a culprit. Start with the boring explanations: an item sold under a similar name, a case counted as single units, a return not restocked, or a recipe that uses more than the sheet assumes.",
+    "Track variances by category over time. One miscount is noise. The same product off by the same amount every week points to a process problem such as receiving, portioning or a mismatched unit of measure.",
+    "If a pattern suggests theft, document it calmly and involve the right person before any conversation. The goal of a count is to learn, and a team that fears the numbers will quietly start hiding them.",
+    "Make the final step of every count the same: sign the sheet, post the adjustment, and note anything you plan to change in how you receive or portion. A count that does not feed back into a process change is only a chore."
+   ],
+   "bullets": [
+    "Check unit-of-measure settings first: cases versus each is the most common culprit.",
+    "Look for unrecorded waste, breakage and staff meals.",
+    "Confirm that receiving was entered against the right purchase order.",
+    "Compare against sales of linked or bundled items."
+   ]
+  },
+  {
+   "h2": "Making the count part of the week",
+   "paragraphs": [
+    "Tie counting to something that already happens. The opening checklist, the post-lunch lull or the first hour after a delivery are natural moments. Give the task to a specific person each day so it never belongs to nobody.",
+    "Keep the tools light. A handheld or phone running the POS inventory screen lets the counter type quantities on the spot, rather than carrying paper back to a desk. PayPilot POS supports item-level stock tracking, and a handheld Go makes it easy to count from the shelf.",
+    "After a month, look at how many adjustments you are making. If the number falls, your process is working. If it stays high, pick the one category that causes the most trouble and fix it first."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Count a small slice of inventory every day instead of everything once a year.",
+  "Rank items by value and speed so the important ones are counted most often.",
+  "Hide the expected quantity from counters to avoid biased entries.",
+  "Treat variances as signals about process, not accusations.",
+  "Reset par levels each season using your own sales history."
+ ],
+ "faq": [
+  {
+   "q": "What is a cycle count?",
+   "a": "A cycle count is a recurring count of a small part of your inventory, such as one shelf, brand or category per day. Over a few weeks every item is checked. It replaces the single large annual count and lets you correct errors while the cause is still fresh in everyone's mind and the paperwork is nearby."
+  },
+  {
+   "q": "How often should I count high-value items?",
+   "a": "Weekly is a common starting point for expensive or fast-moving products, because any error costs more and appears sooner. Mid-value items can be counted monthly, and low-value or slow items quarterly. Adjust the schedule once you see where your variances cluster."
+  },
+  {
+   "q": "Can I count while customers are in the store?",
+   "a": "Yes, that is the point of cycle counts. Choose quiet hours, count one area at a time and use a handheld device so you are not blocking aisles or the counter. Avoid counting an item while it is actively being sold or received."
+  },
+  {
+   "q": "What is an acceptable variance?",
+   "a": "There is no universal number. Perishable goods naturally drift more than packaged items, and items sold by weight drift more than items sold by the piece. Set a tolerance per category based on your own history, and investigate anything that exceeds it twice in a row rather than reacting to a single odd result."
+  },
+  {
+   "q": "Should I adjust the POS to match every count?",
+   "a": "Generally yes, once you have checked for obvious data-entry errors, because the system should reflect what is physically on the shelf. Record a reason code with each adjustment, such as breakage or miscount, so later reports show why the numbers moved and which areas keep needing correction."
+  }
+ ],
+ "related": [
+  "menu-engineering-with-pos-data",
+  "pos-reports-to-check-weekly",
+  "employee-permissions-pos",
+  "pos-for-retail-boutiques",
+  "multi-location-pos",
+  "opening-day-checklist"
+ ],
+ "icon": "store",
+ "read_minutes": 6
+}

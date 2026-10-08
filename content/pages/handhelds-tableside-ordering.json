@@ -1,0 +1,63 @@
+{
+"slug": "handhelds-tableside-ordering",
+"topic": "pos",
+"title": "Why Tableside Handhelds Speed Up Service",
+"seo_title": "Tableside Handhelds Speed Up Service | PayPilot",
+"meta_description": "See how tableside ordering handhelds cut walking, reduce order errors and shorten table turn times, plus how to roll them out without confusing your servers.",
+"primary_keyword": "tableside ordering handheld",
+"keywords": ["handheld POS for restaurants", "tableside payments", "table turn time", "order accuracy", "server handheld", "pay at table", "restaurant ordering device"],
+"eyebrow": "Front of house",
+"dek": "Every trip a server makes to a fixed terminal is time the guest spends waiting. A handheld moves the terminal to the table.",
+"intro": [
+"Watch a server on a busy night and count the steps. Table to terminal, terminal to kitchen window, window back to table, then back to the terminal for the check. Much of a shift is spent walking to places where information is entered, not serving anyone.",
+"A tableside handheld removes a lot of that walking. The server takes the order at the table, sends it to the kitchen or bar the moment the guest finishes speaking, and later brings the payment device back to the same spot.",
+"Here is what changes in practice, what to watch for when you introduce them, and how to measure whether they are helping."
+],
+"sections": [
+{"h2": "Where the minutes actually go", "paragraphs": [
+"A typical dining experience has several waiting points: seating to first greeting, order to kitchen, food to table, and check to payment. Handhelds directly attack two of them, the delay between order and kitchen, and the delay between asking for the check and settling it.",
+"When a server walks away to type an order, the ticket reaches the kitchen after the server finds a free terminal. If three colleagues are queued up, that can take minutes. A handheld sends the ticket immediately, so cooks start sooner and plates leave sooner.",
+"At the other end, the guest who wants to leave no longer watches the room hoping to catch an eye. The server arrives with the device and the payment takes a moment."]},
+{"h2": "Accuracy improves when the screen is in your hand", "paragraphs": [
+"Handwritten notes are transcribed later, often from memory, and that is where substitutions get lost. With a handheld, modifiers like no nuts or sauce on the side are tapped in as the guest says them and appear on the ticket exactly as entered.",
+"Allergies deserve special mention. A dedicated allergy flag that prints in bold on the kitchen ticket is far more reliable than a note on the back of a pad. Make it a required step for any dish with a known allergen category.",
+"Servers can also glance at a seat map to avoid the classic confusion over who ordered the burger. Seat numbers on the ticket help the food runner deliver to the right person without asking."]},
+{"h2": "Pay at the table, safely", "paragraphs": [
+"Guests are often uneasy when a card leaves their sight. Tableside payment keeps the card, phone or watch in front of them throughout, which is a quiet trust signal. Tap and chip prompts happen on a device the guest can see.",
+"Splitting a check becomes easier too. Instead of returning to a terminal to divide a bill four ways, the server can split by seat or by item on the spot, and take separate payments in sequence.",
+"Tip prompts appear on the device the guest is holding or watching, which tends to feel more natural than a prompt on a faraway screen. Keep the choices simple and let the guest select custom if they prefer."]},
+{"h2": "Rolling them out without chaos", "paragraphs": [
+"Introduce handhelds on a quiet shift and let servers practice with a training mode. Ten minutes of practice ringing a fake table beats a perfect lecture. Pair a confident server with someone who is nervous so questions get answered on the spot."],
+"bullets": [
+"Assign each device a number and a charging dock position, and track who has which one.",
+"Keep one fixed terminal as a backup for shifts when batteries or Wi-Fi misbehave.",
+"Test coverage by walking every corner of the dining room, including the patio and the restrooms hallway.",
+"Set a rule that the device goes back on its dock at the end of each shift, fully charged.",
+"Adjust the menu layout for a small screen: bigger tiles, fewer levels."]},
+{"h2": "Hardware and network considerations", "paragraphs": [
+"A handheld is only as good as the Wi-Fi it rides on. Dead spots near the kitchen or the patio cause frozen screens at the worst times. A modest investment in access points can matter more than the device itself.",
+"Look for a unit with a battery that outlasts a full service, a protective case, and a built-in printer if you want receipts at the table. PayPilot Go is a handheld with a printer designed for that style of service, while a PayPilot Reader can serve as a lighter payment-only companion.",
+"Weigh how many servers need devices at the same time. A sensible starting point is one handheld per section rather than one per person, then add more if sections are consistently waiting for a device."]},
+{"h2": "Measuring what changed", "paragraphs": [
+"Before launch, note a few things: how long tables sit from seating to payment, how many order corrections the kitchen reports, and how many checks are voided or re-opened. Compare the same figures after a month of use.",
+"Do not expect miracles on every metric. A restaurant with a slow kitchen will still be slow, and a handheld cannot fix an understaffed floor. What it removes is waste in the middle of the process.",
+"Ask servers for feedback after two weeks. They will tell you which screens are confusing and which buttons are in the wrong place, and fixing those details usually yields the largest gains."]}
+],
+"key_takeaways": [
+"Handhelds shorten the gap between order and kitchen and between check and payment.",
+"Entering modifiers and allergy flags at the table reduces transcription errors.",
+"Pay-at-table keeps the guest's card or phone in view and makes splits simple.",
+"Wi-Fi coverage and battery life matter as much as the device itself.",
+"Measure table time and order corrections before and after rollout."
+],
+"faq": [
+{"q": "Do handhelds work for casual restaurants or only fine dining?", "a": "They suit both. Fine dining benefits from quiet, accurate ordering without trips to a station, while casual spots gain from faster turns and easier split checks. Even counter-service venues use them for line busting. The right number of devices depends on your floor size and how many sections you run."},
+{"q": "What happens if the Wi-Fi goes down mid-service?", "a": "That depends on the system. Some handhelds queue orders and submit them when the connection returns, while others stop working until it is restored. Ask your provider about offline behavior, and keep a fixed terminal or paper tickets as a fallback for the rare outage."},
+{"q": "Will guests feel rushed if the server brings the device?", "a": "Not if it is introduced well. Offer the device when the guest asks for the check, or let them pay at their own pace by leaving it with them briefly if your policy allows. The aim is to remove waiting, not to hurry anyone out."},
+{"q": "How many handhelds does a restaurant need?", "a": "A simple rule is one per section during peak service, then adjust after a few weeks. If servers are waiting for a free device, add one. If devices sit idle on the dock, you have more than you need. Track usage for a couple of weeks before buying more."},
+{"q": "Can handhelds replace my fixed terminals?", "a": "Often they can reduce reliance on fixed stations, but most restaurants keep at least one for the bar, for managers and as a backup. Keeping one fixed terminal also gives you a stable place for reports, menu edits and printing end-of-day totals."}
+],
+"related": ["kitchen-display-systems", "pos-for-restaurants-front-and-back", "tap-to-pay-on-iphone-and-android", "pos-hardware-checklist", "tips-and-card-processing", "pos-offline-mode"],
+"icon": "utensils",
+"read_minutes": 6
+}

@@ -1,0 +1,131 @@
+{
+ "slug": "payments-api-basics",
+ "topic": "online",
+ "title": "Payments API Basics for Non-Developers",
+ "seo_title": "Payments API Basics for Non-Developers | PayPilot",
+ "meta_description": "What a payments API is, how tokens, keys, test mode and webhooks fit together, and what to ask a developer so your integration is safe and well scoped.",
+ "primary_keyword": "payments API",
+ "keywords": [
+  "what is a payments API",
+  "API keys explained",
+  "test mode sandbox",
+  "payment tokens",
+  "payment integration for business owners",
+  "idempotency",
+  "hosting payments with a developer"
+ ],
+ "eyebrow": "For owners",
+ "dek": "You do not need to write code to hire well. You need to know the handful of ideas a payments integration is built from.",
+ "intro": [
+  "At some point a developer, an agency or a software vendor will say they can connect your site to the payment system through the API. If the word means little to you, the conversation becomes a matter of nodding and hoping.",
+  "An API is simply a set of agreed requests that one program can send to another. For payments, those requests create a charge, issue a refund or look up an order. Understanding the main pieces will let you ask better questions and notice when something is wrong.",
+  "This guide keeps the language plain, with just enough detail to follow a project meeting."
+ ],
+ "sections": [
+  {
+   "h2": "An API is a menu of requests",
+   "paragraphs": [
+    "Think of a restaurant. You do not walk into the kitchen; you choose from a menu and the waiter carries your order. An API is the menu and the waiter. Your website sends a request, such as create a payment for 40 dollars, and the payment platform sends back an answer.",
+    "Each answer says whether it worked, and usually carries an identifier you can use later. That identifier is how you refer to a particular payment when you issue a refund or look it up.",
+    "Most platforms also publish documentation listing every request available. You will rarely read it, but your developer will, and knowing it exists helps you ask for the relevant page when a scope question arises."
+   ]
+  },
+  {
+   "h2": "Keys: the passwords of integration",
+   "paragraphs": [
+    "To prove that a request comes from you, the API asks for a key, a long string of characters tied to your account. There are usually two types. A publishable key is meant to appear in a web page and can only perform limited actions. A secret key can do much more and must never leave your server.",
+    "If a secret key is pasted into a public page or shared in a chat, treat it as compromised and replace it immediately. Ask your developer where keys are stored, who can see them and how they would be rotated if needed."
+   ],
+   "bullets": [
+    "Secret keys belong on the server, never in website code that visitors can view.",
+    "Different keys for testing and for real money.",
+    "Limit who in your team can view or regenerate keys.",
+    "Rotate a key whenever someone with access leaves the project."
+   ]
+  },
+  {
+   "h2": "Tokens keep card numbers out of your hands",
+   "paragraphs": [
+    "When a customer types a card on your page, a good integration sends those digits straight to the payment provider, which returns a token. Your system keeps only the token, which stands in for the card but is worthless to a thief.",
+    "Using tokens narrows your security burden because your servers never handle full card numbers. It also allows saved cards for repeat purchases or subscriptions. If a developer proposes storing card numbers in your own database, stop the conversation and ask for another design.",
+    "Ask whether the integration supports extra identity checks when a bank requests them, because some payments need the customer to approve in their banking app before they complete."
+   ]
+  },
+  {
+   "h2": "Test mode is your safety net",
+   "paragraphs": [
+    "A proper payments platform provides a separate test environment, often called a sandbox. It behaves like the real system but moves no money, and it supplies special test card numbers that simulate approvals, declines and other situations.",
+    "Insist that every feature is demonstrated in test mode before it goes live. A hypothetical checklist: successful payment, declined card, refund, partial refund, and a payment that needs extra authentication. When a developer shows you these working, you are far more likely to avoid embarrassing surprises on launch day.",
+    "Keep a written record of what was tested and by whom. If something breaks months later, that record shortens the investigation."
+   ]
+  },
+  {
+   "h2": "Webhooks: the system calling you back",
+   "paragraphs": [
+    "Some events happen later than the original request, such as a bank confirming a payment or a customer disputing a charge. A webhook is a message that the payment platform sends to your server when such an event occurs, so your records stay in step.",
+    "Without webhooks, a site may assume a payment succeeded when it did not, or miss a refund entirely. Ask your developer how they verify these messages and what happens if one arrives twice. The topic gets its own article in this series, and it is worth reading before a project begins."
+   ]
+  },
+  {
+   "h2": "Questions to ask before you hire",
+   "paragraphs": [
+    "A little scoping goes a long way. You are not asking the developer to prove technical skill; you are checking that they have thought about the risks that matter to your business.",
+    "Agree on a handover document at the end of the project, covering keys, webhook addresses, test accounts and who to call, so the knowledge does not live in one person's head."
+   ],
+   "steps": [
+    "Which payment features do we need now, and which can wait?",
+    "Will the card form be hosted by the provider or built into our page?",
+    "Where are secret keys stored and who has access?",
+    "How will we test failures, refunds and duplicate messages?",
+    "Who monitors errors after launch, and how will we be alerted?",
+    "What does it cost to maintain, and who handles updates when the API changes?"
+   ]
+  },
+  {
+   "h2": "When you may not need an API at all",
+   "paragraphs": [
+    "Many businesses never need custom development. Payment links, hosted checkout pages and invoices cover a large share of needs with no code. An API becomes useful when you want payments to blend into your own app, automate billing from your own data or connect several systems.",
+    "If your needs are modest, start with the simpler tools and revisit the API when you hit a real limit. PayPilot offers payment links, hosted checkout and recurring billing without any coding, and an API for businesses that want deeper control. Choosing the lighter route first saves money and gets you selling sooner."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "An API is a set of agreed requests between your system and the payment platform.",
+  "Secret keys must stay on the server and be rotated if exposed.",
+  "Tokens let you save cards without ever storing the numbers.",
+  "Demand to see failures and refunds working in test mode.",
+  "Webhooks keep your records in line with later events."
+ ],
+ "faq": [
+  {
+   "q": "What is a payments API in simple terms?",
+   "a": "It is a way for your website or app to send instructions to a payment platform automatically, such as charging a card or issuing a refund, and to receive results back. It is like a standard order form that two computer systems both understand and can fill out themselves."
+  },
+  {
+   "q": "Do I need a developer to accept online payments?",
+   "a": "Not for many cases. Payment links, hosted checkout pages and invoices can be set up in a dashboard without code. A developer helps when you want payments built into your own application, automated with your data, or connected to other business systems."
+  },
+  {
+   "q": "What is test mode?",
+   "a": "Test mode is a separate environment that behaves like the live payment system but does not move real money. It provides test card numbers that simulate successes and failures, so you and your developer can verify every flow safely before switching to live keys."
+  },
+  {
+   "q": "What happens if my secret API key is leaked?",
+   "a": "Treat it as compromised. Revoke or rotate it in your dashboard right away, update your server with the new key and review recent activity for anything unusual. Then find out how the leak happened and fix that, such as moving keys out of public code."
+  },
+  {
+   "q": "What is the difference between a token and a card number?",
+   "a": "A token is a substitute value issued by the payment provider that represents a card without revealing it. You can use it to charge the customer again in permitted situations, but it is useless to anyone who steals it from your systems."
+  }
+ ],
+ "related": [
+  "webhooks-explained",
+  "tokenization-for-business-owners",
+  "accepting-payments-on-a-website-without-code",
+  "protecting-your-payments-account",
+  "data-you-should-never-store",
+  "subscription-box-billing"
+ ],
+ "icon": "gear",
+ "read_minutes": 7
+}

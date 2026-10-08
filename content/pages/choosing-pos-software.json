@@ -1,0 +1,134 @@
+{
+ "slug": "choosing-pos-software",
+ "topic": "pos",
+ "title": "How to Choose POS Software: 12 Questions",
+ "seo_title": "How to Choose POS Software: 12 Questions | PayPilot",
+ "meta_description": "Twelve questions to ask before you sign with a POS provider: fit for your trade, contract terms, hardware, support, reporting, data ownership and costs.",
+ "primary_keyword": "choosing POS software",
+ "keywords": [
+  "how to choose a POS",
+  "POS buying guide",
+  "POS contract terms",
+  "POS demo questions",
+  "POS for small business",
+  "POS support",
+  "switching POS systems"
+ ],
+ "eyebrow": "Buying guide",
+ "dek": "A POS touches every sale, every employee and every report. These twelve questions help you compare options calmly.",
+ "intro": [
+  "Choosing POS software feels like choosing a business partner, and in a way it is. Staff will use it hundreds of times a day, your accountant will rely on its reports, and switching later means retraining everyone.",
+  "Sales demos are polished by design, so the useful move is to arrive with your own questions. Each one below targets a place where products commonly differ and where a poor fit becomes expensive.",
+  "Print the list, bring it to every demo, and write down the answers in the same order so that you can compare them side by side."
+ ],
+ "sections": [
+  {
+   "h2": "Questions about fit",
+   "paragraphs": [
+    "First, does the system reflect how your kind of business works? A restaurant needs tables, courses and kitchen routing. A salon needs appointments and commissions. A boutique needs variants and barcodes. A general-purpose product can be adapted, but adaptation costs time.",
+    "Second, ask to see your real workflow in the demo, not a generic one. Request that they ring up your three most common transactions and your most awkward one, such as a split check or an exchange.",
+    "Bring one employee to the demo. The person who will use the register all day notices friction that an owner, focused on reports, simply does not see."
+   ],
+   "bullets": [
+    "Question 1: Can it handle my most common sale in under a few taps?",
+    "Question 2: Does it support my specific needs such as modifiers, appointments or variants?",
+    "Question 3: Can it grow with me to more stations or a second location?"
+   ]
+  },
+  {
+   "h2": "Questions about money",
+   "paragraphs": [
+    "Ask for the full cost picture in writing: software subscription, payment processing, hardware, add-ons, setup and any fees for extra users or locations. Compare total cost over a year, not the headline monthly price.",
+    "Be wary of any quote that cannot explain what happens when you want to leave. Ask about contract length, early termination terms, equipment leases and what it costs to export your data. PayPilot's Zero plan, where compliant dual pricing may reduce or remove processing cost, is worth asking about, with the understanding that rules differ by state and card network.",
+    "If a quote lists hardware as free, ask where the cost lives instead. It may sit in a longer contract, a higher processing rate or a lease that continues even if you stop using the service."
+   ],
+   "bullets": [
+    "Question 4: What is the total cost across software, processing and hardware over twelve months?",
+    "Question 5: What are the contract length, renewal terms and exit costs?",
+    "Question 6: Is hardware owned, leased or tied to the software?"
+   ]
+  },
+  {
+   "h2": "Questions about people and support",
+   "paragraphs": [
+    "Your system will fail at the worst time at least once. How a provider helps in that moment tells you more than any feature list.",
+    "Ask when support is available, how to reach it, and whether you will talk to a person. Around-the-clock phone support matters to a business that is open nights and weekends. PayPilot staffs a 24/7 line at 844.826.6227 for exactly those hours.",
+    "Ask for a written service commitment on uptime and response times if they have one, and what remedy applies if they miss it."
+   ],
+   "bullets": [
+    "Question 7: When is support available and through which channels?",
+    "Question 8: How is onboarding handled, and is training included?",
+    "Question 9: What happens to my business if the system is down?"
+   ]
+  },
+  {
+   "h2": "Questions about data and control",
+   "paragraphs": [
+    "Your sales history is an asset. Make sure you can get it out in a usable format, without a fee and without asking permission, if you ever change systems.",
+    "Look closely at reporting too. The reports you rely on, such as sales by hour, labor, items and discounts, should be built in and readable without a consultant.",
+    "Finally, check access controls. Can you set roles, PINs and approvals for sensitive actions, and see an activity log by employee?",
+    "Test the export before you commit. Ask for a sample file from a demo account and open it in a spreadsheet to see whether it is genuinely usable."
+   ],
+   "bullets": [
+    "Question 10: Can I export all my data at any time?",
+    "Question 11: Are the reports I need included, and can they be scheduled?",
+    "Question 12: How granular are staff permissions and the audit trail?"
+   ]
+  },
+  {
+   "h2": "Running a fair comparison",
+   "paragraphs": [
+    "Put the answers in a simple grid with providers across the top and questions down the side. Score each answer from one to three. Add weights for the points that matter most to you, such as support for a late-night bar or inventory for a retailer.",
+    "Ask for a trial or sandbox. Have your busiest employee and your most skeptical employee use it for a week. Their feedback will be more honest than yours.",
+    "Talk to references in your own line of business, not just the ones the salesperson chooses. Ask what surprised them after six months."
+   ]
+  },
+  {
+   "h2": "Making the switch smoothly",
+   "paragraphs": [
+    "Whichever you choose, plan the move. Export your catalog and customer list from the old system, clean it, import it, and test with a handful of products before going live. Choose a slow week for the cutover.",
+    "Run the old and new systems in parallel for a day if you can, so you can reconcile totals. Train staff in small groups with a printed cheat sheet next to the register.",
+    "Keep your old data archived for as long as your accountant recommends. A smooth switch is mostly about preparation, and a good provider will help with each step."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Ask each vendor to demo your real workflows, including the awkward ones.",
+  "Compare total twelve-month cost, not the monthly headline.",
+  "Read contract length, hardware ownership and exit terms before signing.",
+  "Support quality matters most when something breaks on a busy night.",
+  "Confirm you can export your data and set granular staff permissions."
+ ],
+ "faq": [
+  {
+   "q": "What is the most important feature in a POS?",
+   "a": "Speed and clarity for your most common transaction. A system that makes ordinary sales effortless saves time every day, while advanced features you rarely use matter far less. After that, look at reliability, support quality and the reports you will actually read."
+  },
+  {
+   "q": "Should I choose a POS before or after a payment processor?",
+   "a": "Often they come together, because many providers bundle processing with their software. Check whether you can choose processing separately, and if the software works with other processors. Tied arrangements can be convenient but may make switching harder, so read the terms."
+  },
+  {
+   "q": "How long does it take to set up a new POS?",
+   "a": "A small shop with a simple catalog can be live in a day or two, while a restaurant with a large menu or a retailer with thousands of items needs longer for data entry and training. Importing existing catalog files saves the most time."
+  },
+  {
+   "q": "Can I try a POS before committing?",
+   "a": "Many providers offer a demo account, sandbox or trial period. Use it with real items and real staff, and ring up typical and difficult transactions during an ordinary week. If a provider will not allow any trial at all, ask for references from businesses similar to yours."
+  },
+  {
+   "q": "What if I outgrow my POS?",
+   "a": "Ask about scalability up front: additional registers, locations, users and integrations. Make sure you can export your data and that your contract does not lock you in beyond what you are comfortable with. Revisit your choice every year or two as your business changes."
+  }
+ ],
+ "related": [
+  "what-a-modern-pos-does",
+  "multi-location-pos",
+  "pos-hardware-checklist",
+  "why-switching-payment-providers-is-easier-now",
+  "employee-permissions-pos",
+  "processing-statement-basics-for-new-owners"
+ ],
+ "icon": "scale",
+ "read_minutes": 7
+}

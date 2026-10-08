@@ -1,0 +1,128 @@
+{
+ "slug": "launching-online-checkout",
+ "topic": "online",
+ "title": "Launching Online Checkout in an Afternoon",
+ "seo_title": "Launching Online Checkout in an Afternoon | PayPilot",
+ "meta_description": "Set up a hosted online checkout in a few hours: products, branding, taxes, shipping, a test payment and go-live steps for first-time online sellers.",
+ "primary_keyword": "online checkout",
+ "keywords": [
+  "hosted checkout",
+  "start accepting online payments",
+  "checkout page setup",
+  "test payment",
+  "online store checkout",
+  "sell online quickly",
+  "secure online checkout"
+ ],
+ "eyebrow": "Go online",
+ "dek": "A hosted checkout page handles the card form and security for you. Your job is to describe what you sell and test the path once.",
+ "intro": [
+  "You have customers who keep asking whether they can pay without coming in. You have a website, or a social page, or just a phone full of photos. What you do not have is a checkout, and you suspect building one is a month-long project involving developers.",
+  "It is not. A hosted checkout is a payment page that lives on your provider's secure servers. You send customers to it, they pay, and you get notified. There is no card form to build and no sensitive data passing through your own website.",
+  "This walkthrough takes you through the steps in the order you would actually do them, with time estimates for a small catalog."
+ ],
+ "sections": [
+  {
+   "h2": "What hosted means and why it helps",
+   "paragraphs": [
+    "With a hosted checkout, the page where the card number is typed belongs to the payment provider, not to you. Your site links to it or embeds it. That keeps card details off your servers, which greatly narrows the security work you carry.",
+    "It also means the page is maintained for you. When new payment methods or security requirements appear, the page is updated without you touching anything. For a small business, that is a good deal.",
+    "The trade-off is less control over every pixel. Most hosted pages let you add a logo, brand color and a short message, which is plenty for first-time sellers.",
+    "Hosted pages also handle details you might not think of, such as showing the right keyboard for card fields and formatting the number as it is typed."
+   ]
+  },
+  {
+   "h2": "Before you start: gather the basics",
+   "paragraphs": [
+    "Gather the materials in advance so the afternoon is spent building rather than hunting. A little preparation avoids the half-finished setups that stay half-finished for months."
+   ],
+   "bullets": [
+    "Your product or service list with clear names, prices and one good photo each.",
+    "Your logo file and a brand color.",
+    "Your business details for the receipt, such as legal name, support email and phone number.",
+    "Your refund and shipping policy in a few plain sentences.",
+    "A decision on tax: which items are taxable and what rate applies where you sell."
+   ]
+  },
+  {
+   "h2": "Build it step by step",
+   "paragraphs": [
+    "With the basics ready, the build itself is quick. Work in this order so that each step supports the next.",
+    "Keep descriptions short and concrete. Two clear sentences about size, material or what is included beat a paragraph of adjectives, especially on a phone screen."
+   ],
+   "steps": [
+    "Create your items in the product list, with name, description, price and photo.",
+    "Choose how customers reach checkout: a button on your site, a shareable link or both.",
+    "Add your logo, color and a short thank-you message that appears after payment.",
+    "Configure tax and, if you ship goods, shipping options and the address fields you need.",
+    "Decide which details to collect: email for receipts, phone for delivery, and nothing more than necessary.",
+    "Set the receipt email text and add your policy summary and support contact."
+   ]
+  },
+  {
+   "h2": "Taxes and shipping without the headaches",
+   "paragraphs": [
+    "Sales tax rules depend on what you sell, where you sell it and sometimes where the customer lives. A hosted checkout can apply a rate you set, but it cannot decide for you what is taxable. Ask your accountant or state revenue office what applies to your products, and set it deliberately.",
+    "For shipping, start simple. A flat rate, free shipping above a threshold or local pickup covers most small catalogs. A hypothetical example: charge a flat six dollars within your region, and offer free local pickup. You can refine as orders reveal patterns.",
+    "Make the cost visible before the final button. Surprise charges at the last step are a classic reason for shoppers to walk away.",
+    "If you sell to customers in other regions, check any extra rules about tax, shipping restrictions and consumer rights before you list those destinations."
+   ]
+  },
+  {
+   "h2": "Test it like a customer",
+   "paragraphs": [
+    "Before telling anyone, make a purchase. If your provider offers a test mode, run through it with a test card first. Then make one real purchase of a low-priced item and refund it, to check the whole path including the email receipt.",
+    "Do it on a phone as well as a computer, because many customers will arrive from social apps. Look at the page on a small screen: are the buttons easy to tap, is the total visible, does the receipt arrive quickly?",
+    "Ask a friend who has never seen the page to try it while you watch silently. Wherever they hesitate is where a future customer will too."
+   ]
+  },
+  {
+   "h2": "Go live and keep it healthy",
+   "paragraphs": [
+    "Publish the link in the places customers already look: your site navigation, your email signature, your social bio. A clear label such as Pay or Order here beats a clever one.",
+    "Check the first few orders closely. Confirm that notifications arrive, funds appear as expected and customers are not asking questions that the page should have answered. PayPilot offers hosted checkout and payment links that connect with next-day funding availability, so you can follow the money from click to deposit.",
+    "Then schedule a monthly five-minute review: broken links, outdated prices, refund requests. Small upkeep keeps the page trustworthy, and trust is what makes a stranger willing to type a card number.",
+    "Save a copy of your setup choices in a note, so if you ever change providers you can recreate the same experience quickly."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "A hosted checkout keeps card entry on the provider's secure page.",
+  "Prepare items, photos, branding, tax and policies before building.",
+  "Show total cost, including shipping and tax, before the final step.",
+  "Test on a phone with a real purchase, then refund it.",
+  "Review links and prices monthly to keep the page trustworthy."
+ ],
+ "faq": [
+  {
+   "q": "How long does it take to set up online checkout?",
+   "a": "For a small catalog with ready photos and prices, a few hours is realistic. Most of the time goes into writing descriptions and deciding on shipping and tax. The checkout page itself, once configured, is quick. Larger catalogs take longer because each item needs entering."
+  },
+  {
+   "q": "Do I need a website to use hosted checkout?",
+   "a": "No. You can share a checkout link by text, email or social media. A website simply gives customers a home base. Many small sellers begin with a link in their social bio and add a website later when it helps their business."
+  },
+  {
+   "q": "Is hosted checkout secure?",
+   "a": "The card form is served from the provider's own secure environment, so card numbers do not travel through your site. You should still protect your account with strong passwords and two-step sign-in, and keep an eye on orders for anything unusual."
+  },
+  {
+   "q": "Can I accept Apple Pay and Google Pay?",
+   "a": "Many hosted checkouts support them, giving customers a one-tap option on compatible devices. Availability can depend on the device, browser and account setup, so check with your provider and test the buttons on the phones your own customers are most likely to use."
+  },
+  {
+   "q": "What should I do if a customer says they paid but I see no order?",
+   "a": "Ask for the email or receipt they received and search your payments by amount and time. Check spam folders and confirm the email address they entered. If it still cannot be found, contact support with the details so they can trace the payment."
+  }
+ ],
+ "related": [
+  "accepting-payments-on-a-website-without-code",
+  "payment-links-for-instagram-sellers",
+  "checkout-abandonment-fixes",
+  "digital-wallets-at-checkout",
+  "what-encryption-means-at-checkout",
+  "selling-digital-products"
+ ],
+ "icon": "cart",
+ "read_minutes": 6
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "protecting-your-payments-account",
+  "topic": "security",
+  "title": "Locking Down Your Payments Account",
+  "seo_title": "Locking Down Your Payments Account | PayPilot",
+  "meta_description": "Secure your merchant dashboard with strong passwords, two-factor sign-in, careful staff roles, and alerts that catch problems early. A practical checklist.",
+  "primary_keyword": "secure merchant account",
+  "keywords": [
+    "two-factor authentication merchants",
+    "staff roles permissions",
+    "payment account alerts",
+    "password manager business",
+    "merchant dashboard security",
+    "protect payment account",
+    "offboarding employees access"
+  ],
+  "eyebrow": "Security",
+  "dek": "Your payments dashboard is the control room for your revenue. A few settings decide whether it stays yours.",
+  "intro": [
+    "A bakery owner logs into her payments dashboard one morning and finds a refund she never issued and a changed bank account on file. Nothing was broken into in a dramatic way. Someone simply guessed that her password was the one she reused everywhere.",
+    "Account protection is less glamorous than card-reader security, but it guards something bigger: the place where money is directed, refunds are approved, and reports are exported.",
+    "Four habits do most of the work: strong unique sign-ins, a second verification step, sensible roles for staff, and alerts that tell you when something changes."
+  ],
+  "sections": [
+    {
+      "h2": "Start with a password nobody else has",
+      "paragraphs": [
+        "Reused passwords are the quiet cause of many account takeovers. When one unrelated website suffers a leak, criminals try the same email and password combination on banks, shops, and payment dashboards.",
+        "Use a long, unique passphrase for your payments account and store it in a password manager. A manager creates and remembers different passwords for every site, so you only need to memorize one strong master phrase. Avoid anything built from your business name, your street, or your phone number."
+      ]
+    },
+    {
+      "h2": "Turn on two-step verification",
+      "paragraphs": [
+        "A second step means a stolen password alone is not enough. After you type your password, the system asks for something only you hold, such as a code from an authenticator app or a prompt on your phone.",
+        "Where you have a choice, an authenticator app is generally sturdier than a text message, because phone numbers can sometimes be hijacked. Keep your recovery options current and store backup codes somewhere safe, away from the device you use every day."
+      ],
+      "bullets": [
+        "Enable the second step for every user, not just the owner.",
+        "Save backup codes in a locked drawer or a secure vault.",
+        "Update recovery email and phone whenever they change.",
+        "Never read a verification code aloud to someone who contacts you first."
+      ]
+    },
+    {
+      "h2": "Give each person only the access their job needs",
+      "paragraphs": [
+        "A cashier needs to ring sales. They rarely need to export customer lists, change deposit details, or issue large refunds. Roles and permissions let you separate those abilities.",
+        "In the PayPilot POS, employee permissions can limit who voids a sale, who applies discounts, and who sees reports. Apply the same thinking to the online dashboard: make one or two trusted people administrators, and give everyone else the narrowest role that lets them work.",
+        "Give every person their own login. A shared password hides who did what, and it makes it impossible to remove one person without disrupting everyone else."
+      ]
+    },
+    {
+      "h2": "Set alerts for the changes that matter",
+      "paragraphs": [
+        "Alerts turn your phone into a smoke detector. You do not need to read every notification, but a few events should always reach you immediately.",
+        "Examples include a new sign-in from an unfamiliar device, a changed deposit account, a new user added, a large refund, and an unusual spike in declines. The faster you learn about one of these, the more options you have."
+      ]
+    },
+    {
+      "h2": "Offboarding: the step everyone forgets",
+      "paragraphs": [
+        "When an employee or contractor leaves, remove their access the same day. Disable their login, collect any devices, and revoke tokens or saved sessions. A former team member with a working password is a risk, even if they have no bad intentions, because their credentials may be reused or stolen.",
+        "A short departure checklist taped inside the office makes this routine rather than something you remember three months later."
+      ],
+      "steps": [
+        "Disable the person's dashboard and POS logins.",
+        "Retrieve or wipe any handheld devices they carried.",
+        "Change any shared codes, such as a safe or Wi-Fi passphrase.",
+        "Review recent activity under their name for anything unusual.",
+        "Note the date of removal in your records."
+      ]
+    },
+    {
+      "h2": "Spotting the emails that try to steal your sign-in",
+      "paragraphs": [
+        "Even a perfect password fails if you type it into a fake page. Messages that claim your account is suspended, your deposit is on hold, or a security check is overdue are designed to rush you into clicking.",
+        "Instead of following a link, open your dashboard by typing the address yourself or using a bookmark you saved earlier. If there is a real problem, you will see it there. If a caller says they are from your provider and asks for a code, hang up and call the number printed on your statement.",
+        "Teach your staff the same habit. A rule that nobody ever shares a verification code, with anyone, for any reason, removes a lot of guesswork under pressure."
+      ]
+    },
+    {
+      "h2": "A quarterly security review you can finish in twenty minutes",
+      "paragraphs": [
+        "Put a recurring reminder on your calendar and walk through the same short list each time. Open the user list and ask whether each person still works with you and still needs their current role. Look at the deposit account on file and confirm it matches your bank statement exactly.",
+        "Then skim recent sign-in activity and large refunds for anything you cannot explain. Finish by checking that your recovery email and phone number still belong to you. Because the review is routine, it also becomes a natural moment to remind the team about phishing and code-sharing rules."
+      ]
+    },
+    {
+      "h2": "What to do if you think someone got in",
+      "paragraphs": [
+        "Act in this order: change your password from a device you trust, sign out all other sessions, check the deposit account and user list for changes, and review recent refunds and exports. Then contact support at 844.826.6227 so they can help review the account.",
+        "Tell your bank if you suspect your deposit account details were altered. Write down what you saw and when, since a clear timeline helps everyone investigate. Quick, calm steps matter more than perfect ones."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Use a unique passphrase stored in a password manager.",
+    "Add a second verification step for every user.",
+    "Match each person's access to their actual duties and give each their own login.",
+    "Remove departing staff the same day and set alerts for account changes."
+  ],
+  "faq": [
+    {
+      "q": "Is a text-message code good enough for two-step sign-in?",
+      "a": "It is far better than nothing, but an authenticator app is generally harder to intercept because it does not depend on your phone number. Use whichever method your account offers, and keep your recovery details current so you are not locked out later."
+    },
+    {
+      "q": "Can several employees share one login?",
+      "a": "It is better not to. Shared logins hide who made a change, and removing one person means changing the password for everyone. Individual accounts with limited roles give you accountability and make offboarding clean and quick. If someone insists on a shared login, treat it as a sign your role settings need adjusting."
+    },
+    {
+      "q": "How often should I change my password?",
+      "a": "A long unique passphrase does not need frequent changes unless you suspect exposure. Change it immediately after a suspected breach, a lost device, or when someone with access leaves. Also change it if you ever typed it on a page you later doubted."
+    },
+    {
+      "q": "What alerts are most useful?",
+      "a": "Prioritize new device sign-ins, changes to the deposit account, new users, large refunds, and unusual decline spikes. These events often signal trouble early, and a prompt notification gives you time to respond. Send the alerts to more than one trusted person so a vacation does not leave a gap."
+    },
+    {
+      "q": "What if an employee loses a phone with the authenticator on it?",
+      "a": "Remove that person's access right away, then reissue their second step on a new device using your recovery process. Keep backup codes ready for administrators. After the replacement, review recent activity for anything you do not recognize. Keep backup codes for at least two administrators so one lost phone never locks the business out."
+    }
+  ],
+  "related": [
+    "employee-permissions-pos",
+    "phishing-attacks-on-merchants",
+    "tokenization-for-business-owners",
+    "secure-wifi-for-payments",
+    "handling-a-suspicious-transaction"
+  ],
+  "icon": "shield",
+  "read_minutes": 6
+}

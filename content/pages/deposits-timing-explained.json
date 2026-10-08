@@ -1,0 +1,128 @@
+{
+  "slug": "deposits-timing-explained",
+  "topic": "cards",
+  "title": "When Will My Card Sales Hit My Bank?",
+  "seo_title": "When Card Sales Reach Your Bank Account | PayPilot",
+  "meta_description": "Why does money from Friday's sales show up on Tuesday? Learn how batch cutoffs, weekends, holidays and bank posting shape your card deposit timing.",
+  "primary_keyword": "card deposit timing",
+  "keywords": [
+    "when do card payments deposit",
+    "next-day funding",
+    "batch cutoff time",
+    "weekend deposits",
+    "holiday funding delay",
+    "settlement schedule",
+    "bank posting time"
+  ],
+  "eyebrow": "Funding",
+  "dek": "Next-day funding sounds simple, yet the calendar, a cutoff clock, and your bank all have a say. Here is the full timeline.",
+  "intro": [
+    "A florist rings up a big Friday evening, closes the register, and expects a nice deposit in the morning. Saturday passes with nothing. Sunday too. On Tuesday, the money shows up in one lump, and the owner wonders whether something went wrong.",
+    "Usually nothing did. Card money travels through a sequence of steps, and the steps follow business-day calendars, not the clock on your wall. Understanding the sequence lets you predict arrival dates rather than refresh your banking app.",
+    "PayPilot offers next-day funding, and this article explains what that phrase means in practice, plus the situations where a deposit can still take longer."
+  ],
+  "sections": [
+    {
+      "h2": "The journey of a card sale",
+      "paragraphs": [
+        "The path has four stops. First, the customer's bank approves the sale. Second, you close your batch, which sends the approved sales for settlement. Third, the processor and the card networks reconcile the amounts and prepare your funds. Fourth, the money is sent to your bank, which posts it to your account.",
+        "Each stop can add time. Approval is instant, batch closing depends on you or your automatic schedule, and settlement and bank posting follow business days. The delays people feel almost always come from the last two stops.",
+        "Picture the process as a relay race. Each runner hands the baton to the next on a schedule: the issuer to the network, the network to the processor, the processor to your bank. A runner who is slow or a handoff that lands after the buzzer simply means the baton arrives on the following lap."
+      ]
+    },
+    {
+      "h2": "What next-day funding means",
+      "paragraphs": [
+        "Next-day funding describes a faster-than-traditional schedule in which money from a closed batch can be sent to your bank the following business day. It does not mean that a sale rung up on Friday night will be in your hands on Saturday morning, because banks generally do not post deposits on weekends.",
+        "Think of 'next day' as 'next funding day.' If you close your batch before the cutoff, the clock starts that day. If you close it after, the clock starts the next."
+      ]
+    },
+    {
+      "h2": "The cutoff time that decides your day",
+      "paragraphs": [
+        "Processors apply a daily cutoff to decide which sales belong to which funding cycle. A batch closed shortly before the cutoff joins today's cycle, while the same batch closed a few minutes later waits for tomorrow's. Ask support at 844.826.6227 for the cutoff that applies to your account.",
+        "If your shop closes late, set your system to close the batch before the cutoff. A late-night restaurant, for example, may finish tips after midnight, so it should decide whether sales after the cutoff will simply be carried into the next day's batch."
+      ],
+      "steps": [
+        "Learn your processor's cutoff time in your own time zone",
+        "Set automatic batch close a comfortable margin before it",
+        "Finish tip adjustments and open tickets ahead of that time",
+        "Check the funding report the next business morning",
+        "Adjust your schedule if deposits keep landing a day later than expected"
+      ]
+    },
+    {
+      "h2": "A hypothetical week",
+      "paragraphs": [
+        "Take an invented week for a shop that closes its batch at the end of each day before the cutoff. Monday's batch is funded on Tuesday. Tuesday's goes out Wednesday, and so on through Thursday's batch arriving Friday.",
+        "Friday's batch, closed that night, would be sent on the next funding day, which is Monday. Saturday's and Sunday's sales are typically grouped with the next business-day cycle and arrive afterward. A holiday Monday pushes everything back another day. None of this is a fault, only the calendar at work."
+      ]
+    },
+    {
+      "h2": "Why your own bank still matters",
+      "paragraphs": [
+        "Even after the processor sends the funds, your bank needs to receive and post them. Some banks credit incoming transfers early in the morning, while others batch them later in the day. Smaller institutions and certain account types may add extra time.",
+        "If a funding report says money was sent but your balance has not changed, check your account's pending transactions first, then contact your bank. Provide the amount and date from your report so they can trace it.",
+        "Small businesses with tight cash should ask support at 844.826.6227 about the exact timetable for their account. Funding cutoffs, bank types, and account verification all play a part, and a two-minute call can replace weeks of guesswork about when Monday's rent money will actually be available."
+      ]
+    },
+    {
+      "h2": "Reasons a deposit may differ or arrive late",
+      "paragraphs": [
+        "Beyond calendars and cutoffs, a few specific events change what you see. Understanding them avoids unnecessary panic.",
+        "Common reasons include:"
+      ],
+      "bullets": [
+        "The batch was not closed, or closed after the cutoff",
+        "A bank holiday interrupted the funding schedule",
+        "Refunds or chargebacks reduced the amount",
+        "Your bank account details were changed or need verification",
+        "A review flagged the batch for additional checks"
+      ]
+    },
+    {
+      "h2": "Planning your cash flow around deposits",
+      "paragraphs": [
+        "If you pay suppliers or payroll on certain days, build a cushion around the deposit calendar. Weekend-heavy businesses should assume that Saturday and Sunday income will not be usable until early the following week.",
+        "A simple tool is a one-page calendar listing the days you close, the days funds arrive, and your fixed payments. Seeing the gap on paper makes it easier to time bills sensibly. Our piece on cash flow from faster deposits explores this further."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Closing the batch before the cutoff starts the funding clock for that day.",
+    "Next-day funding means the next business funding day, not the next calendar day.",
+    "Weekends and holidays pause bank deposits, so Friday sales often arrive Monday or later.",
+    "If funds were sent but not posted, check pending items and ask your bank to trace them."
+  ],
+  "faq": [
+    {
+      "q": "Why did I not get a deposit on Saturday?",
+      "a": "Banks generally do not post deposits on weekends, and processors follow business-day schedules. Sales from Friday night or the weekend are usually sent on the next funding day. If you want to know exactly when, check your funding report or ask support."
+    },
+    {
+      "q": "What is a batch cutoff?",
+      "a": "It is the daily deadline after which newly closed batches are treated as part of the next funding cycle. Closing before it keeps your deposit on the expected day. Your support team can tell you the cutoff for your account and time zone."
+    },
+    {
+      "q": "Can a deposit be smaller than my sales total?",
+      "a": "Yes. Fees, refunds, chargebacks, or sales that fall into a different cycle can all explain a difference. Compare the funding detail with your batch report to see which item accounts for the gap. Timing differences usually even out within a day or two."
+    },
+    {
+      "q": "What if the processor shows money sent but my bank has nothing?",
+      "a": "Check the pending section of your account first, since some banks list incoming transfers there before posting. If it is still missing, contact your bank with the amount and date from the funding report, and let support know so they can help trace it."
+    },
+    {
+      "q": "Do holidays delay funding?",
+      "a": "Usually, yes. Bank holidays are not business days, so funding that would have been sent that day moves to the next one. Look at the calendar before big holiday weekends and plan payments to suppliers or staff with the extra day in mind."
+    }
+  ],
+  "related": [
+    "daily-batch-close-routine",
+    "processing-statement-basics-for-new-owners",
+    "cash-flow-from-faster-deposits",
+    "working-capital-for-pos-merchants",
+    "first-week-accepting-cards"
+  ],
+  "icon": "clock",
+  "read_minutes": 7
+}

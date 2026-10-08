@@ -1,0 +1,128 @@
+{
+  "slug": "secure-wifi-for-payments",
+  "topic": "security",
+  "title": "Wi-Fi Security for Your Payment Devices",
+  "seo_title": "Wi-Fi Security for Payment Devices | PayPilot",
+  "meta_description": "Keep your card terminals and POS safe on the network: separate guest and business Wi-Fi, change router defaults, update firmware, and plan for outages.",
+  "primary_keyword": "secure wifi for payment devices",
+  "keywords": [
+    "separate guest wifi",
+    "router security small business",
+    "POS network setup",
+    "change default router password",
+    "firmware updates",
+    "payment terminal wifi",
+    "network segmentation"
+  ],
+  "eyebrow": "Security",
+  "dek": "The network under your register matters as much as the register. A few router settings keep customers and cards on separate sides of the wall.",
+  "intro": [
+    "A cafe owner proudly offers free Wi-Fi, and the password is on a chalkboard by the door. The same network also connects the register, the receipt printer, the owner's laptop, and a security camera. Everyone who buys a latte sits on the same wire as the till.",
+    "Payment devices often send encrypted data, which helps, but a weak or crowded network still creates risks: devices that can be reached by strangers, routers with factory passwords, and outages that stop a sale when a line is longest.",
+    "A tidy network setup is mostly a one-time afternoon of work. Here is what to do and why."
+  ],
+  "sections": [
+    {
+      "h2": "Give customers their own network",
+      "paragraphs": [
+        "The most valuable change is separation. Your router can usually broadcast two networks: one for your business devices and one for guests. Customers connect to the guest network, which reaches the internet but cannot see anything else.",
+        "Without separation, a visitor with a compromised phone is on the same local network as your terminal and your computer. With it, there is a wall in between. Look for a setting called guest network, isolation, or VLAN in the router's admin page, and ask your internet provider if you need help."
+      ]
+    },
+    {
+      "h2": "Replace the defaults on day one",
+      "paragraphs": [
+        "Routers ship with a default admin username and password that are often printed on a sticker or listed publicly. Anyone who can reach the device and knows the default can reconfigure it.",
+        "Change the administrator password to a long, unique one, and rename the network so it does not reveal the router brand. Turn off remote administration unless you truly need it, since it opens the control page to the wider internet."
+      ],
+      "bullets": [
+        "Change the router's admin password and store it in a password manager.",
+        "Use WPA2 or WPA3 encryption on every network you broadcast.",
+        "Disable remote management and unused features.",
+        "Choose a network name that does not mention your business or the router model."
+      ]
+    },
+    {
+      "h2": "Keep firmware current",
+      "paragraphs": [
+        "Router makers release updates to fix security flaws. A router untouched for years may be running software with known holes. Check for updates when you set it up and again on a regular schedule, perhaps the same day you inspect your terminals.",
+        "If your router is very old and no longer receives updates, replace it. A modern business-grade or provider-supplied router is a small expense compared with the trouble an exposed network can cause."
+      ]
+    },
+    {
+      "h2": "What the payment devices should be allowed to do",
+      "paragraphs": [
+        "Payment devices need to reach their provider and not much else. If your router offers the option, restrict that segment so it connects outward only to the services it needs, and block unsolicited incoming connections.",
+        "Keep other equipment off the payment segment. A smart TV, a personal tablet, or an employee's phone has no reason to share a network with your terminal. Fewer devices mean fewer ways in. Note that PayPilot hardware can also work over cellular on some devices, which can serve as a backup path; availability depends on the device you choose."
+      ]
+    },
+    {
+      "h2": "Plan for the day the internet drops",
+      "paragraphs": [
+        "Security and reliability meet at outages. If your connection fails during a rush, the temptation is to hop onto a nearby open Wi-Fi or a staff member's hotspot. Decide in advance what is allowed.",
+        "A modern POS has an offline mode that queues certain payments until the connection returns, and a backup like a cellular hotspot kept under your control is far safer than an unknown open network. Test your fallback before you need it, and know which payment types are limited while offline."
+      ],
+      "steps": [
+        "List every device that needs the internet at the counter.",
+        "Put payment devices on the business network and customers on guest.",
+        "Set a backup connection you control, such as a cellular hotspot.",
+        "Practice switching over once during a quiet hour.",
+        "Write the steps on a card by the register."
+      ]
+    },
+    {
+      "h2": "A hypothetical cafe makeover",
+      "paragraphs": [
+        "Suppose a cafe runs one network for everything. Over an afternoon, the owner turns on the router's guest network, moves the chalkboard password to that one, changes the administrator password, updates the firmware, and moves the register and printer to a new private name.",
+        "Customers notice nothing except that their phones reconnect once. Behind the scenes, a visitor's laptop can no longer see the printer or the register. The invented example shows how little effort the separation takes compared with how much exposure it removes."
+      ]
+    },
+    {
+      "h2": "When you share a space with other tenants",
+      "paragraphs": [
+        "Food halls, market stalls, and shared offices often provide one network for everyone. Treat it as a public network. Prefer your own cellular connection for payment devices, or bring a small router of your own so your gear sits behind your own password and not the landlord's.",
+        "Ask the property manager who administers the shared network and whether it is monitored. If the answer is vague, do not rely on it for the busiest hours of your week. A hotspot dedicated to payments costs little compared with a lost afternoon of sales."
+      ]
+    },
+    {
+      "h2": "Check the network twice a year",
+      "paragraphs": [
+        "Log into your router and look at the list of connected devices. Anything you do not recognize deserves a question. Change the Wi-Fi passphrase when employees leave, especially if many people knew it.",
+        "Keep a simple diagram, even hand drawn, showing the router, the segments, and which devices live where. When something goes wrong at 5 p.m. on a Saturday, a diagram saves time. If you are setting up for the first time, support at 844.826.6227 can answer questions about connecting PayPilot devices."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Run separate networks for guests and business devices.",
+    "Change router defaults and keep firmware updated.",
+    "Keep only necessary devices on the payment network.",
+    "Have a controlled backup connection for outages."
+  ],
+  "faq": [
+    {
+      "q": "Is it safe to put my terminal on the same Wi-Fi as customers?",
+      "a": "It is better not to. Payment data is typically encrypted, but a shared network exposes every device to whoever connects. A separate guest network keeps visitors away from your terminal, computer, and printer, which reduces your risk for very little effort."
+    },
+    {
+      "q": "How often should I change the Wi-Fi password?",
+      "a": "Change it when someone with access leaves, when you suspect it has leaked, or whenever it has been widely shared. A long passphrase does not require frequent changes otherwise. Update any devices that rely on it afterward. A sensible reminder is the first day of each new quarter, so it never depends on memory."
+    },
+    {
+      "q": "Can I use a phone hotspot as a backup?",
+      "a": "Yes, a hotspot you control is a sensible backup. Protect it with a strong passphrase, test it ahead of time, and avoid joining unknown open networks, which are much riskier than your own connection. Name the hotspot something unremarkable, and switch it off when you are not using it."
+    },
+    {
+      "q": "Do I need special equipment for this?",
+      "a": "Most modern routers support a guest network and basic security settings. If yours does not, or if it no longer receives updates, upgrading to a current model is inexpensive protection. If you are unsure what your router supports, your internet provider can usually tell you."
+    }
+  ],
+  "related": [
+    "pos-offline-mode",
+    "pos-hardware-checklist",
+    "protecting-your-payments-account",
+    "card-skimming-prevention",
+    "choosing-a-card-reader"
+  ],
+  "icon": "gear",
+  "read_minutes": 6
+}

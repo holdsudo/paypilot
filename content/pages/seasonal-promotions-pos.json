@@ -1,0 +1,135 @@
+{
+  "slug": "seasonal-promotions-pos",
+  "topic": "growth",
+  "title": "Running Seasonal Promotions at the Register",
+  "seo_title": "Seasonal Promotions at the Register | PayPilot",
+  "meta_description": "Plan holiday and seasonal promotions that your POS can actually run: discount setup, start and end dates, staff training, and how to measure the result.",
+  "primary_keyword": "seasonal promotions POS",
+  "keywords": [
+    "holiday sale setup",
+    "POS discounts",
+    "promotion start and end dates",
+    "bundle promotions",
+    "limited time offers",
+    "measure promotion results",
+    "discount codes at register"
+  ],
+  "eyebrow": "Growth",
+  "dek": "A good promotion is decided before the season begins and set up in the register so staff can run it without thinking.",
+  "intro": [
+    "It is the first morning of a weekend sale. The sign says twenty percent off, a new employee is unsure which items qualify, and the line grows while the manager does arithmetic on a calculator. The offer was generous. The execution cost more than the discount.",
+    "Seasonal promotions are some of the best chances to bring people in. They are also the easiest way to lose margin or confuse staff if the rules live only on a poster.",
+    "The fix is to design the offer on paper, build it into the POS, rehearse it, and measure what happened."
+  ],
+  "sections": [
+    {
+      "h2": "Start with a goal, not a discount",
+      "paragraphs": [
+        "Decide what the promotion is for. Do you want to clear slow inventory, bring in new customers, reward regulars, or lift sales on a quiet week? Each goal suggests a different offer.",
+        "A clearance goal calls for a markdown on specific items. A new-customer goal may call for a welcome offer. A quiet-week goal might use a limited-time bundle. Naming the goal lets you judge success afterward."
+      ]
+    },
+    {
+      "h2": "Choose a structure your POS can handle",
+      "paragraphs": [
+        "Simple offers are easier to run and easier for customers to understand. Percentage off, dollar amount off, buy-one-get-one, bundle price, and free item with purchase are the common patterns.",
+        "Before you advertise, confirm your POS can apply the rule automatically, with the right start and end dates and the right item or category scope. The PayPilot POS lets you set up discounts so cashiers pick a named promotion instead of typing numbers by hand."
+      ],
+      "bullets": [
+        "Percentage off a category or the whole order.",
+        "Dollar amount off when the order reaches a threshold.",
+        "Bundle pricing for sets of related items.",
+        "Free or discounted add-on with a qualifying purchase."
+      ]
+    },
+    {
+      "h2": "Do the margin math first",
+      "paragraphs": [
+        "A discount is a price cut paid out of your profit. Before committing, calculate what remains after the discount and compare it with your cost. A hypothetical example: if an item sells for forty dollars and costs twenty-four, a quarter off leaves ten dollars of margin instead of sixteen. To make up the difference, you need noticeably more units.",
+        "Think about which items can afford a discount and which cannot. High-margin items and slow movers are good candidates. Best sellers that already move quickly may not need help."
+      ]
+    },
+    {
+      "h2": "Set it up in the register",
+      "paragraphs": [
+        "Build each promotion as its own named entry with clear boundaries. Name it plainly so the cashier sees exactly what it is when selecting it.",
+        "Test it before opening day, ringing sample orders that should qualify and ones that should not. Check receipts to confirm the discount shows as a line the customer can understand, which reduces confusion and disputes."
+      ],
+      "steps": [
+        "Create the promotion with a clear name and the exact items or categories.",
+        "Set the start and end dates and times.",
+        "Decide whether it can combine with other offers.",
+        "Ring test orders and review the receipts.",
+        "Give staff a one-page summary of the rules."
+      ]
+    },
+    {
+      "h2": "Train staff and prepare answers",
+      "paragraphs": [
+        "Walk the team through the offer and role-play likely questions. Does it apply to sale items? Can I use it twice? What if I return something? Written answers on a card by the register keep service consistent.",
+        "Decide in advance how to handle exceptions. A customer who arrives one day late will test your patience and your policy. A consistent rule, applied kindly, protects both fairness and margin."
+      ]
+    },
+    {
+      "h2": "A hypothetical holiday weekend, planned from start to finish",
+      "paragraphs": [
+        "A gift shop decides to use a long weekend to move slow-selling candles. Three weeks ahead, the owner sets the goal, picks the exact items, and calculates that a modest markdown still leaves a healthy margin. Two weeks ahead, she builds the promotion in the POS and rings test sales.",
+        "One week ahead, she briefs the team and posts the dates on the window and in her email. On the weekend, sales of the candles rise and the average ticket holds steady. Afterward, she records the numbers and the lessons. All of it is invented, but the sequence of goal, math, setup, training, and review is what keeps a sale from becoming a scramble."
+      ]
+    },
+    {
+      "h2": "Avoid training customers to wait",
+      "paragraphs": [
+        "If you run offers too often, shoppers learn to expect them and stop buying at full price. Space promotions out, tie each to a clear reason, and make sure the regular price still looks fair on the other days.",
+        "Reward loyal customers with early access instead of a public discount now and then. It keeps your best buyers happy without cheapening the brand."
+      ]
+    },
+    {
+      "h2": "Online and in-store should match",
+      "paragraphs": [
+        "If you sell on a website as well as at the counter, make sure the same offer and dates appear in both places. A customer who sees one price online and another in the shop will assume a mistake, and the argument costs you more than the discount.",
+        "Check that gift cards, returns, and exchanges behave the same way under the promotion across channels, and write the answer down for staff."
+      ]
+    },
+    {
+      "h2": "Promote it, then measure it",
+      "paragraphs": [
+        "Tell customers where they will see it: window signs, receipts, email, social posts, and the register display. Mention the end date to create honest urgency.",
+        "When the promotion ends, compare results with a normal period. Look at transactions, average ticket, units sold, and margin, not only total sales. If a promotion lifted revenue but erased profit, note it for next time. Keep a short log of what you ran and what happened, so each season starts with evidence. If you also offer cash discounts or dual pricing, remember that rules vary by state and card network, and confirm requirements before advertising."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Define the goal before choosing the discount.",
+    "Run the margin math so you know how many extra sales you need.",
+    "Build named promotions in the POS and test them before launch.",
+    "Measure profit and transactions, not just total sales."
+  ],
+  "faq": [
+    {
+      "q": "How long should a promotion run?",
+      "a": "Long enough to reach your customers and short enough to feel special. Many businesses choose a weekend, a week, or a season window. State the end date clearly, and avoid extending it repeatedly or customers will wait for the next one."
+    },
+    {
+      "q": "Can customers combine promotions?",
+      "a": "That is up to you. Allowing stacking can erode margin quickly, so many businesses disallow it or limit it to certain offers. Set the rule in the POS and print it on signage so staff and customers see the same terms."
+    },
+    {
+      "q": "Do promotions affect how returns work?",
+      "a": "Yes. Decide whether a discounted item can be returned and for what amount. Typically the refund matches what the customer actually paid. Put the rule in your return policy and show it near the register. Spell out the refund amount in plain words on the sign so there is no debate at the counter."
+    },
+    {
+      "q": "How do I know if a promotion worked?",
+      "a": "Compare the promotion period against a similar normal period for transactions, average ticket, units, and margin. If revenue rose but profit did not, adjust the offer next time. Write down the result in a log, because next season's decisions get easier with each entry."
+    }
+  ],
+  "related": [
+    "raising-average-ticket",
+    "gift-cards-for-small-business",
+    "loyalty-programs-that-work",
+    "cash-discount-signage-guide",
+    "pricing-in-a-cashless-world"
+  ],
+  "icon": "flame",
+  "read_minutes": 7
+}

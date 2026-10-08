@@ -1,0 +1,145 @@
+{
+  "slug": "p2p-payment-privacy",
+  "topic": "money",
+  "title": "Privacy Settings on Payment Apps: What to Check",
+  "seo_title": "Payment App Privacy Settings to Check | PayPilot",
+  "meta_description": "Payment apps can reveal more than you expect. Review activity visibility, contact syncing, notes and notifications to keep your money private.",
+  "primary_keyword": "payment app privacy settings",
+  "keywords": [
+    "payment privacy",
+    "public payment feed",
+    "hide payment activity",
+    "contact syncing privacy",
+    "payment notes privacy",
+    "wallet privacy settings",
+    "notification privacy"
+  ],
+  "eyebrow": "Stay safe",
+  "dek": "A payment is also a tiny piece of social information: who you paid, when, and what you wrote. A few settings decide who gets to see it.",
+  "intro": [
+    "You split a dinner with a friend and add a joking note. A day later you learn that other people in your circle can see that you paid, who you paid, and the joke. Nothing malicious happened. The app simply had a default you never looked at.",
+    "Payment privacy is mostly about choices you make once. Spending ten minutes with the settings screen can prevent a lifetime of oversharing."
+  ],
+  "sections": [
+    {
+      "h2": "Activity visibility: who can see a payment",
+      "paragraphs": [
+        "Some payment products show activity to friends or the public by default, because sharing is part of how they began. Others keep payments private unless you opt in. Check which model your app follows and what the setting names mean.",
+        "Look for options that control the audience of past and future payments separately. It is common to find that old activity remains visible until you change it deliberately."
+      ]
+    },
+    {
+      "h2": "Notes and emojis are part of the record",
+      "paragraphs": [
+        "A payment note can reveal far more than the amount. Words like 'rent', 'doctor visit' or 'loan repayment' tell a story you might not want shared. Even a harmless inside joke can be misread by someone you did not intend to see it.",
+        "Write notes as if a stranger might read them. Keep them factual and brief, and avoid anything related to health, legal matters or other sensitive subjects."
+      ],
+      "bullets": [
+        "Avoid health, legal or relationship details in notes",
+        "Skip account numbers and personal identifiers entirely",
+        "Remember that the recipient can always see your note",
+        "Prefer neutral descriptions like 'dinner' or 'shared taxi'"
+      ]
+    },
+    {
+      "h2": "Social privacy versus platform privacy",
+      "paragraphs": [
+        "There are two audiences to think about. The platform itself necessarily knows who paid whom, since it processes the payment. Other users are a separate audience, and that is the one the visibility settings control.",
+        "Keeping these apart avoids a false sense of security. Setting your activity to private stops friends from seeing it, but it does not erase the record the platform keeps, which it holds for operational and compliance reasons."
+      ]
+    },
+    {
+      "h2": "Contact syncing and discoverability",
+      "paragraphs": [
+        "Many apps offer to import your phone contacts so you can pay friends quickly. That convenience also tells the service who you know, and it may make you findable by anyone who has your number or email.",
+        "Review whether you want to be discoverable by phone number or email, and decide whether contact syncing is worth it. You can usually switch it off later, but check whether previously uploaded contacts remain stored."
+      ]
+    },
+    {
+      "h2": "Shared devices and family phones",
+      "paragraphs": [
+        "If a partner, child or roommate uses your phone or tablet, your payment app deserves its own lock. Require a passcode or biometric check to open it, even when the device itself is unlocked.",
+        "Sign out on any shared or borrowed device, and check the list of signed-in devices for ones you do not recognize. It is the digital equivalent of not leaving your wallet open on the kitchen counter."
+      ]
+    },
+    {
+      "h2": "Notifications and what appears on your lock screen",
+      "paragraphs": [
+        "A payment alert can pop up on a locked phone sitting on a restaurant table. If it shows the amount or sender's name, anyone nearby can read it. Most phones let you hide message previews on the lock screen.",
+        "Consider which alerts you really need. Notifications for incoming and outgoing payments are valuable security signals, so keep them on, but choose a discreet display."
+      ]
+    },
+    {
+      "h2": "Account security is privacy too",
+      "paragraphs": [
+        "The strongest privacy setting in the world does not help if someone else can sign in as you. Use a unique password, enable extra sign-in protections where offered, and keep your phone locked.",
+        "Never share verification codes, and be wary of messages asking you to confirm your login. Account takeover is the most invasive privacy failure of all, because it exposes everything at once."
+      ],
+      "steps": [
+        "Open your app's privacy or settings page.",
+        "Set payment activity to the narrowest audience you are comfortable with.",
+        "Review and, if needed, change the visibility of past payments.",
+        "Decide on contact syncing and discoverability.",
+        "Hide sensitive notification previews on your lock screen."
+      ]
+    },
+    {
+      "h2": "Sharing screenshots and receipts",
+      "paragraphs": [
+        "Screenshots of payment confirmations often show more than you intend: balances, account digits, other contacts or recent activity. Crop or redact before sending one to a landlord, a buyer or a friend.",
+        "If the other party only needs proof that you paid, share the reference number and amount in text form instead. It tells them what they need without exposing the rest of the screen."
+      ]
+    },
+    {
+      "h2": "What businesses and recipients see",
+      "paragraphs": [
+        "When you pay a business or scan a code, the recipient may see your name or handle and the amount. What else is shared depends on the app and on how you set it up. PayPilot Wallet's availability, limits and features depend on eligibility and verification, and privacy controls are found in the app's settings.",
+        "Remember that a recipient can screenshot anything they see. Privacy settings control platform visibility, not what a friend chooses to share."
+      ]
+    },
+    {
+      "h2": "A quarterly checkup",
+      "paragraphs": [
+        "Apps update, defaults change and you accumulate old habits. Setting a calendar reminder once a quarter to look over your privacy settings takes five minutes and keeps surprises away.",
+        "While you are there, remove unused linked accounts and review which devices are signed in. Fewer connections mean fewer places for your information to leak."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Check whether your payments are visible to friends or the public, including past activity.",
+    "Treat payment notes as public text and avoid sensitive details.",
+    "Decide deliberately about contact syncing and discoverability.",
+    "Hide lock-screen previews and keep your account secured."
+  ],
+  "faq": [
+    {
+      "q": "Can other people see who I pay?",
+      "a": "It depends on the app and your settings. Some products show activity to friends or the public by default, while others keep it private. Open the privacy section of your app and choose the narrowest audience you are comfortable with, including for older payments."
+    },
+    {
+      "q": "Does the recipient see my payment note?",
+      "a": "Yes, the person you pay can always read the note, and on some products other people may see it too. Treat notes like a text message that might be forwarded: factual, brief and free of sensitive details such as health, legal or relationship information."
+    },
+    {
+      "q": "Should I let an app access my contacts?",
+      "a": "It is convenient for finding friends, but it shares your address book with the service. If you prefer more privacy, skip syncing and add people manually by handle or number. You can usually turn the setting off later in the app."
+    },
+    {
+      "q": "How do I stop payment alerts from showing on my lock screen?",
+      "a": "Open your phone's notification settings, find the payment app, and choose to hide previews while the phone is locked. You will still receive the alert, but without the amount or the sender's name visible to anyone who happens to glance at your screen."
+    },
+    {
+      "q": "Can I make my past payments private?",
+      "a": "Many apps let you change the visibility of past activity, sometimes with a single bulk setting and sometimes one payment at a time. Look in the privacy section for an option covering older payments, since changing only the default usually affects future activity alone."
+    }
+  ],
+  "related": [
+    "account-takeover-protection-for-wallet-users",
+    "gifting-money-digitally",
+    "qr-code-wallet-payments",
+    "p2p-payment-scams",
+    "request-money-etiquette"
+  ],
+  "icon": "lock",
+  "read_minutes": 7
+}

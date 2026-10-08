@@ -1,0 +1,128 @@
+{
+  "slug": "tips-and-card-processing",
+  "topic": "cards",
+  "title": "How Tips Flow Through Card Payments",
+  "seo_title": "How Tips Work in Card Payments | PayPilot",
+  "meta_description": "Follow a card tip from the check to payroll. Learn tip adjustments, batch timing, and payout flow so staff and owners both get the right amounts.",
+  "primary_keyword": "card tips processing",
+  "keywords": [
+    "credit card tips",
+    "tip adjustment",
+    "tip on receipt",
+    "paying out card tips",
+    "tip before or after batch",
+    "tip pooling",
+    "restaurant tip payout"
+  ],
+  "eyebrow": "Tips & payouts",
+  "dek": "A tip on a card is not a pile of cash in a jar. It travels through authorization, adjustment, and settlement before it reaches a paycheck.",
+  "intro": [
+    "A diner adds a tip to a card, signs, and leaves. To the server, that is the end of the story. To the business, the story is only getting started, because the tip is now part of a payment that has to be adjusted, batched, settled, and finally passed on to the person who earned it.",
+    "Confusion here causes real friction. Servers wonder why Friday's tips are not in their hands on Friday night. Owners wonder why yesterday's deposit is a different size than the sales report. Both are usually answered by understanding the sequence.",
+    "This guide follows a tip from the moment the customer chooses an amount to the moment it lands with staff, and flags the details worth setting up correctly."
+  ],
+  "sections": [
+    {
+      "h2": "Two ways a tip enters the payment",
+      "paragraphs": [
+        "At a counter or tableside device, the customer often picks a tip before paying. The tip is added to the sale amount and authorized together, so the bank approves a single total. This is the simplest path because nothing needs to change afterward.",
+        "In a traditional sit-down restaurant, the card is first authorized for the food total. The customer then writes a tip on the paper slip or adds it on a handheld, and the business adjusts the transaction to the final figure before closing out. That second step is called a tip adjustment."
+      ]
+    },
+    {
+      "h2": "What a tip adjustment does",
+      "paragraphs": [
+        "An adjustment edits an open, not-yet-settled transaction so that it includes the tip. Once the batch closes and the sale is sent for payment, the amount is generally locked, so an adjustment forgotten after close may need a separate process or not be possible at all.",
+        "Card networks also expect the final tipped total to stay within a reasonable range of the original authorization. The tolerance differs by industry and network, so ask support about the rule that applies to your restaurant or salon rather than assuming a percentage."
+      ]
+    },
+    {
+      "h2": "Where the money sits and when it moves",
+      "paragraphs": [
+        "Tips on cards reach the business first, and the business then pays the staff. The processor sends the batch total, tips included, to your bank account on its normal funding schedule. With next-day funding available through PayPilot, that deposit may arrive soon after the batch closes, though weekends, holidays, and your bank's own schedule can shift it.",
+        "The business bears the responsibility of paying out each person's share on time. That is why many owners reconcile the tip total from the report with the payout sheet every shift.",
+        "Records matter here. Keep each shift's tip report for as long as your accountant recommends, and note any adjustments made after the fact. If an employee later questions an amount, a dated report settles the matter in a minute, and the same record supports your payroll filings."
+      ],
+      "bullets": [
+        "Authorization: the bank approves the sale, with or without tip",
+        "Adjustment: the final tipped amount replaces the original on open tickets",
+        "Batch close: the day's approved sales are grouped for payment",
+        "Settlement and deposit: funds move to your bank, tips included",
+        "Payout: the business distributes tips to employees through payroll or another documented method"
+      ]
+    },
+    {
+      "h2": "A hypothetical Saturday",
+      "paragraphs": [
+        "Imagine a small cafe, with all numbers invented for illustration. During the shift, customers leave a combined amount of tips across forty card tickets. At closing, the owner runs the tip report, checks that every open ticket has been adjusted, and then closes the batch.",
+        "The next morning the deposit includes sales plus the card tips. The owner compares that deposit to the report, subtracts the payout owed to staff, and records the difference. If the cafe pays tips with the next paycheck, the owner keeps the tip total clearly separate from revenue, since that money belongs to the employees."
+      ]
+    },
+    {
+      "h2": "Processing fees on the tip portion",
+      "paragraphs": [
+        "Because the tip is part of the card total, processing costs are normally calculated on the full amount, tip included. Some businesses absorb this, while others deduct a proportional share from the tip pool. Whether deducting is permitted, and how, depends on labor law where you operate.",
+        "This is an area for professional advice. Tip handling, pooling, and withholding involve wage and tax rules that differ across regions, and a payroll specialist or employment attorney can confirm what applies to you. Our article on tip pooling covers general principles but is not a substitute for that advice."
+      ]
+    },
+    {
+      "h2": "Habits that keep tips accurate",
+      "paragraphs": [
+        "Most tip trouble comes from process gaps rather than technology. A short end-of-shift routine prevents lost adjustments and mismatched payouts.",
+        "Teams that run the routine consistently rarely argue about the totals.",
+        "One more tip for managers: avoid handing out cash tips from the drawer unless your policy and your bookkeeping both account for it. Cash taken from the register to cover card tips needs to be recorded precisely, otherwise the drawer will look short at closing and the sales report will not agree with the bank."
+      ],
+      "steps": [
+        "List all open tickets and confirm each has its tip entered",
+        "Run the tip report for the shift or day",
+        "Close the batch only after adjustments are finished",
+        "Match the report totals to your payout sheet",
+        "Pay staff their shares by the date you promised and keep the records"
+      ]
+    },
+    {
+      "h2": "Setting up tipping in the software",
+      "paragraphs": [
+        "Pick suggested tip amounts that suit your business and the customers who use them. A coffee counter may prefer round numbers, while a salon may show percentages. Decide whether the prompt appears before or after the tap, and who can edit a tip after the fact.",
+        "In a PayPilot POS, tip settings, employee assignment, and tip reports live in the same system as your sales, which makes the reconciliation step a matter of reading one report rather than assembling three."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "A card tip must be authorized or adjusted before the batch closes.",
+    "The business receives the tip first and then pays it out to staff.",
+    "Reconcile the tip report to the payout sheet every shift.",
+    "Ask a professional about pooling, fee deductions, and payroll treatment of tips."
+  ],
+  "faq": [
+    {
+      "q": "Why don't servers get card tips the same night?",
+      "a": "The tip travels with the card payment, which settles to the business's bank account on a funding schedule. The business then pays staff through payroll or a documented tip payout. Some businesses give out cash advances on tips, but that is a policy decision with its own rules."
+    },
+    {
+      "q": "What happens if I forget to adjust a tip before closing the batch?",
+      "a": "Once a batch is closed, the original amount is typically locked. Depending on your setup, you may be unable to add the tip. Check with support at 844.826.6227 about your options, and make adjustments a required item on your closing checklist to avoid the problem."
+    },
+    {
+      "q": "Do processing fees apply to tips?",
+      "a": "Normally yes, since the tip is part of the total charged to the card. How a business handles that cost is a separate question, and some regions limit deducting fees from employees' tips. Consult a payroll or employment professional before adopting a policy."
+    },
+    {
+      "q": "Can customers add a tip after they leave?",
+      "a": "Not unless you have a process that supports it, such as an open tab with the card on file or an emailed receipt with a tip option. Each of those requires clear consent and fits only certain business types. Confirm with your provider what is supported for your setup."
+    },
+    {
+      "q": "Is tip pooling allowed?",
+      "a": "In many places pooling is allowed under certain conditions, but the rules about who can participate and how it is reported differ by location. Treat any pooling plan as a legal and tax question, and have an accountant or employment attorney review it."
+    }
+  ],
+  "related": [
+    "tip-pooling-done-right",
+    "digital-tips-for-service-workers",
+    "daily-batch-close-routine",
+    "pos-for-restaurants-front-and-back",
+    "handhelds-tableside-ordering"
+  ],
+  "icon": "dollar",
+  "read_minutes": 7
+}

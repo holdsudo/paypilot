@@ -1,0 +1,126 @@
+{
+  "slug": "phishing-attacks-on-merchants",
+  "topic": "security",
+  "title": "Phishing Attacks That Target Merchants",
+  "seo_title": "Phishing Attacks on Merchants | PayPilot",
+  "meta_description": "Fake processor emails, urgent account warnings, and spoofed support calls target small merchants. Learn how to recognize phishing and verify safely.",
+  "primary_keyword": "merchant phishing",
+  "keywords": [
+    "fake processor email",
+    "phishing small business",
+    "payment processor scam call",
+    "verify suspicious email",
+    "spoofed support phone call",
+    "business email compromise",
+    "account suspension scam"
+  ],
+  "eyebrow": "Security",
+  "dek": "Criminals know which business owners are busy, and they write messages that look like they come from the company that pays you.",
+  "intro": [
+    "It is the middle of a lunch rush when an email arrives claiming to be from your payment processor. Your account will be suspended in twenty-four hours unless you confirm your details. There is a button. It looks official. You have a line out the door.",
+    "That combination of urgency and distraction is exactly what phishing relies on. The message does not need to be clever, only convincing for the few seconds it takes you to click.",
+    "Merchants are attractive targets because their accounts connect to bank deposits, customer data, and refund powers. The good news is that a handful of habits defeat almost every version of the trick."
+  ],
+  "sections": [
+    {
+      "h2": "What phishing looks like when it is aimed at a business",
+      "paragraphs": [
+        "Consumer phishing often pretends to be a delivery company or a bank. Merchant phishing borrows the names of processors, hardware makers, software vendors, and even customers. The goal is usually one of three things: your login, your verification code, or a payment sent to a false account.",
+        "Common stories include a suspended account, a failed deposit, a new compliance requirement, a chargeback needing immediate review, or a terminal that must be updated. Each one creates pressure to act before you think."
+      ],
+      "bullets": [
+        "A message that threatens suspension unless you respond within hours.",
+        "A link to a page asking you to sign in to fix a problem you were not aware of.",
+        "An attachment described as an invoice, dispute file, or statement.",
+        "A call from someone who says they are support and asks for a verification code.",
+        "A supplier email announcing new bank details for your next payment."
+      ]
+    },
+    {
+      "h2": "Read the message the way an investigator would",
+      "paragraphs": [
+        "Start with the sender address, not the display name. A name can say anything, but the address behind it shows where the email really came from. Look for slight misspellings, extra words, or unusual endings that imitate a real domain.",
+        "Hover over any link before clicking to see its true destination, and be wary of shortened links. Check the greeting too. Real notices from a provider you use typically know your business name, while generic greetings and odd phrasing suggest mass mailing. None of these signs is proof alone, but several together should make you stop."
+      ]
+    },
+    {
+      "h2": "The safest verification habit",
+      "paragraphs": [
+        "Do not use the contact details inside a suspicious message to check on it. Instead, go around the message. Open your dashboard by typing the address yourself or using a bookmark, and see whether any alert is waiting there. If you want to speak with someone, use the number printed on your statement or the official support line.",
+        "For PayPilot customers, support is reachable at 844.826.6227 at any hour. Calling a number you already trust costs a few minutes and removes nearly all of the risk."
+      ],
+      "steps": [
+        "Pause and do not click, call, or reply from within the message.",
+        "Open your account directly through a bookmark or a typed address.",
+        "Look for the same alert inside the dashboard.",
+        "If nothing appears, contact support using a number you already know.",
+        "Report the message to your provider and delete it."
+      ]
+    },
+    {
+      "h2": "Phone calls and texts count too",
+      "paragraphs": [
+        "Voice phishing, sometimes called vishing, is common because a confident caller can sound very real. The person may know your business name, your city, or the type of terminal you use, all details found easily online.",
+        "A legitimate provider will not ask you to read out a one-time code, to move money to a safe account, or to install remote-access software without a request you started. If a caller pushes you to act immediately, end the call and phone back on a verified number. Text messages follow the same rule: do not tap links in unexpected texts."
+      ]
+    },
+    {
+      "h2": "Payment-redirection scams",
+      "paragraphs": [
+        "Some of the costliest attacks do not steal a password at all. They arrive as an email from a vendor you know, perhaps a landlord or supplier, announcing new bank details. The next payment then goes to a criminal.",
+        "Protect yourself with a callback rule: any change to payment instructions must be confirmed by phoning the contact you already have on file, never the number in the email. Write the rule down and share it with whoever pays your bills. A hypothetical example: a restaurant owner receives a message from her produce supplier with a new account number, calls the supplier's known line, and learns the supplier's email was hijacked."
+      ]
+    },
+    {
+      "h2": "A hypothetical lunch-rush message, picked apart",
+      "paragraphs": [
+        "Suppose an email arrives with the subject line Deposit on hold, action required. It greets you with the word Merchant, threatens a freeze within hours, and links to a page asking for your sign-in. Three details give it away: the generic greeting, the artificial deadline, and a sender address that only resembles your provider's name.",
+        "Now imagine you do nothing but open your dashboard from a bookmark. No hold appears, no alert is waiting, and you have lost less than a minute. That small habit, repeated every time, is stronger than any filter because it works even when the forgery is excellent."
+      ]
+    },
+    {
+      "h2": "Build a team habit and a response plan",
+      "paragraphs": [
+        "Tell your staff what these messages look like and make it normal to ask a manager before acting on one. People who fear embarrassment hide their clicks, and hidden clicks hurt more than reported ones.",
+        "If someone does fall for a message, speed matters. Change the password, sign out of all sessions, enable or reset the second verification step, and call support. Then check recent activity for changed deposit details or unfamiliar refunds. Tell your bank if payments were sent in error. Afterward, discuss what made the message convincing, so the whole team gets sharper."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Urgency plus a link is the classic phishing pairing.",
+    "Verify by going around the message, using bookmarks and known numbers.",
+    "Never read a verification code to a caller, whoever they claim to be.",
+    "Confirm any change in payment instructions by phoning a number you already have."
+  ],
+  "faq": [
+    {
+      "q": "How can I tell a fake processor email from a real one?",
+      "a": "Check the actual sender address, hover over links, and look for urgency and generic greetings. The safest test is to ignore the message's links and sign in through a bookmark, then see whether the same alert exists inside your account."
+    },
+    {
+      "q": "What should I do if I already clicked a suspicious link?",
+      "a": "Do not enter anything further. If you typed a password, change it right away from a trusted device, sign out of other sessions, and call support. Then review recent account activity for changes you did not make and tell your bank if deposit details were involved."
+    },
+    {
+      "q": "Will my provider ever call and ask for a code?",
+      "a": "A one-time verification code exists to prove you are the person signing in, so no genuine representative needs it read aloud. If anyone asks, end the call and contact support through a number you already trust before sharing anything. Politely end the call and phone back on a number printed on your statement before sharing anything."
+    },
+    {
+      "q": "How do I protect against fake invoice or bank-detail emails?",
+      "a": "Adopt a callback rule. Any new payment instructions must be confirmed by phoning the vendor on a number you already have. Hold the payment until you do, because recovering money sent to the wrong account is difficult. A thirty-second callback is cheap insurance compared with a payment that cannot be recovered."
+    },
+    {
+      "q": "Should I report phishing messages?",
+      "a": "Yes. Forward suspicious messages to your provider's security or support team and then delete them. Reporting helps providers warn other merchants and take down fake pages, and it creates a record if your own accounts are affected. Mention what the message claimed so others can recognize the same pattern."
+    }
+  ],
+  "related": [
+    "protecting-your-payments-account",
+    "handling-a-suspicious-transaction",
+    "data-you-should-never-store",
+    "fraud-signs-online-orders",
+    "secure-wifi-for-payments"
+  ],
+  "icon": "shield",
+  "read_minutes": 7
+}

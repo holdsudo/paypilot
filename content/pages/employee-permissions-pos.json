@@ -1,0 +1,120 @@
+{
+ "slug": "employee-permissions-pos",
+ "topic": "pos",
+ "title": "Setting Employee Permissions on a POS",
+ "seo_title": "Setting Employee Permissions on a POS | PayPilot",
+ "meta_description": "Set up POS employee permissions that protect your till without slowing service: roles, void and discount limits, manager approvals, and clean audit trails.",
+ "primary_keyword": "POS employee permissions",
+ "keywords": [
+  "POS user roles",
+  "manager override",
+  "void and refund permissions",
+  "discount limits POS",
+  "employee PIN login",
+  "POS audit trail",
+  "role-based access"
+ ],
+ "eyebrow": "Staff controls",
+ "dek": "The right permission setup lets your team move fast on routine tasks and routes risky ones past a manager.",
+ "intro": [
+  "Every shop eventually has the same small story: a discount applied to a friend's order, a void after the cash was handed over, a refund processed to a card that never made the purchase. Often it is innocent, and sometimes it is not, but in both cases the system allowed it without a second look.",
+  "Permissions are how you decide who can do what on your POS. Done well, they are invisible to a good employee and a quiet roadblock for a risky action.",
+  "Here is a practical way to design roles, set limits that fit your business and keep a record that answers questions later."
+ ],
+ "sections": [
+  {
+   "h2": "Start from the risky actions, not the org chart",
+   "paragraphs": [
+    "List the actions that move money or hide it. Typical ones include voids after payment, refunds, price overrides, discounts, no-sale drawer opens, cash paid-outs, and changing the menu. Each one is a place where a mistake or a bad decision costs real money.",
+    "Then ask who genuinely needs each one. A new cashier does not need to open the drawer without a sale. A shift lead probably does need to void an item. Only an owner or general manager should edit prices or delete reports.",
+    "Designing from actions keeps you from granting access just because someone has a senior-sounding title.",
+    "A quick test helps: if you can imagine a version of the action that would embarrass you in front of a customer, an auditor or your accountant, it needs a gate. Anything that would merely be inconvenient if done wrong can stay open to everyone."
+   ]
+  },
+  {
+   "h2": "A simple three-tier role model",
+   "paragraphs": [
+    "Most small businesses do well with three tiers. It is easy to explain, easy to audit and easy to adjust.",
+    "Write the tiers on a single page and share it at onboarding. When people understand that a limit protects them from being blamed for someone else's mistake, they tend to accept it. Resist the urge to invent a fourth and fifth tier until you have lived with three for a season."
+   ],
+   "bullets": [
+    "Staff: ring sales, accept payments, apply approved discounts from a short list, and view their own tips.",
+    "Shift lead: everything above plus voids before payment, small refunds within a limit, and cash drawer counts.",
+    "Manager or owner: refunds without a limit, price changes, menu edits, reports, user management and settings."
+   ]
+  },
+  {
+   "h2": "Setting limits that fit your business",
+   "paragraphs": [
+    "Where the POS allows numeric limits, use them. A salon might let a stylist apply a loyalty discount of up to ten percent, but require a manager PIN for anything larger. A restaurant might let a server comp a drink but require approval for a full entree.",
+    "Think about frequency as well as size. A large discount once is unusual, but a small one repeated thirty times a shift is a pattern. Your discount report will show which of the two you have.",
+    "Review limits after a few weeks of real use. If managers are approving fifty requests a night, the limit is too tight and people will find workarounds. If nobody ever asks, it may be too loose.",
+    "Cash handling deserves its own line. Decide who may count a drawer, who may do paid-outs for supplies, and who may open a no-sale for making change. Counting should ideally be done by someone other than the person who rang the sales that day."
+   ]
+  },
+  {
+   "h2": "Individual logins and why shared ones fail",
+   "paragraphs": [
+    "Give each person their own PIN or card tap. A shared login makes every action anonymous, which removes accountability for honest staff as well as dishonest ones. It also makes training harder because you cannot see who needs help.",
+    "PINs should be four digits or more, never reused, and changed when someone leaves. Remove access the day an employee departs, not the next time you remember. If your system supports it, require a PIN again after a short idle time at the screen.",
+    "Make logging in quick. If it takes ten seconds, people will stop doing it during a rush and start borrowing the logged-in device of the nearest coworker."
+   ]
+  },
+  {
+   "h2": "Manager approvals that do not stall the line",
+   "paragraphs": [
+    "A manager override should take one tap and a PIN at the same device. Walking to the back office and opening a different screen guarantees a queue. With a handheld, a manager can approve a void tableside without leaving the floor.",
+    "Teach the phrase that triggers it. A simple script such as 'let me get approval for that' sets customer expectations and gives staff confidence that the policy is the company's rule, not their personal decision.",
+    "Some owners add a time-boxed approval for unusual events, such as a catered order or a private party, where a one-off price change is expected. Granting it for the evening and revoking it afterward beats leaving a permanent exception on the account."
+   ]
+  },
+  {
+   "h2": "Reading the audit trail",
+   "paragraphs": [
+    "Permissions prevent some problems, but the log is how you notice the rest. Check void, refund and discount reports by employee each week. Look for people whose numbers differ sharply from peers working similar shifts.",
+    "A difference is a reason to ask a question, not a verdict. A cashier on the busiest shift will naturally void more. Compare like with like before you draw conclusions, and keep notes of what you decided.",
+    "Employment rules differ by state, and monitoring practices can have legal implications, so talk to an employment professional about how to document and communicate your policy. With PayPilot POS you can assign roles per employee and review activity by person; set the tiers once and revisit them whenever your team changes.",
+    "Close the loop with a brief monthly conversation about what the data showed. Praise the person whose till balances every night, and ask quietly about patterns that look off."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Build roles around risky actions such as voids, refunds, discounts and drawer opens.",
+  "Three tiers cover most small businesses: staff, shift lead and manager.",
+  "Use numeric limits and tune them after watching real behavior.",
+  "Give every employee a unique PIN and remove access the day they leave.",
+  "Review void, refund and discount reports by person every week."
+ ],
+ "faq": [
+  {
+   "q": "What permissions should a new cashier have?",
+   "a": "A new cashier typically needs to ring items, take payments, apply a short list of pre-approved discounts and clock in or out. Voids after payment, refunds, price overrides, and drawer opens without a sale are better routed to a lead or manager until trust and training are established."
+  },
+  {
+   "q": "Is it okay for employees to share a login?",
+   "a": "It is not recommended. A shared login hides who performed each action, which weakens accountability and makes troubleshooting slower. Individual PINs cost nothing extra and let you see activity by person, support tip reporting and remove access cleanly when someone leaves the business."
+  },
+  {
+   "q": "How do I handle a manager who abuses overrides?",
+   "a": "Because managers can bypass limits, owners should review their activity too. Keep the highest-level permissions to as few people as possible, check override reports regularly, and consider requiring an owner approval for the largest refunds. Document the policy clearly so expectations are the same for everyone."
+  },
+  {
+   "q": "Should staff be able to see sales reports?",
+   "a": "Usually not the full reports. Staff generally need their own shift totals and tips, while store-wide sales, labor cost and margins are better limited to managers and owners. Restricting this also protects sensitive payroll and performance figures from casual viewing."
+  },
+  {
+   "q": "How often should I update permissions?",
+   "a": "Review them whenever someone is hired, promoted or leaves, and do a full audit at least once a season. Seasonal staff are a common blind spot, since old accounts may stay active long after the person has stopped working shifts."
+  }
+ ],
+ "related": [
+  "tip-pooling-done-right",
+  "pos-reports-to-check-weekly",
+  "handling-disputes-calmly",
+  "protecting-your-payments-account",
+  "refund-policies-that-reduce-disputes",
+  "choosing-pos-software"
+ ],
+ "icon": "lock",
+ "read_minutes": 6
+}

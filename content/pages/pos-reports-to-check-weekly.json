@@ -1,0 +1,122 @@
+{
+ "slug": "pos-reports-to-check-weekly",
+ "topic": "pos",
+ "title": "The Five POS Reports to Check Every Week",
+ "seo_title": "Five POS Reports to Check Every Week | PayPilot",
+ "meta_description": "A weekly twenty-minute routine: review sales, labor, items, discounts and refunds reports in your POS to spot trends and problems before they get expensive.",
+ "primary_keyword": "POS reports",
+ "keywords": [
+  "weekly POS report review",
+  "sales by hour report",
+  "labor cost report",
+  "discount and void report",
+  "refund report",
+  "item sales report",
+  "small business reporting routine"
+ ],
+ "eyebrow": "Insights",
+ "dek": "Your POS records everything. A short, repeatable weekly review turns that pile of data into decisions.",
+ "intro": [
+  "Most POS systems offer dozens of reports, and most owners open three of them. The rest feel like homework. Yet a small, steady routine, the same five reports on the same morning each week, catches more problems than any occasional deep dive.",
+  "The goal is not to become an analyst. It is to build a habit of looking at the same figures often enough that a change jumps out at you.",
+  "Below are five reports worth reading, what to look for in each, and how to keep the whole thing under half an hour."
+ ],
+ "sections": [
+  {
+   "h2": "Set the routine first",
+   "paragraphs": [
+    "Pick a fixed time. Monday morning, before the doors open, suits many businesses because the week just ended is fresh and the week ahead is still flexible. Set a recurring calendar block and treat it like a meeting with a customer.",
+    "Use the same date range each time, such as Monday through Sunday. Comparing identical weeks removes the guesswork about whether a number moved or you simply looked at a different span. Keep a notebook or spreadsheet with a line per week so trends become visible over months."
+   ]
+  },
+  {
+   "h2": "Report one: sales by day and hour",
+   "paragraphs": [
+    "Start with the shape of the week. Which days were busiest, and in which hours did the money arrive? A heat-style view or a simple list by hour will do.",
+    "Compare against the previous week and the same week last month. A quiet Tuesday afternoon that has been quiet for ten weeks is a scheduling or promotion opportunity. A sudden dip on a day that is usually strong deserves a question: was there construction, a weather event, or a staffing change?",
+    "Note average ticket and transaction count alongside total sales. Revenue can stay flat while customer count falls and tickets rise, which signals a very different story.",
+    "One more habit pays off here: write a single sentence beside the figures explaining anything unusual, such as a holiday, a road closure or a staff shortage. Six months later those notes turn a column of numbers into a story you can learn from."
+   ]
+  },
+  {
+   "h2": "Report two: labor against sales",
+   "paragraphs": [
+    "Labor is typically the largest controllable expense, and your POS time clock knows exactly how many hours were worked. Compare labor cost against sales for each day to see where you were overstaffed or thin.",
+    "A hypothetical example: if Wednesday brings in a third of Saturday's sales but you staffed it with two thirds of Saturday's hours, the mismatch is obvious in the report and invisible from the floor. Adjust next week's schedule rather than guessing again.",
+    "Overtime is the other thing to watch. A single person creeping past forty hours is cheaper to fix on Monday than on payday.",
+    "Weekly reviews also give you a natural rhythm for ordering. When the same product tops the list three weeks running, raise its reorder quantity before the shelf runs bare."
+   ]
+  },
+  {
+   "h2": "Report three: item sales",
+   "paragraphs": [
+    "Scan the top ten and bottom ten items. The top group tells you what to keep stocked and prepared. The bottom group shows what is taking up shelf space, menu room or prep time.",
+    "Look for items that surged or fell without explanation. A new competitor, a season change or a mistake in the online menu can all show up here first. If you track costs, flag any item whose margin has shrunk because a supplier raised prices.",
+    "Pay attention to the share of total labor spent in the hours before opening. Prep and cleaning are necessary, but they are also the easiest place for hours to creep upward without anyone noticing."
+   ]
+  },
+  {
+   "h2": "Report four: discounts and comps",
+   "paragraphs": [
+    "Discounts are legitimate marketing, and they are also where money leaks quietly. Check the total given away, who gave it, and for which reasons.",
+    "Compare employees working similar shifts. One person's discount total being far above peers is a conversation starter, not proof of wrongdoing. Perhaps they handle the loyalty desk or regular complaints. Ask before assuming.",
+    "Track promotions separately from discretionary comps so you can see whether a campaign delivered more sales than it gave away.",
+    "If your POS supports it, tag each item with a category such as food, drinks or retail, so you can see which groups are growing. A category view is much quicker to scan than hundreds of single lines."
+   ]
+  },
+  {
+   "h2": "Report five: refunds and voids",
+   "paragraphs": [
+    "Refunds and voids reveal both customer experience problems and process problems. A cluster of refunds on one item suggests a quality or description issue. A spike in voids after payment suggests ordering errors or something worse.",
+    "Look at the time of day, the employee and the reason code where available. If reason codes are mostly blank, that is a training item in itself, because the data is only valuable if people record why. Pair this report with the permissions you have set so that large reversals need a manager.",
+    "A short monthly look at chargebacks, if you have any, completes the picture. Disputes are covered in PayPilot's reporting alongside your processing activity, and they often trace back to refunds that were refused in person."
+   ]
+  },
+  {
+   "h2": "Keep it short and act on one thing",
+   "paragraphs": [
+    "Twenty minutes is the target. When the review is over, write down one action for the coming week: shift a schedule, call a supplier, retrain a step, test a promotion. A report that produces no action is trivia.",
+    "As your needs grow, ask whether your POS can email these five reports automatically on Monday morning. PayPilot POS offers scheduled summaries, so the data finds you rather than waiting for you to go and look for it."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "A fixed weekly slot beats occasional deep dives.",
+  "Read sales by hour, labor against sales, item sales, discounts and refunds or voids.",
+  "Compare identical date ranges so changes mean something.",
+  "Treat outliers as questions to ask, not accusations.",
+  "End every review with a single action for the next week."
+ ],
+ "faq": [
+  {
+   "q": "Which POS report matters most?",
+   "a": "Sales by day and hour, set against labor, is the most revealing pairing for most businesses because it shows whether your staffing matches demand. If you can only read one thing weekly, read that, and add item, discount and refund reports as the habit settles."
+  },
+  {
+   "q": "How long should a weekly review take?",
+   "a": "About twenty to thirty minutes once you know where each report lives. Save the report views or schedule them to arrive by email so you are not hunting through menus. If it regularly takes longer, you are probably reading more reports than you can act on."
+  },
+  {
+   "q": "What should I look for in a discount report?",
+   "a": "Look at the total value given, the mix between planned promotions and discretionary discounts, and the pattern by employee and time. Sudden increases or one person far above the others merit a friendly question. Compare against sales from the same promotions to see if they paid off."
+  },
+  {
+   "q": "How do I use reports to schedule staff?",
+   "a": "Overlay your hourly sales with hours worked for the same period. Where sales are low but staffing is high, trim the schedule. Where sales spike and staff is thin, add coverage. Adjust gradually, one shift at a time, and recheck the following week."
+  },
+  {
+   "q": "Should I share reports with my team?",
+   "a": "Share the numbers that help them do their job, such as their own tip totals and upsell figures, and keep payroll or margin data to managers and owners. Showing a team how the business is doing can build ownership, but choose the figures carefully."
+  }
+ ],
+ "related": [
+  "menu-engineering-with-pos-data",
+  "using-sales-data-to-staff",
+  "employee-permissions-pos",
+  "daily-batch-close-routine",
+  "refund-policies-that-reduce-disputes",
+  "handling-disputes-calmly"
+ ],
+ "icon": "trend",
+ "read_minutes": 6
+}

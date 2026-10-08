@@ -1,0 +1,126 @@
+{
+  "slug": "b2b-online-invoicing",
+  "topic": "online",
+  "title": "Invoicing Business Clients Online",
+  "seo_title": "Invoicing Business Clients Online | PayPilot",
+  "meta_description": "How to invoice other businesses online: net terms, ACH versus card, purchase orders, and reminders that get you paid without souring the relationship.",
+  "primary_keyword": "b2b online invoicing",
+  "keywords": [
+    "invoice business customers",
+    "net 30 terms",
+    "ACH vs card payments",
+    "purchase order invoicing",
+    "accounts receivable small business",
+    "online invoice payment",
+    "late payment reminders"
+  ],
+  "eyebrow": "Online payments",
+  "dek": "Business customers pay differently from consumers. Learn how terms, payment methods, and paperwork shape how fast your invoices turn into cash.",
+  "intro": [
+    "A landscaper who services residential lawns gets her first commercial contract with a property manager. The work is the same, but the payment process is not: the manager asks for a purchase order number, net thirty terms, and an invoice that can be forwarded to accounting.",
+    "Business-to-business sales run on paperwork and patience. The customer often has an approval chain, a payment schedule, and a preferred method, and none of it matches the tap-and-go world of retail.",
+    "Understanding how terms, payment rails, and reminders fit together lets you get paid on time while looking organized."
+  ],
+  "sections": [
+    {
+      "h2": "What a business client expects on an invoice",
+      "paragraphs": [
+        "A consumer receipt confirms a purchase. A business invoice is a document that someone else has to process. It should be complete enough that an accounts-payable clerk who never met you can approve it without sending a question back.",
+        "Include your legal business name, the client's name, an invoice number, the issue date, the due date, line items with quantities, any tax shown separately, the total, and the ways to pay. If the client provided a purchase order number, print it prominently. A missing reference number is the most common reason an otherwise valid invoice sits in a queue."
+      ]
+    },
+    {
+      "h2": "Choosing payment terms",
+      "paragraphs": [
+        "Terms define when payment is due. Net thirty means the full balance is due thirty days after the invoice date. Due on receipt means immediately. Some sellers offer a small early-payment discount to encourage faster settlement.",
+        "Terms are a negotiation, not a law of nature. A new client with no history might start on shorter terms or a deposit, while a long-standing account earns more flexibility. Whatever you agree, write it on the quote, the contract, and the invoice so nothing relies on memory."
+      ],
+      "bullets": [
+        "Due on receipt: best for small jobs and first-time clients.",
+        "Net 15 or net 30: common for ongoing work with established companies.",
+        "Milestone billing: splits a large project into invoices tied to deliverables.",
+        "Deposit up front: protects you on custom work or materials purchased specially."
+      ]
+    },
+    {
+      "h2": "ACH versus card for business payments",
+      "paragraphs": [
+        "Business clients usually choose between paying by bank transfer, often called ACH, or by card. Each has trade-offs you should understand before deciding what to offer.",
+        "ACH pulls or pushes money between bank accounts. It is well suited to larger amounts and recurring bills, but it takes longer to settle and can be returned if the funds are not available. Card payments are fast and convenient, and many companies use cards because of rewards or because they keep a cash buffer, but processing costs apply and a card payment can be disputed.",
+        "Offering both lets the client pick what suits their treasury process. Confirm what methods your PayPilot setup supports for your account, since availability depends on your account and eligibility."
+      ]
+    },
+    {
+      "h2": "How online invoices speed things up",
+      "paragraphs": [
+        "A paper or PDF invoice emailed as an attachment relies on the recipient to find it, print it, and figure out how to pay. An online invoice includes a pay button, so the person who opens it can settle it from the same screen.",
+        "With PayPilot online payments you can send an invoice by email, let the client pay by card, and see when it was viewed and when it was paid. That visibility removes the guesswork about whether your message was ever read."
+      ],
+      "steps": [
+        "Create the invoice with the client's details and purchase order number.",
+        "Add line items and confirm the due date matches your agreed terms.",
+        "Send it to the person who approves payments, with accounting copied if possible.",
+        "Watch for the viewed status; follow up if it has not been opened after a few days.",
+        "Record the payment and send a receipt when it clears."
+      ]
+    },
+    {
+      "h2": "Reminders that preserve the relationship",
+      "paragraphs": [
+        "Chasing money does not have to be awkward. Set a rhythm: a friendly note a few days before the due date, a polite reminder on the day, and a firmer follow-up a week later with the original invoice attached.",
+        "Address the message to the person who can actually act. Often the contact who hired you is not the one who pays you, and asking who handles accounts payable is perfectly normal. Keep your tone factual and offer a quick call if something is blocking payment."
+      ]
+    },
+    {
+      "h2": "Recurring work and retainers",
+      "paragraphs": [
+        "Many business relationships are ongoing: monthly maintenance, a standing cleaning contract, a retainer for design hours. Rebuilding an invoice from scratch each month wastes time and invites mistakes.",
+        "Set up a repeating invoice with a fixed amount and schedule, and agree in writing how changes are handled. If the client asks to add extra work, issue a separate invoice for it so the retainer stays clean. Agree when the retainer renews and how much notice either side gives before ending it."
+      ]
+    },
+    {
+      "h2": "Protecting yourself on larger accounts",
+      "paragraphs": [
+        "Start new commercial relationships with a signed agreement that includes terms, late-payment language, and the scope of work. Some businesses add a late fee clause; whether that is enforceable depends on your location and contract, so check with a professional.",
+        "Track your outstanding invoices weekly. A simple aged list, sorted by how overdue each one is, shows where to focus. If one client habitually pays late, tighten their terms or require a deposit on the next job. A call to PayPilot support can help if you need to adjust how you collect."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "A business invoice must be complete enough for a stranger in accounting to approve.",
+    "Write payment terms on the quote, contract, and invoice.",
+    "ACH suits larger bills; cards suit speed and convenience.",
+    "Send reminders on a steady schedule to the person who actually pays."
+  ],
+  "faq": [
+    {
+      "q": "What does net 30 mean?",
+      "a": "It means the full invoice amount is due thirty days after the invoice date. A payment received on day thirty-one is late under those terms. You can shorten or lengthen the window, and some sellers add a discount for paying earlier."
+    },
+    {
+      "q": "Should I accept cards from business clients?",
+      "a": "Many companies prefer cards for convenience or internal tracking. Accepting them can speed payment, though processing costs apply and card payments can be disputed. Offering a bank transfer option as well lets each client choose. Whichever you offer, tell clients up front which methods you accept so their payables team can plan."
+    },
+    {
+      "q": "What is a purchase order and why does it matter?",
+      "a": "A purchase order is a document a client issues to authorize a purchase, with its own reference number. Printing that number on your invoice lets their accounting team match the two and approve payment without delay. Ask for it at the start of a job, because retrofitting a missing number later slows everything down."
+    },
+    {
+      "q": "When should I require a deposit from a business?",
+      "a": "Consider one for custom work, large material costs, or a first project with a new client. A deposit shows commitment and covers your early expenses. Keep the amount and timing written in the agreement. Put the amount and the due date in your quote so the request never feels like an afterthought."
+    },
+    {
+      "q": "Can I send the same invoice every month?",
+      "a": "Yes. Repeating invoices suit retainers and maintenance contracts. Agree the amount, schedule, and notice period in writing, send each invoice with a fresh date and number, and issue separate invoices for any extra work. Clients appreciate the predictability, and you spend less time rebuilding paperwork."
+    }
+  ],
+  "related": [
+    "invoices-that-get-paid-faster",
+    "payments-api-basics",
+    "deposits-timing-explained",
+    "cash-flow-from-faster-deposits",
+    "processing-fees-on-small-sales"
+  ],
+  "icon": "briefcase",
+  "read_minutes": 6
+}

@@ -1,0 +1,123 @@
+{
+ "slug": "subscription-box-billing",
+ "topic": "online",
+ "title": "Billing a Subscription Box Business",
+ "seo_title": "Billing a Subscription Box Business | PayPilot",
+ "meta_description": "Billing cycles, failed payments, pausing and cancellations for subscription boxes: a practical guide to recurring billing that keeps customers and cash flow.",
+ "primary_keyword": "subscription box billing",
+ "keywords": [
+  "recurring billing",
+  "failed subscription payments",
+  "pause subscription",
+  "billing cycle",
+  "subscription cancellations",
+  "card on file",
+  "dunning emails"
+ ],
+ "eyebrow": "Recurring",
+ "dek": "Subscriptions turn a sale into a relationship. The billing details decide whether that relationship survives a declined card.",
+ "intro": [
+  "A subscription box has a lovely shape: a customer signs up once and you ship every month. The hard part hides in the middle. Cards expire, customers go on holiday, and somebody always writes on the fifth to say they forgot to cancel.",
+  "Billing is where subscription businesses succeed or quietly bleed. A well-run system collects on time, recovers failed payments gently and makes it easy to pause, which keeps people who would otherwise cancel.",
+  "This guide covers billing cycle design, the life of a failed payment, pausing and cancelling, and the communication that holds it together."
+ ],
+ "sections": [
+  {
+   "h2": "Choose a billing cycle that matches shipping",
+   "paragraphs": [
+    "There are two common models. In calendar billing, everyone is charged on the same day each month and boxes ship together. In anniversary billing, each customer is charged on the date they signed up, which spreads revenue and workload evenly across the month.",
+    "Calendar billing simplifies production, because you know exactly how many boxes to build. Anniversary billing smooths cash flow and avoids a single huge day of failures. Smaller operators often start with calendar billing and move to anniversary if volume grows.",
+    "Whichever you choose, state it in plain words at signup: you will be charged on the first of each month, and your box ships within a set window.",
+    "Remember that holidays shift the calendar. A first-of-the-month charge that lands on a bank holiday may settle later, so pick a shipping window that tolerates a day or two of slack."
+   ]
+  },
+  {
+   "h2": "How recurring billing works under the hood",
+   "paragraphs": [
+    "At signup, the customer's card is stored securely with the payment provider as a token, a stand-in for the real number. Each billing date, your system asks the provider to charge that token for the plan amount.",
+    "The customer authorizes this arrangement when they subscribe, so make that consent explicit with clear wording about the amount, frequency and how to cancel. Clear disclosure also reduces disputes.",
+    "Because you never store the real card number, your risk is lower, and when a card is reissued, some cards update automatically. Others do not, which is where failed payments begin.",
+    "Keep a record of when each customer agreed to the recurring terms. If a dispute arises, the signup date and the wording shown are the evidence you will want to have."
+   ]
+  },
+  {
+   "h2": "The life of a failed payment",
+   "paragraphs": [
+    "A charge can fail for many reasons: an expired card, insufficient funds at that moment, a bank flag on an unfamiliar merchant or a closed account. Most are temporary or fixable, so treat a failure as a customer service moment, not a cancellation.",
+    "Build a short, predictable recovery sequence, sometimes called dunning. Retry after a few days, because a balance may have been refilled, and notify the customer each time."
+   ],
+   "steps": [
+    "Day 0: the charge fails; the box is held, not cancelled.",
+    "Day 0: send a friendly email with a secure link to update the card.",
+    "Day 3: retry the charge and send a short reminder.",
+    "Day 7: retry again and warn that the box will pause soon.",
+    "Day 10: pause the subscription and invite the customer to return whenever they wish."
+   ]
+  },
+  {
+   "h2": "Let customers pause instead of cancel",
+   "paragraphs": [
+    "Many cancellations are really requests for a break. Offering a pause for one to three months, or the option to skip a single box, keeps the relationship alive. A hypothetical customer overwhelmed with unopened boxes might happily skip a month rather than leave.",
+    "Make pause options visible in the account page and in the cancellation flow. A customer who must write an email to pause will probably just cancel.",
+    "Set clear rules for what a pause means: when billing resumes, whether the price is locked and what happens to any accrued perks.",
+    "Skipping should be logged as a deliberate action, so your inventory forecast does not count a skipped box as demand."
+   ]
+  },
+  {
+   "h2": "Cancellations and refunds",
+   "paragraphs": [
+    "Make cancelling easy. Hiding the button creates resentment and disputes, and rules about subscription cancellation and disclosure exist in many places. Check the requirements that apply to you and keep your flow straightforward.",
+    "Have a clear policy on refunds. Does a customer who cancels on the second of the month receive that month's box? Is a refund available if a box was damaged? Write the answers down and put them on your site and in the confirmation email.",
+    "Ask a single short question on the way out: what made you leave? The answers reveal fixable problems in your product or pricing."
+   ]
+  },
+  {
+   "h2": "Communication that prevents trouble",
+   "paragraphs": [
+    "Send a receipt each time, a heads-up before a card is due to expire and a notice before price changes. Predictability prevents the surprise charge that triggers disputes.",
+    "Include your business name in the billing descriptor so customers recognize it on their statement. A charge they cannot place is much more likely to be disputed than a refunded one.",
+    "PayPilot offers recurring billing with hosted pages where customers can update their cards, and next-day funding is available for the payments you collect. Review your failed-payment numbers monthly, so you can see whether a change in the recovery sequence improves your results.",
+    "Segment your churn reasons, such as price, boxes piling up, product mismatch and failed payments. Each reason leads to a different fix."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Choose calendar or anniversary billing based on production and cash-flow needs.",
+  "Customers authorize recurring charges, so disclose amount, timing and how to cancel.",
+  "Use a short retry-and-reminder sequence for failed payments.",
+  "Offer pause and skip options before a cancellation happens.",
+  "Use a recognizable billing name to avoid disputes."
+ ],
+ "faq": [
+  {
+   "q": "What is the difference between calendar and anniversary billing?",
+   "a": "Calendar billing charges every subscriber on the same date each cycle, which makes production planning simple. Anniversary billing charges each person on their own signup date, which spreads revenue and workload. Many new subscription businesses start with calendar billing and consider anniversary billing as they grow."
+  },
+  {
+   "q": "Why do subscription payments fail?",
+   "a": "Common reasons include expired or replaced cards, insufficient funds at the moment of the charge, a bank blocking an unfamiliar merchant, or a closed account. Many failures are temporary, so a retry after a few days plus an email with an easy card-update link recovers a good share of them."
+  },
+  {
+   "q": "Should I let customers pause their subscription?",
+   "a": "Usually yes. Pausing or skipping a box keeps customers who need a break from cancelling altogether. Make the option visible in the account page and cancellation flow, and spell out when billing resumes and whether the price stays the same after the pause ends."
+  },
+  {
+   "q": "What cuts down on disputed charges for a subscription box?",
+   "a": "Use a clear billing name, send reminders before charges and renewals, make cancellation easy and respond quickly to refund requests. Most disputes come from charges customers do not recognize or cannot figure out how to stop, so transparency is the best prevention."
+  },
+  {
+   "q": "Is it okay to change the price of a subscription?",
+   "a": "Yes, with advance notice. Tell existing customers the new price and effective date well before it applies, and offer a way to cancel or pause if they disagree. Check local rules on notice requirements for recurring charges, since they can differ between places."
+  }
+ ],
+ "related": [
+  "card-on-file-for-repeat-customers",
+  "tokenization-for-business-owners",
+  "refund-policies-that-reduce-disputes",
+  "handling-disputes-calmly",
+  "recurring-donations",
+  "checkout-abandonment-fixes"
+ ],
+ "icon": "refresh",
+ "read_minutes": 6
+}

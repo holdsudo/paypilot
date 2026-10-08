@@ -1,0 +1,135 @@
+{
+  "slug": "cash-discount-signage-guide",
+  "topic": "cards",
+  "title": "Posting Dual Prices: Signage and Receipt Basics",
+  "seo_title": "Dual Pricing Signage and Receipt Basics | PayPilot",
+  "meta_description": "Thinking of showing a cash price and a card price? Learn disclosure basics for signs, menus, and receipts, and why rules vary by state and card network.",
+  "primary_keyword": "dual pricing signage",
+  "keywords": [
+    "cash discount sign",
+    "dual pricing disclosure",
+    "surcharge notice",
+    "cash price vs card price",
+    "receipt wording",
+    "price display",
+    "compliant dual pricing"
+  ],
+  "eyebrow": "Pricing & disclosure",
+  "dek": "When cash and card prices differ, clarity is everything. Good signage and receipts keep customers informed and your program on solid ground.",
+  "intro": [
+    "A diner reaches the register, hands over a card, and discovers that the total is higher than the number on the menu. The mood sours at once. Whether the program behind that total was perfectly legal or not, the customer feels ambushed.",
+    "Dual pricing, where a business shows one price for cash and another for cards, can lower or even remove processing costs. It can also upset people when it is hidden. The difference is nearly always disclosure: what you say, where you say it, and when.",
+    "This guide covers the practical side of signs, menus, and receipts. It is general information, not legal advice, because rules vary by state and by card network, so confirm your obligations before putting anything in front of customers."
+  ],
+  "sections": [
+    {
+      "h2": "Cash discount, surcharge, and dual pricing",
+      "paragraphs": [
+        "People use these words loosely, but they describe different structures, and regulators and card networks treat them differently. A cash discount offers a lower price to customers who pay with cash. A surcharge adds an extra amount to card payments. Dual pricing displays two full prices side by side, one for cash and one for card.",
+        "Some states restrict or prohibit certain structures, and card networks publish their own conditions. A program that is acceptable in one place may not be in another. Before you choose language, find out which structure you are actually using and what the local rules say about it."
+      ]
+    },
+    {
+      "h2": "Where disclosure belongs",
+      "paragraphs": [
+        "The principle is simple: the customer should know before they commit to a purchase. That means disclosure at the entrance, at the point where prices are displayed, and again at the register. A notice that appears for the first time on the receipt is too late.",
+        "Different spots carry different jobs. The entrance sign sets expectations, the menu or price tag shows the real numbers, and the register notice confirms the choice at the moment of payment.",
+        "Language matters for accessibility. If a large share of your customers read another language, consider a translated notice alongside the English one. A notice that people cannot understand does little to inform them, and translating it is a cheap way to demonstrate good faith."
+      ],
+      "bullets": [
+        "Entrance or window: a plain statement that two prices apply",
+        "Menus and price tags: both prices shown, or a clear note on how to read them",
+        "Register and card reader: a visible reminder near where payment happens",
+        "Online checkout: the same information before the final confirmation step",
+        "Receipts: a line showing the pricing basis the customer chose"
+      ]
+    },
+    {
+      "h2": "Writing the sign",
+      "paragraphs": [
+        "Use plain words, large print, and a neutral tone. Avoid cute language that hides the point. A sign should state what is different, who it applies to, and how the customer can choose.",
+        "Keep a version history of your signage in a folder. If anyone ever asks what you displayed on a given date, you will be able to show them. Before printing, ask your support team at 844.826.6227 or a qualified professional to review the wording for your state."
+      ],
+      "steps": [
+        "Name the program in everyday language",
+        "State that prices differ by payment method",
+        "Say which payment types receive which price",
+        "Tell customers where to find the full price list",
+        "Put the sign where it is visible before ordering"
+      ]
+    },
+    {
+      "h2": "Making receipts match",
+      "paragraphs": [
+        "A receipt should reflect exactly what the customer paid and why. List the items, the pricing basis, and the final total, and keep the labels consistent with your signs. If the sign says 'card price' and the receipt says 'service fee,' a customer reading both may think you are charging twice.",
+        "Many systems let you customize receipt text. Configure it once, test it with a small sale, and keep a sample. With a PayPilot POS, the receipt template can be adjusted so that your wording stays consistent across counter, handheld, and digital receipts.",
+        "Photograph your signs and receipts with the date each time you update them, and keep the images in a shared folder. If a regulator or customer ever asks what you displayed last spring, the photo answers instantly, and a clean paper trail is the best protection a small business can have."
+      ]
+    },
+    {
+      "h2": "Handling questions at the counter",
+      "paragraphs": [
+        "Some customers will ask why prices differ. A short, friendly explanation works best: 'We show two prices, one for cash and one for card, so that we can keep our regular prices steady.' Avoid blaming the card companies or sounding defensive.",
+        "Train every employee on the same answer and give them permission to refer questions to a manager. If a customer is unhappy, offer the cash price option instead of arguing. Goodwill matters more than the margin on a single sale."
+      ]
+    },
+    {
+      "h2": "Mistakes to avoid",
+      "paragraphs": [
+        "Programs go wrong in predictable ways. Most come from hurrying the rollout or copying a neighbor's sign without checking the rules.",
+        "Steer clear of these common slips:"
+      ],
+      "bullets": [
+        "Adding the extra amount for debit or prepaid cards without checking whether that is allowed",
+        "Applying the program inconsistently between staff or locations",
+        "Hiding the notice in small print or behind the counter",
+        "Using wording that differs between sign, menu, and receipt",
+        "Forgetting to update signage when rules or your pricing plan change"
+      ]
+    },
+    {
+      "h2": "Where Zero fits",
+      "paragraphs": [
+        "PayPilot's Zero plan is built around a compliant dual-pricing approach, with the aim of bringing processing cost to $0 for merchants who qualify. Eligibility and the details of how prices are displayed depend on your state and the card networks involved.",
+        "If you are curious, ask support to walk through your location's requirements before you commit. Done honestly, dual pricing is a pricing choice like any other. Done carelessly, it is a source of complaints and regulatory trouble."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Cash discounts, surcharges, and dual pricing are different structures with different rules.",
+    "Disclose before purchase: at the entrance, on price displays, and at the register.",
+    "Keep sign, menu, and receipt wording consistent.",
+    "Rules vary by state and card network, so verify requirements before launching."
+  ],
+  "faq": [
+    {
+      "q": "Is dual pricing legal everywhere?",
+      "a": "No. Rules differ by state and by card network, and some structures are restricted or prohibited in certain places. Confirm which approach is permitted where you operate, and review the wording of your signs with a knowledgeable professional or your provider before going live."
+    },
+    {
+      "q": "What is the difference between a surcharge and a cash discount?",
+      "a": "A surcharge adds an amount to card payments, while a cash discount lowers the price for cash. The result can look similar to a customer, but regulators and card networks treat them differently. Know which one you are using, and describe it accurately."
+    },
+    {
+      "q": "Do I have to show both prices on the menu?",
+      "a": "It depends on your program and local requirements. Many businesses show both to avoid surprises. At minimum, customers need to see a clear notice before ordering that explains how prices differ. Ask your provider or a legal professional what your location expects."
+    },
+    {
+      "q": "What should a receipt say?",
+      "a": "It should list the items, the pricing basis the customer paid under, and the total. Use the same terms as your signs so the connection is obvious. Avoid vague labels that might look like unexplained fees. Keep dated photos of your signage in case anyone asks later."
+    },
+    {
+      "q": "What if a customer complains?",
+      "a": "Listen, explain the program in a friendly way, and offer the alternative price if they prefer. Note the complaint and share patterns with your manager. If you receive a formal complaint or inquiry, seek professional advice. Rules differ by state and card network, so verify the details for your location first."
+    }
+  ],
+  "related": [
+    "pricing-in-a-cashless-world",
+    "processing-fees-on-small-sales",
+    "card-brands-and-acceptance-marks",
+    "processing-statement-basics-for-new-owners",
+    "pos-for-restaurants-front-and-back"
+  ],
+  "icon": "scale",
+  "read_minutes": 7
+}

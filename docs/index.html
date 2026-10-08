@@ -6,6 +6,8 @@
 <title>PayPilot — Payments, piloted. POS, card processing & instant money transfers</title>
 <meta name="description" content="PayPilot is one platform for every payment: a beautiful point of sale, tap-to-pay hardware, online checkout and a wallet that sends money like a text.">
 <link rel="canonical" href="https://paypilot.fastapi.online/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="alternate" type="application/rss+xml" title="The PayPilot Blog" href="/blog/feed.xml">
 <meta name="theme-color" content="#06050D">
 <meta property="og:type" content="website"><meta property="og:site_name" content="PayPilot">
 <meta property="og:title" content="PayPilot — Payments, piloted. POS, card processing & instant money transfers"><meta property="og:description" content="PayPilot is one platform for every payment: a beautiful point of sale, tap-to-pay hardware, online checkout and a wallet that sends money like a text.">
@@ -14,10 +16,11 @@
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
 <link rel="preload" href="/assets/fonts/sora-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/app.css?v=321f00c8">
+<link rel="stylesheet" href="/assets/app.css?v=e4ed33a6">
 <script type="importmap">{"imports":{"three":"/assets/vendor/three.module.min.js","three/addons/":"/assets/vendor/addons/"}}</script>
 <link rel="modulepreload" href="/assets/vendor/three.module.min.js">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PayPilot","url":"https://paypilot.fastapi.online/","logo":"https://paypilot.fastapi.online/assets/img/apple-touch-icon.png","parentOrganization":{"@type":"Organization","name":"MCCPS — Merchant Credit Card Processing Services","url":"https://www.mccp.services/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"PayPilot","url":"https://paypilot.fastapi.online/"}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"PayPilot POS","applicationCategory":"BusinessApplication","operatingSystem":"iOS, Android, Web","description":"Point of sale, card processing, online payments and person-to-person wallet in one platform.","publisher":{"@type":"Organization","name":"PayPilot"}}</script>
 </head>
 <body><svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
 <defs><linearGradient id="pp-g" x1="40" y1="60" x2="96" y2="6" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#E879F9"/></linearGradient></defs>
@@ -64,6 +67,7 @@
     <a href="/hardware/" data-nav="hardware">Hardware</a>
     <a href="/online/" data-nav="online">Online</a>
     <a href="/pricing/" data-nav="pricing">Pricing</a>
+    <a href="/blog/" data-nav="blog">Blog</a>
   </nav>
   <div class="nav__cta">
     <a class="btn btn--glass btn--sm" href="tel:+18448266227">Talk to sales</a>
@@ -72,7 +76,7 @@
   </div>
 </header>
 <div class="sheet" aria-label="Menu">
-  <a href="/pos/">POS</a><a href="/wallet/">Wallet</a><a href="/hardware/">Hardware</a><a href="/online/">Online</a><a href="/pricing/">Pricing</a>
+  <a href="/pos/">POS</a><a href="/wallet/">Wallet</a><a href="/hardware/">Hardware</a><a href="/online/">Online</a><a href="/pricing/">Pricing</a><a href="/blog/">Blog</a>
   <a class="btn btn--primary btn--lg" href="/get-started/">Get started</a>
 </div>
 <main id="main"><section class="hero" aria-labelledby="h-title">
@@ -267,6 +271,11 @@
   </div>
 </section>
 
+<section class="sec" aria-labelledby="blog-t" style="padding-top:0">
+  <div class="wrap"><div class="row-head rv"><div><span class="kicker">From the blog</span><h2 class="h2" id="blog-t" style="margin-top:16px">Money moves, <span class="grad">explained.</span></h2></div><a class="link" href="/blog/">All 100 articles <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+  <div class="bgrid rv"><a class="bcard glass" href="/blog/how-instant-money-transfers-work/" data-topic="money"><span class="bcard__art" style="background:linear-gradient(135deg,#8B5CF6,#E879F9)"><svg class="icon" aria-hidden="true"><use href="#i-send"/></svg><em>Send & receive</em></span><span class="bcard__body"><h3>How Instant Money Transfers Actually Work</h3><p>Behind every tap on Send is either a quick bookkeeping entry or a slower relay between institutions. Knowing which one you are using explains the wait.</p><small>6 min read</small></span></a><a class="bcard glass" href="/blog/splitting-bills-with-friends/" data-topic="money"><span class="bcard__art" style="background:linear-gradient(135deg,#8B5CF6,#E879F9)"><svg class="icon" aria-hidden="true"><use href="#i-send"/></svg><em>Send & receive</em></span><span class="bcard__body"><h3>The Painless Guide to Splitting Bills With Friends</h3><p>Most group-dinner friction comes from vague math and slow follow-up. A little structure fixes both without making anyone feel like an accountant.</p><small>6 min read</small></span></a><a class="bcard glass" href="/blog/paying-your-roommates-rent-share/" data-topic="money"><span class="bcard__art" style="background:linear-gradient(135deg,#8B5CF6,#E879F9)"><svg class="icon" aria-hidden="true"><use href="#i-send"/></svg><em>Send & receive</em></span><span class="bcard__body"><h3>Paying Your Share of Rent Through an App</h3><p>Shared rent works best when one person collects, everyone pays on the same day, and the paper trail takes care of itself.</p><small>6 min read</small></span></a></div></div>
+</section>
+
 <section class="final" aria-labelledby="f-t">
   <canvas class="stage" data-scene="ambient" data-card aria-hidden="true"></canvas>
   <div class="wrap final__inner">
@@ -285,6 +294,7 @@
       </div>
       <div><h4>Products</h4><ul><li><a href="/pos/">Point of sale</a></li><li><a href="/wallet/">PayPilot Wallet</a></li><li><a href="/online/">Online payments</a></li><li><a href="/hardware/">Hardware</a></li></ul></div>
       <div><h4>Business</h4><ul><li><a href="/pos/#restaurants">Restaurants</a></li><li><a href="/pos/#retail">Retail</a></li><li><a href="/pos/#services">Services</a></li><li><a href="/pricing/">Pricing</a></li></ul></div>
+      <div><h4>Learn</h4><ul><li><a href="/blog/">Blog</a></li><li><a href="/blog/#money">Sending money</a></li><li><a href="/blog/#cards">Card payments</a></li><li><a href="/blog/#pos">Point of sale</a></li><li><a href="/blog/feed.xml">RSS</a></li></ul></div>
       <div><h4>Company</h4><ul><li><a href="https://mccps.fastapi.online/about/">About MCCPS</a></li><li><a href="https://mccps.fastapi.online/agents/">Partner with us</a></li><li><a href="/get-started/">Contact sales</a></li></ul></div>
       <div><h4>Legal</h4><ul><li><a href="https://mccps.fastapi.online/privacy-policy/">Privacy</a></li><li><a href="https://mccps.fastapi.online/terms-of-use/">Terms</a></li></ul></div>
     </div>
@@ -294,4 +304,4 @@
   </div>
 </footer>
 <div class="toast" id="toast" role="status"></div>
-<script src="/assets/app.js?v=321f00c8" defer></script><script type="module" src="/assets/scenes.js?v=321f00c8"></script></body></html>
+<script src="/assets/app.js?v=e4ed33a6" defer></script><script type="module" src="/assets/scenes.js?v=e4ed33a6"></script></body></html>

@@ -1,0 +1,128 @@
+{
+  "slug": "pos-for-retail-boutiques",
+  "topic": "pos",
+  "title": "POS Setup for a Retail Boutique",
+  "seo_title": "POS Setup for a Retail Boutique | PayPilot",
+  "meta_description": "Sizes, colors, barcodes and returns make boutique retail unique. Learn how to set up a POS with variants, labels, stock counts and a smooth returns flow.",
+  "primary_keyword": "boutique POS system",
+  "keywords": [
+    "retail POS setup",
+    "product variants",
+    "barcode labels",
+    "retail returns",
+    "boutique inventory",
+    "clothing store POS",
+    "gift cards for retail"
+  ],
+  "eyebrow": "Retail",
+  "dek": "One dress in four sizes and three colors is twelve products to a stockroom and one product to a customer. A good POS handles both views.",
+  "intro": [
+    "A boutique looks effortless from the outside. Inside, the owner juggles hundreds of items that differ by size, color, and season, many of which arrive in small quantities and will never be reordered. A spreadsheet can track that for a while, and then it cannot.",
+    "A point-of-sale system built around variants fixes the mismatch between how shoppers think and how stockrooms work. The shopper sees a single dress. The system tracks the medium in sage separately from the large in black.",
+    "Setting it up well takes a weekend, and the payoff comes every day afterward. Here is a step-by-step approach for a small retailer, from the first product record to the first return."
+  ],
+  "sections": [
+    {
+      "h2": "Build the catalog around variants",
+      "paragraphs": [
+        "Create each style once, then attach options for size and color. The system generates the individual combinations and tracks stock for each. When a customer asks whether you have the medium in navy, you answer from the screen instead of the stockroom.",
+        "Name things consistently. Decide on 'Small' versus 'S' and stick to it, so reports group correctly. A tidy catalog saves hours later when you filter by brand, season, or vendor to decide what to reorder.",
+        "Seasonality shapes how you set up variants. Winter coats and summer sandals need different size runs, and a style may come in as few as two sizes. Do not create variants you will never stock, because empty combinations clutter the screen and tempt staff to promise items you do not have."
+      ]
+    },
+    {
+      "h2": "Labels, barcodes, and scanning",
+      "paragraphs": [
+        "A barcode on every tag turns checkout into a scan and a tap. Many systems print labels directly, or you can use the manufacturer's codes when they exist. Scanning avoids typos and keeps lines moving during a weekend rush.",
+        "Choose label sizes that survive handling, and place them where a scanner can read them without unfolding the garment. Test a few scans on different surfaces before printing the whole batch."
+      ],
+      "steps": [
+        "Enter new items with style, variants, cost, and price",
+        "Print labels from the system for each variant",
+        "Attach tags consistently, such as at the left seam or hang tag",
+        "Scan a sample at the register to confirm each code finds the right item",
+        "Count the stock on hand and enter it as your starting quantities"
+      ]
+    },
+    {
+      "h2": "Counting stock without losing weekends",
+      "paragraphs": [
+        "A full inventory count is a big job, so do the first one carefully and then switch to rolling counts. Check one category per week, such as tops one week and accessories the next, and correct the system as you go.",
+        "Small differences are normal. What matters is spotting patterns: a certain item that keeps showing as missing, or a vendor whose deliveries are regularly short. Our guide to simple inventory counts goes deeper on the routine."
+      ]
+    },
+    {
+      "h2": "Returns and exchanges",
+      "paragraphs": [
+        "Returns are a fact of fashion retail, and a clean process protects both the customer's experience and your books. Link every return to the original sale when you can, so the refund goes to the same card and the stock goes back on the shelf in the right size.",
+        "Post your policy where customers can see it before they buy, and print the key terms on the receipt. Staff should handle exchanges the same way each time: scan the returned item, scan the new item, and settle the difference. Our guide to refund policies covers wording that prevents disputes.",
+        "Visual merchandising can feed the POS too. If a window display features a specific outfit, create a bundle price in the system so staff can sell the look with one scan. Tracking the bundle in reports tells you whether the window is doing its job and which pieces customers tend to buy together."
+      ],
+      "bullets": [
+        "Find the original sale by receipt, card, or customer record",
+        "Check condition and timing against your policy",
+        "Refund to the original card or issue store credit as stated",
+        "Return the item to stock, or flag it as damaged",
+        "Note the reason, since patterns reveal sizing or quality problems"
+      ]
+    },
+    {
+      "h2": "Gift cards, loyalty, and customer records",
+      "paragraphs": [
+        "Boutiques depend on repeat customers. Capturing a phone number or email at checkout, with the customer's agreement, lets you see what each person buys and tell them when something they might like arrives. A simple loyalty reward, such as a discount after a set number of visits, keeps people coming back.",
+        "Gift cards bring in new customers and cash upfront. Treat their rules carefully, because laws on expiration and unused balances differ by place. A PayPilot POS can sell and redeem gift cards at the same register that handles card payments."
+      ]
+    },
+    {
+      "h2": "Reports that guide buying",
+      "paragraphs": [
+        "The most valuable boutique reports show sell-through, meaning what share of an item's stock has sold. A style that sells out in two weeks deserves a reorder, while one that sits for months may need a markdown.",
+        "Look at sales by size too. If the smalls vanish and the extra-larges linger, your next buy should reflect that. Reports also show your best hours and days, helping you schedule staff for the times when customers actually shop."
+      ]
+    },
+    {
+      "h2": "Hardware for a small floor",
+      "paragraphs": [
+        "A typical boutique counter works well with a countertop Terminal, a barcode scanner, and a receipt printer. For sidewalk sales or pop-ups, a handheld Go or a pocket Reader lets you carry the register outside.",
+        "Keep a spare charger and a backup payment method in a drawer. Even a well-run shop has an off day, and being able to take a payment link or handheld tap beats losing a sale to a dead battery."
+      ]
+    }
+  ],
+  "key_takeaways": [
+    "Model each style once with size and color variants so stock stays accurate.",
+    "Barcode labels speed up checkout and reduce typing mistakes.",
+    "Use rolling inventory counts instead of annual marathons.",
+    "Link returns to the original sale and track reasons for patterns."
+  ],
+  "faq": [
+    {
+      "q": "How many products can a boutique POS handle?",
+      "a": "Limits depend on the specific system, but most are designed for catalogs far larger than a typical boutique carries. The real challenge is keeping records organized. Use consistent naming for sizes and colors, and ask your provider about any limits on variants per item."
+    },
+    {
+      "q": "Do I have to use barcodes?",
+      "a": "No, but they help. You can search for items by name at checkout, which works for tiny catalogs. As inventory grows, scanning saves time and prevents mistakes. Many systems can print labels for you, so the setup cost is mainly an afternoon of tagging."
+    },
+    {
+      "q": "How do I handle sales and markdowns?",
+      "a": "Create discounts in the system and apply them by item, category, or event. Schedule start and end dates where supported so the price returns to normal automatically. Keep your sale policy for returns clear, since many shops treat sale items differently."
+    },
+    {
+      "q": "Can I sell in the shop and online with the same inventory?",
+      "a": "Many systems connect in-store and online stock so that one sale reduces both counts. Ask how syncing works for your setup and how quickly it updates. Without it, you risk selling the same last item twice. Test the process on a handful of items before rolling it out."
+    },
+    {
+      "q": "What should I do about shrinkage?",
+      "a": "Start by counting regularly and comparing the results with the system. Use individual sign-ins to trace voids and discounts, and look for patterns by item or time. Small differences are normal, but repeated gaps in the same category are worth investigating."
+    }
+  ],
+  "related": [
+    "inventory-counts-made-simple",
+    "refund-policies-that-reduce-disputes",
+    "gift-cards-for-small-business",
+    "loyalty-programs-that-work",
+    "pos-hardware-checklist"
+  ],
+  "icon": "store",
+  "read_minutes": 7
+}
