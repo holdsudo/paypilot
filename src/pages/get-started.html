@@ -1,0 +1,27 @@
+<!--{"title":"Get started with PayPilot","desc":"Tell us about your business and a PayPilot specialist will set you up — POS, hardware, online payments and the Zero program.","nav":""}-->
+<section class="phero" style="padding-bottom:40px"><canvas class="stage" data-scene="ambient" aria-hidden="true"></canvas><div class="hero__veil"></div><div class="wrap"><div class="phero__copy"><span class="kicker fade">Get started</span><h1 class="h1 fade d1" style="margin-top:20px">Ready for <span class="grad">takeoff.</span></h1><p class="lede fade d2">Three quick steps and a PayPilot specialist will build your setup. Prefer to talk? Call 844.826.6227 — 24/7.</p></div></div></section>
+<section class="sec" style="padding-top:20px"><div class="wrap" style="max-width:820px">
+<form class="glass" data-wizard style="padding:clamp(24px,4vw,44px);border-radius:var(--r-xl)" novalidate>
+<div class="steps-bar"><i></i><i></i><i></i></div>
+<div class="fstep"><h2 class="h3">What do you sell?</h2><div class="opts">
+<label class="opt"><input type="radio" name="type" value="restaurant" required><span>🍽️ Restaurant or bar<small>Tables, tabs, tips</small></span></label>
+<label class="opt"><input type="radio" name="type" value="retail"><span>🛍️ Retail<small>Inventory &amp; barcodes</small></span></label>
+<label class="opt"><input type="radio" name="type" value="services"><span>💈 Services<small>Appointments &amp; deposits</small></span></label>
+<label class="opt"><input type="radio" name="type" value="online"><span>🌐 Online<small>Checkout &amp; links</small></span></label>
+<label class="opt"><input type="radio" name="type" value="mobile"><span>🚚 On the go<small>Markets &amp; field</small></span></label>
+<label class="opt"><input type="radio" name="type" value="other"><span>✨ Something else<small>Tell us more</small></span></label></div>
+<button class="btn btn--primary btn--lg" type="button" data-next>Continue {{i:arrow}}</button></div>
+<div class="fstep"><h2 class="h3">What do you need?</h2><div class="opts">
+<label class="opt"><input type="checkbox" name="need" value="pos"><span>POS software</span></label><label class="opt"><input type="checkbox" name="need" value="hardware"><span>Hardware</span></label><label class="opt"><input type="checkbox" name="need" value="online"><span>Online payments</span></label><label class="opt"><input type="checkbox" name="need" value="wallet"><span>PayPilot Wallet</span></label><label class="opt"><input type="checkbox" name="need" value="zero"><span>Zero program</span></label><label class="opt"><input type="checkbox" name="need" value="switch"><span>Switch processors</span></label></div>
+<div class="field"><label for="g-vol">Monthly card sales (estimate)</label><select class="sel" id="g-vol"><option>Just starting</option><option>Under $10,000</option><option>$10,000 – $50,000</option><option>$50,000 – $250,000</option><option>$250,000+</option></select></div>
+<div style="display:flex;gap:10px"><button class="btn btn--glass btn--lg" type="button" data-back>Back</button><button class="btn btn--primary btn--lg" type="button" data-next>Continue {{i:arrow}}</button></div></div>
+<div class="fstep"><h2 class="h3">Where should we reach you?</h2>
+<div class="field"><label for="g-name">Full name</label><input class="in-put" id="g-name" required autocomplete="name"></div>
+<div class="field"><label for="g-biz">Business name</label><input class="in-put" id="g-biz" required autocomplete="organization"></div>
+<div class="field"><label for="g-email">Email</label><input class="in-put" id="g-email" type="email" required autocomplete="email"></div>
+<div class="field"><label for="g-phone">Phone</label><input class="in-put" id="g-phone" type="tel" required autocomplete="tel"></div>
+<p class="muted" style="font-size:13px">By submitting you agree to be contacted about PayPilot. See the <a class="link" href="https://mccps.fastapi.online/privacy-policy/">Privacy Policy</a>.</p>
+<div style="display:flex;gap:10px"><button class="btn btn--glass btn--lg" type="button" data-back>Back</button><button class="btn btn--primary btn--lg" type="submit">Send {{i:send}}</button></div></div>
+</form>
+<div class="glass done" id="gs-done" hidden style="border-radius:var(--r-xl);padding:50px 30px"><div class="tapbox"><div class="ok"><svg class="icon"><use href="#i-check"/></svg></div><h3>You’re cleared for takeoff.</h3><p>A PayPilot specialist will reach out shortly. Need us now? Call 844.826.6227.</p></div><a class="btn btn--primary btn--lg" href="/" style="margin-top:26px">Back home</a></div>
+</div></section>
