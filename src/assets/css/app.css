@@ -433,3 +433,13 @@ p{margin:0}ul{margin:0;padding:0;list-style:none}
 .hubsearch{display:flex;align-items:center;gap:10px;height:44px;padding:0 16px;border-radius:999px;min-width:min(320px,100%)}
 .hubsearch input{background:none;border:0;outline:0;flex:1;min-width:0;font-size:15px}
 [hidden]{display:none!important}
+/* hero: centred and full width */
+.hero .wrap{max-width:none}
+.hero__copy{max-width:none;text-align:center;margin-inline:auto}
+.hero .mega,.hero .mega{font-size:clamp(46px,min(12.6vw,18svh),230px);letter-spacing:-.06em}
+.hero .lede{max-width:760px;margin-inline:auto}
+.hero__ctas,.methods{justify-content:center}
+.hero__veil{background:radial-gradient(55% 50% at 50% 55%,rgba(6,5,13,.72),transparent 78%),linear-gradient(180deg,transparent 70%,var(--bg))}
+.hero__hint{display:none}
+@media (max-width:900px){.hero__veil{background:radial-gradient(90% 60% at 50% 45%,rgba(6,5,13,.6),transparent 80%),linear-gradient(180deg,transparent 70%,var(--bg))}}
+.hero .lede{text-shadow:0 1px 18px rgba(6,5,13,.95),0 0 4px rgba(6,5,13,.9)}

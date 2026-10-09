@@ -329,7 +329,7 @@ function hero(canvas) {
   const s = boot(canvas, { bloom: .62, exposure: 1.1, threshold: .93 }); if (!s) return;
   const { scene, camera } = s; camera.position.set(0, 0, 11);
   const p = pointer();
-  const gal = galaxy(MOBILE ? 5000 : 14000, 14); gal.rotation.x = .38; gal.position.set(2.5, -1.2, -6); scene.add(gal);
+  const gal = galaxy(MOBILE ? 5000 : 14000, 14); gal.rotation.x = .38; gal.position.set(0, -1.2, -6); scene.add(gal);
   const rib = new THREE.Group(); scene.add(rib);
   [[VIOLET, 2.6, 0], [MAGENTA, 3.0, 1.2], [CYAN, 3.4, 2.4]].forEach(([c, r, ph]) => {
     const pts = []; for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2; pts.push(new THREE.Vector3(Math.cos(a) * r, Math.sin(a * 2 + ph) * .5, Math.sin(a) * r * .55)); }
@@ -337,9 +337,8 @@ function hero(canvas) {
   });
   const place = (w, h = canvas.clientHeight) => {
     const narrow = w < 900, half = Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.position.z;
-    const y = narrow ? (1 - 2 * 205 / Math.max(h, 1)) * half : .1;
-    rib.position.set(narrow ? 0 : 2.6, y, 0);
-    rib.scale.setScalar(narrow ? Math.min(.54, w / 700) : 1);
+    rib.position.set(0, narrow ? .4 : .3, -4);
+    rib.scale.setScalar(narrow ? .75 : Math.min(1.7, w / 860));
   };
   s.onResize = place; place(canvas.clientWidth);
   const host = canvas.closest('section');
