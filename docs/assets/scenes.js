@@ -17,7 +17,7 @@ const span = (p, a, b) => clamp((p - a) / (b - a));
 const VIOLET = 0x8b5cf6, LILAC = 0xc4b5fd, MAGENTA = 0xe879f9, CYAN = 0x67e8f9;
 
 // ---------- shared plumbing ----------
-function boot(canvas, { bloom = 0, exposure = 1.1, envIntensity = 1 } = {}) {
+function boot(canvas, { bloom = 0, exposure = 1.1, envIntensity = 1, threshold = 0.72 } = {}) {
   let renderer;
   try { renderer = new THREE.WebGLRenderer({ canvas, antialias: !bloom, alpha: true, powerPreference: 'high-performance' }); }
   catch { canvas.closest('[data-scene-host]')?.classList.add('no-webgl'); return null; }
@@ -37,7 +37,7 @@ function boot(canvas, { bloom = 0, exposure = 1.1, envIntensity = 1 } = {}) {
     renderer.setClearColor(0x06050d, 1);
     composer = new EffectComposer(renderer);
     composer.addPass(new RenderPass(scene, camera));
-    bloomPass = new UnrealBloomPass(new THREE.Vector2(1, 1), bloom, 0.6, 0.72);
+    bloomPass = new UnrealBloomPass(new THREE.Vector2(1, 1), bloom, 0.6, threshold);
     composer.addPass(bloomPass);
     composer.addPass(new OutputPass());
   }
@@ -88,37 +88,79 @@ function logoMark(g, x, y, s, color = '#fff') {
   g.beginPath(); g.moveTo(66, 9); g.lineTo(91, 9); g.lineTo(91, 34); g.stroke();
   g.restore();
 }
-function cardFace(front) {
-  return tex(1024, 646, (g, w, h) => {
-    const bg = g.createLinearGradient(0, 0, w, h);
-    bg.addColorStop(0, '#2A1A5E'); bg.addColorStop(.45, '#1A1240'); bg.addColorStop(1, '#0D0A22');
-    g.fillStyle = bg; g.fillRect(0, 0, w, h);
-    const glow = g.createRadialGradient(w * .85, h * .1, 10, w * .85, h * .1, w * .7);
-    glow.addColorStop(0, 'rgba(232,121,249,.55)'); glow.addColorStop(.5, 'rgba(139,92,246,.18)'); glow.addColorStop(1, 'rgba(0,0,0,0)');
-    g.fillStyle = glow; g.fillRect(0, 0, w, h);
-    g.strokeStyle = 'rgba(196,181,253,.10)'; g.lineWidth = 2;
-    for (let i = -h; i < w; i += 34) { g.beginPath(); g.moveTo(i, h); g.lineTo(i + h * .6, 0); g.stroke(); }
-    if (front) {
-      logoMark(g, 70, 54, 92);
-      g.fillStyle = '#fff'; g.font = '600 64px Sora, Inter, sans-serif'; g.fillText('PayPilot', 176, 128);
-      const chip = g.createLinearGradient(80, 250, 230, 360); chip.addColorStop(0, '#F6E7B3'); chip.addColorStop(.5, '#C9A64B'); chip.addColorStop(1, '#F2D98A');
-      g.fillStyle = chip; rr(g, 80, 250, 150, 112, 18); g.fill();
-      g.strokeStyle = 'rgba(80,60,10,.45)'; g.lineWidth = 3;
-      [[80, 288, 230, 288], [80, 324, 230, 324], [140, 250, 140, 362], [170, 250, 170, 362]].forEach(([a, b, c, d]) => { g.beginPath(); g.moveTo(a, b); g.lineTo(c, d); g.stroke(); });
-      g.strokeStyle = 'rgba(255,255,255,.85)'; g.lineWidth = 7; g.lineCap = 'round';
-      for (let i = 0; i < 4; i++) { g.beginPath(); g.arc(280, 306, 18 + i * 16, -0.9, 0.9); g.stroke(); }
-      g.fillStyle = 'rgba(255,255,255,.9)'; g.font = '500 46px "SF Mono", Menlo, monospace';
-      g.fillText('••••  ••••  ••••  4242', 80, 480);
-      g.fillStyle = 'rgba(255,255,255,.55)'; g.font = '500 26px Inter, sans-serif'; g.fillText('BUSINESS', 80, 566);
-      g.fillStyle = 'rgba(255,255,255,.9)'; g.font = '600 30px Inter, sans-serif'; g.fillText('PILOT  MERCHANT', 80, 604);
-      g.fillStyle = '#fff'; g.font = 'italic 700 56px Inter, sans-serif'; g.textAlign = 'right'; g.fillText('VISA', w - 70, h - 56);
+// Card artwork is drawn three times from one layout: colour, roughness/metalness (G/B channels, as three.js reads them)
+// and a bump map, so printed ink, embossed digits, the satin laminate and the mag stripe each catch light differently.
+const CARD_PX = MOBILE ? 1024 : 2048;
+function cardLayer(side, mode) {
+  return tex(CARD_PX, Math.round(CARD_PX / 1.586), (g, w, h) => {
+    g.save(); g.scale(w / 1024, w / 1024);
+    const W = 1024, H = 1024 / 1.586;
+    const orm = (r, m) => `rgb(0,${Math.round(r * 255)},${Math.round(m * 255)})`;
+    const C = mode === 'color', B = mode === 'bump';
+    const ink = (col, r = .72, m = 0, raise = 0) => C ? col : B ? (raise ? `rgb(${128 + raise},${128 + raise},${128 + raise})` : 'rgb(128,128,128)') : orm(r, m);
+    // base
+    if (C) {
+      const bg = g.createLinearGradient(0, 0, W, H);
+      bg.addColorStop(0, '#3B2585'); bg.addColorStop(.5, '#22165A'); bg.addColorStop(1, '#120C33');
+      g.fillStyle = bg; g.fillRect(0, 0, W, H);
+      const glow = g.createRadialGradient(W * .82, H * .08, 10, W * .82, H * .08, W * .75);
+      glow.addColorStop(0, 'rgba(232,121,249,.42)'); glow.addColorStop(.55, 'rgba(139,92,246,.12)'); glow.addColorStop(1, 'rgba(0,0,0,0)');
+      g.fillStyle = glow; g.fillRect(0, 0, W, H);
+      // fine guilloche waves, the security-print texture real cards carry
+      g.lineWidth = .9;
+      for (let k = 0; k < 46; k++) {
+        g.strokeStyle = `rgba(196,181,253,${.035 + (k % 5 === 0 ? .03 : 0)})`; g.beginPath();
+        for (let x = 0; x <= W; x += 8) { const y = H * .25 + k * 9 + Math.sin(x / 70 + k * .35) * 22 + Math.sin(x / 23 + k) * 3; x ? g.lineTo(x, y) : g.moveTo(x, y); }
+        g.stroke();
+      }
+    } else if (B) {
+      g.fillStyle = 'rgb(128,128,128)'; g.fillRect(0, 0, W, H);
+      for (let i = 0; i < 5200; i++) { const v = 120 + Math.random() * 16 | 0; g.fillStyle = `rgb(${v},${v},${v})`; g.fillRect(Math.random() * W, Math.random() * H, 1.2, 1.2); }
+    } else { g.fillStyle = orm(.42, .55); g.fillRect(0, 0, W, H); }
+
+    if (side === 'front') {
+      // logo + wordmark
+      if (C) logoMark(g, 64, 48, 78, '#D6D2E6'); else { g.fillStyle = ink(); g.fillRect(64, 70, 70, 50); }
+      g.fillStyle = ink('#D6D2E6'); g.font = '600 54px Sora, Inter, sans-serif'; g.fillText('PayPilot', 156, 112);
+      g.textAlign = 'right'; g.fillStyle = ink('rgba(237,233,254,.72)'); g.font = '600 22px Inter, sans-serif'; g.fillText('B U S I N E S S', W - 64, 100); g.textAlign = 'left';
+      // recess around the chip
+      if (C) { g.fillStyle = 'rgba(0,0,0,.28)'; rr(g, 138, 223, 152, 128, 18); g.fill(); }
+      if (B) { g.fillStyle = 'rgb(112,112,112)'; rr(g, 138, 223, 152, 128, 18); g.fill(); }
+      // contactless
+      g.strokeStyle = ink('rgba(214,210,230,.85)'); g.lineWidth = 6; g.lineCap = 'round';
+      for (let i = 0; i < 4; i++) { g.beginPath(); g.arc(318, 287, 12 + i * 13, -0.95, 0.95); g.stroke(); }
+      // embossed number, expiry and name — silver tipping on raised characters
+      const emb = (txt, x, y, font) => {
+        g.font = font;
+        if (C) { g.fillStyle = 'rgba(0,0,0,.45)'; g.fillText(txt, x + 2, y + 3); const t = g.createLinearGradient(0, y - 40, 0, y + 4); t.addColorStop(0, '#E2DEEE'); t.addColorStop(.55, '#C4BFD6'); t.addColorStop(1, '#9C95B5'); g.fillStyle = t; }
+        else g.fillStyle = B ? 'rgb(196,196,196)' : orm(.45, .35);
+        g.fillText(txt, x, y);
+        if (B) { g.filter = 'blur(2px)'; g.fillText(txt, x, y); g.filter = 'none'; }
+      };
+      emb('4242  4242  4242  4242', 76, 446, '600 54px "OCR A Std", "SF Mono", Menlo, monospace');
+      g.fillStyle = ink('rgba(237,233,254,.6)'); g.font = '600 13px Inter, sans-serif'; g.fillText('VALID', 392, 488); g.fillText('THRU', 392, 504);
+      emb('12/29', 442, 506, '600 34px "SF Mono", Menlo, monospace');
+      emb('PILOT MERCHANT', 76, 576, '600 34px "SF Mono", Menlo, monospace');
+      g.textAlign = 'right'; g.fillStyle = ink('#D6D2E6', .5, .2); g.font = 'italic 800 64px Inter, sans-serif'; g.fillText('VISA', W - 62, H - 52);
     } else {
-      g.fillStyle = '#05040C'; g.fillRect(0, 70, w, 120);
-      g.fillStyle = 'rgba(255,255,255,.85)'; rr(g, 70, 250, 560, 80, 8); g.fill();
-      g.fillStyle = '#333'; g.font = 'italic 500 34px Inter'; g.fillText('Authorized signature', 90, 302);
-      logoMark(g, w - 210, h - 200, 130, 'rgba(255,255,255,.9)');
-      g.fillStyle = 'rgba(255,255,255,.5)'; g.font = '500 24px Inter'; g.fillText('Payments, piloted.', 70, h - 70);
+      // mag stripe: glossy, faintly metallic
+      g.fillStyle = C ? '#0B0A10' : B ? 'rgb(128,128,128)' : orm(.22, .35); g.fillRect(0, 66, W, 152);
+      if (C) { const s = g.createLinearGradient(0, 66, 0, 218); s.addColorStop(0, 'rgba(255,255,255,.06)'); s.addColorStop(.5, 'rgba(255,255,255,0)'); s.addColorStop(1, 'rgba(255,255,255,.04)'); g.fillStyle = s; g.fillRect(0, 66, W, 152); }
+      // signature panel with its tamper pattern
+      g.fillStyle = C ? '#F3F0FA' : B ? 'rgb(132,132,132)' : orm(.85, 0); g.fillRect(64, 262, 600, 82);
+      if (C) {
+        g.save(); g.beginPath(); g.rect(64, 262, 600, 82); g.clip();
+        g.strokeStyle = 'rgba(124,58,237,.16)'; g.lineWidth = 2;
+        for (let x = 40; x < 700; x += 14) { g.beginPath(); g.moveTo(x, 262); g.lineTo(x + 40, 344); g.stroke(); }
+        g.restore();
+        g.fillStyle = '#2A2440'; g.font = 'italic 600 30px "SF Mono", Menlo, monospace'; g.fillText('4242   123', 450, 314);
+        g.fillStyle = 'rgba(243,240,250,.6)'; g.font = '500 14px Inter, sans-serif'; g.fillText('AUTHORIZED SIGNATURE — NOT VALID UNLESS SIGNED', 64, 368);
+      }
+      g.fillStyle = ink('rgba(237,233,254,.55)'); g.font = '500 15px Inter, sans-serif';
+      ['Demonstration card for illustration only. Not linked to any account.', 'PayPilot by MCCPS · Payments, piloted.'].forEach((l, i) => g.fillText(l, 64, H - 120 + i * 24));
+      if (C) logoMark(g, W - 170, H - 150, 96, 'rgba(214,210,230,.8)');
     }
+    g.restore();
   });
 }
 function screenTex() {
@@ -182,18 +224,61 @@ function uiTex(kind) {
 
 // ---------- reusable models ----------
 const matte = (color = 0x111018, rough = .55) => new THREE.MeshPhysicalMaterial({ color, roughness: rough, metalness: .25, clearcoat: .4, clearcoatRoughness: .5 });
+function chipTex(mode) {
+  return tex(256, 212, (g, w, h) => {
+    const C = mode === 'color';
+    if (C) { const gr = g.createLinearGradient(0, 0, w, h); gr.addColorStop(0, '#F7E7B0'); gr.addColorStop(.35, '#D8B65A'); gr.addColorStop(.7, '#B8913A'); gr.addColorStop(1, '#EED68C'); g.fillStyle = gr; }
+    else g.fillStyle = 'rgb(150,150,150)';
+    g.fillRect(0, 0, w, h);
+    // contact pads separated by etched gaps (ISO 7816 layout)
+    g.strokeStyle = C ? 'rgba(92,66,18,.75)' : 'rgb(60,60,60)'; g.lineWidth = 4; g.lineJoin = 'round';
+    const L = [[0, 70, 92, 70], [0, 142, 92, 142], [164, 70, 256, 70], [164, 142, 256, 142], [92, 0, 92, 212], [164, 0, 164, 212]];
+    L.forEach(([a, b, c, d]) => { g.beginPath(); g.moveTo(a, b); g.lineTo(c, d); g.stroke(); });
+    g.beginPath(); g.moveTo(92, 106); g.lineTo(128, 106); g.lineTo(128, 70); g.moveTo(128, 106); g.lineTo(164, 106); g.moveTo(128, 106); g.lineTo(128, 142); g.stroke();
+    if (C) { g.fillStyle = 'rgba(255,255,255,.18)'; g.fillRect(0, 0, w, 6); }
+  });
+}
+function roundedRectShape(W, H, r) {
+  const s = new THREE.Shape(), x = -W / 2, y = -H / 2;
+  s.moveTo(x + r, y); s.lineTo(x + W - r, y); s.quadraticCurveTo(x + W, y, x + W, y + r);
+  s.lineTo(x + W, y + H - r); s.quadraticCurveTo(x + W, y + H, x + W - r, y + H);
+  s.lineTo(x + r, y + H); s.quadraticCurveTo(x, y + H, x, y + H - r);
+  s.lineTo(x, y + r); s.quadraticCurveTo(x, y, x + r, y);
+  return s;
+}
+function shapeUV(geo, W, H) {
+  const p = geo.attributes.position, uv = geo.attributes.uv;
+  for (let i = 0; i < p.count; i++) uv.setXY(i, p.getX(i) / W + .5, p.getY(i) / H + .5);
+  uv.needsUpdate = true; return geo;
+}
+// ISO/IEC 7810 ID-1: 85.60 × 53.98 × 0.76 mm, 3.18 mm corners — scaled so the card is 3.4 units wide.
 function makeCard() {
   const g = new THREE.Group();
-  const W = 3.4, H = 2.14, D = 0.06;
-  const body = new THREE.Mesh(new RoundedBoxGeometry(W, H, D, 6, 0.16), new THREE.MeshPhysicalMaterial({ color: 0x2a1a5e, metalness: .8, roughness: .25, clearcoat: 1, clearcoatRoughness: .08, iridescence: .7, iridescenceIOR: 1.5, iridescenceThicknessRange: [200, 600] }));
-  g.add(body);
-  const geo = new THREE.PlaneGeometry(W - .08, H - .08);
-  const fm = new THREE.MeshPhysicalMaterial({ map: cardFace(true), roughness: .3, metalness: .35, clearcoat: 1, clearcoatRoughness: .06, iridescence: .35 });
-  const bm = new THREE.MeshPhysicalMaterial({ map: cardFace(false), roughness: .35, metalness: .3, clearcoat: 1 });
-  const f = new THREE.Mesh(geo, fm); f.position.z = D / 2 + .002; g.add(f);
-  const b = new THREE.Mesh(geo, bm); b.position.z = -D / 2 - .002; b.rotation.y = Math.PI; g.add(b);
-  const rim = new THREE.Mesh(new RoundedBoxGeometry(W + .02, H + .02, D * .4, 6, .17), new THREE.MeshBasicMaterial({ color: LILAC, transparent: true, opacity: .35 }));
-  g.add(rim);
+  const mm = 3.4 / 85.6, W = 85.6 * mm, H = 53.98 * mm, D = .76 * mm * 1.6, R = 3.18 * mm;
+  const shape = roundedRectShape(W, H, R);
+  const edge = new THREE.MeshPhysicalMaterial({ color: 0x4a4266, metalness: 1, roughness: .34, envMapIntensity: .6 });
+  const body = new THREE.Mesh(new THREE.ExtrudeGeometry(shape, { depth: D, bevelEnabled: true, bevelThickness: D * .18, bevelSize: D * .18, bevelSegments: 3, curveSegments: 10 }), edge);
+  body.position.z = -D / 2; g.add(body);
+  const face = (side) => {
+    const map = cardLayer(side, 'color'), orm = cardLayer(side, 'orm'), bump = cardLayer(side, 'bump');
+    orm.colorSpace = bump.colorSpace = THREE.NoColorSpace;
+    const m = new THREE.MeshPhysicalMaterial({ map, roughnessMap: orm, metalnessMap: orm, roughness: 1, metalness: 1, bumpMap: bump, bumpScale: 1.4, clearcoat: .4, clearcoatRoughness: .28, envMapIntensity: .85 });
+    document.fonts?.ready.then(() => [map, orm, bump].forEach((t, i) => { const fresh = cardLayer(side, ['color', 'orm', 'bump'][i]); t.image = fresh.image; t.needsUpdate = true; }));
+    const mesh = new THREE.Mesh(shapeUV(new THREE.ShapeGeometry(shape, 10), W, H), m);
+    mesh.position.z = side === 'front' ? D / 2 + D * .18 + .0008 : -D / 2 - D * .18 - .0008;
+    if (side === 'back') mesh.rotation.y = Math.PI;
+    return mesh;
+  };
+  g.add(face('front'), face('back'));
+  // EMV chip: a separate, slightly proud gold part with etched contacts
+  const cMap = chipTex('color'), cBump = chipTex('bump'); cBump.colorSpace = THREE.NoColorSpace;
+  const chip = new THREE.Mesh(new RoundedBoxGeometry(11.8 * mm, 9.9 * mm, .0035, 3, .035),
+    new THREE.MeshPhysicalMaterial({ map: cMap, bumpMap: cBump, bumpScale: 2.5, metalness: 1, roughness: .26, clearcoat: .2 }));
+  const u = 214 / 1024, v = 287 / (1024 / 1.586);
+  chip.position.set((u - .5) * W, (.5 - v) * H, D / 2 + D * .18 + .0016); g.add(chip);
+  // holographic foil patch on the back
+  const holo = new THREE.Mesh(new THREE.PlaneGeometry(15 * mm, 9 * mm), new THREE.MeshPhysicalMaterial({ color: 0xd8d4e8, metalness: 1, roughness: .12, iridescence: 1, iridescenceIOR: 1.8, iridescenceThicknessRange: [120, 900], bumpMap: chipTex('bump'), bumpScale: .8 }));
+  holo.rotation.y = Math.PI; holo.position.set(-((790 / 1024) - .5) * W, (.5 - 305 / (1024 / 1.586)) * H, -D / 2 - D * .18 - .0016); g.add(holo);
   return g;
 }
 function makeTerminal() {
@@ -277,7 +362,7 @@ function burst(n = 260) {
 
 // ---------- 1. Hero ----------
 function hero(canvas) {
-  const s = boot(canvas, { bloom: .62, exposure: 1.1 }); if (!s) return;
+  const s = boot(canvas, { bloom: .62, exposure: 1.1, threshold: .93 }); if (!s) return;
   const { scene, camera } = s; camera.position.set(0, 0, 11);
   const p = pointer();
   const gal = galaxy(MOBILE ? 5000 : 14000, 14); gal.rotation.x = .38; gal.position.set(2.5, -1.2, -6); scene.add(gal);
@@ -287,8 +372,8 @@ function hero(canvas) {
     const pts = []; for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2; pts.push(new THREE.Vector3(Math.cos(a) * r, Math.sin(a * 2 + ph) * .5, Math.sin(a) * r * .55)); }
     const m = ribbon(pts, c, .007 + Math.random() * .006); m.rotation.z = ph * .3; rib.add(m);
   });
-  const key = new THREE.PointLight(MAGENTA, 30, 20); key.position.set(4, 3, 4); scene.add(key);
-  const fill = new THREE.PointLight(CYAN, 18, 20); fill.position.set(-5, -2, 3); scene.add(fill);
+  const key = new THREE.PointLight(MAGENTA, 11, 20); key.position.set(4, 3, 4); scene.add(key);
+  const fill = new THREE.PointLight(CYAN, 8, 20); fill.position.set(-5, -2, 3); scene.add(fill);
   scene.add(new THREE.AmbientLight(0x6b5bd6, .4));
   const place = (w, h = canvas.clientHeight) => {
     const narrow = w < 900, half = Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.position.z;
@@ -314,7 +399,7 @@ function hero(canvas) {
 
 // ---------- 2. Tap story (scroll-driven) ----------
 function tap(canvas) {
-  const s = boot(canvas, { bloom: .7, exposure: 1.1 }); if (!s) return;
+  const s = boot(canvas, { bloom: .7, exposure: 1.1, threshold: .93 }); if (!s) return;
   const { scene, camera } = s; camera.position.set(0, .6, 10.5);
   const term = makeTerminal(); term.rotation.set(-.12, -.35, 0); term.position.set(-.4, -.2, 0); scene.add(term);
   const card = makeCard(); card.scale.setScalar(.62); scene.add(card);
