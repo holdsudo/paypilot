@@ -16,7 +16,7 @@
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
 <link rel="preload" href="/assets/fonts/sora-var.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/app.css?v=96ce4e3e">
+<link rel="stylesheet" href="/assets/app.css?v=f552a828">
 <script type="importmap">{"imports":{"three":"/assets/vendor/three.module.min.js","three/addons/":"/assets/vendor/addons/"}}</script>
 <link rel="modulepreload" href="/assets/vendor/three.module.min.js">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"PayPilot","url":"https://paypilot.fastapi.online/","logo":"https://paypilot.fastapi.online/assets/img/apple-touch-icon.png","parentOrganization":{"@type":"Organization","name":"MCCPS — Merchant Credit Card Processing Services","url":"https://www.mccp.services/"}}</script>
@@ -100,7 +100,9 @@
 <div class="field"><label for="g-biz">Business name</label><input class="in-put" id="g-biz" required autocomplete="organization"></div>
 <div class="field"><label for="g-email">Email</label><input class="in-put" id="g-email" type="email" required autocomplete="email"></div>
 <div class="field"><label for="g-phone">Phone</label><input class="in-put" id="g-phone" type="tel" required autocomplete="tel"></div>
-<p class="muted" style="font-size:13px">By submitting you agree to be contacted about PayPilot. See the <a class="link" href="https://mccps.fastapi.online/privacy-policy/">Privacy Policy</a>.</p>
+<label class="check"><input type="checkbox" name="sms_consent_marketing" value="Yes"><span>By providing a telephone number, checking this box, and submitting the form, you are consenting to be contacted by SMS text message from PayPilot (Merchant Credit Card Processing Services, LLC) regarding new offers (marketing). Message frequency may vary. Message &amp; data rates may apply. Reply STOP to unsubscribe from further messaging from PayPilot. Reply HELP for more information. See our <a class="link" href="/privacy-policy/">Privacy Policy</a> (containing our SMS terms) for more information. Consent is not a condition of any purchase. Consent is provided exclusively for PayPilot / MCCPS; SMS opt-in data is not shared or sold to third parties for promotional or marketing purposes.</span></label>
+<label class="check"><input type="checkbox" name="sms_consent_care" value="Yes"><span>By providing a telephone number, checking this box, and submitting the form, you are consenting to be contacted by SMS text message from PayPilot (Merchant Credit Card Processing Services, LLC) regarding account issues and support inquiries (customer care). Message frequency may vary. Message &amp; data rates may apply. Reply STOP to unsubscribe from further messaging from PayPilot. Reply HELP for more information. See our <a class="link" href="/privacy-policy/">Privacy Policy</a> (containing our SMS terms) for more information. Consent is not a condition of any purchase. Consent is provided exclusively for PayPilot / MCCPS; SMS opt-in data is not shared or sold to third parties for promotional or marketing purposes.</span></label>
+<label class="check"><input type="checkbox" name="agree" value="Yes" required><span>By checking this box and hitting Submit, you agree to PayPilot’s <a class="link" href="/terms-of-use/">Terms of Use</a> and <a class="link" href="/privacy-policy/">Privacy Policy</a>. You may also be contacted by phone or email about your request. Consent to SMS is not required to submit.</span></label>
 <div style="display:flex;gap:10px"><button class="btn btn--glass btn--lg" type="button" data-back>Back</button><button class="btn btn--primary btn--lg" type="submit">Send <svg class="icon" aria-hidden="true"><use href="#i-send"/></svg></button></div></div>
 </form>
 <div class="glass done" id="gs-done" hidden style="border-radius:var(--r-xl);padding:50px 30px"><div class="tapbox"><div class="ok"><svg class="icon"><use href="#i-check"/></svg></div><h3>You’re cleared for takeoff.</h3><p>A PayPilot specialist will reach out shortly. Need us now? Call 844.826.6227.</p></div><a class="btn btn--primary btn--lg" href="/" style="margin-top:26px">Back home</a></div>
@@ -117,7 +119,7 @@
       <div><h4>Business</h4><ul><li><a href="/pos/#restaurants">Restaurants</a></li><li><a href="/pos/#retail">Retail</a></li><li><a href="/pos/#services">Services</a></li><li><a href="/pricing/">Pricing</a></li></ul></div>
       <div><h4>Learn</h4><ul><li><a href="/blog/">Blog</a></li><li><a href="/blog/#money">Sending money</a></li><li><a href="/blog/#cards">Card payments</a></li><li><a href="/blog/#pos">Point of sale</a></li><li><a href="/blog/feed.xml">RSS</a></li></ul></div>
       <div><h4>Company</h4><ul><li><a href="https://mccps.fastapi.online/about/">About MCCPS</a></li><li><a href="https://mccps.fastapi.online/agents/">Partner with us</a></li><li><a href="/get-started/">Contact sales</a></li></ul></div>
-      <div><h4>Legal</h4><ul><li><a href="https://mccps.fastapi.online/privacy-policy/">Privacy</a></li><li><a href="https://mccps.fastapi.online/terms-of-use/">Terms</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="/privacy-policy/">Privacy</a></li><li><a href="/terms-of-use/">Terms</a></li></ul></div>
     </div>
     <div class="foot__legal"><span>© 2026 PayPilot by MCCPS LLC. All rights reserved.</span><span>Made for merchants who move fast.</span></div>
     <p class="foot__fine">PayPilot is a payment platform offered by Merchant Credit Card Processing Services LLC (MCCPS). Card processing is provided through MCCPS and its sponsor-bank relationships. Product features, hardware, wallet functionality and availability are subject to approval, eligibility and applicable law, and may vary. Demonstrations on this site are illustrative and simulated. Pricing and savings depend on your business; dual-pricing and cash-discount programs are subject to card-network rules and state law.</p>
@@ -125,4 +127,4 @@
   </div>
 </footer>
 <div class="toast" id="toast" role="status"></div>
-<script src="/assets/app.js?v=96ce4e3e" defer></script><script type="module" src="/assets/scenes.js?v=96ce4e3e"></script></body></html>
+<script src="/assets/app.js?v=f552a828" defer></script><script type="module" src="/assets/scenes.js?v=f552a828"></script></body></html>

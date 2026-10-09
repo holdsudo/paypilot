@@ -115,7 +115,15 @@ go(Math.min(steps.length - 1, i + 1));
 }
 if (e.target.closest('[data-back]')) go(Math.max(0, i - 1));
 });
-gs.addEventListener('submit', (e) => { e.preventDefault(); gs.hidden = true; $('#gs-done').hidden = false; scrollTo({ top: 0, behavior: 'smooth' }); });
+gs.addEventListener('submit', (e) => {
+e.preventDefault();
+const agree = gs.querySelector('[name="agree"]');
+if (agree && !agree.checked) { agree.focus(); toast('Please agree to the Terms and Privacy Policy'); return; }
+const req = $$('[required]', steps[i]).filter(x => x.type !== 'checkbox');
+const bad = req.find(x => !x.checkValidity());
+if (bad) { bad.focus?.(); toast('Please complete this step'); return; }
+gs.hidden = true; $('#gs-done').hidden = false; scrollTo({ top: 0, behavior: 'smooth' });
+});
 go(0);
 }
 const hub = $('[data-hub]');

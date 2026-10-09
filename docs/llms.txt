@@ -9,6 +9,8 @@
 - [/online/](https://paypilot.fastapi.online/online/)
 - [/pos/](https://paypilot.fastapi.online/pos/)
 - [/pricing/](https://paypilot.fastapi.online/pricing/)
+- [/privacy-policy/](https://paypilot.fastapi.online/privacy-policy/)
+- [/terms-of-use/](https://paypilot.fastapi.online/terms-of-use/)
 - [/wallet/](https://paypilot.fastapi.online/wallet/)
 - [/blog/](https://paypilot.fastapi.online/blog/)
 
