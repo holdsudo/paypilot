@@ -324,58 +324,28 @@ function burst(n = 260) {
   return pts;
 }
 
-// Soft product-shot lighting for the hero card: a dim violet dome and a few strip lights,
-// so reflections read as clean streaks instead of blown-out room panels.
-function studioEnv(renderer) {
-  const env = new THREE.Scene();
-  env.add(new THREE.Mesh(new THREE.SphereGeometry(20, 32, 16), new THREE.ShaderMaterial({
-    side: THREE.BackSide, depthWrite: false,
-    vertexShader: 'varying vec3 vP; void main(){ vP = normalize(position); gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }',
-    fragmentShader: 'varying vec3 vP; void main(){ float t = vP.y * .5 + .5; gl_FragColor = vec4(mix(vec3(.02,.015,.05), vec3(.16,.11,.3), t), 1.); }',
-  })));
-  const strip = (w, h, x, y, z, color, k) => {
-    const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ color: new THREE.Color(color).multiplyScalar(k), side: THREE.DoubleSide }));
-    m.position.set(x, y, z); m.lookAt(0, 0, 0); env.add(m);
-  };
-  strip(14, 1.4, -4, 7, 8, 0xffffff, 4);
-  strip(1.2, 10, 9, 1, 5, 0xf0d9ff, 3);
-  strip(8, 1, -6, -5, 6, 0x9ee9ff, 1.6);
-  strip(6, 6, 0, 2, -12, 0xc4b5fd, 1.2);
-  const pm = new THREE.PMREMGenerator(renderer);
-  const tex = pm.fromScene(env, .03).texture; pm.dispose();
-  return tex;
-}
-
 // ---------- 1. Hero ----------
 function hero(canvas) {
   const s = boot(canvas, { bloom: .62, exposure: 1.1, threshold: .93 }); if (!s) return;
   const { scene, camera } = s; camera.position.set(0, 0, 11);
-  scene.environment = studioEnv(s.renderer); scene.environmentIntensity = 1;
   const p = pointer();
   const gal = galaxy(MOBILE ? 5000 : 14000, 14); gal.rotation.x = .38; gal.position.set(2.5, -1.2, -6); scene.add(gal);
-  const card = makeCard(); scene.add(card);
   const rib = new THREE.Group(); scene.add(rib);
   [[VIOLET, 2.6, 0], [MAGENTA, 3.0, 1.2], [CYAN, 3.4, 2.4]].forEach(([c, r, ph]) => {
     const pts = []; for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2; pts.push(new THREE.Vector3(Math.cos(a) * r, Math.sin(a * 2 + ph) * .5, Math.sin(a) * r * .55)); }
     const m = ribbon(pts, c, .007 + Math.random() * .006); m.rotation.z = ph * .3; rib.add(m);
   });
-  const key = new THREE.PointLight(MAGENTA, 0, 20); key.position.set(4, 3, 4); scene.add(key);
-  const fill = new THREE.PointLight(CYAN, 0, 20); fill.position.set(-5, -2, 3); scene.add(fill);
-  scene.add(new THREE.AmbientLight(0x6b5bd6, .4));
   const place = (w, h = canvas.clientHeight) => {
     const narrow = w < 900, half = Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.position.z;
     const y = narrow ? (1 - 2 * 205 / Math.max(h, 1)) * half : .1;
-    card.position.set(narrow ? 0 : 2.6, y, 0); rib.position.copy(card.position);
-    const k = narrow ? Math.min(.54, w / 700) : 1; card.scale.setScalar(k); rib.scale.setScalar(k);
+    rib.position.set(narrow ? 0 : 2.6, y, 0);
+    rib.scale.setScalar(narrow ? Math.min(.54, w / 700) : 1);
   };
   s.onResize = place; place(canvas.clientWidth);
   const host = canvas.closest('section');
   s.tick = (dt, t) => {
     p.update();
     const sp = clamp(-host.getBoundingClientRect().top / innerHeight);
-    card.rotation.y = -0.45 + p.x * .35 + Math.sin(t * .5) * .12 + sp * 2.4;
-    card.rotation.x = .18 + p.y * .2 + Math.sin(t * .7) * .06 - sp * .4;
-    card.position.y += (Math.sin(t * 1.1) * .002);
     rib.rotation.y = t * .25; rib.children.forEach((m) => m.material.uniforms.uTime.value = t);
     gal.material.uniforms.uTime.value = t; gal.rotation.y = p.x * .08;
     camera.position.x = lerp(camera.position.x, p.x * .5, .05); const narrowCam = canvas.clientWidth < 900;
