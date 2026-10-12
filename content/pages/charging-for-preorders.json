@@ -1,0 +1,129 @@
+{
+ "slug": "charging-for-preorders",
+ "topic": "online",
+ "title": "When to Charge for Pre-Orders and Backorders",
+ "seo_title": "When to Charge for Pre-Orders and Backorders | PayPilot",
+ "meta_description": "Charge in full, authorize now and capture later, or take a deposit? A practical guide to charging for pre-orders, split shipments, slipped dates and refunds.",
+ "primary_keyword": "charging for pre-orders",
+ "keywords": [
+  "pre-order payments",
+  "backorder billing",
+  "when to charge customers for pre-orders",
+  "charge on shipment",
+  "pre-order deposit",
+  "split shipment charges",
+  "pre-order cancellation refund"
+ ],
+ "eyebrow": "Selling ahead",
+ "dek": "Selling something you cannot ship yet raises one awkward question: whose money sits where, and for how long? Here is how to decide.",
+ "intro": [
+  "Your new batch of hand-thrown mugs comes out of the kiln in five weeks. A popular jacket is out of stock in medium, and the restock is somewhere on a container ship. Customers want to lock in their order today, and you want to say yes without turning your bookkeeping into a guessing game.",
+  "Pre-orders and backorders share the same tension. The customer commits now, the product arrives later, and the payment has to bridge that gap in a way that is fair to the buyer and workable for you.",
+  "Below are the three realistic ways to charge, the mechanics that limit each one, and the habits that keep a delayed order from becoming a dispute."
+ ],
+ "sections": [
+  {
+   "h2": "Option one: charge the full price at order time",
+   "paragraphs": [
+    "This is the simplest path. The shopper checks out, the card is charged in full, and the order sits in your queue until stock lands. Cash arrives early, which can help pay the supplier, and there is no second transaction to fail later.",
+    "The cost is responsibility. Once you have taken the money, the customer has paid for something that does not exist yet in their hands, and patience shrinks with every week of silence. Full charge works best when the wait is short, the ship date is firm, and you are confident you can deliver."
+   ]
+  },
+  {
+   "h2": "Option two: authorize now, capture when it ships",
+   "paragraphs": [
+    "Here the card is checked and an amount is reserved at checkout, but the money is only collected when the item actually leaves your building. Customers like this because they are not paying for a box that has not shipped.",
+    "The catch is time. An authorization is a temporary reservation, not a promise that lasts until the goods arrive. It lapses after a window set by the card network, the card type and your business category, and that window is far shorter than a typical manufacturing run. A pre-order that ships in three months cannot rely on an authorization placed on day one. Ask your processor what applies to your account rather than assuming a number.",
+    "If an authorization lapses before shipment, you will need to run a fresh charge on the saved card, and that new attempt can be declined. Authorize-then-capture is a good fit for backorders expected within days, not for products still on the drawing board."
+   ]
+  },
+  {
+   "h2": "Option three: take a deposit, charge the balance later",
+   "paragraphs": [
+    "A middle route is to collect part of the price at checkout and the rest when the item is ready to ship. The deposit secures the customer's spot in line and gives you some working cash. The balance charge comes later, ideally against a card the customer agreed you could store.",
+    "A purely hypothetical example: a small audio maker opens pre-orders for a speaker due in the spring. Buyers pay a portion today, receive an email when units clear quality checks, and the remainder is charged on the stored card two days before the box goes out."
+   ],
+   "bullets": [
+    "Full charge: best for short, certain waits and simple refunds.",
+    "Authorize then capture: best for backorders measured in days.",
+    "Deposit plus balance: best for long lead times or expensive, made-to-order goods.",
+    "Whatever you choose, describe it on the product page in one plain sentence before the buyer pays."
+   ]
+  },
+  {
+   "h2": "Consent for the later charge",
+   "paragraphs": [
+    "Any charge that happens after the customer leaves checkout needs their clear permission first. Tell them, at the moment they pay, that their card will be stored and charged a stated amount when the order ships. A checkbox with that wording, plus the same sentence in the confirmation email, gives both of you a reference point.",
+    "Stored cards should be held as tokens by your payment provider, never written down or kept in a spreadsheet. PayPilot online checkout and invoices can save a card for future charges with the customer's agreement, which keeps the sensitive number off your own systems. Send a heads-up message before the balance or deferred charge runs, so nobody is surprised by a line on their statement weeks after they forgot about the order."
+   ]
+  },
+  {
+   "h2": "Split shipments and charging per box",
+   "paragraphs": [
+    "Mixed carts are common: a customer buys one in-stock item and one on backorder. You can hold the whole order until everything is ready, or ship what you have and send the rest later. The second approach usually keeps people happier.",
+    "When you split, consider charging for each shipment as it leaves rather than charging everything up front. That way the money collected always matches the goods delivered, and a cancellation of the delayed item needs no refund at all. Card networks have expectations about when a merchant may charge for goods not yet sent, and those expectations differ, so confirm the approach with your processor before building it into your workflow."
+   ],
+   "steps": [
+    "Tag each line item as in stock or backordered at checkout.",
+    "Charge or capture only the in-stock portion when the first box ships.",
+    "Email a shipping notice that names the item still pending and its expected date.",
+    "Charge the remaining amount when the second shipment is packed, with a receipt that references the original order."
+   ]
+  },
+  {
+   "h2": "Ship dates, slips and cancellations",
+   "paragraphs": [
+    "The single biggest cause of pre-order friction is an optimistic date. Quote a window rather than a day, pad it for supplier and shipping delays, and say plainly that it is an estimate.",
+    "When the date moves, tell customers before they ask. Explain the new window, the reason in a sentence, and their choices: keep waiting, switch to something in stock, or cancel. If you charged in full, make cancellation easy and refund to the original card promptly. If you only took a deposit, state up front whether it is refundable when the delay is on your side; holding a deposit after you missed your own date is a fast route to a chargeback.",
+    "Consumer rules about delayed shipments and the notice a seller must give can apply depending on where you and your buyers are. If you sell pre-orders regularly, a short conversation with an attorney familiar with ecommerce is worth having."
+   ]
+  },
+  {
+   "h2": "Records that protect you",
+   "paragraphs": [
+    "Treat each pre-order like a small contract. Keep the product page wording as it appeared when the customer bought, the accepted payment terms, the quoted ship window, every delay notice you sent, and the tracking number for each shipment. If a cardholder later says they never received the item or never approved the second charge, that file answers the question.",
+    "Reconcile pre-order money separately from ordinary sales. Funds collected for goods you have not shipped are not quite earned yet, and your accountant may want them tracked that way. If you would like help setting up deposits, stored cards or per-shipment charging, the PayPilot support team can walk through your account settings with you."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Match the charging method to the wait: full charge for short and certain, deposits for long and uncertain.",
+  "Authorizations expire, so they cannot carry a pre-order that ships months later.",
+  "Get explicit consent and send a reminder before any charge made after checkout.",
+  "Charging per shipment keeps collected money in line with delivered goods.",
+  "Announce slipped dates early and offer a no-fuss way to cancel."
+ ],
+ "faq": [
+  {
+   "q": "Is it legal to charge customers before a pre-order ships?",
+   "a": "In many places sellers may charge up front, but card network rules and consumer protection laws shape how and when, especially around delayed shipments and the notices you owe buyers. Requirements vary by location and processor. Confirm the network expectations with your payment provider, and ask an ecommerce attorney about the delivery-notice rules that apply where you sell."
+  },
+  {
+   "q": "Why can't I just authorize the card and capture it months later?",
+   "a": "An authorization is a short-lived reservation on the cardholder's account. It lapses after a period set by the card network and your business type, and that period is much shorter than most production runs. After it lapses, you need a new charge on a stored card, which can be declined. Check the limits for your account with your processor."
+  },
+  {
+   "q": "What happens if the balance charge is declined?",
+   "a": "Pause the shipment and contact the customer right away. Send a payment link so they can pay with another card, and give a clear deadline before their item is released to someone else. Keep the tone helpful; most declines are an expired or replaced card rather than an unwilling buyer."
+  },
+  {
+   "q": "Should a pre-order deposit be refundable?",
+   "a": "That is your policy decision, but it should be stated before purchase. Many sellers make deposits refundable if the delay is their fault and keep them only for customer cancellations close to shipping. Whatever you choose, apply it consistently and check that it fits the consumer rules where you and your customers are located."
+  },
+  {
+   "q": "How do I handle a cart with in-stock and backordered items?",
+   "a": "Ship and charge for the available items first, then charge for the backordered ones when they go out. Tell the customer in the first shipping email what is still coming and roughly when. This keeps payments aligned with deliveries and makes a cancellation of the delayed item simple."
+  }
+ ],
+ "related": [
+  "card-on-file-for-repeat-customers",
+  "refund-policies-that-reduce-disputes",
+  "invoices-that-get-paid-faster",
+  "handling-disputes-calmly",
+  "cash-flow-from-faster-deposits",
+  "payment-links-for-instagram-sellers"
+ ],
+ "icon": "truck",
+ "read_minutes": 7,
+ "published": "2026-10-12"
+}

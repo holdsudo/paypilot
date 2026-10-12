@@ -1,0 +1,130 @@
+{
+ "slug": "cash-drawer-reconciliation",
+ "topic": "pos",
+ "title": "Closing the Cash Drawer Without the Guesswork",
+ "seo_title": "Cash Drawer Reconciliation Made Simple | PayPilot",
+ "meta_description": "Cash drawer reconciliation, step by step: set the float, log safe drops and paid-outs, run blind counts, and handle over/short results calmly with your team.",
+ "primary_keyword": "cash drawer reconciliation",
+ "keywords": [
+  "cash drawer over short",
+  "opening float register",
+  "safe drop procedure",
+  "blind count cash drawer",
+  "paid out from register",
+  "expected cash POS",
+  "counting the till at close"
+ ],
+ "eyebrow": "Cash handling",
+ "dek": "Bills and coins still need a home at the end of the night. A clear drawer routine turns that count into a two-minute habit instead of a nightly mystery.",
+ "intro": [
+  "Card sales reconcile themselves on a report. Cash is different: it lives in a tray, passes through several hands, and only becomes a number when someone stacks it on the counter at nine o'clock and starts counting. If that count lands five dollars off, nobody remembers why.",
+  "The fix is not stricter staff or more cameras. It is a routine where every dollar that enters or leaves the drawer is recorded when it moves, so the closing count simply confirms what the POS already expects.",
+  "Here is that routine from opening float to final signature, plus how to handle a mismatch without anyone feeling accused."
+ ],
+ "sections": [
+  {
+   "h2": "Start every shift with a known float",
+   "paragraphs": [
+    "The float is the change you place in the drawer before the first sale: a fixed mix of small bills and rolled coins so the first customer with a twenty does not empty your fives. Pick one amount and keep it identical every day. A drawer that starts at a different figure each morning makes every later comparison harder.",
+    "Count the float into the drawer at opening, ideally with the person who will run that register watching, and enter the amount in the POS when the shift starts. That entry is the anchor. Everything the system calculates later is built on top of it, so a float typed wrong at seven in the morning becomes a phantom shortage at close."
+   ]
+  },
+  {
+   "h2": "Safe drops and paid-outs during the shift",
+   "paragraphs": [
+    "Two things legitimately change the drawer mid-shift besides sales. A safe drop pulls excess bills out when it gets crowded. A paid-out removes cash for a business expense, such as paying a delivery driver for ice or buying printer paper from the shop next door.",
+    "Both must be recorded in the POS at the moment they happen, not reconstructed at close. A drop entered as an amount, sealed in an envelope with the date, time and initials, and placed in the safe leaves a trail the count can follow. A paid-out needs a reason and, where possible, a receipt stapled to the slip."
+   ],
+   "bullets": [
+    "Set a threshold for drops, such as whenever twenties pile past a certain height, so nobody has to judge it on the fly.",
+    "Have a second person witness any drop and initial the envelope.",
+    "Never use the drawer as personal change for staff or owners; that habit erases the audit trail.",
+    "Give paid-outs a short list of approved reasons in the POS rather than a free-text box."
+   ]
+  },
+  {
+   "h2": "How the POS works out expected cash",
+   "paragraphs": [
+    "The figure your POS shows as expected cash is plain arithmetic. The PayPilot POS, like most systems, begins with the opening float, adds cash sales and any cash tips collected, subtracts cash refunds, paid-outs and safe drops, and arrives at what should physically be in the tray right now.",
+    "A hypothetical example: a drawer opens with $200. The shift rings $1,140 in cash sales and gives one $25 cash refund. One paid-out of $18 covers a supply run, and two safe drops remove $400 each. Expected cash is 200 + 1,140 - 25 - 18 - 800, which equals $497. If the tray holds $497, the shift balances. If it holds $487, the drawer is short ten dollars.",
+    "Understanding the formula matters because most discrepancies come from an entry, not a theft. A drop that was never logged makes the drawer look short by exactly that envelope. A sale rung as cash but paid by card makes it look short by that sale."
+   ]
+  },
+  {
+   "h2": "Blind counts and who does the counting",
+   "paragraphs": [
+    "In a blind count, the person counting does not see the expected figure first. They enter what they physically find, and only then does the POS reveal the difference. This removes the quiet temptation to recount until the number matches, and it produces a more honest record of what was actually there.",
+    "Pair the blind count with a second set of eyes. One person counts, a manager or closing lead verifies, and both names go on the record. In a two-person shop, the owner verifying the next morning works too, as long as the drawer is sealed overnight."
+   ],
+   "steps": [
+    "Remove the float first and set it aside in its own pouch.",
+    "Sort the rest by denomination, facing all bills the same direction.",
+    "Count each stack twice and write the totals on a count sheet or tally screen.",
+    "Enter the total into the POS blind, then view the variance.",
+    "Verifier recounts any denomination that looks off before signing."
+   ]
+  },
+  {
+   "h2": "When the drawer is over or short",
+   "paragraphs": [
+    "Small variances happen in any honest operation: a coin dropped behind the tray, change counted out by a tired hand. Decide on a tolerance in advance, perhaps a couple of dollars either way, and treat anything inside it as normal noise that still gets logged.",
+    "Outside the tolerance, investigate before anyone goes home. Check the drop log against the safe envelopes, look for cash refunds without a matching receipt, and scan for sales where the tender type may have been chosen wrong. An overage deserves the same attention as a shortage, because an over drawer often means a customer was shortchanged or a card sale was keyed as cash."
+   ]
+  },
+  {
+   "h2": "Shared drawers and multiple registers",
+   "paragraphs": [
+    "Accountability is easiest when one person owns one drawer for a shift. If two cashiers share a tray, a variance belongs to both of them, which in practice means it belongs to neither. Where your layout allows, assign each person their own drawer or removable insert and require a POS login before it opens.",
+    "When sharing is unavoidable, count the drawer at each handoff. The outgoing cashier closes their portion, the incoming one starts from that counted total, and the POS treats it as a new session. With a PayPilot POS, each register and each session keeps its own expected-cash figure, so a busy Saturday with three tills does not blur into one pile of money."
+   ]
+  },
+  {
+   "h2": "Keeping the conversation calm",
+   "paragraphs": [
+    "How you talk about variances shapes whether people report them honestly. If every short drawer turns into an interrogation, staff learn to hide mistakes or quietly cover small gaps from their own pockets, and your records stop being true.",
+    "Frame the count as a check on the process, not on the person. Review variances privately, start with the system log rather than a question about honesty, and thank people for flagging problems early. When the same register keeps landing short, look at the workflow first: an awkward drawer position, a cluttered drop envelope routine or rushed handoffs. Rules about deducting shortages from pay differ by state, so speak with an employment professional before writing any such policy.",
+    "If you want drops, paid-outs and blind counts built into the closing screen, the PayPilot team can walk you through the setup at 844.826.6227."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Start every drawer with the same float and enter it in the POS at opening.",
+  "Log safe drops and paid-outs the moment they happen, with a witness and a reason.",
+  "Expected cash is float plus cash in, minus refunds, paid-outs and drops.",
+  "Blind counts with a separate verifier produce the most honest numbers.",
+  "Investigate overages as seriously as shortages, and keep the tone process-focused."
+ ],
+ "faq": [
+  {
+   "q": "How much should be in a cash drawer at the start of the day?",
+   "a": "There is no universal figure. Look at your typical ticket and how customers usually pay, then build a float that can break the most common large bill several times. A coffee counter may need mostly ones and coins, while a shop with higher tickets needs more fives and tens. Whatever you choose, keep it the same every day so the opening number never has to be questioned."
+  },
+  {
+   "q": "What is a blind count on a cash register?",
+   "a": "A blind count means the person closing the drawer counts and enters the cash total without first seeing what the POS expects. The system reveals the difference only after the count is submitted. This keeps the result honest, because nobody is nudged toward a target figure, and it helps owners see real counting errors instead of totals adjusted until they match."
+  },
+  {
+   "q": "What should I do if my cash drawer is short?",
+   "a": "First rule out recording errors. Compare logged safe drops with the envelopes in the safe, check cash refunds against receipts, and look for sales tendered as cash that were really paid by card. Recount the drawer with a second person. If the shortage remains, document the amount, the register and the people involved, then review it calmly the next day rather than at midnight."
+  },
+  {
+   "q": "Is it a problem if the drawer is over instead of short?",
+   "a": "Yes, an overage still signals something went wrong. It can mean a customer received too little change, a card payment was entered as cash, or a refund was rung up but never handed out. Treat overages with the same follow-up as shortages, record them in the variance log, and watch for repeats on a particular register or shift."
+  },
+  {
+   "q": "How often should I make safe drops during a shift?",
+   "a": "Base drops on the amount of cash in the drawer rather than the clock. Pick a ceiling that suits your business and drop whenever large bills pass it, which may be several times on a busy weekend and never on a quiet weekday. Every drop should be entered in the POS, sealed, labeled and witnessed so the closing count can account for it."
+  }
+ ],
+ "related": [
+  "daily-batch-close-routine",
+  "employee-permissions-pos",
+  "pos-reports-to-check-weekly",
+  "cash-flow-from-faster-deposits",
+  "pricing-in-a-cashless-world",
+  "inventory-counts-made-simple"
+ ],
+ "icon": "cash",
+ "read_minutes": 6,
+ "published": "2026-10-12"
+}

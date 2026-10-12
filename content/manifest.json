@@ -698,5 +698,40 @@
 "title": "Asking for Reviews at Checkout",
 "angle": "timing, QR",
 "url": "/blog/reviews-and-reputation-at-checkout/"
+},
+{
+"topic": "cards",
+"slug": "split-tender-and-partial-approvals",
+"title": "Split Tender and Partial Approvals at the Counter",
+"angle": "one bill across two cards or card + cash; prepaid partial approvals; how the POS tracks the balance due",
+"url": "/blog/split-tender-and-partial-approvals/"
+},
+{
+"topic": "pos",
+"slug": "cash-drawer-reconciliation",
+"title": "Closing the Cash Drawer Without the Guesswork",
+"angle": "opening float, drops, paid-outs, over/short, who counts and when",
+"url": "/blog/cash-drawer-reconciliation/"
+},
+{
+"topic": "online",
+"slug": "charging-for-preorders",
+"title": "When to Charge for Pre-Orders and Backorders",
+"angle": "charge now vs authorize vs deposit; split shipments; clear dates; cancellations",
+"url": "/blog/charging-for-preorders/"
+},
+{
+"topic": "money",
+"slug": "collecting-club-and-team-dues",
+"title": "Collecting Club and Team Dues Without Chasing People",
+"angle": "treasurer workflow, requests, tracking who paid, keeping club money separate",
+"url": "/blog/collecting-club-and-team-dues/"
+},
+{
+"topic": "security",
+"slug": "card-testing-attacks",
+"title": "Card-Testing Attacks: When Bots Use Your Checkout",
+"angle": "tiny declined charges in bursts, why it hurts merchants, signs and defenses",
+"url": "/blog/card-testing-attacks/"
 }
 ]

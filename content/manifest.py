@@ -106,6 +106,12 @@ P = [
 ("growth","cash-flow-from-faster-deposits","How Faster Deposits Change Your Cash Flow","planning around next-day funding"),
 ("growth","working-capital-for-pos-merchants","When a Growing Merchant Needs Working Capital","funding options via partners like Fidelity Funding"),
 ("growth","reviews-and-reputation-at-checkout","Asking for Reviews at Checkout","timing, QR"),
+# --- Added 2026-10-12 (5)
+("cards","split-tender-and-partial-approvals","Split Tender and Partial Approvals at the Counter","one bill across two cards or card + cash; prepaid partial approvals; how the POS tracks the balance due"),
+("pos","cash-drawer-reconciliation","Closing the Cash Drawer Without the Guesswork","opening float, drops, paid-outs, over/short, who counts and when"),
+("online","charging-for-preorders","When to Charge for Pre-Orders and Backorders","charge now vs authorize vs deposit; split shipments; clear dates; cancellations"),
+("money","collecting-club-and-team-dues","Collecting Club and Team Dues Without Chasing People","treasurer workflow, requests, tracking who paid, keeping club money separate"),
+("security","card-testing-attacks","Card-Testing Attacks: When Bots Use Your Checkout","tiny declined charges in bursts, why it hurts merchants, signs and defenses"),
 ]
 if __name__ == "__main__":
     import json, collections

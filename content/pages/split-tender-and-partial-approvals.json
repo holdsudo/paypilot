@@ -1,0 +1,125 @@
+{
+ "slug": "split-tender-and-partial-approvals",
+ "topic": "cards",
+ "title": "Split Tender and Partial Approvals at the Counter",
+ "seo_title": "Split Tender and Partial Approvals Explained | PayPilot",
+ "meta_description": "How split tender payments work at the register: two cards or card plus cash, partial approvals on prepaid cards, voiding one leg, receipts and closeout.",
+ "primary_keyword": "split tender payment",
+ "keywords": [
+  "partial authorization prepaid card",
+  "pay with two cards",
+  "card and cash split payment",
+  "remaining balance due POS",
+  "void one payment in a split sale",
+  "split tender receipt",
+  "partial approval gift card"
+ ],
+ "eyebrow": "Checkout mechanics",
+ "dek": "One sale, two or more payments: how the register keeps the math straight when a ticket is paid in pieces or a prepaid card only covers part of it.",
+ "intro": [
+  "A shopper sets a jacket and two shirts on the counter, hands over a prepaid card she got as a birthday present, and says she wants to use whatever is on it before paying the rest with her debit card. She has no idea what the balance is. Neither do you.",
+  "Moments like this are routine, yet they trip up even experienced cashiers. The sale is no longer one tap and done. It becomes a small ledger with several lines, each of which can succeed, fail, or need undoing on its own schedule."
+ ],
+ "sections": [
+  {
+   "h2": "What split tender actually means",
+   "paragraphs": [
+    "Tender is simply the form of payment a customer offers. A split tender sale is one ticket settled by more than one payment, whether that is two cards, a card plus bills, or a store credit plus a phone wallet.",
+    "The key idea is that the ticket and the payments are separate records. The ticket holds the items, discounts, and tax. Each payment is its own leg, with its own approval code, card type, and amount. The register keeps the ticket open until the sum of the legs equals the total, and only then marks it paid."
+   ]
+  },
+  {
+   "h2": "How a partial approval works on a prepaid card",
+   "paragraphs": [
+    "Prepaid and gift cards issued on card networks carry a fixed balance rather than a credit line. When the amount requested is larger than that balance, there are two possible outcomes. If the terminal has told the issuer it can accept a partial approval, the issuer may approve whatever is left on the card instead of refusing outright. If it has not, the request is simply declined.",
+    "With partial approval enabled, the response comes back with an approved amount that is lower than the one you asked for. The register should record that smaller figure as the first leg and immediately show the gap as a balance due.",
+    "Here is a hypothetical walk-through. The ticket totals 86 dollars. The prepaid card comes back approved for 31.40, which drains it to zero. The screen now reads 54.60 remaining, and the cashier asks how the customer would like to cover it. She taps her debit card, that leg approves for the full 54.60, and the ticket closes."
+   ]
+  },
+  {
+   "h2": "Tracking the remaining balance on the register",
+   "paragraphs": [
+    "A good POS does the subtraction for you and refuses to close a ticket that is short. It should display the paid legs, the running total collected, and the amount still owed in a way a cashier can read at a glance.",
+    "On the PayPilot POS, a split ticket stays open with its balance due until another payment covers it, so a cashier who gets distracted mid-sale can return to the same ticket rather than starting over. That matters at a busy counter where a second customer often interrupts.",
+    "Cash legs deserve a specific note. When the last leg is cash, change is calculated only against that leg, never against the whole ticket. If a customer owes 54.60 and hands over 60, the drawer gives back 5.40, and the card leg above it is untouched."
+   ],
+   "steps": [
+    "Ring up the items and confirm the total with the customer before taking any payment.",
+    "Ask which method goes first; prepaid and gift cards usually go first so they can be drained.",
+    "Run the first leg and read the approved amount on screen, not the amount you requested.",
+    "Tell the customer the remaining figure out loud and ask how they want to pay it.",
+    "Run the next leg, repeat until the balance due reads zero, then print or send the receipt."
+   ]
+  },
+  {
+   "h2": "When the customer cannot cover the rest",
+   "paragraphs": [
+    "Sometimes the second card declines and the shopper has no other way to pay. This is where untrained staff make a costly mistake: they cancel the ticket on screen and assume everything is undone.",
+    "The prepaid leg was approved. Unless it is explicitly reversed, that money stays tied up on the customer's card even though she walked out with nothing. The right move is to void the approved leg before abandoning the sale, or to let her buy fewer items so the approved amount still applies to something.",
+    "Removing a shirt from the ticket and finishing with the funds already approved is often the friendliest answer. The register recalculates, the balance due shrinks, and nobody's money ends up in limbo."
+   ]
+  },
+  {
+   "h2": "Voiding versus refunding one leg",
+   "paragraphs": [
+    "A void cancels a payment before it settles, typically before the end-of-day batch closes. A refund sends money back after settlement and appears as a separate credit. For split sales the difference matters because each leg can be in a different state.",
+    "Imagine a hypothetical case where a cashier keys the wrong amount on the first card leg. Since the batch is still open, voiding that one leg and rerunning it is clean: the customer never sees a completed charge, only a short-lived pending item that their issuer clears on its own timeline.",
+    "Returns a week later are different. Each leg should be refunded back to the method that paid it, in the proportions recorded on the original ticket, unless your posted return policy says otherwise. Sending the whole amount to whichever card the customer happens to bring back invites confusion and, occasionally, a dispute."
+   ]
+  },
+  {
+   "h2": "Receipts and end-of-day reporting",
+   "paragraphs": [
+    "A split tender receipt should list every leg: the method, the last four digits for cards, the approved amount, and the remaining balance on a prepaid card if the issuer returned one. Customers use that line to know whether the gift card in their pocket is now empty.",
+    "At closeout, the totals by tender type need to tie out. Card legs flow into the processor batch, cash legs belong in the drawer count, and store credit reduces an outstanding liability. If a report lumps split sales under one method, reconciling becomes guesswork, so check that your summary breaks payments out leg by leg. With next-day funding on PayPilot, the card portion of a split sale arrives with the rest of that batch, and the cash portion stays with you."
+   ]
+  },
+  {
+   "h2": "Training staff for multi-payment tickets",
+   "paragraphs": [
+    "Split payments happen just often enough that people forget the steps between occurrences. A short practice run on a slow afternoon, using a test ticket and a low-value prepaid card, builds the muscle memory that matters during a rush.",
+    "Teach three phrases: ask for the prepaid card first, read the approved amount aloud, and never walk away from an open ticket with a paid leg on it. If your team uses a PayPilot Terminal or Go handheld, have each person complete one split, one partial approval, and one single-leg void before their first solo shift. If a half-paid ticket refuses to close, call 844.826.6227 and a person will walk you through it, any hour."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "A split tender sale is one ticket with several independent payment legs.",
+  "Partial approvals let a prepaid card cover what it can instead of declining outright.",
+  "Always void an approved leg before abandoning an unfinished ticket.",
+  "Refund each leg back to its original method on returns.",
+  "Closeout reports should break split sales out by tender type."
+ ],
+ "faq": [
+  {
+   "q": "Can a customer pay with two different cards at the register?",
+   "a": "Yes. Most modern point-of-sale systems let the cashier enter an amount for the first card, run it, then collect the remainder on a second card. Each payment is approved separately, so if the second card declines, the first remains approved until it is voided or the customer chooses another way to finish the purchase."
+  },
+  {
+   "q": "Why did a gift card only cover part of the purchase?",
+   "a": "The card held less than the total, and the terminal accepted a partial approval for the balance that remained. The approved figure appears on the screen and receipt, and the register shows what is still owed. The customer then pays the difference with another card, a phone wallet, or cash."
+  },
+  {
+   "q": "What happens to the prepaid funds if the sale is cancelled?",
+   "a": "If the approved leg is voided, the hold on the prepaid card is released, although the issuer controls how quickly the balance reappears. If the cashier only clears the screen without voiding, the funds may stay tied up. That is why abandoning a ticket should always start with reversing the legs already approved."
+  },
+  {
+   "q": "How should I refund a purchase paid by card and cash?",
+   "a": "Look up the original ticket and return each portion to the method that paid it: the card amount back to the same card and the cash amount from the drawer. Following the original split keeps your records clean and avoids sending more to a card than it was charged. Note any exceptions your posted policy allows."
+  },
+  {
+   "q": "Do split payments cost more to process?",
+   "a": "Each card leg is processed as its own transaction, so the card portions are handled individually under whatever pricing applies to your account, while cash legs carry no card processing. Your statement and the reports in your dashboard show exactly how each leg was priced. Ask support to walk through a sample if anything looks unclear."
+  }
+ ],
+ "related": [
+  "daily-batch-close-routine",
+  "refund-policies-that-reduce-disputes",
+  "employee-permissions-pos",
+  "pos-reports-to-check-weekly",
+  "contactless-wallet-vs-card",
+  "handling-disputes-calmly"
+ ],
+ "icon": "card",
+ "read_minutes": 6,
+ "published": "2026-10-12"
+}

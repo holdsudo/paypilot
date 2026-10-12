@@ -31,7 +31,7 @@ def bcard(p, feature=False):
             f'<svg class="icon" aria-hidden="true"><use href="#i-{t[1]}"/></svg><em>{t[0]}</em></span><span class="bcard__body"><h3>{esc(p["title"])}</h3>'
             f'<p>{esc(p.get("dek", ""))}</p><small>{p.get("read_minutes", 6)} min read</small></span></a>')
 def render_post(p, by):
-    t = TOPICS[p["topic"]]; url = f"/blog/{p['slug']}/"; mid = variant(p["slug"], MID)
+    t = TOPICS[p["topic"]]; url = f"/blog/{p['slug']}/"; mid = variant(p["slug"], MID); pub = datetime.date.fromisoformat(p["published"]) if p.get("published") else TODAY
     toc, body = [], []
     for i, sec in enumerate(p["sections"]):
         hid = re.sub(r"[^a-z0-9]+", "-", sec["h2"].lower()).strip("-")[:60] or f"s{i}"; toc.append((hid, sec["h2"]))
@@ -47,7 +47,7 @@ def render_post(p, by):
     head = (ld(crumbs([("Home", "/"), ("Blog", "/blog/"), (p["title"], url)])) +
             (ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in p["faq"]]}) if p.get("faq") else "") +
             ld({"@context": "https://schema.org", "@type": "BlogPosting", "headline": p["title"], "description": p["meta_description"], "url": SITE + url, "mainEntityOfPage": SITE + url,
-                "datePublished": TODAY.isoformat(), "dateModified": TODAY.isoformat(), "image": SITE + "/assets/img/og.jpg", "keywords": ", ".join(p.get("keywords", [])), "articleSection": t[0], "wordCount": words(p),
+                "datePublished": pub.isoformat(), "dateModified": pub.isoformat(), "image": SITE + "/assets/img/og.jpg", "keywords": ", ".join(p.get("keywords", [])), "articleSection": t[0], "wordCount": words(p),
                 "author": {"@type": "Organization", "name": "PayPilot Editorial", "url": SITE + "/blog/"}, "publisher": {"@type": "Organization", "name": "PayPilot", "logo": {"@type": "ImageObject", "url": SITE + "/assets/img/apple-touch-icon.png"}}}))
     page = f'''<article class="post">
 <header class="post__head"><div class="wrap">
@@ -55,7 +55,7 @@ def render_post(p, by):
   <span class="kicker" style="margin-top:26px">{esc(p.get("eyebrow", t[0]))}</span>
   <h1 class="h1">{esc(p["title"])}</h1>
   <p class="lede">{esc(p.get("dek", ""))}</p>
-  <div class="post__meta"><span>PayPilot Editorial</span><span>{TODAY.strftime("%B %-d, %Y")}</span><span>{p.get("read_minutes", 6)} min read</span><button class="link" type="button" data-share>{{{{i:send}}}} Share</button></div>
+  <div class="post__meta"><span>PayPilot Editorial</span><span>{pub.strftime("%B %-d, %Y")}</span><span>{p.get("read_minutes", 6)} min read</span><button class="link" type="button" data-share>{{{{i:send}}}} Share</button></div>
 </div></header>
 <div class="wrap post__grid">
   <div class="prose">

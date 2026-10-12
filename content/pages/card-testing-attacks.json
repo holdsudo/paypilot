@@ -1,0 +1,144 @@
+{
+ "slug": "card-testing-attacks",
+ "topic": "security",
+ "title": "Card-Testing Attacks: When Bots Use Your Checkout",
+ "seo_title": "Card-Testing Attacks: How to Spot and Stop Them | PayPilot",
+ "meta_description": "Card-testing attacks turn small checkouts into proving grounds for stolen numbers. Learn the warning signs, the real costs, and the settings to ask about.",
+ "primary_keyword": "card testing attack",
+ "keywords": [
+  "card testing fraud",
+  "carding attack on donation form",
+  "bot attack checkout",
+  "velocity limits payments",
+  "small declined transactions burst",
+  "stolen card testing small merchant"
+ ],
+ "eyebrow": "Bot defense",
+ "dek": "Criminals sometimes borrow a small merchant's checkout to find out which stolen card numbers still work. Here is how to recognize it and shut the door.",
+ "intro": [
+  "Picture a neighborhood animal shelter that takes donations through a simple web form. On a quiet Tuesday at 3 a.m., the form receives a few hundred gifts of one dollar each, nearly all of them declined, from donors whose names change with every attempt. Nobody at the shelter is awake. By breakfast, the dashboard looks like a slot machine ran all night.",
+  "That pattern has a name: card testing. People holding lists of stolen card numbers need to know which ones are still live before they use or sell them, and they would rather find out on your form than at a store with cameras.",
+  "This guide explains how these attacks unfold, why modest checkouts get picked, what they cost you even when most attempts fail, and which defenses are worth raising with your processor."
+ ],
+ "sections": [
+  {
+   "h2": "What card testing actually is",
+   "paragraphs": [
+    "Stolen card data is often sold in bulk, and a large share of any batch may already be cancelled or frozen. Before the numbers become valuable, someone has to sort the live ones from the dead ones. Doing that by hand is slow, so the work is handed to scripts that submit card after card to a real payment page.",
+    "Each submission triggers a genuine authorization request to the issuing bank. An approval tells the attacker the number works; a decline tells them to discard it. The merchant whose page was used is little more than a free validation service, and usually only finds out after the run is over.",
+    "The amounts are deliberately tiny, because a one-dollar charge is less likely to catch a cardholder's eye than a large one. That small sum is the probe, not the prize. The real theft tends to happen later, somewhere else, with the numbers that passed."
+   ]
+  },
+  {
+   "h2": "Why small checkouts and donation forms get picked",
+   "paragraphs": [
+    "Attackers look for pages that accept any amount, ask for very little, and push back rarely. A donation form with an open amount field fits that description well, as does a tip jar page, a low-priced digital download, or a payment link that lets the payer type their own figure.",
+    "Smaller organizations are also less likely to have someone watching transactions in real time. A school booster club or a solo craft seller may not open the dashboard for days, which gives a script hours of uninterrupted practice."
+   ],
+   "bullets": [
+    "Open or customer-entered amounts with no floor",
+    "No account login or email confirmation before paying",
+    "No bot challenge on the payment step",
+    "Error messages that reveal exactly why a card failed",
+    "A checkout that accepts unlimited retries from one visitor"
+   ]
+  },
+  {
+   "h2": "Signs a script is running on your page",
+   "paragraphs": [
+    "The clearest tell is volume that does not match your business. A bakery that sells a few dozen online preorders a week should not see two hundred payment attempts in an hour. Look at the shape of the activity as much as the totals.",
+    "Billing names and ZIP codes that never line up with the cards, attempts arriving seconds apart, and identical amounts repeated over and over all point toward automation. So does a single device or network address cycling through many different card numbers. Your gateway reports or the PayPilot dashboard can usually show attempts grouped by time, which makes a spike easy to see once you know to look."
+   ],
+   "bullets": [
+    "A sudden cluster of declines, often at odd hours",
+    "Many low, round amounts such as one dollar",
+    "Dozens of cards tried from the same device or IP address",
+    "Cardholder names and billing ZIPs that do not match",
+    "Approvals scattered among failures with no follow-up purchase"
+   ]
+  },
+  {
+   "h2": "What an attack costs the merchant",
+   "paragraphs": [
+    "It is tempting to shrug off failed attempts because no goods leave the building. Unfortunately, many processing arrangements charge something for each authorization request, approved or not, so a long run of declines can still produce a bill.",
+    "The approvals bring their own trouble. When real cardholders spot a strange charge from an organization they never heard of, they dispute it, and each dispute lands on you with its own handling cost and paperwork. A burst of declines and disputes can also prompt your processor or the card networks to review the account, which may mean holds or extra questions while they sort out what happened. Your support team can tell you how per-attempt pricing and dispute handling apply to your specific setup."
+   ]
+  },
+  {
+   "h2": "Defenses worth asking your processor about",
+   "paragraphs": [
+    "No single setting stops every bot, so the goal is to make your page slow, expensive, and uninformative for anyone running a script while staying easy for real buyers. Most of these controls live in your checkout or gateway settings rather than in your website design.",
+    "If you take payments through PayPilot hosted checkout or payment links, call support at 844.826.6227 and ask which of the options below are available on your account and how to switch them on. Exactly which controls you can use depends on how your account and checkout are configured."
+   ],
+   "bullets": [
+    "A bot challenge on the payment step, so automated submissions have to clear a check first",
+    "Velocity limits that cap attempts per card, device, IP address, or time window",
+    "A sensible minimum amount on donation and pay-what-you-want fields",
+    "Requiring the card security code and a billing ZIP that passes address verification",
+    "Generic decline wording such as \"payment could not be completed\" instead of specific reasons",
+    "Alerts that notify you when declines spike above your normal level"
+   ]
+  },
+  {
+   "h2": "If you notice an attack while it is happening",
+   "paragraphs": [
+    "Speed matters more than perfection here. Every minute the page stays open is another batch of attempts, and potentially another round of fees and disputes. Take the page down first and investigate second."
+   ],
+   "steps": [
+    "Pause or unpublish the affected form, payment link, or checkout page.",
+    "Call your processor's support line and tell them you believe a card-testing run is underway.",
+    "Export or screenshot the attempt log, including times, amounts, and any device or IP details shown.",
+    "Ask support whether approved test charges should be refunded or voided, and follow their guidance.",
+    "Turn on the defenses above before you bring the page back online.",
+    "Check the activity again over the next few days in case the script returns."
+   ]
+  },
+  {
+   "h2": "Keeping your guard up afterward",
+   "paragraphs": [
+    "Attackers who found an easy page sometimes come back, occasionally with slower pacing designed to slip under simple limits. Make a short weekly habit of glancing at declines per day; a normal week for your business gives you a baseline that makes the next oddity jump out.",
+    "Also review every place your organization accepts a card, not only the main website. An old event registration page or a forgotten payment link from last season can be just as useful to a script as your current checkout. Retire what you no longer use, and add a floor amount to anything that still lets payers choose their own figure."
+   ]
+  }
+ ],
+ "key_takeaways": [
+  "Card testing uses your checkout to sort working stolen numbers from dead ones.",
+  "Open amount fields, no bot check, and detailed decline messages make a page attractive.",
+  "Even mostly declined runs can create per-attempt charges, disputes, and account reviews.",
+  "Bot challenges, velocity limits, minimums, and CVV plus AVS checks raise the cost for attackers.",
+  "Mid-attack, take the page offline first and call your processor second."
+ ],
+ "faq": [
+  {
+   "q": "Is card testing my fault as a merchant?",
+   "a": "No. The cards were stolen elsewhere, and your page was simply convenient. That said, once you know it happened, you are in the best position to close the gaps that made your checkout useful to the script. Treat it as a prompt to tighten settings rather than a reason for blame, and keep a record of what you changed."
+  },
+  {
+   "q": "Should I refund the small charges that went through?",
+   "a": "Often that is the right move, because the real cardholders never meant to pay you and are likely to dispute anyway. The best approach can depend on timing and your processor's procedures, so ask support before acting in bulk. They can advise whether a void, a refund, or simply waiting is the cleaner route for your account."
+  },
+  {
+   "q": "Will a bot challenge annoy my real donors?",
+   "a": "Modern challenges are usually light, and many run quietly in the background for ordinary visitors, only asking for interaction when traffic looks automated. A small amount of friction on the payment step is generally a fair trade for keeping scripts out. Test the flow yourself on a phone to confirm it still feels quick."
+  },
+  {
+   "q": "Why not just block the IP address the attack came from?",
+   "a": "Blocking one address can help briefly, but scripts commonly rotate through many addresses and devices. Limits that look at patterns, such as how many cards one session tries or how many attempts arrive per minute, hold up better. Use address blocks as a short-term patch, not as your main defense."
+  },
+  {
+   "q": "How do I tell an attack from a busy day?",
+   "a": "A genuine rush brings mostly approvals, normal amounts, and names that match their billing details. A testing run tends to show mostly declines, repeated tiny amounts, mismatched ZIP codes, and attempts packed seconds apart. If the ratio of declines to approvals suddenly flips compared with your usual week, treat it as suspicious and check right away."
+  }
+ ],
+ "related": [
+  "fraud-signs-online-orders",
+  "recurring-donations",
+  "handling-disputes-calmly",
+  "what-happens-when-a-card-is-declined",
+  "launching-online-checkout",
+  "protecting-your-payments-account"
+ ],
+ "icon": "shield",
+ "read_minutes": 6,
+ "published": "2026-10-12"
+}
